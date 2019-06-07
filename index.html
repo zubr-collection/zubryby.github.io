@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>ZUBRY.BY - Private Philatelic Collection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="stylesheet" href="./vendors/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+
+    <style>
+        .swiper-container {
+            width: 100vw;
+            height: 90vh;
+        }
+        .swiper-slide {
+            text-align: center;
+            background: var(--black-color);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .collections {
+            background: var(--gray-color);
+        }
+
+        .blocks {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .blocks > a {
+            width: 50vw;
+            box-sizing: border-box;
+            border: 0.25em solid transparent;
+            text-decoration: none;
+            color: inherit;
+            outline: none;
+        }
+
+        .blocks section {
+            position: relative;
+            height: 50vh;
+            display: flex;
+            justify-content: space-between;
+            padding: 4em;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .blocks section h2 {
+            position: relative;
+            z-index: 1;
+            margin: 0;
+            font-size: 2em;
+            transition: transform 0.3s linear;
+        }
+
+        .blocks section h2::before {
+            position: absolute;
+            top: -0.46em;
+            left: -0.3em;
+            font-size: 8em;
+            z-index: -1;
+        }
+
+        .blocks .stamps h2::before {
+            content: 'М';
+            color: #918573;
+        }
+
+        .blocks .envelops h2::before {
+            content: 'К';
+            color: #376363;
+        }
+
+        .blocks .postcards h2::before {
+            content: 'П';
+            color: #3f579a;
+        }
+
+        .blocks .photos h2::before {
+            left: -0.27em;
+            content: 'О';
+            color: #814a50;
+        }
+
+        .blocks section::before {
+            position: absolute;
+            content: '';
+            bottom: 0;
+            right: 0;
+            width: 90%;
+            height: 0;
+            background: var(--black-color);
+            opacity: 0.6;
+            transition: height 0.3s ease-in;
+        }
+
+        .blocks section:hover::before {
+            height: 100%;
+        }
+
+        .blocks section:hover h2 {
+            transform: translateY(1em);
+        }
+
+        .blocks section img {
+            width: 11em;
+            opacity: 0.6;
+            transition: transform 0.3s ease-out;
+        }
+
+        .blocks section:hover img {
+            transform: rotateY(45deg);
+        }
+    </style>
+
+    <script src="./vendors/js/swiper.min.js" defer async></script>
+    <script src="./assets/js/common.js" defer async></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <p>ZUBRY.BY</p>
+            <ul class="menu">
+                <li><a tabindex="1" href="/">Главная</a></li>
+                <li><a href="/stamps.html">Марки</a></li>
+                <li><a href="/envelopes.html">Конверты</a></li>
+                <li><a href="/postcards.html">Посткарты</a></li>
+                <li><a href="/photos.html">Открытки</a></li>
+                <li><a href="/about.html">О сайте</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <h1>PRIVATE PHILATELIC COLLECTION <br><span>ZUBRY.BY</span></h1>
+        </div>
+    </header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(./assets/pics/slide1.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/pics/slide2.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/pics/slide3.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/pics/slide4.jpg)"></div>
+        </div>
+
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+    <section class="collections">
+        <div class="blocks">
+            <a href="/stamps.html">
+                <section class="stamps" style="background: burlywood;">
+                    <h2>МАРКИ</h2>
+                    <!--<img src="http://bison-stamps.narod.ru/stamps/europa/img/poland/poland1954.jpg">-->
+                </section>
+            </a>
+            <a href="/envelopes.html">
+                <section class="envelops" style="background: teal;">
+                    <h2>КОНВЕРТЫ</h2>
+                </section>
+            </a>
+        </div>
+        <div class="blocks">
+            <a href="/postcards.html">
+                <section class="postcards" style="background: #4666c0;">
+                    <h2>ПОСТКАРТЫ</h2>
+                </section>
+            </a>
+            <a href="/photos.html">
+                <section class="photos" style="background: #c06d78;">
+                    <h2>ОТКРЫТКИ</h2>
+                </section>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>Artur Basak (c)</p>
+            <a href="mailto:zubryby@gmail.com">zubryby@gmail.com</a>
+            <p>Lorem ipsum text lorem ipsum text</p>
+        </div>
+        <address>
+            <ul class="social-networks">
+                <li>facebook</li>
+                <li>twitter</li>
+                <li>instagram</li>
+                <li>github</li>
+            </ul>
+        </address>
+    </footer>
+</body>
+</html>
