@@ -38,24 +38,27 @@
 
         .blocks > a {
             width: 50vw;
+            height: 50vh;
             box-sizing: border-box;
             border: 0.25em solid transparent;
             text-decoration: none;
             color: inherit;
             outline: none;
+            transition: border 0.2s ease-in;
         }
 
-        .blocks section {
+        .blocks > a section {
             position: relative;
-            height: 50vh;
             display: flex;
             justify-content: space-between;
+            height: 100%;
+            width: 100%;
             padding: 4em;
             box-sizing: border-box;
             cursor: pointer;
         }
 
-        .blocks section h2 {
+        .blocks > a section h2 {
             position: relative;
             z-index: 1;
             margin: 0;
@@ -63,7 +66,7 @@
             transition: transform 0.3s linear;
         }
 
-        .blocks section h2::before {
+        .blocks > a section h2::before {
             position: absolute;
             top: -0.46em;
             left: -0.3em;
@@ -71,9 +74,17 @@
             z-index: -1;
         }
 
+        .blocks .stamps {
+            background: burlywood;
+        }
+
         .blocks .stamps h2::before {
             content: 'М';
             color: #918573;
+        }
+
+        .blocks .envelops {
+            background: teal;
         }
 
         .blocks .envelops h2::before {
@@ -81,9 +92,17 @@
             color: #376363;
         }
 
+        .blocks .postcards {
+            background: #4666c0;
+        }
+
         .blocks .postcards h2::before {
             content: 'П';
             color: #3f579a;
+        }
+
+        .blocks .photos {
+            background: #c06d78;
         }
 
         .blocks .photos h2::before {
@@ -92,34 +111,31 @@
             color: #814a50;
         }
 
-        .blocks section::before {
+        .blocks > a section::before {
             position: absolute;
             content: '';
             bottom: 0;
             right: 0;
-            width: 90%;
-            height: 0;
-            background: var(--black-color);
-            opacity: 0.6;
-            transition: height 0.3s ease-in;
-        }
-
-        .blocks section:hover::before {
+            width: 95%;
             height: 100%;
+            background: var(--black-color);
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
         }
 
-        .blocks section:hover h2 {
+        .blocks > a:focus section::before,
+        .blocks > a:hover section::before {
+            opacity: 0.6;
+        }
+
+        .blocks > a:focus section h2,
+        .blocks > a:hover section h2 {
             transform: translateY(1em);
         }
 
-        .blocks section img {
+        .blocks > a section img {
             width: 11em;
             opacity: 0.6;
-            transition: transform 0.3s ease-out;
-        }
-
-        .blocks section:hover img {
-            transform: rotateY(45deg);
         }
     </style>
 
@@ -131,7 +147,7 @@
         <nav>
             <p>ZUBRY.BY</p>
             <ul class="menu">
-                <li><a tabindex="1" href="/">Главная</a></li>
+                <li><a tabindex="0" href="/">Главная</a></li>
                 <li><a href="/stamps.html">Марки</a></li>
                 <li><a href="/envelopes.html">Конверты</a></li>
                 <li><a href="/postcards.html">Посткарты</a></li>
@@ -158,25 +174,25 @@
     <section class="collections">
         <div class="blocks">
             <a href="/stamps.html">
-                <section class="stamps" style="background: burlywood;">
+                <section class="stamps">
                     <h2>МАРКИ</h2>
                     <!--<img src="http://bison-stamps.narod.ru/stamps/europa/img/poland/poland1954.jpg">-->
                 </section>
             </a>
             <a href="/envelopes.html">
-                <section class="envelops" style="background: teal;">
+                <section class="envelops">
                     <h2>КОНВЕРТЫ</h2>
                 </section>
             </a>
         </div>
         <div class="blocks">
             <a href="/postcards.html">
-                <section class="postcards" style="background: #4666c0;">
+                <section class="postcards">
                     <h2>ПОСТКАРТЫ</h2>
                 </section>
             </a>
             <a href="/photos.html">
-                <section class="photos" style="background: #c06d78;">
+                <section class="photos">
                     <h2>ОТКРЫТКИ</h2>
                 </section>
             </a>
@@ -184,18 +200,13 @@
     </section>
     <footer>
         <div>
-            <p>Artur Basak (c)</p>
-            <a href="mailto:zubryby@gmail.com">zubryby@gmail.com</a>
-            <p>Lorem ipsum text lorem ipsum text</p>
+            <p>&copy; <time>2019</time> ZUBRY.BY</p>
+            <p>Разработка и дизайн сайта <cite>Артур Басак</cite>. Все права защищены.</p>
+            <a href="mailto:zubryby@gmail.com">&#128231;&nbsp;zubryby@gmail.com</a>
         </div>
-        <address>
-            <ul class="social-networks">
-                <li>facebook</li>
-                <li>twitter</li>
-                <li>instagram</li>
-                <li>github</li>
-            </ul>
-        </address>
+        <a href="http://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="external noreferrer noopener nofollow">
+            <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" style="max-width:100%;">
+        </a>
     </footer>
 </body>
 </html>

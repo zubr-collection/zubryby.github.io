@@ -1,4 +1,7 @@
 window.onload = function () {
+  const poweredTime = document.querySelector('footer time');
+  poweredTime.textContent = `${(new Date()).getFullYear()}`;
+
   window.addEventListener('scroll', function() {
     const scrollPosition = (document.documentElement && document.documentElement.scrollTop) || window.pageYOffset || window.scrollY || 0;
     const header = document.querySelector('header');
