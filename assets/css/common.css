@@ -27,6 +27,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     background: var(--black-color);
+    font-size: 1.25em;
 }
 
 header nav > p {
@@ -98,7 +99,7 @@ header nav > p {
     color: white;
     text-decoration: none;
     opacity: 0.6;
-    transition: opacity 0.3s ease-out;
+    transition: opacity, color 0.3s ease-out;
 }
 
 .menu > li a::after {
@@ -107,7 +108,8 @@ header nav > p {
     left: 0;
     width: 0;
     height: 0.15em;
-    background: white;
+    color: inherit;
+    background: currentColor;
     content: '';
     transition: width 0.3s ease-out;
 }
@@ -118,6 +120,22 @@ header nav > p {
 
 .menu > li a:hover {
     opacity: 1;
+}
+
+.menu > li .stamps:hover {
+    color: burlywood;
+}
+
+.menu > li .envelops:hover {
+    color: teal;
+}
+
+.menu > li .postcards:hover {
+    color: #4666c0;
+}
+
+.menu > li .photos:hover {
+    color: #c06d78;
 }
 
 
