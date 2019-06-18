@@ -9,7 +9,7 @@ html, body {
 }
 body {
     background: var(--black-color);
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 0.875rem;
     color: white;
     margin: 0;
@@ -33,6 +33,7 @@ header nav {
 header nav > p {
     margin: 0.25em 1em;
     color: white;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2em;
     font-weight: 300;
     opacity: 0;
@@ -68,6 +69,7 @@ header nav > p {
     font-size: 2em;
     box-sizing: border-box;
     margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
 }
 
@@ -79,10 +81,10 @@ header nav > p {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    list-style: none;
     height: 2.25em;
     margin: 0;
     color: white;
+    list-style: none;
 }
 
 .menu > li {
@@ -97,6 +99,7 @@ header nav > p {
     position: relative;
     border: 0.25em solid transparent;
     color: white;
+    font-weight: 300;
     text-decoration: none;
     opacity: 0.6;
     transition: opacity, color 0.3s ease-out;
@@ -154,8 +157,7 @@ footer {
     padding: 2em;
 }
 
-footer p,
-footer address {
+footer p {
     margin: 1em 0;
     opacity: 0.6;
     color: white;
@@ -186,6 +188,21 @@ footer a:focus {
     outline: 0.25em dotted var(--gray-color);
 }
 
-footer .email-address {
-    font-size: 1.25em;
+footer .contacts {
+    margin: 0;
+    font-size: 1em;
+    list-style: none;
+}
+
+footer .contacts a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.25em;
+}
+
+footer .contacts svg {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.5em;
 }
