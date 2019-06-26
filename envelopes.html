@@ -3,159 +3,29 @@
 <head>
     <meta charset="utf-8">
 
-
     <title>ZUBRY.BY - Private Philatelic Collection</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex, nofollow">
 
-    <link rel="stylesheet" href="./vendors/css/swiper.min.css">
     <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/categories.css">
 
     <style>
-        article {
-            min-height: 100vh;
-            display: flex;
-            background: white;
-            padding: 1em 2em;
-            color: var(--black-color);
+        .menu a.envelops {
+            color: teal;
+            opacity: 1;
         }
 
+        .menu > li a.envelops::after {
+            width: 100%;
+        }
 
+        article {
+            --page-color: teal;
+        }
 
         .cover {
-            width: 100%;
-            height: 275px;
-            background-position: center;
-            background-size: cover;
             background-image: url(./assets/pics/slide2.jpg);
-        }
-
-        h2 {
-            position: relative;
-             color: white;
-            font-size: 3em;
-            z-index: 1;
-            text-shadow: 0px 0px 35px black;
-        }
-
-        h2::before {
-            position: absolute;
-            top: -0.7em;
-            left: -0.2em;
-            font-size: 8em;
-            z-index: -1;
-            content: 'К';
-            color: teal;
-        }
-
-        .collections {
-            background: var(--black-color);
-        }
-
-        .blocks {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-        }
-
-        .blocks > a {
-            width: 50%;
-            height: 50vh;
-
-            box-sizing: border-box;
-            border: 0.25em solid transparent;
-            text-decoration: none;
-            color: inherit;
-            outline: none;
-            transition: border 0.2s ease-in;
-        }
-
-        .blocks > a section {
-            position: relative;
-            display: flex;
-            justify-content: space-between;
-            height: 100%;
-            width: 100%;
-            padding: 4em;
-            box-sizing: border-box;
-            cursor: pointer;
-        }
-
-        .blocks > a section h2 {
-            position: relative;
-            z-index: 1;
-            margin: 0;
-            font-size: 2em;
-            transition: transform 0.3s linear;
-        }
-
-        .blocks > a section h2::before {
-            position: absolute;
-            top: -0.46em;
-            left: -0.3em;
-            font-size: 8em;
-            z-index: -1;
-        }
-
-        .blocks .stamps {
-            background: burlywood;
-        }
-
-        .blocks .stamps h2::before {
-            content: 'М';
-            color: #918573;
-        }
-
-        .blocks .envelops {
-            background: teal;
-        }
-
-        .blocks .postcards {
-            background: #4666c0;
-        }
-
-        .blocks .postcards h2::before {
-            content: 'П';
-            color: #3f579a;
-        }
-
-        .blocks .photos {
-            background: #c06d78;
-        }
-
-        .blocks .photos h2::before {
-            left: -0.27em;
-            content: 'О';
-            color: #814a50;
-        }
-
-        .blocks > a section::before {
-            position: absolute;
-            content: '';
-            bottom: 0;
-            right: 0;
-            width: 95%;
-            height: 100%;
-            background: var(--black-color);
-            opacity: 0;
-            transition: opacity 0.3s ease-in;
-        }
-
-        .blocks > a:focus section::before,
-        .blocks > a:hover section::before {
-            opacity: 0.6;
-        }
-
-        .blocks > a:focus section h2,
-        .blocks > a:hover section h2 {
-            transform: translateY(1em);
-        }
-
-        .blocks > a section img {
-            width: 11em;
-            opacity: 0.6;
         }
     </style>
 
@@ -169,7 +39,7 @@
         <ul class="menu">
             <li><a tabindex="0" href="/">Главная</a></li>
             <li><a class="stamps" href="/stamps.html">Марки</a></li>
-            <li><a class="envelops" href="/envelopes.html">Конверты</a></li>
+            <li><a class="envelops" href="/envelopes.html" aria-selected="true">Конверты</a></li>
             <li><a class="postcards" href="/postcards.html">Посткарты</a></li>
             <li><a class="photos" href="/photos.html">Открытки</a></li>
             <li><a href="/about.html">О сайте</a></li>
@@ -184,7 +54,58 @@
     <div>
         <h2>КОНВЕРТЫ</h2>
         <section>
-            <h3>Конверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum textКонверт 1954 Польша lorem ipsum text lorem ipsum text</h3>
+            <img src="./assets/pics/envelopes/1954.jpg" width="400" height="200" />
+            <div class="details">
+                <time>20.09.1954</time>
+                <h3>Животные под охраной</h3>
+                <dl>
+                    <dt>Размер</dt>
+                    <dd>150х300</dd>
+
+                    <dt>Печать</dt>
+                    <dd>офсетная, двухцветная</dd>
+
+
+                    <dt>Бумага</dt>
+                    <dd>мелованная</dd>
+                </dl>
+            </div>
+        </section>
+        <section>
+            <img src="./assets/pics/envelopes/1955.jpg" width="400" height="200" />
+            <div class="details">
+                <time>20.09.1954</time>
+                <h3>Животные под охраной</h3>
+                <dl>
+                    <dt>Размер</dt>
+                    <dd>150х300</dd>
+
+                    <dt>Печать</dt>
+                    <dd>офсетная, двухцветная</dd>
+
+
+                    <dt>Бумага</dt>
+                    <dd>мелованная</dd>
+                </dl>
+            </div>
+        </section>
+        <section>
+            <img src="./assets/pics/envelopes/1957.jpg" width="400" height="200" />
+            <div class="details">
+                <time>20.09.1954</time>
+                <h3>Животные под охраной</h3>
+                <dl>
+                    <dt>Размер</dt>
+                    <dd>150х300</dd>
+
+                    <dt>Печать</dt>
+                    <dd>офсетная, двухцветная</dd>
+
+
+                    <dt>Бумага</dt>
+                    <dd>мелованная</dd>
+                </dl>
+            </div>
         </section>
     </div>
 </article>
