@@ -1,12 +1,19 @@
 :root {
     --black-color: #1d1e20;
     --gray-color: rgb(163, 170, 182);
+
+    --stamps-color: #c5a979;
+    --envelops-color: #7995c5;
+    --postcards-color: #79c5a9;
+    --photos-color: #c57995;
+
 }
 
 html, body {
     position: relative;
     height: 100%;
 }
+
 body {
     background: var(--black-color);
     font-family: Helvetica, sans-serif;
@@ -22,39 +29,58 @@ header {
     z-index: 2;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > div {
+    padding: 0.25em 0.4em 0 0;
+    border-radius: 8px;
+    background: white;
+    transition: opacity 0.3s ease-in;
+}
+
+.logo img {
+    width: 2.5em;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5em;
     background: var(--black-color);
     font-size: 1.25em;
 }
 
-header nav > p {
-    margin: 0.25em 1em;
+.logo p {
+    margin: 0.25em 0.5em;
     color: white;
+    opacity: 0;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2em;
-    font-weight: 300;
-    opacity: 0;
-    transition: transform, opacity 0.3s ease-in;
+    font-weight: 100;
+    transition: opacity 0.3s ease-in;
 }
 
-.header--collapsed nav > p {
+.header--collapsed .logo p,
+.header--collapsed .logo > div {
     opacity: 0.6;
 }
 
-.header--collapsed .logo {
+.header--collapsed .logo-text {
     opacity: 0;
 }
 
-.logo {
+.logo-text {
     align-items: center;
     display: flex;
     justify-content: flex-start;
     height: 6em;
     width: 100%;
-    padding: 0 2em 1em;
+    padding: 0 2em;
     background: var(--black-color);
     box-shadow: 0 0 1em 0 var(--black-color);
     z-index: 23;
@@ -64,7 +90,7 @@ header nav > p {
     transition: opacity 0.3s ease-in;
 }
 
-.logo h1 {
+.logo-text h1 {
     color: white;
     font-size: 2em;
     box-sizing: border-box;
@@ -73,7 +99,7 @@ header nav > p {
     font-weight: 300;
 }
 
-.logo h1 span {
+.logo-text h1 span {
     font-weight: 900;
 }
 
@@ -85,6 +111,15 @@ header nav > p {
     margin: 0;
     color: white;
     list-style: none;
+}
+
+.open-mobile-menu {
+    display: none;
+    opacity: 0.6;
+}
+
+.open-mobile-menu > svg {
+    width: 2em;
 }
 
 .menu > li {
@@ -99,6 +134,7 @@ header nav > p {
     position: relative;
     border: 0.25em solid transparent;
     color: white;
+    font-size: 0.8em;
     font-weight: 300;
     text-decoration: none;
     text-transform: uppercase;
@@ -127,19 +163,19 @@ header nav > p {
 }
 
 .menu > li .stamps:hover {
-    color: burlywood;
+    color: var(--stamps-color);
 }
 
 .menu > li .envelops:hover {
-    color: teal;
+    color: var(--envelops-color);
 }
 
 .menu > li .postcards:hover {
-    color: #4666c0;
+    color: var(--postcards-color);
 }
 
 .menu > li .photos:hover {
-    color: #c06d78;
+    color: var(--photos-color);
 }
 
 
@@ -206,24 +242,42 @@ footer .contacts a {
 footer .contacts svg {
     width: 1.5em;
     height: 1.5em;
-    margin: 0.5em;
+    margin: 0.5em 1em;
 }
 
 @media all and (max-width: 769px) {
-    header nav > p {
-        font-size: 1.5em;
+    footer {
+        font-size: 0.8em;
     }
 
     .logo {
-        padding: 1em;
+        padding: 0;
     }
 
-    .logo h1 {
+    .logo p {
+        margin: 0 0.25em;
         font-size: 1.25em;
+    }
+
+    .logo > div {
+        display: none;
+    }
+
+    .logo h1,
+    .logo-text h1 {
+        font-size: 1.25em;
+    }
+
+    .logo-text {
+        height: 4em;
     }
 
     .menu {
         display: none;
+    }
+
+    .open-mobile-menu {
+        display: block;
     }
 
     footer {

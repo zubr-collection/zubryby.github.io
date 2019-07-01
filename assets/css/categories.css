@@ -23,6 +23,16 @@ h2 {
     text-transform: uppercase;
 }
 
+h2::before {
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    width: 90%;
+    height: 0.0625em;
+    background: var(--page-color);
+    content: '';
+}
+
 h2::after {
     position: absolute;
     top: 1.25em;
@@ -62,7 +72,7 @@ article .details > h3 {
 }
 
 article .details > dl {
-    border-left: 0.1875em solid var(--page-color);
+    border-left: 0.25em solid var(--page-color);
     padding-left: 1em;
 }
 
