@@ -65,12 +65,31 @@
 <body>
 <header>
     <nav>
-        <div class="logo">
+        <a href="/" class="logo">
             <div>
-                <img width="44" src="./assets/meta/safari-pinned-tab.svg" />
+                <img width="44" src="./assets/meta/safari-pinned-tab.svg" alt="Логотип. Изображение зубра на марке." />
             </div>
             <p>ZUBRY.BY</p>
-        </div>
+        </a>
+        <ul class="menu">
+            <li><a class="stamps" href="/stamps.html">Марки</a></li>
+            <li><a class="envelops" href="/envelopes.html">Конверты</a></li>
+            <li><a class="postcards" href="/postcards.html">Посткарты</a></li>
+            <li><a class="photos" href="/photos.html">Открытки</a></li>
+            <li><a href="/about.html">О сайте</a></li>
+        </ul>
+        <button class="open-mobile-menu" aria-label="Открыть мобильное меню.">
+            <svg aria-hidden="true" viewBox="0 0 448 512" width="25">
+                <path fill="white" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
+            </svg>
+        </button>
+        <button class="close-mobile-menu" aria-label="Закрыть мобильное меню.">
+            <svg aria-hidden="true" viewBox="0 0 352 512" width="25">
+                <path fill="white" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path>
+            </svg>
+        </button>
+    </nav>
+    <nav class="mobile-menu">
         <ul class="menu">
             <li><a class="stamps" href="/stamps.html">Марки</a></li>
             <li><a class="envelops" href="/envelopes.html">Конверты</a></li>
@@ -80,7 +99,7 @@
         </ul>
     </nav>
     <div class="logo-text">
-        <h1>ЧАСТНАЯ ФИЛАТЕЛИСТИЧЕСКАЯ КОЛЛЕКЦИЯ<br><span>ZUBRY.BY</span></h1>
+        <h1>ЧАСТНАЯ ФИЛАТЕЛИСТИЧЕСКАЯ КОЛЛЕКЦИЯ</h1>
     </div>
 </header>
 <div class="cover"></div>

@@ -31,4 +31,19 @@ window.onload = function () {
       prevEl: '.swiper-button-prev',
     },
   });
+
+  const mobileMenuOpen = document.querySelector('.open-mobile-menu');
+  const mobileMenuClose = document.querySelector('.close-mobile-menu');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  mobileMenuOpen.onclick = function () {
+    mobileMenu.style.display = 'flex';
+    mobileMenuOpen.style.display = 'none';
+    mobileMenuClose.style.display = 'block';
+  };
+  mobileMenuClose.onclick = function () {
+    mobileMenu.style.display = 'none';
+    mobileMenuOpen.style.display = 'block';
+    mobileMenuClose.style.display = 'none';
+  };
+
 };

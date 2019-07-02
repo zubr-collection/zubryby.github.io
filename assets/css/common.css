@@ -27,6 +27,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 2;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -34,6 +35,8 @@ header {
     align-items: center;
     justify-content: center;
     padding-left: 1em;
+    color: white;
+    text-decoration: none;
 }
 
 .logo > div {
@@ -57,15 +60,15 @@ header nav {
     padding: 0.5em;
     background: var(--black-color);
     font-size: 1.25em;
+    box-sizing: border-box;
 }
 
 .logo p {
     margin: 0.25em 0.5em;
     color: white;
-    opacity: 0;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2em;
-    font-weight: 100;
+    font-weight: 400;
     transition: opacity 0.3s ease-in;
 }
 
@@ -78,7 +81,7 @@ header nav {
     padding: 0 2em;
     background: var(--black-color);
     box-shadow: 0 0 1em 0 var(--black-color);
-    z-index: 23;
+    z-index: 1;
     position: absolute;
     opacity: 0.8;
     box-sizing: border-box;
@@ -108,20 +111,46 @@ header nav {
     list-style: none;
 }
 
-.open-mobile-menu {
+.open-mobile-menu,
+.close-mobile-menu {
     display: none;
     border: none;
     background: transparent;
-    opacity: 0.6;
     outline: none;
 }
 
-.open-mobile-menu > svg {
+.open-mobile-menu > svg,
+.close-mobile-menu > svg {
     width: 2em;
 }
 
 .mobile-menu {
+    position: absolute;
     display: none;
+    justify-content: center;
+    width: 100vw;
+    box-sizing: border-box;
+    background: var(--black-color);
+    z-index: 2;
+}
+
+.mobile-menu > .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: unset;
+    padding: 0;
+}
+
+.mobile-menu > .menu > li {
+    margin: 0;
+    padding: 1.5em;
+    border-bottom: 0.0625em solid currentColor;
+}
+
+.mobile-menu > .menu > li:last-child {
+    margin: 0;
+    border-bottom: none;
 }
 
 .menu > li {
@@ -145,8 +174,18 @@ header nav {
 
 .header--collapsed .logo p,
 .header--collapsed .logo > div,
-.header--collapsed .menu > li a {
+.header--collapsed .menu > li a,
+.header--collapsed .open-mobile-menu {
     opacity: 0.6;
+}
+
+.header--collapsed .mobile-menu > .menu > li a {
+    opacity: 1;
+}
+
+.logo:hover p,
+.logo:hover > div {
+    opacity: 1;
 }
 
 .header--collapsed .logo-text {
@@ -192,6 +231,16 @@ header nav {
 
 .menu > li a:focus {
     outline: 0.25em dotted var(--gray-color);
+}
+
+@media (pointer: coarse) {
+    .menu > li a:focus {
+        outline: none;
+    }
+
+    .menu > li a:hover::after {
+        width: 0;
+    }
 }
 
 footer {
@@ -257,8 +306,8 @@ footer .contacts svg {
 }
 
 @media all and (max-width: 769px) {
-    footer {
-        font-size: 0.8em;
+    header nav {
+        padding: 0.5em 1em;
     }
 
     .logo {
@@ -271,12 +320,12 @@ footer .contacts svg {
 
     .logo h1,
     .logo-text h1 {
-        font-size: 1.25em;
+        font-size: 1.75em;
     }
 
     .logo-text {
         height: auto;
-        padding: 0.25em 2em;
+        padding: 1em 1.125em;
     }
 
     .menu {
@@ -288,6 +337,7 @@ footer .contacts svg {
     }
 
     footer {
+        font-size: 0.8em;
         height: unset;
         padding: 1em 1em 3em;
     }
