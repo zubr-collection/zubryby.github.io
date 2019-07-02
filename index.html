@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
 
-    <title>ZUBRY.BY - Private Philatelic Collection</title>
+    <title>ZUBRY.BY - Частная Филателистическая Коллекция</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex, nofollow">
 
     <meta name="application-name" content="ZUBRY.BY">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#1d1e20">
 
     <link rel="shortcut icon" href="assets/meta/favicon.ico">
 
@@ -26,14 +26,14 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="msapplication-config" content="assets/meta/static/meta/browserconfig.xml">
 
-    <meta name="description" content="ZUBRY.BY - Private Philatelic Collection. Author - Artur Basak.">
+    <meta name="description" content="ZUBRY.BY - Частная Филателистическая Коллекция. Автор - Артур Басак.">
     <meta name="keywords" content="philatelic,collection,stamps,envelops,covers,letters,stamps,postcards,photos,wisent,bison,bison bonasus, zubr,zubry,zimbru">
 
     <meta property="og:title" content="ZUBRY.BY">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://zubry.by">
     <meta property="og:image" content="https://zubry.by/assets/pics/slide4-800w.jpg">
-    <meta property="og:description" content="ZUBRY.BY - Private Philatelic Collection. Author - Artur Basak.">
+    <meta property="og:description" content="ZUBRY.BY - Частная Филателистическая Коллекция. Автор - Артур Басак.">
     <meta property="og:locale" content="ru_RU">
 
     <link rel="stylesheet" href="./vendors/css/swiper.min.css">
@@ -58,14 +58,14 @@
             border-radius: 50%;
             height: 5em;
             width:  5em;
-            border: 0.25em solid teal;
+            border: 0.25em solid var(--envelops-color);
         }
 
         .swiper-button-prev {
             border-radius: 50%;
             height: 5em;
             width:  5em;
-            border: 0.25em solid burlywood;
+            border: 0.25em solid var(--postcards-color);
         }
 
         .slide-0 {
@@ -100,6 +100,15 @@
         }
 
         @media (max-width: 769px) {
+            .swiper-button-next,
+            .swiper-button-prev {
+                border: none;
+            }
+
+            .swiper-pagination {
+                display: none;
+            }
+
             .slide-0 {
                 background-image:url(./assets/pics/slide0-800w.jpg);
             }
@@ -134,7 +143,7 @@
         <nav>
             <div class="logo">
                 <div>
-                    <img width="44" src="./assets/meta/safari-pinned-tab.svg" />
+                    <img aria-hidden="true" width="44" src="./assets/meta/safari-pinned-tab.svg" alt="Logo image. Decorative. Using this link you can navigate to home page." />
                 </div>
                 <p>ZUBRY.BY</p>
             </div>
@@ -150,6 +159,15 @@
                     <path fill="white" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
                 </svg>
             </button>
+        </nav>
+        <nav class="mobile-menu">
+            <ul class="menu">
+                <li><a class="stamps" href="/stamps.html">Марки</a></li>
+                <li><a class="envelops" href="/envelopes.html">Конверты</a></li>
+                <li><a class="postcards" href="/postcards.html">Посткарты</a></li>
+                <li><a class="photos" href="/photos.html">Открытки</a></li>
+                <li><a href="/about.html">О сайте</a></li>
+            </ul>
         </nav>
         <div class="logo-text">
             <h1>ЧАСТНАЯ ФИЛАТЕЛИСТИЧЕСКАЯ КОЛЛЕКЦИЯ<br><span>ZUBRY.BY</span></h1>
