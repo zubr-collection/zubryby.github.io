@@ -37,6 +37,7 @@ header {
     padding-left: 1em;
     color: white;
     text-decoration: none;
+    outline: none;
 }
 
 .logo > div {
@@ -146,6 +147,7 @@ header nav {
     margin: 0;
     padding: 1.5em;
     border-bottom: 0.0625em solid currentColor;
+    font-size: 1.2em;
 }
 
 .mobile-menu > .menu > li:last-child {
@@ -227,7 +229,6 @@ header nav {
 .menu > li .photos:hover {
     color: var(--photos-color);
 }
-
 
 .menu > li a:focus {
     outline: 0.25em dotted var(--gray-color);
