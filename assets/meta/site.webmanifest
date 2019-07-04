@@ -1,6 +1,8 @@
 {
     "name": "ZUBRY.BY",
     "short_name": "ZUBRY.BY",
+    "description": "Частная Филателистическая Коллекция. Автор - Артур Басак.",
+    "lang": "ru-RU",
     "icons": [
         {
             "src": "/assets/meta/android-chrome-192x192.png",
@@ -13,7 +15,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#1d1e20",
+    ​​"orientation": "portrait-primary",
+    "theme_color": "#ffffff",
     "background_color": "#1d1e20",
     "start_url": "https://zubry.by",
     "display": "standalone"
