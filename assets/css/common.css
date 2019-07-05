@@ -34,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1em;
+    padding: 0.25em 0 0.25em 1em;
     color: white;
     text-decoration: none;
     outline: none;
@@ -51,7 +51,7 @@ header {
 }
 
 .logo img {
-    width: 3em;
+    width: 2.75em;
 }
 
 header nav {

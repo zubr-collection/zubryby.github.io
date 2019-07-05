@@ -45,6 +45,11 @@ h2::after {
     content: '';
 }
 
+p {
+    margin: 1.25em 0;
+    font-size: 1.25em;
+}
+
 article img {
     height: unset;
     width: 50%;
