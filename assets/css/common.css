@@ -3,7 +3,7 @@
     --gray-color: rgb(163, 170, 182);
 
     --stamps-color: #c5a979;
-    --envelops-color: #7995c5;
+    --envelopes-color: #7995c5;
     --postcards-color: #79c5a9;
     --photos-color: #c57995;
 
@@ -218,8 +218,8 @@ header nav {
     color: var(--stamps-color);
 }
 
-.menu > li .envelops:hover {
-    color: var(--envelops-color);
+.menu > li .envelopes:hover {
+    color: var(--envelopes-color);
 }
 
 .menu > li .postcards:hover {

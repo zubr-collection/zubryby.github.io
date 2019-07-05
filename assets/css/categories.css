@@ -48,6 +48,7 @@ h2::after {
 article p {
     margin: 1.25em 0;
     font-size: 1.25em;
+    font-weight: 300;
 }
 
 article img {
@@ -105,6 +106,6 @@ article .details dd {
     }
 
     article .details {
-        padding: 2em 1em;
+        padding: 1.5em 1em 0;
     }
 }

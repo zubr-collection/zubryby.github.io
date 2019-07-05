@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex, nofollow">
 
-
     <meta name="application-name" content="ZUBRY.BY">
     <meta name="theme-color" content="#1d1e20">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
@@ -29,13 +28,13 @@
     <meta name="msapplication-config" content="assets/meta/static/meta/browserconfig.xml">
 
     <meta name="description" content="ZUBRY.BY - Частная Филателистическая Коллекция. Автор - Артур Басак.">
-    <meta name="keywords" content="филателия,тематическая филателия,коллекция,открытки,почта,марки,почтовые марки,филакартия,цельные вещи,зубр,зубры,европейский зубр,беловежская пуща,philatelic,collection,stamps,envelops,covers,letters,stamps,postcards,photos,wisent,bison,bison bonasus, zubr,zubry,zimbru">
+    <meta name="keywords" content="филателия,тематическая филателия,коллекция,открытки,почта,марки,почтовые марки,филакартия,цельные вещи,зубр,зубры,европейский зубр,беловежская пуща,philatelic,collection,stamps,envelopes,covers,letters,stamps,postcards,photos,wisent,bison,bison bonasus, zubr,zubry,zimbru">
 
-    <meta property="og:title" content="ZUBRY.BY - Stamps">
+    <meta property="og:title" content="ZUBRY.BY - Почтовые марки">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://zubry.by">
     <meta property="og:image" content="https://zubry.by/assets/pics/slide1-800w.jpg">
-    <meta property="og:description" content="ZUBRY.BY - Частная Филателистическая Коллекция. Автор - Артур Басак.">
+    <meta property="og:description" content="Частная Филателистическая Коллекция. Автор - Артур Басак.">
     <meta property="og:locale" content="ru_RU">
 
     <link rel="stylesheet" href="./assets/css/common.css">
@@ -69,7 +68,7 @@
     <script src="./vendors/js/swiper.min.js" defer async></script>
     <script src="./assets/js/common.js" defer async></script>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/CollectionPage">
 <header>
     <nav>
         <a href="/" class="logo">
@@ -80,7 +79,7 @@
         </a>
         <ul class="menu">
             <li><a aria-selected="true" class="stamps" href="/stamps.html">Марки</a></li>
-            <li><a class="envelops" href="/envelopes.html">Конверты</a></li>
+            <li><a class="envelopes" href="/envelopes.html">Конверты</a></li>
             <li><a class="postcards" href="/postcards.html">Посткарты</a></li>
             <li><a class="photos" href="/photos.html">Открытки</a></li>
             <li><a class="about" href="/about.html">О сайте</a></li>
@@ -101,7 +100,7 @@
     <nav class="mobile-menu">
         <ul class="menu">
             <li><a aria-selected="true" class="stamps" href="/stamps.html">Марки</a></li>
-            <li><a class="envelops" href="/envelopes.html">Конверты</a></li>
+            <li><a class="envelopes" href="/envelopes.html">Конверты</a></li>
             <li><a class="postcards" href="/postcards.html">Посткарты</a></li>
             <li><a class="photos" href="/photos.html">Открытки</a></li>
             <li><a class="about" href="/about.html">О сайте</a></li>
@@ -112,13 +111,16 @@
     </div>
 </header>
 <div class="cover"></div>
-<article>
+<article itemscope itemtype="http://schema.org/Collection">
     <div>
-        <h2>МАРКИ</h2>
-        <p>Серии марок, которые содержат изображение зубра в хронологическом порядке.</p>
-        <section>
-            <img src="./assets/pics/stamps/poland-1954.jpg" width="400" height="200" />
-            <div class="details">
+        <h2 itemprop="name">МАРКИ</h2>
+        <p itemprop="description">
+            Серии почтовых марок со всего мира, которые содержат изображение зубра.
+            <br>Марки расположены в хронологическом порядке.
+        </p>
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="./assets/pics/stamps/poland-1954.jpg" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
                 <time>22.12.1954</time>
                 <h3>Охраняемые животные</h3>
                 <dl>
@@ -154,9 +156,9 @@
                 </dl>
             </div>
         </section>
-        <section>
-            <img src="./assets/pics/stamps/gdr-1956.jpg" width="400" height="200" />
-            <div class="details">
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="./assets/pics/stamps/gdr-1956.jpg" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
                 <time>14.12.1956</time>
                 <h3>Повторное открытие Берлинского зоопарка</h3>
                 <dl>
@@ -189,9 +191,9 @@
                 </dl>
             </div>
         </section>
-        <section>
-            <img src="./assets/pics/stamps/ussr-1957.jpg" width="400" height="200" />
-            <div class="details">
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="./assets/pics/stamps/ussr-1957.jpg" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
                 <time>28.03.1957</time>
                 <h3>Охраняйте полезных животных</h3>
                 <dl>
@@ -224,11 +226,11 @@
                 </dl>
             </div>
         </section>
-        <section>
-            <img src="./assets/pics/stamps/poland-1958.jpg" width="400" height="200" />
-            <div class="details">
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="./assets/pics/stamps/poland-1958.jpg" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
                 <time>??.??.1958</time>
-                <h3>Узор к 400 летию польской почты («400 Lat Poczty Polskiej»)</h3>
+                <h3>Шаблон марки 54-го года к 400 летию польской почты (400 Lat Poczty Polskiej)</h3>
                 <dl>
                     <dt>Страна</dt>
                     <dd>Польша</dd>
@@ -247,6 +249,146 @@
 
                     <dt>Размер (мм)</dt>
                     <dd>43*38</dd>
+                </dl>
+            </div>
+        </section>
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="https://via.placeholder.com/1280x960" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
+                <time>25.09.1959</time>
+                <h3>Десять лет национальному парку Татры</h3>
+                <dl>
+                    <dt>Эмитент</dt>
+                    <dd>Чехословацкая почта</dd>
+
+                    <dt>Цвет</dt>
+                    <dd>коричневый, зеленовато-голубой</dd>
+
+                    <dt>Художник</dt>
+                    <dd>Йозеф Балаж (Josef Baláž)</dd>
+
+                    <dt>Гравёр</dt>
+                    <dd>Йан Мрачек (Jan Mraček)</dd>
+
+                    <dt>Печать</dt>
+                    <dd>металлография (печать со стальных гравюр) и глубокая печать</dd>
+
+                    <dt>Перфорация</dt>
+                    <dd>11,75:11,25</dd>
+
+                    <dt>Размер марки (мм)</dt>
+                    <dd>44*27</dd>
+
+                    <dt>Тираж</dt>
+                    <dd>2 300 000</dd>
+                </dl>
+            </div>
+        </section>
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="https://via.placeholder.com/1280x960" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
+                <time>24.02.1961</time>
+                <h3>Животные зоопарка Будапешта</h3>
+                <dl>
+                    <dt>Эмитент</dt>
+                    <dd>Венгерская почта</dd>
+
+                    <dt>Выведена из обращения</dt>
+                    <dd>01.02.1962</dd>
+
+                    <dt>Повторно введена в обращение</dt>
+                    <dd>01.09.1971</dd>
+
+                    <dt>Цвет</dt>
+                    <dd>оливково-зелёный, чёрно-коричневый</dd>
+
+                    <dt>Бумага</dt>
+                    <dd>с водяными знаками</dd>
+
+                    <dt>Художник</dt>
+                    <dd>Ласло Кекеши (László Kékesi)</dd>
+
+                    <dt>Печать</dt>
+                    <dd>глубокая печать</dd>
+
+                    <dt>Перфорация</dt>
+                    <dd>12:11,5 или беззубцовая</dd>
+
+                    <dt>Размер марки (мм)</dt>
+                    <dd>44*34</dd>
+
+                    <dt>Тираж</dt>
+                    <dd>400 000 (беззубцовых - 3710)</dd>
+
+                    <dt>Типография</dt>
+                    <dd>Государственная типография Венгрии</dd>
+                </dl>
+            </div>
+        </section>
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="https://via.placeholder.com/1280x960" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
+                <time>21.04.1964</time>
+                <h3>Почтово-благотворительный выпуск со сбором на социальные и культурные цели. Животные</h3>
+                <dl>
+                    <dt>Эмитент</dt>
+                    <dd>Почта Нидерландов, Гаага</dd>
+
+                    <dt>Выведена из обращения</dt>
+                    <dd>31.12.1965</dd>
+
+                    <dt>Тип</dt>
+                    <dd>"Летние марки" (с 1993 "Пожилые марки")</dd>
+
+                    <dt>Цвет</dt>
+                    <dd>многоцветная</dd>
+
+                    <dt>Перфорация</dt>
+                    <dd>12:12,5</dd>
+
+                    <dt>Печать</dt>
+                    <dd>офсетная</dd>
+
+                    <dt>Размер марки (мм)</dt>
+                    <dd>32*25</dd>
+
+                    <dt>Тираж</dt>
+                    <dd>1 351 489</dd>
+                </dl>
+            </div>
+        </section>
+        <section itemscope itemtype="http://schema.org/Thing">
+            <img itemprop="image" src="https://via.placeholder.com/1280x960" width="400" height="200" alt="Изображение марок" />
+            <div itemprop="description" class="details">
+                <time>30.11.1965</time>
+                <h3>Лесные животные</h3>
+                <dl>
+                    <dt>Эмитент</dt>
+                    <dd>Польская почта</dd>
+
+                    <dt>Дизайнер</dt>
+                    <dd>Ежи Дессельбергер (Jerzy Desselberger)</dd>
+
+                    <dt>Цвет</dt>
+                    <dd>многоцветная</dd>
+
+                    <dt>Бумага</dt>
+                    <dd>мелованная</dd>
+
+                    <dt>Перфорация</dt>
+                    <dd>11,5</dd>
+
+                    <dt>Печать</dt>
+                    <dd>глубокая печать</dd>
+
+                    <dt>Размер марки (мм)</dt>
+                    <dd>40,5*40,5; В листе: 20 (5*4) марок</dd>
+
+                    <dt>Тираж</dt>
+                    <dd>1 382 020</dd>
+
+                    <dt>Типография</dt>
+                    <dd>Polska Wytwórnia Papierów Wartościowych (PWPW)</dd>
                 </dl>
             </div>
         </section>
