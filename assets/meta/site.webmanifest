@@ -14,7 +14,7 @@
         }
     ],
     "theme_color": "#ffffff",
-    "background_color": "#1d1e20",
+    "background_color": "#ffffff",
     "start_url": "https://zubry.by",
     "display": "standalone"
 }
