@@ -252,7 +252,7 @@ footer {
     height: 10em;
     color: white;
     background: var(--black-color);
-    padding: 2em;
+    padding: 0 2em;
 }
 
 footer p {
@@ -339,7 +339,6 @@ footer .contacts svg {
 
     footer {
         font-size: 0.8em;
-        height: unset;
-        padding: 1em 1em 3em;
+        padding: 1em 1em;
     }
 }
