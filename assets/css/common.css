@@ -28,6 +28,7 @@ header {
     width: 100%;
     z-index: 2;
     box-sizing: border-box;
+    background: var(--black-color);
 }
 
 .logo {
@@ -58,6 +59,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1920px;
     padding: 0.5em;
     background: var(--black-color);
     font-size: 1.25em;
