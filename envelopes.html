@@ -64,6 +64,18 @@
                 width: 0;
             }
         }
+
+        @media (max-width: 769px) {
+            .cover {
+                background-image: url(./assets/pics/slide6-800w.jpg);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .cover {
+                background-image: url(./assets/pics/slide6-400w.jpg);
+            }
+        }
     </style>
 
     <script src="./vendors/js/swiper.min.js" defer async></script>
@@ -120,7 +132,12 @@
             Конверты расположены в хронологическом порядке.
         </p>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/envelopes/poland-1954.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1954-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/envelopes/poland-1954.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>22.12.1954</time>
                 <h3>Охраняемые животные</h3>
@@ -146,7 +163,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/envelopes/poland-1955.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1955-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/envelopes/poland-1955.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>28-29.05.1955</time>
                 <h3>Филателистическая выставка в городе Жешув</h3>
@@ -166,7 +188,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/envelopes/gdr-1957.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/gdr-1957-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/envelopes/gdr-1957.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>18.04.1957</time>
                 <h3>Первый полет рейса LH 622 над центром авиапочты Гамбурга</h3>
@@ -189,7 +216,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/envelopes/ceskoslovenska-1959.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceskoslovenska-1959-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/envelopes/ceskoslovenska-1959.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>25.09.1959</time>
                 <h3>Десять лет национальному парку Татры</h3>
@@ -215,7 +247,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/envelopes/nederland-1964.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/nederland-1964-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/envelopes/nederland-1964.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>21.04.1964</time>
                 <h3>Почтово-благотворительный выпуск со сбором на социальные и культурные цели. Животные</h3>
@@ -244,7 +281,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/envelopes/ussr-1968.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1968-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/envelopes/ussr-1968.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>10.01.1968</time>
                 <h3>Зубры в Беловежской пуще</h3>
@@ -285,7 +327,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/envelopes/romana-1968.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romana-1968-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/envelopes/romana-1968.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>20.12.1968</time>
                 <h3>Птицы и звери из заповедников</h3>

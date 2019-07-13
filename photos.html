@@ -64,6 +64,18 @@
                 width: 0;
             }
         }
+
+        @media (max-width: 769px) {
+            .cover {
+                background-image: url(./assets/pics/slide7-800w.jpg);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .cover {
+                background-image: url(./assets/pics/slide7-400w.jpg);
+            }
+        }
     </style>
 
     <script src="./vendors/js/swiper.min.js" defer async></script>
@@ -120,7 +132,12 @@
             Открытки расположены в хронологическом порядке.
         </p>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/photos/ussr-1954.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/photos/ussr-1954-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/photos/ussr-1954.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>25.10.1954</time>
                 <h3>Зубры</h3>
@@ -164,7 +181,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/photos/gdr-1955.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/photos/gdr-1955-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/photos/gdr-1955.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>??.??.1955</time>
                 <h3>Берлинский зоопарк. Зубр</h3>
@@ -196,7 +218,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/photos/gdr-1956.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/photos/gdr-1956-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/photos/gdr-1956.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>??.??.1956</time>
                 <h3>Берлинский зоопарк. Зубр</h3>
@@ -225,7 +252,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/photos/poland-1969.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/photos/poland-1969-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/photos/poland-1969.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>??.??.1969</time>
                 <h3>Беловежская пуща</h3>
@@ -263,7 +295,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/photos/ussr-1973.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/photos/ussr-1973-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/photos/ussr-1973.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>??.??.1973</time>
                 <h3>С Новым Годом!</h3>

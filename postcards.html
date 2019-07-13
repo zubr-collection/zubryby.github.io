@@ -64,6 +64,18 @@
                 width: 0;
             }
         }
+
+        @media (max-width: 769px) {
+            .cover {
+                background-image: url(./assets/pics/slide4-800w.jpg);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .cover {
+                background-image: url(./assets/pics/slide4-400w.jpg);
+            }
+        }
     </style>
 
     <script src="./vendors/js/swiper.min.js" defer async></script>
@@ -120,7 +132,12 @@
             Карточки расположены в хронологическом порядке.
         </p>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/postcards/germany-1972.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/postcards/germany-1972-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/postcards/germany-1972.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>??.??.1972</time>
                 <h3>Зоопарк Ноймюнстер. Зубры</h3>
@@ -146,7 +163,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/postcards/ussr-1974.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1974-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/postcards/ussr-1974.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>15.05.1974</time>
                 <h3>Авиапочта. 50 лет Кавказскому заповеднику</h3>
@@ -178,7 +200,12 @@
             </div>
         </section>
         <section itemscope itemtype="http://schema.org/Thing">
-            <img itemprop="image" src="./assets/pics/postcards/romana-1977.jpg" width="400" height="200" />
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romana-1977-480w.jpg">
+                <img itemprop="image"
+                     src="./assets/pics/postcards/romana-1977.jpg"
+                     width="400" height="200" alt="Изображение марок" />
+            </picture>
             <div itemprop="description" class="details">
                 <time>??.??.1977</time>
                 <h3>Животные охраняемые законом Румынии. Зубр</h3>

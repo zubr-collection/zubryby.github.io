@@ -53,9 +53,14 @@ article p {
     word-break: break-word;
 }
 
-article img {
-    height: unset;
+article picture {
+    height: auto;
     width: 50%;
+}
+
+article img {
+    height: auto;
+    width: 100%;
 }
 
 article section {
@@ -67,6 +72,7 @@ article section {
 }
 
 article .details {
+    width: 50%;
     padding: 4em;
 }
 
@@ -104,7 +110,8 @@ article .details dd {
         align-items: flex-start;
     }
 
-    article img {
+    article img,
+    article picture {
         width: 100%;
     }
 
