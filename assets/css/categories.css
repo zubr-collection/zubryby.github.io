@@ -115,7 +115,8 @@ article .details dd {
     }
 
     article img,
-    article picture {
+    article picture,
+    article .details {
         width: 100%;
     }
 
