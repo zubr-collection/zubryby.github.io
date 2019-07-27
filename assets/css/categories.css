@@ -70,14 +70,14 @@ article img {
 article section {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     margin-bottom: 2em;
 }
 
 article .details {
     width: 50%;
-    padding: 4em;
+    padding: 0 4em 2em;
     box-sizing: border-box;
 }
 
