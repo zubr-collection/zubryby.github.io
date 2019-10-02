@@ -51,9 +51,9 @@
         {{#each things}}
             <section itemscope itemtype="http://schema.org/Thing">
                 <picture>
-                    <source media="(max-width: 480px)" srcset="./assets/pics/{{pictureFolder}}/{{image}}-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/{{../pictureFolder}}/{{image}}-480w.jpg">
                     <img itemprop="image"
-                         src="./assets/pics/{{pictureFolder}}/{{image}}.jpg"
+                         src="./assets/pics/{{../pictureFolder}}/{{image}}.jpg"
                          width="400" height="200" alt="Изображение марок" />
                 </picture>
                 <div class="details">
