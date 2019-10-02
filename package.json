@@ -4,6 +4,7 @@
   "description": "",
   "main": "scripts/build.js",
   "devDependencies": {
+    "clean-css": "^4.2.1",
     "handlebars": "4.4.0",
     "prettier": "1.18.2",
     "uglify-es": "3.3.9"
