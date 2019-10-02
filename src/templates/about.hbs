@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{seo "О сайте" "slide0"}}
+
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/categories.css">
+
+    <style>
+        .menu a.about {
+            color: gray;
+            opacity: 1;
+        }
+
+        .menu > li a.about::after {
+            width: 100%;
+        }
+
+        .cover {
+            background-image: url(./assets/pics/slide0.jpg);
+        }
+
+        @media (pointer: coarse) {
+            .menu > li a.about::after {
+                width: 0;
+            }
+        }
+    </style>
+
+    <script src="./vendors/js/swiper.min.js" defer async></script>
+    <script src="./assets/js/common.js" defer async></script>
+</head>
+<body>
+{{header}}
+<div class="cover"></div>
+<article>
+    <div>
+        <h2>{{name}}</h2>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    </div>
+</article>
+{{footer}}
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{seo "Главная" "slide4"}}
+
+    <link rel="stylesheet" href="./vendors/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: calc(100vh - 10em);
+        }
+
+        .swiper-slide {
+            text-align: center;
+            background-color: var(--black-color);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            border-radius: 50%;
+            height: 5em;
+            width:  5em;
+            outline: none;
+        }
+
+        .swiper-button-next:focus,
+        .swiper-button-prev:focus {
+            outline: 0.25em dotted white;
+        }
+
+        .swiper-pagination-bullet:focus {
+            outline: 0.25em dotted white;
+        }
+
+        .swiper-button-next {
+            border: 0.25em solid var(--envelopes-color);
+        }
+
+        .swiper-button-prev {
+            border: 0.25em solid var(--postcards-color);
+        }
+
+        .slide-0 {
+            background-image:url(./assets/pics/slide0.jpg);
+            background-position: center;
+        }
+
+        .slide-1 {
+            background-image:url(./assets/pics/slide1.jpg);
+            background-position: center;
+        }
+
+        .slide-2 {
+            background-image:url(./assets/pics/slide2.jpg);
+        }
+
+        .slide-3 {
+            background-image:url(./assets/pics/slide3.jpg);
+        }
+
+        .slide-4 {
+            background-image:url(./assets/pics/slide4.jpg);
+        }
+
+        .slide-5 {
+            background-image:url(./assets/pics/slide5.jpg);
+        }
+
+        @media (pointer: coarse) {
+            .swiper-button-next:focus,
+            .swiper-button-prev:focus,
+            .swiper-pagination-bullet:focus {
+                outline: none;
+            }
+        }
+
+        @media (max-width: 1025px) {
+            .swiper-slide {
+                background-position: center;
+            }
+        }
+
+        @media (max-width: 769px) {
+            .swiper-button-next,
+            .swiper-button-prev {
+                border: none;
+            }
+
+            .swiper-pagination {
+                display: none;
+            }
+
+            .slide-0 {
+                background-image:url(./assets/pics/slide0-800w.jpg);
+            }
+
+            .slide-1 {
+                background-image:url(./assets/pics/slide1-800w.jpg);
+            }
+
+            .slide-2 {
+                background-image:url(./assets/pics/slide2-800w.jpg);
+            }
+
+            .slide-3 {
+                background-image:url(./assets/pics/slide3-800w.jpg);
+            }
+
+            .slide-4 {
+                background-image:url(./assets/pics/slide4-800w.jpg);
+            }
+
+            .slide-5 {
+                background-image:url(./assets/pics/slide5-800w.jpg);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .slide-0 {
+                background-image:url(./assets/pics/slide0-400w.jpg);
+            }
+
+            .slide-1 {
+                background-image:url(./assets/pics/slide1-400w.jpg);
+            }
+
+            .slide-2 {
+                background-image:url(./assets/pics/slide2-400w.jpg);
+            }
+
+            .slide-3 {
+                background-image:url(./assets/pics/slide3-400w.jpg);
+            }
+
+            .slide-4 {
+                background-image:url(./assets/pics/slide4-400w.jpg);
+            }
+
+            .slide-5 {
+                background-image:url(./assets/pics/slide5-400w.jpg);
+            }
+        }
+    </style>
+
+    <script src="./vendors/js/swiper.min.js" defer async></script>
+    <script src="./assets/js/common.js" defer async></script>
+</head>
+<body>
+{{header}}
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide-1"></div>
+        <div class="swiper-slide slide-5"></div>
+        <div class="swiper-slide slide-2"></div>
+        <div class="swiper-slide slide-0"></div>
+        <div class="swiper-slide slide-3"></div>
+        <div class="swiper-slide slide-4"></div>
+    </div>
+
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+</div>
+{{footer}}
+</body>
+</html>
