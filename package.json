@@ -1,0 +1,23 @@
+{
+  "name": "zubry.by",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/build.js",
+  "devDependencies": {
+    "handlebars": "4.4.0",
+    "prettier": "1.18.2"
+  },
+  "scripts": {
+    "start": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubr-collection/zubr-collection.github.io.git"
+  },
+  "author": "zubryby@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zubr-collection/zubr-collection.github.io/issues"
+  },
+  "homepage": "https://zubry.by"
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{seo "Конверты" "slide4"}}
+
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/categories.css">
+
+    <style>
+        .menu a.envelopes {
+            color: var(--envelopes-color);
+            opacity: 1;
+        }
+
+        .menu > li a.envelopes::after {
+            width: 100%;
+        }
+
+        article {
+            --page-color: var(--envelopes-color);
+        }
+
+        .cover {
+            background-image: url(./assets/pics/slide6.jpg);
+            background-position: center 25%;
+        }
+
+        @media (pointer: coarse) {
+            .menu > li a.envelopes::after {
+                width: 0;
+            }
+        }
+
+        @media (max-width: 769px) {
+            .cover {
+                background-image: url(./assets/pics/slide6-800w.jpg);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .cover {
+                background-image: url(./assets/pics/slide6-400w.jpg);
+            }
+        }
+    </style>
+
+    <script src="./vendors/js/swiper.min.js" defer async></script>
+    <script src="./assets/js/common.js" defer async></script>
+</head>
+<body>
+{{header}}
+<div class="cover"></div>
+<article itemscope itemtype="http://schema.org/Collection">
+    <div>
+        <h2 itemprop="name">{{name}}</h2>
+        <p itemprop="description">{{description}}</p>
+        {{#each things}}
+            <section itemscope itemtype="http://schema.org/Thing">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="./assets/pics/{{pictureFolder}}/{{image}}-480w.jpg">
+                    <img itemprop="image"
+                         src="./assets/pics/photos/{{image}}.jpg"
+                         width="400" height="200" alt="Изображение марок" />
+                </picture>
+                <div class="details">
+                    <time itemprop="description">{{year}}</time>
+                    <h3 itemprop="name">{{title}}</h3>
+                    <dl itemprop="description">
+                        {{#each props}}
+                            <dt>{{name}}</dt>
+                            <dd>{{value}}</dd>
+                        {{/each}}
+                    </dl>
+                </div>
+            </section>
+        {{/each}}
+    </div>
+</article>
+{{footer}}
+</body>
+</html>
