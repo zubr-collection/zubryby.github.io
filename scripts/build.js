@@ -8,6 +8,10 @@ Handlebars.registerHelper(
   'seo',
   (title, picture) => new Handlebars.SafeString(readTemplate('fragments/seo.hbs')({ title, picture }))
 );
+Handlebars.registerHelper(
+  'resources',
+  addSwiper => new Handlebars.SafeString(readTemplate('fragments/resources.hbs')({ addSwiper }))
+);
 
 const pageNames = fs.readdirSync(path.join(__dirname, '../src/data')).map(name => name.replace('.js', ''));
 for (let i = 0; i < pageNames.length; i++) {
