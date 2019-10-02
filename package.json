@@ -5,7 +5,8 @@
   "main": "scripts/build.js",
   "devDependencies": {
     "handlebars": "4.4.0",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "uglify-es": "3.3.9"
   },
   "scripts": {
     "start": "node ./scripts/build.js"

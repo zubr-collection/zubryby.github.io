@@ -1,17 +1,10 @@
-const path = require('path');
 const fs = require('fs');
-const Handlebars = require('handlebars');
+const path = require('path');
+const minify = require('./minify');
+const readTemplate = require('./readTemplate');
+const registerHelpers = require('./registerHelpers');
 
-Handlebars.registerHelper('header', () => new Handlebars.SafeString(readTemplate('fragments/header.hbs')({})));
-Handlebars.registerHelper('footer', () => new Handlebars.SafeString(readTemplate('fragments/footer.hbs')({})));
-Handlebars.registerHelper(
-  'seo',
-  (title, picture) => new Handlebars.SafeString(readTemplate('fragments/seo.hbs')({ title, picture }))
-);
-Handlebars.registerHelper(
-  'resources',
-  addSwiper => new Handlebars.SafeString(readTemplate('fragments/resources.hbs')({ addSwiper }))
-);
+registerHelpers();
 
 const pageNames = fs.readdirSync(path.join(__dirname, '../src/data')).map(name => name.replace('.js', ''));
 for (let i = 0; i < pageNames.length; i++) {
@@ -21,9 +14,7 @@ for (let i = 0; i < pageNames.length; i++) {
   fs.writeFileSync(path.join(__dirname, `../${pageName}.html`), html);
 }
 
-function readTemplate(template) {
-  return Handlebars.compile(fs.readFileSync(path.join(__dirname, `../src/${template}`)).toString());
-}
+minify();
 
 /* Scrap data from site */
 
