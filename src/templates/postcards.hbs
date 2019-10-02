@@ -45,7 +45,7 @@
 <body>
 {{header}}
 <div class="cover"></div>
-<article itemscope itemtype="http://schema.org/Collection">
+<article itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/postcards.html">
     <div>
         <h2 itemprop="name">{{name}}</h2>
         <p itemprop="description">{{description}}</p>
@@ -67,6 +67,7 @@
                         {{/each}}
                     </dl>
                 </div>
+                <link itemprop="isPartOf" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/postcards.html" />
             </section>
         {{/each}}
     </div>

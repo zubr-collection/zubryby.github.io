@@ -1,26 +1,38 @@
+'use strict';
+
 const fs = require('fs');
 const path = require('path');
-const uglify = require('uglify-es');
-const cleancss = require('clean-css');
+const UglifyJS = require('uglify-es');
+const CleanCSS = require('clean-css');
 
 function minify() {
-  const scriptNames = fs.readdirSync(path.join(__dirname, '../assets/js')).filter(name => !name.includes('.min'));
-  for (let i = 0; i < scriptNames.length; i++) {
-    const scriptName = scriptNames[i];
-    const scriptSourceCode = fs.readFileSync(path.join(__dirname, `../assets/js/${scriptName}`)).toString();
-    const result = uglify.minify(scriptSourceCode);
-    if (result.error) {
-      console.error(result.error);
-    }
-    fs.writeFileSync(path.join(__dirname, `../assets/js/${scriptName.replace('.js', '')}.min.js`), result.code);
-  }
+    processFiles('js', 'js', source => {
+        const result = UglifyJS.minify(source);
+        if (result.error) {
+            console.error(result.error);
+        }
+        return result.code;
+    });
 
-    const styleNames = fs.readdirSync(path.join(__dirname, '../assets/css')).filter(name => !name.includes('.min'));
-    for (let i = 0; i < styleNames.length; i++) {
-        const styleName = styleNames[i];
-        const styleSourceCode = fs.readFileSync(path.join(__dirname, `../assets/css/${styleName}`)).toString();
-        const result = (new cleancss()).minify(styleSourceCode);
-        fs.writeFileSync(path.join(__dirname, `../assets/css/${styleName.replace('.css', '')}.min.css`), result.styles);
+    processFiles('css', 'css', source => {
+        const result = new CleanCSS().minify(source);
+        if (result.errors && result.errors.length) {
+            console.error(result.errors);
+        }
+        return result.styles;
+    });
+}
+
+function processFiles(dir, ext, minifyFunc) {
+    const files = fs.readdirSync(path.join(__dirname, `../assets/${dir}`)).filter(name => !name.includes('.min'));
+    for (let i = 0; i < files.length; i++) {
+        const fileName = files[i];
+        const sourceCode = fs.readFileSync(path.join(__dirname, `../assets/${dir}/${fileName}`), 'utf8').toString();
+        const output = minifyFunc(sourceCode);
+        fs.writeFileSync(
+            path.join(__dirname, `../assets/${dir}/${fileName.replace(`.${ext}`, '')}.min.${ext}`),
+            output
+        );
     }
 }
 

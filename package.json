@@ -4,22 +4,32 @@
   "description": "",
   "main": "scripts/build.js",
   "devDependencies": {
-    "clean-css": "^4.2.1",
+    "clean-css": "4.2.1",
+    "eslint": "6.5.1",
+    "eslint-config-loopback": "13.1.0",
     "handlebars": "4.4.0",
+    "husky": "^3.0.8",
     "prettier": "1.18.2",
     "uglify-es": "3.3.9"
   },
   "scripts": {
-    "start": "node ./scripts/build.js"
+    "build": "node ./scripts/build.js",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zubr-collection/zubr-collection.github.io.git"
   },
   "author": "zubryby@gmail.com",
-  "license": "MIT",
+  "license": "CC BY-NC-ND 4.0",
   "bugs": {
     "url": "https://github.com/zubr-collection/zubr-collection.github.io/issues"
   },
-  "homepage": "https://zubry.by"
+  "homepage": "https://zubry.by",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  }
 }

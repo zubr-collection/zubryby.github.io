@@ -1,16 +1,19 @@
+'use strict';
+
 const Handlebars = require('handlebars');
 const readTemplate = require('./readTemplate');
 
 function registerHelpers() {
-  Handlebars.registerHelper('header', () => new Handlebars.SafeString(readTemplate('fragments/header.hbs')({})));
-  Handlebars.registerHelper('footer', () => new Handlebars.SafeString(readTemplate('fragments/footer.hbs')({})));
+  const { SafeString } = Handlebars;
+  Handlebars.registerHelper('header', () => new SafeString(readTemplate('fragments/header.hbs')({})));
+  Handlebars.registerHelper('footer', () => new SafeString(readTemplate('fragments/footer.hbs')({})));
   Handlebars.registerHelper(
     'seo',
-    (title, picture) => new Handlebars.SafeString(readTemplate('fragments/seo.hbs')({ title, picture }))
+    (title, picture) => new SafeString(readTemplate('fragments/seo.hbs')({ title, picture }))
   );
   Handlebars.registerHelper(
     'resources',
-    addSwiper => new Handlebars.SafeString(readTemplate('fragments/resources.hbs')({ addSwiper }))
+    addSwiper => new SafeString(readTemplate('fragments/resources.hbs')({ addSwiper }))
   );
 }
 

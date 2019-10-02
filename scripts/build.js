@@ -1,3 +1,5 @@
+'use strict';
+
 const fs = require('fs');
 const path = require('path');
 const minify = require('./minify');
@@ -8,15 +10,15 @@ registerHelpers();
 
 const pageNames = fs.readdirSync(path.join(__dirname, '../src/data')).map(name => name.replace('.js', ''));
 for (let i = 0; i < pageNames.length; i++) {
-  const pageName = pageNames[i];
-  const template = readTemplate(`templates/${pageName}.hbs`);
-  const html = template(require(`../src/data/${pageName}`));
-  fs.writeFileSync(path.join(__dirname, `../${pageName}.html`), html);
+    const pageName = pageNames[i];
+    const template = readTemplate(`templates/${pageName}.hbs`);
+    const html = template(require(`../src/data/${pageName}`));
+    fs.writeFileSync(path.join(__dirname, `../${pageName}.html`), html);
 }
 
 minify();
 
-/* Scrap data from site */
+/* Scrap all collection data from site */
 
 // const context = { things: [] };
 // document.querySelectorAll('section').forEach(s => {
