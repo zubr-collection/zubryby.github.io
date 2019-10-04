@@ -7,7 +7,7 @@ article {
   color: var(--black-color);
   box-sizing: border-box;
 
-  --page-color: var(--black-color);
+
 }
 
 article > div {

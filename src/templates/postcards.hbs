@@ -5,6 +5,10 @@
     {{resources false}}
 
     <style>
+        :root {
+            --page-color: var(--postcards-color);
+        }
+
         .menu a.postcards {
             color: var(--postcards-color);
             opacity: 1;
@@ -12,10 +16,6 @@
 
         .menu > li a.postcards::after {
             width: 100%;
-        }
-
-        article {
-            --page-color: var(--postcards-color);
         }
 
         .cover {

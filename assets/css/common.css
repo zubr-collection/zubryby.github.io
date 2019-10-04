@@ -1,347 +1,362 @@
 :root {
-  --black-color: #1d1e20;
-  --gray-color: rgb(163, 170, 182);
+    --black-color: #1d1e20;
+    --gray-color: rgb(163, 170, 182);
 
-  --stamps-color: #c5a979;
-  --envelopes-color: #7995c5;
-  --postcards-color: #79c5a9;
-  --photos-color: #c57995;
+    --stamps-color: #c5a979;
+    --envelopes-color: #7995c5;
+    --postcards-color: #79c5a9;
+    --photos-color: #c57995;
+
+    --page-color: white;
 }
 
 html,
 body {
-  position: relative;
+    position: relative;
 }
 
 body {
-  background: var(--black-color);
-  font-family: Helvetica, sans-serif;
-  font-size: 0.875rem;
-  color: white;
-  margin: 0;
-  padding: 0;
+    background: var(--black-color);
+    font-family: Helvetica, sans-serif;
+    font-size: 0.875rem;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  box-sizing: border-box;
-  background: var(--black-color);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-sizing: border-box;
+    background: var(--black-color);
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.25em 0 0.25em 1em;
-  color: white;
-  text-decoration: none;
-  outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25em 0 0.25em 1em;
+    color: white;
+    text-decoration: none;
+    outline: none;
 }
 
 .logo > div {
-  padding: 0.25em 0 0;
-  border: none;
-  background: white;
-  transition: opacity 0.3s ease-in;
-  box-sizing: border-box;
-  outline: 0.125em dashed currentColor;
-  outline-offset: 0;
+    padding: 0.25em 0 0;
+    border: none;
+    background: var(--page-color);
+    transition: opacity 0.3s ease-in;
+    box-sizing: border-box;
+    outline: 0.125em dashed var(--page-color);
+    outline-offset: 0;
 }
 
 .logo img {
-  width: 2.75em;
+    width: 2.75em;
 }
 
 header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1920px;
-  padding: 0.5em;
-  background: var(--black-color);
-  font-size: 1.25em;
-  box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    padding: 0.5em;
+    background: var(--black-color);
+    font-size: 1.25em;
+    box-sizing: border-box;
 }
 
 .logo p {
-  margin: 0.25em 0.5em;
-  color: white;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  transition: opacity 0.3s ease-in;
+    margin: 0.25em 0.5em;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: opacity 0.3s ease-in;
 }
 
 .logo-text {
-  align-items: center;
-  display: flex;
-  justify-content: flex-start;
-  height: 6em;
-  width: 100%;
-  padding: 0 2em;
-  background: var(--black-color);
-  box-shadow: 0 0 1em 0 var(--black-color);
-  z-index: 1;
-  position: absolute;
-  opacity: 0.8;
-  box-sizing: border-box;
-  transition: opacity 0.3s ease-in;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 6em;
+    width: 100%;
+    padding: 0 2em;
+    background: var(--black-color);
+    box-shadow: 0 0 1em 0 var(--black-color);
+    z-index: 1;
+    position: absolute;
+    opacity: 0.8;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease-in;
 }
 
 .logo-text h1 {
-  color: white;
-  font-size: 1.5em;
-  box-sizing: border-box;
-  margin: 0;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 300;
+    color: white;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .logo-text h1 span {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 .menu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 2.25em;
-  margin: 0;
-  color: white;
-  list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 2.25em;
+    margin: 0;
+    color: white;
+    list-style: none;
 }
 
 .open-mobile-menu,
 .close-mobile-menu {
-  display: none;
-  border: none;
-  background: transparent;
-  outline: none;
+    display: none;
+    border: none;
+    background: transparent;
+    outline: none;
 }
 
 .open-mobile-menu > svg,
 .close-mobile-menu > svg {
-  width: 2em;
+    width: 2em;
 }
 
 .mobile-menu {
-  position: absolute;
-  display: none;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-  background: var(--black-color);
-  z-index: 2;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background: var(--black-color);
+    z-index: 2;
 }
 
 .mobile-menu > .menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: unset;
-  padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: unset;
+    padding: 0;
 }
 
 .mobile-menu > .menu > li {
-  margin: 0;
-  padding: 1.5em;
-  border-bottom: 0.0625em solid currentColor;
-  font-size: 1.2em;
+    margin: 0;
+    padding: 1.5em;
+    border-bottom: 0.0625em solid currentColor;
+    font-size: 1.2em;
 }
 
 .mobile-menu > .menu > li:last-child {
-  margin: 0;
-  border-bottom: none;
+    margin: 0;
+    border-bottom: none;
 }
 
 .menu > li {
-  margin: 0 1em;
+    margin: 0 1em;
 }
 
 .menu > li:last-child {
-  margin-right: 4em;
+    margin-right: 4em;
 }
 
 .menu > li a {
-  position: relative;
-  border: 0.25em solid transparent;
-  color: white;
-  font-size: 0.8em;
-  font-weight: 300;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: opacity, color 0.3s ease-out;
+    position: relative;
+    border: 0.25em solid transparent;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity, color 0.3s ease-out;
 }
 
 .header--collapsed .logo p,
 .header--collapsed .logo > div,
 .header--collapsed .menu > li a,
 .header--collapsed .open-mobile-menu {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .header--collapsed .mobile-menu > .menu > li a {
-  opacity: 1;
+    opacity: 1;
 }
 
 .logo:hover p,
 .logo:hover > div {
-  opacity: 1;
+    opacity: 1;
 }
 
 .header--collapsed .logo-text {
-  opacity: 0;
+    opacity: 0;
 }
 
 .menu > li a::after {
-  position: absolute;
-  bottom: -0.2em;
-  left: 0;
-  width: 0;
-  height: 0.15em;
-  color: inherit;
-  background: currentColor;
-  content: '';
-  transition: width 0.3s ease-out;
+    position: absolute;
+    bottom: -0.2em;
+    left: 0;
+    width: 0;
+    height: 0.15em;
+    color: inherit;
+    background: currentColor;
+    content: '';
+    transition: width 0.3s ease-out;
 }
 
 .menu > li a:hover::after {
-  width: 100%;
+    width: 100%;
 }
 
 .menu > li a:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .menu > li .stamps:hover {
-  color: var(--stamps-color);
+    color: var(--stamps-color);
 }
 
 .menu > li .envelopes:hover {
-  color: var(--envelopes-color);
+    color: var(--envelopes-color);
 }
 
 .menu > li .postcards:hover {
-  color: var(--postcards-color);
+    color: var(--postcards-color);
 }
 
 .menu > li .photos:hover {
-  color: var(--photos-color);
+    color: var(--photos-color);
 }
 
 .menu > li a:focus {
-  outline: 0.25em dotted var(--gray-color);
+    outline: 0.25em solid white;
+    background: white;
+    color: #1d1e20;
+}
+
+.menu > li a:focus::after {
+    display: none;
+}
+
+.menu > li .stamps:focus,
+.menu > li .envelopes:focus,
+.menu > li .postcards:focus,
+.menu > li .photos:focus {
+    color: #1d1e20;
 }
 
 @media (pointer: coarse) {
-  .menu > li a:focus {
-    outline: none;
-  }
+    .menu > li a:focus {
+        outline: none;
+    }
 
-  .menu > li a:hover::after {
-    width: 0;
-  }
+    .menu > li a:hover::after {
+        width: 0;
+    }
 }
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 10em;
-  box-sizing: border-box;
-  color: white;
-  background: var(--black-color);
-  padding: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10em;
+    box-sizing: border-box;
+    color: white;
+    background: var(--black-color);
+    padding: 0 2em;
 }
 
 footer p {
-  margin: 1em 0;
-  opacity: 0.6;
-  color: white;
-  font-size: 0.8em;
-  font-weight: 400;
-  line-height: 1.5;
+    margin: 1em 0;
+    opacity: 0.6;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 footer cite,
 footer time,
 footer address {
-  font-style: normal;
+    font-style: normal;
 }
 
 footer a {
-  border: none;
-  color: white;
-  text-decoration: none;
-  opacity: 0.6;
-  transition: opacity 0.3s ease-out;
+    border: none;
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out;
 }
 
 footer a:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 footer a:focus {
-  outline: 0.25em dotted var(--gray-color);
+    outline: 0.25em dotted var(--gray-color);
 }
 
 footer .contacts {
-  margin: 0;
-  padding: 0;
-  font-size: 1em;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    list-style: none;
 }
 
 footer .contacts a {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.25em;
 }
 
 footer .contacts svg {
-  width: 1.5em;
-  height: 1.5em;
-  margin: 0.5em 1em;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.5em 1em;
 }
 
 @media all and (max-width: 769px) {
-  header nav {
-    padding: 0.5em 1em;
-  }
+    header nav {
+        padding: 0.5em 1em;
+    }
 
-  .logo {
-    padding: 0;
-  }
+    .logo {
+        padding: 0;
+    }
 
-  .logo p {
-    font-size: 1.25em;
-  }
+    .logo p {
+        font-size: 1.25em;
+    }
 
-  .logo h1,
-  .logo-text h1 {
-    font-size: 1.75em;
-  }
+    .logo h1,
+    .logo-text h1 {
+        font-size: 1.75em;
+    }
 
-  .logo-text {
-    height: auto;
-    padding: 1em 1.125em;
-  }
+    .logo-text {
+        height: auto;
+        padding: 1em 1.125em;
+    }
 
-  .menu {
-    display: none;
-  }
+    .menu {
+        display: none;
+    }
 
-  .open-mobile-menu {
-    display: block;
-  }
+    .open-mobile-menu {
+        display: block;
+    }
 
-  footer {
-    font-size: 0.8em;
-    padding: 1em 1em;
-  }
+    footer {
+        font-size: 0.8em;
+        padding: 1em 1em;
+    }
 }

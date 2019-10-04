@@ -5,6 +5,10 @@
     {{resources false}}
 
     <style>
+        :root {
+            --page-color: var(--photos-color);
+        }
+
         .menu a.photos {
             color: var(--photos-color);
             opacity: 1;
@@ -12,10 +16,6 @@
 
         .menu > li a.photos::after {
             width: 100%;
-        }
-
-        article {
-            --page-color: var(--photos-color);
         }
 
         .cover {
