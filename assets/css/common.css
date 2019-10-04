@@ -282,6 +282,14 @@ footer p {
     line-height: 1.5;
 }
 
+footer h4 {
+    margin: 1em 0;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+}
+
 footer cite,
 footer time,
 footer address {
@@ -291,9 +299,9 @@ footer address {
 footer a {
     border: none;
     color: white;
-    text-decoration: none;
     opacity: 0.6;
     transition: opacity 0.3s ease-out;
+    text-decoration: none;
 }
 
 footer a:hover {
@@ -322,6 +330,23 @@ footer .contacts svg {
     width: 1.5em;
     height: 1.5em;
     margin: 0.5em 1em;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social li img {
+    width: 3em;
+    height: 3em;
+    filter: contrast(0.35);
+    transition: transform 0.2s ease-in;
+}
+
+footer .social li img:hover {
+    transform: rotate(15deg);
 }
 
 @media all and (max-width: 769px) {
@@ -356,7 +381,14 @@ footer .contacts svg {
     }
 
     footer {
-        font-size: 0.8em;
         padding: 1em 1em;
+        font-size: 0.8em;
+    }
+}
+
+@media all and (max-width: 700px) {
+    footer {
+        flex-direction: column-reverse;
+        height: auto;
     }
 }
