@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" itemscope itemtype="http://schema.org/AboutPage">
 <head>
     <meta charset="utf-8">
 
@@ -40,8 +40,12 @@
 <script src="./assets/js/common.min.js" defer async></script>
 
     <style>
+        :root {
+            --page-color: var(--about-color);
+        }
+
         .menu a.about {
-            color: gray;
+            color: var(--about-color);
             opacity: 1;
         }
 
@@ -67,7 +71,7 @@
             <div>
                 <img width="44" src="./assets/meta/safari-pinned-tab.svg" alt="Логотип. Изображение зубра на марке." />
             </div>
-            <p>ZUBRY.BY</p>
+            <p itemprop="copyrightHolder">ZUBRY.BY</p>
         </a>
         <ul class="menu">
             <li><a class="stamps" href="/stamps.html">Марки</a></li>
@@ -102,17 +106,25 @@
         <h1>ЧАСТНАЯ ФИЛАТЕЛИСТИЧЕСКАЯ КОЛЛЕКЦИЯ</h1>
     </div>
 </header>
+
 <div class="cover"></div>
-<article itemscope itemtype="http://schema.org/Collection">
+<article >
     <div>
-        <h2>КОНВЕРТЫ</h2>
-        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+        <h2>О САЙТЕ</h2>
+        <div>
+            <p>Зубр — это удивительное и редкое животное, находящееся под охраной и занесенное в Красную книгу Республики Беларусь. Зубр — король европейских лесов и гордость Беловежской пущи.</p>
+            <p>Это млекопитающее занимает важную роль в символике не только Беларуси, оно в равной степени почитается также в Польше, Литве, России, Украине, Румынии, Венгрии и на Кавказе.</p>
+            <p>К сожалению, на воле зубр был полностью уничтожен. Как самое крупное животное в Европе, зубр был всегда желанным охотничьим трофеем. Чем меньше становилась в мире его численность, тем выше он ценился охотниками и браконьерами. В Англии зубр исчез в XII веке, во Франции и Швеции — в XVI веке, в Венгрии — в 1729 году. В Восточной Пруссии лесных исполинов истребили в 1755 году. Последний живущий на свободе зубр был убит в Беловежской пуще лесничим Казимиром Шпаковским в 1921 году, а на Кавказе последних трёх зубров убили в 1926 году в окрестностях горы Алоус.</p>
+            <p>По инициативе польского зоолога Яна Штольцмана во Франкфурте-на-Майне в 1923 году было создано Международное общество охраны зубра. Те популяции, которые мы видим сейчас, были восстановлены благодаря особям, сохранившимся в неволе (зоопарки, зоосады и заповедники). Благодаря обществу по охране зубров в 1952 году стало возможным вновь поселить первые свободные стада зубров в Беловежской пуще. В1954 году в Польше вышла первая почтовая марки с изображением зубра.</p>
+            <p>Зубр символизирует одновременно как то, что человечество может безвозвратно потерять в дикой природе, так и то, что оно может сохранить вовремя объединившись.</p>
+            <p>Зубр, как явление, может быть прекрасной темой для филателистической коллекции. Данный сайт ставит перед собой задачу оцифровки частной коллекции почтовых марок, открыток, конвертов, почтовых карточек и цельных вещей, посвященных теме зубра. В случае, если у читателя есть информация, которая позволит дополнить или улучшить сайт, просьба обращаться по адресу zubryby@gmail.com</p>
+        </div>
     </div>
 </article>
 <footer>
     <div>
-        <p>&copy; <time>2019</time> ZUBRY.BY<br> Все права защищены.</p>
-        <a href="http://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="external noreferrer noopener nofollow">
+        <p>&copy; <time itemprop="copyrightYear">2019</time> ZUBRY.BY<br> Все права защищены.</p>
+        <a itemprop="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="external noreferrer noopener nofollow">
             <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" style="max-width:100%;">
         </a>
     </div>
