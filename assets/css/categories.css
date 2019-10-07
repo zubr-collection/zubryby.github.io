@@ -53,6 +53,7 @@ article p {
     font-size: 1.25em;
     font-weight: 300;
     word-break: break-word;
+    text-align: justify;
 }
 
 article picture {
