@@ -15,6 +15,13 @@ function registerHelpers() {
         'resources',
         addSwiper => new SafeString(readTemplate('fragments/resources.hbs')({ addSwiper }))
     );
+    Handlebars.registerHelper(
+        'collectionArticle',
+        (name, description, things, pictureFolder) =>
+            new SafeString(
+                readTemplate('fragments/collectionArticle.hbs')({ name, description, things, pictureFolder })
+            )
+    );
 }
 
 module.exports = registerHelpers;
