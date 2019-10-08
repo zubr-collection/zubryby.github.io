@@ -354,6 +354,10 @@ footer .social li img:hover {
     transform: rotate(15deg);
 }
 
+footer > div {
+    text-align: center;
+}
+
 @media all and (max-width: 769px) {
     header nav {
         padding: 0.5em 1em;
