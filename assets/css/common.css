@@ -334,7 +334,7 @@ footer .contacts a {
 footer .contacts svg {
     width: 1.5em;
     height: 1.5em;
-    margin: 0.5em 1em;
+    margin: 0.5em 0.5em 0.5em 0;
 }
 
 footer .social {
@@ -399,5 +399,9 @@ footer > div {
     footer {
         flex-direction: column-reverse;
         height: auto;
+    }
+
+    footer .contacts a {
+        justify-content: center;
     }
 }
