@@ -9,7 +9,8 @@ function registerHelpers() {
     Handlebars.registerHelper('footer', () => new SafeString(readTemplate('fragments/footer.hbs')({})));
     Handlebars.registerHelper(
         'seo',
-        (title, picture) => new SafeString(readTemplate('fragments/seo.hbs')({ title, picture }))
+        (title, picture, description) =>
+            new SafeString(readTemplate('fragments/seo.hbs')({ title, picture, description }))
     );
     Handlebars.registerHelper(
         'resources',
