@@ -12,7 +12,11 @@ const pageNames = fs.readdirSync(path.join(__dirname, '../src/data')).map(name =
 for (let i = 0; i < pageNames.length; i++) {
     const pageName = pageNames[i];
     const template = readTemplate(`templates/${pageName}.hbs`);
-    const html = template(require(`../src/data/${pageName}`));
+    const data = require(`../src/data/${pageName}`);
+    if (data.things && data.things.length) {
+        data.things.forEach(thing => thing.formattedYear = thing.year.split('.').reverse().join('-'));
+    }
+    const html = template(data);
     fs.writeFileSync(path.join(__dirname, `../${pageName}.html`), html);
 }
 
