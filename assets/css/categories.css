@@ -82,25 +82,25 @@ article .details {
     box-sizing: border-box;
 }
 
-article .details > time {
+article .details > a > time {
     font-size: 2em;
     font-weight: 300;
 }
 
-article .details > time > a {
+article .details > a {
     color: currentColor;
     text-decoration: none;
     font-style: normal;
     outline: none;
 }
 
-article .details > time > a svg {
+article .details > a svg {
     color: currentColor;
     visibility: hidden;
 }
 
-article .details > time > a:hover svg,
-article .details > time > a:focus svg {
+article .details > a:hover svg,
+article .details > a:focus svg {
     visibility: visible;
 }
 

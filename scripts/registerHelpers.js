@@ -5,7 +5,17 @@ const readTemplate = require('./readTemplate');
 
 function registerHelpers() {
     const { SafeString } = Handlebars;
-    Handlebars.registerHelper('header', () => new SafeString(readTemplate('fragments/header.hbs')({})));
+    Handlebars.registerHelper('header', name => {
+        const flagMap = {
+            isEnvelopes: name === 'envelopes',
+            isPostcards: name === 'postcards',
+            isStamps: name === 'stamps',
+            isPhotos: name === 'photos',
+            isAbout: name === 'photos'
+        };
+
+        return new SafeString(readTemplate('fragments/header.hbs')(flagMap));
+    });
     Handlebars.registerHelper('footer', () => new SafeString(readTemplate('fragments/footer.hbs')({})));
     Handlebars.registerHelper(
         'seo',

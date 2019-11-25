@@ -6,7 +6,8 @@
             "rules": {
                 "max-len": ["error", { "code": 120 }],
                 "indent": ["error", 4],
-                "object-curly-spacing": "off"
+                "object-curly-spacing": "off",
+                "comma-dangle": "off"
             }
         }
     ]

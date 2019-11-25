@@ -7,11 +7,11 @@
             <p itemprop="copyrightHolder">ZUBRY.BY</p>
         </a>
         <ul class="menu">
-            <li><a class="stamps" href="/stamps.html">Марки</a></li>
-            <li><a class="envelopes" href="/envelopes.html">Конверты</a></li>
-            <li><a class="postcards" href="/postcards.html">Посткарты</a></li>
-            <li><a class="photos" href="/photos.html">Открытки</a></li>
-            <li><a class="about" href="/about.html">О сайте</a></li>
+            <li><a aria-current="{{isStamps}}" class="stamps" href="/stamps.html">Марки</a></li>
+            <li><a aria-current="{{isEnvelopes}}" class="envelopes" href="/envelopes.html">Конверты</a></li>
+            <li><a aria-current="{{isPostcards}}" class="postcards" href="/postcards.html">Посткарты</a></li>
+            <li><a aria-current="{{isPhotos}}" class="photos" href="/photos.html">Открытки</a></li>
+            <li><a aria-current="{{isAbout}}" class="about" href="/about.html">О сайте</a></li>
         </ul>
         <button class="open-mobile-menu" aria-label="Открыть мобильное меню">
             <svg width="20" viewBox="0 0 20 16" aria-hidden="true" focusable="false">
@@ -28,11 +28,11 @@
     </nav>
     <nav class="mobile-menu">
         <ul class="menu">
-            <li><a class="stamps" href="/stamps.html">Марки</a></li>
-            <li><a class="envelopes" href="/envelopes.html">Конверты</a></li>
-            <li><a class="postcards" href="/postcards.html">Посткарты</a></li>
-            <li><a aria-selected="true" class="photos" href="/photos.html">Открытки</a></li>
-            <li><a class="about" href="/about.html">О сайте</a></li>
+            <li><a aria-current="{{isStamps}}" class="stamps" href="/stamps.html">Марки</a></li>
+            <li><a aria-current="{{isEnvelopes}}" class="envelopes" href="/envelopes.html">Конверты</a></li>
+            <li><a aria-current="{{isPostcards}}" class="postcards" href="/postcards.html">Посткарты</a></li>
+            <li><a aria-current="{{isPhotos}}" class="photos" href="/photos.html">Открытки</a></li>
+            <li><a aria-current="{{isAbout}}" class="about" href="/about.html">О сайте</a></li>
         </ul>
     </nav>
     <div class="logo-text">
