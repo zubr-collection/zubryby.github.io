@@ -52,7 +52,8 @@ article p {
     margin: 1.25em 0 2em;
     font-size: 1.25em;
     font-weight: 300;
-    word-break: break-word;
+    word-break: normal;
+    overflow-wrap: break-word;
     text-align: justify;
 }
 
