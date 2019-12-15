@@ -49,19 +49,33 @@
     }
 
     function setHeaderBehavior() {
-        window.addEventListener('scroll', function() {
-            const scrollPosition =
-                (document.documentElement && document.documentElement.scrollTop) ||
-                window.pageYOffset ||
-                window.scrollY ||
-                0;
-            const header = document.querySelector('header');
+        let lastKnownScrollPosition = 0;
+        let ticking = false;
 
-            const collapsedClassname = 'header--collapsed';
-            if (scrollPosition > 50 && !header.classList.contains(collapsedClassname)) {
-                header.classList.add(collapsedClassname);
-            } else if (scrollPosition <= 50 && header.classList.contains(collapsedClassname)) {
-                header.classList.remove(collapsedClassname);
+        function toggleHeader(scrollPosition) {
+            const header = document.querySelector('#header');
+
+            const collapsedClassName = 'header--collapsed';
+            if (scrollPosition > 50 && !header.classList.contains(collapsedClassName)) {
+                header.classList.add(collapsedClassName);
+            } else if (scrollPosition <= 50 && header.classList.contains(collapsedClassName)) {
+                header.classList.remove(collapsedClassName);
+            }
+        }
+
+        window.addEventListener('scroll', function() {
+            lastKnownScrollPosition =
+                window.scrollY ||
+                window.pageYOffset ||
+                (document.documentElement && document.documentElement.scrollTop) ||
+                0;
+            if (!ticking) {
+                window.requestAnimationFrame(function() {
+                    toggleHeader(lastKnownScrollPosition);
+                    ticking = false;
+                });
+
+                ticking = true;
             }
         });
     }
