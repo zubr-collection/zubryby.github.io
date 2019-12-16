@@ -9,6 +9,7 @@ article {
 }
 
 article > div {
+    width: 100%;
     max-width: 1920px;
 }
 
@@ -30,7 +31,7 @@ h2 {
 h2::first-letter {
     color: var(--page-color);
     font-size: 2em;
-    font-family: 'Marck Script', Helvetica, sans-serif;
+    font-family: 'Marck Script', cursive;
 }
 
 h2::after {
