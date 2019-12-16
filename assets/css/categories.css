@@ -30,17 +30,7 @@ h2 {
 h2::first-letter {
     color: var(--page-color);
     font-size: 2em;
-    font-family: 'Marck Script', cursive;;
-}
-
-h2::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 0.1em;
-    background: var(--page-color);
-    content: '';
+    font-family: 'Marck Script', Helvetica, sans-serif;
 }
 
 h2::after {
