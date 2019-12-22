@@ -2,7 +2,6 @@
     'use strict';
 
     window.onload = function() {
-        setHeaderBehavior();
         setCurrentFooterYear();
         initMobileMenu();
         initVendors();
@@ -46,38 +45,6 @@
             mobileMenuOpen.style.display = 'block';
             mobileMenuClose.style.display = 'none';
         };
-    }
-
-    function setHeaderBehavior() {
-        let lastKnownScrollPosition = 0;
-        let ticking = false;
-
-        function toggleHeader(scrollPosition) {
-            const header = document.querySelector('#header');
-
-            const collapsedClassName = 'header--collapsed';
-            if (scrollPosition > 50 && !header.classList.contains(collapsedClassName)) {
-                header.classList.add(collapsedClassName);
-            } else if (scrollPosition <= 50 && header.classList.contains(collapsedClassName)) {
-                header.classList.remove(collapsedClassName);
-            }
-        }
-
-        window.addEventListener('scroll', function() {
-            lastKnownScrollPosition =
-                window.scrollY ||
-                window.pageYOffset ||
-                (document.documentElement && document.documentElement.scrollTop) ||
-                0;
-            if (!ticking) {
-                window.requestAnimationFrame(function() {
-                    toggleHeader(lastKnownScrollPosition);
-                    ticking = false;
-                });
-
-                ticking = true;
-            }
-        });
     }
 
     function setCurrentFooterYear() {

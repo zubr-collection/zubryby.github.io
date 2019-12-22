@@ -76,6 +76,7 @@ header {
 
 .logo img {
     width: 2.75em;
+    height: 2.75em;
 }
 
 header nav {
@@ -90,41 +91,23 @@ header nav {
 }
 
 .logo p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
     margin: 0.25em 0.5em;
     color: white;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.5em;
     font-weight: 400;
-    transition: opacity 0.3s ease-in;
-}
-
-.logo-text {
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    height: 6em;
-    width: 100%;
-    padding: 0 2em;
-    background: var(--black-color);
-    box-shadow: 0 0 1em 0 var(--black-color);
-    z-index: 1;
-    position: absolute;
     opacity: 0.8;
-    box-sizing: border-box;
-    transition: opacity 0.3s ease-in;
 }
 
-.logo-text h1 {
-    color: white;
-    font-size: 1.5em;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+.logo p > span {
+    font-size: .5em;
     font-weight: 300;
-}
-
-.logo-text h1 span {
-    font-weight: 900;
+    max-width: 14em;
+    opacity: 0.8;
 }
 
 .menu {
@@ -199,26 +182,6 @@ header nav {
     text-decoration: none;
     text-transform: uppercase;
     transition: opacity, color 0.3s ease-out;
-}
-
-.header--collapsed .logo p,
-.header--collapsed .logo > div,
-.header--collapsed .menu > li a,
-.header--collapsed .open-mobile-menu {
-    opacity: 0.6;
-}
-
-.header--collapsed .mobile-menu > .menu > li a {
-    opacity: 1;
-}
-
-.logo:hover p,
-.logo:hover > div {
-    opacity: 1;
-}
-
-.header--collapsed .logo-text {
-    opacity: 0;
 }
 
 .menu > li a::after {
