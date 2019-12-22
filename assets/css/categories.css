@@ -22,21 +22,21 @@ article > div {
     background-size: cover;
 }
 
-h2 {
+h1 {
     position: relative;
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0.25em 0;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-h2::first-letter {
+h1::first-letter {
     color: var(--page-color);
     font-size: 2em;
     font-family: 'Marck Script', cursive;
 }
 
-h2::after {
+h1::after {
     position: absolute;
     top: 2.25em;
     right: 0;
@@ -104,7 +104,7 @@ article .details > a:focus svg {
     visibility: visible;
 }
 
-article .details > h3 {
+article .details > h2 {
     font-size: 1.2em;
     font-weight: 300;
     text-transform: uppercase;
