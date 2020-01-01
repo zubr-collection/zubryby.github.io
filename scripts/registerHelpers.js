@@ -24,7 +24,7 @@ function registerHelpers() {
     );
     Handlebars.registerHelper(
         'resources',
-        addSwiper => new SafeString(readTemplate('fragments/resources.hbs')({ addSwiper }))
+        (addSwiper, image) => new SafeString(readTemplate('fragments/resources.hbs')({ addSwiper, image }))
     );
     Handlebars.registerHelper(
         'collectionArticle',
