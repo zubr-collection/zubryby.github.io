@@ -49,6 +49,6 @@
 
     function setCurrentFooterYear() {
         const poweredTime = document.querySelector('footer time');
-        poweredTime.textContent = `${new Date().getFullYear()}`;
+        poweredTime.textContent = `2019 - ${new Date().getFullYear()}`;
     }
 })(window);
