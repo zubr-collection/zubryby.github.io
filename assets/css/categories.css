@@ -145,3 +145,9 @@ article .details dd {
         padding: 1.5em 1em 0;
     }
 }
+
+@media all and (max-width: 400px) {
+    .cover {
+        height: 25em;
+    }
+}
