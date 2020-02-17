@@ -88,6 +88,7 @@ header nav {
     max-width: 1920px;
     padding: 0.5em;
     background: var(--black-color);
+    box-shadow: 0 0.5em 1em 0 var(--black-color);
     font-size: 1.25em;
     box-sizing: border-box;
 }
