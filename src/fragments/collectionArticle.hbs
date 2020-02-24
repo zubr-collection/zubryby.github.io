@@ -8,10 +8,12 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/{{../pictureFolder}}/{{image}}-480w.jpg">
                     <img itemprop="image"
+                         aria-describedby="{{image}}"
                          src="./assets/pics/{{../pictureFolder}}/{{image}}.jpg"
-                         width="400" height="200" alt="Изображение экспоната" />
+                         width="400" height="200" alt="" />
                 </picture>
-                <div class="details" id="{{image}}">
+                <div class="details">
+                    <div id="{{image}}" class="anchor" aria-label="Экспонат {{formattedYear}} {{title}}"></div>
                     <a href="#{{image}}">
                         <time datetime="{{formattedYear}}" itemprop="description">
                             {{year}}

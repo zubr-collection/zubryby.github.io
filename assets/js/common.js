@@ -24,6 +24,15 @@
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev'
+                },
+                a11y: {
+                    enabled: true,
+                    notificationClass: 'swiper-notification',
+                    prevSlideMessage: 'Предыдущий слайд',
+                    nextSlideMessage: 'Следующий слайд',
+                    firstSlideMessage: 'Это первый слайд',
+                    lastSlideMessage: 'Это последний слайд',
+                    paginationBulletMessage: 'Перейти к слайду {{index}}'
                 }
             });
         }
