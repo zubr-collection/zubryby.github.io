@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="http://schema.org/AboutPage">
+<head>
+    {{seo "Доступность" "slide0" "ZUBRY.BY - Частная коллекция почтовых предметов, посвященная теме зубров. Автор - Артур Басак."}}
+    {{resources false "slide0"}}
+
+    <style>
+        :root {
+            --page-color: var(--about-color);
+        }
+
+        article {
+            flex-direction: column;
+        }
+
+        article ul {
+            margin: 0 0 1.25em;
+            padding: 0 1.1em;
+        }
+
+        article h2, article h3 {
+            margin: 1em 0 0;
+            font-size: 1.6em;
+            font-weight: 500;
+        }
+
+        article hr {
+            width: 50%;
+            margin: 0;
+        }
+
+        article a {
+            color: var(--black-color);
+            font-style: normal;
+        }
+
+        article a:hover,
+        article a:focus {
+            background-color: var(--black-color);
+            color: white;
+            font-style: normal;
+            outline: none;
+        }
+
+        article p {
+            margin: 1em 0;
+        }
+
+        .menu a.about {
+            color: var(--about-color);
+            opacity: 1;
+        }
+
+        .menu > li a.about::after {
+            width: 100%;
+        }
+
+        .cover {
+            background-image: url(./assets/pics/slide0.jpg);
+        }
+
+        @media (pointer: coarse) {
+            .menu > li a.about::after {
+                width: 0;
+            }
+        }
+
+        @media (max-width: 769px) {
+            article figure {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .noshade {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+{{header 'Доступность'}}
+<div class="cover"></div>
+<article>
+    <h1>Доступность</h1>
+    <h2>Заявление о доступности для <span class="basic-information website-name">ZUBRY.BY</span></h2>
+    <p>
+        <span class="basic-information organization-name">ZUBRY.BY</span>
+        стремится обеспечить цифровую доступность для людей с ограниченными возможностями.
+        Мы постоянно улучшаем пользовательский опыт для всех и применяем соответствующие стандарты доступности.
+    </p>
+    <h3>Меры по поддержке доступности</h3>
+    <p>
+        <span class="basic-information organization-name">ZUBRY.BY</span>
+        принимает следующие меры для обеспечения доступности
+        <span class="basic-information website-name">ZUBRY.BY</span>:
+    </p>
+    <ul class="organizational-effort accessibility-measures">
+        <li>Включить доступность в общую миссию.</li>
+        <li>Использовать формальные методы обеспечения качества для доступности.</li>
+    </ul>
+    <h3>Статус соответствия</h3>
+    <p>
+        <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG)</a> определяет требования для дизайнеров и разработчиков, чтобы улучшить доступность для людей с ограниченными возможностями. Он определяет три уровня соответствия: Level A, Level AA, and Level AAA.
+    </p>
+    <p>
+        <span class="basic-information website-name">ZUBRY.BY</span>
+        <span class="basic-information conformance-status" data-printfilter="lowercase">частично соответствует</span>
+        <span class="basic-information conformance-standard"><span data-negate="">WCAG 2.1 level AA</span>.</span>
+        <span>
+	<span class="basic-information conformance-status">Частичное соответствие</span>
+	означает что
+	<span class="basic-information conformance-meaning">некоторые части контента не полностью соответствуют стандарту доступности</span>.
+</span>
+    </p>
+    <h3>Обратная связь</h3>
+    <p>
+        Мы приветствуем ваши отзывы о доступности
+        <span class="basic-information website-name">ZUBRY.BY</span>.
+        Пожалуйста, дайте нам знать, если вы столкнетесь с препятствиями при доступности сайта
+        <span class="basic-information website-name">ZUBRY.BY</span>:
+    </p>
+    <ul class="basic-information feedback h-card">
+        <li>
+            E-mail:
+            <a class="email u-email" href="mailto:zubryby@gmail.com">zubryby@gmail.com</a>
+        </li>        <li>
+            Skype:
+            <a class="skype u-skype" href="skype:archik408">archik408</a>
+        </li>
+    </ul>
+    <h3>Совместимость с браузерами и вспомогательными технологиями</h3>
+    <p>
+        <span class="basic-information website-name">ZUBRY.BY</span>
+        разработан для совместимости со следующими вспомогательными технологиями:
+    </p>
+    <ul class="technical-information compatible-environments">
+        <li>Все современные браузеры с вспомогательной технологией Voice Over на операционной системе MacOS</li>
+    </ul>
+    <h3>Технические характеристики</h3>
+    <p>
+        Доступность
+        <span class="basic-information website-name">ZUBRY.BY</span>
+        полагается на следующие технологии для работы с определенной комбинацией веб-браузера и любых вспомогательных технологий или плагинов, установленных на вашем компьютере:
+    </p>
+    <ul class="technical-information technologies-used">
+        <li>HTML</li>
+        <li>WAI-ARIA</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <p>Эти технологии используются для соответствия используемым стандартам доступности.</p>
+    <hr class="noshade" noshade="noshade">
+    <p>
+        Это заявление было создано на
+        <span class="basic-information statement-created-date">15 Февраля 2020</span>
+        используя <a href="https://www.w3.org/WAI/planning/statements/">W3C Accessibility Statement Generator Tool</a>.
+    </p>
+</article>
+{{footer}}
+</body>
+</html>
