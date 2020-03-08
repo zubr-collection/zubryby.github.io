@@ -21,7 +21,7 @@ body {
 
 body {
     background: var(--black-color);
-    font-family: Helvetica, sans-serif;
+    font-family: Montserrat, Helvetica, sans-serif;
     font-size: 0.875rem;
     color: white;
     margin: 0;
@@ -307,14 +307,14 @@ footer a:focus {
 footer .contacts {
     margin: 0;
     padding: 0;
-    font-size: 1em;
+    font-size: 0.8em;
     list-style: none;
 }
 
 footer .contacts a {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 0 0.25em;
 }
 
@@ -342,7 +342,7 @@ footer .social li img:hover {
 }
 
 footer > div {
-    text-align: center;
+    text-align: left;
 }
 
 @media all and (max-width: 769px) {
@@ -380,6 +380,14 @@ footer > div {
     footer {
         padding: 1em 1em;
         font-size: 0.8em;
+    }
+
+    footer > div {
+        text-align: center;
+    }
+
+    footer .contacts a {
+        justify-content: flex-start;
     }
 }
 

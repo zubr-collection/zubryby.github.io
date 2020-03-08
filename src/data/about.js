@@ -1,3 +1,3 @@
 module.exports = {
-    name: 'О САЙТЕ'
+    name: 'О сайте'
 };
