@@ -59,7 +59,7 @@ article img {
     filter: contrast(105%) brightness(110%) saturate(115%);
     border: 3px solid white;
     box-shadow: 0 2px 10px -3px #100d0ded;
-    transform: rotate(-3deg);
+    transform: rotate(-3deg) translateY(1em);
 }
 
 article section {
@@ -106,10 +106,10 @@ article .details > a:focus svg {
 }
 
 article .details > h2 {
-    margin: 0.55em 0 0;
-    font-size: 1.2em;
-    font-weight: 300;
-    text-transform: uppercase;
+    margin: 0.5em 0 0;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--page-color);
 }
 
 article .details > dl {
@@ -149,7 +149,7 @@ article .details dd {
 
     article img {
         box-shadow: none;
-        transform: rotate(0deg);
+        transform: rotate(0deg) translateY(0px);
     }
 }
 
