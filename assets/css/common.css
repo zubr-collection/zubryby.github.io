@@ -280,7 +280,7 @@ footer p {
 }
 
 footer address > p {
-    margin: 1em 0;
+    margin: 0 0 1em;
     opacity: 0.6;
     font-weight: 400;
     text-align: center;
