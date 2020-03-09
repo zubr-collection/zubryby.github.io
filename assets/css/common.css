@@ -14,6 +14,11 @@
     --thumb-bg-color: var(--black-color);
 }
 
+*::selection {
+    background: var(--page-color);
+    color: white;
+}
+
 html,
 body {
     position: relative;
@@ -278,7 +283,6 @@ footer address > p {
     margin: 1em 0;
     opacity: 0.6;
     font-weight: 400;
-    font-size: 1em;
     text-align: center;
 }
 
