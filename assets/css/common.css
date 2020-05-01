@@ -52,9 +52,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 header {
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 10;
     width: 100%;
     height: 6.25em;
     box-sizing: border-box;
@@ -140,8 +141,20 @@ header nav {
     width: 2em;
 }
 
-.mobile-menu {
+.mobile-menu-wrapper {
     position: absolute;
+    right: 0;
+    z-index: 2;
+    overflow: hidden;
+    justify-content: center;
+    align-items: flex-start;
+    width: 0;
+    height: 100vh;
+    transition: width 0.3s ease-in;
+    will-change: width;
+}
+
+.mobile-menu {
     display: none;
     justify-content: center;
     align-items: flex-start;
@@ -149,7 +162,6 @@ header nav {
     height: 100vh;
     box-sizing: border-box;
     background: var(--black-color);
-    z-index: 2;
 }
 
 .mobile-menu > .menu {
