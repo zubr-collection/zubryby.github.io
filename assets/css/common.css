@@ -259,6 +259,41 @@ header nav {
     }
 }
 
+.top-link {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 9;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    color: var(--black-color);
+    background: white;
+    box-shadow: 0.02em 0.02em 0.15em currentColor;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.5;
+
+    font-size: 2.8rem;
+    line-height: 1.25;
+    text-decoration: none;
+
+    visibility: hidden;
+}
+
+.top-link:active, .top-link:visited {
+    color: var(--black-color);
+}
+
+.top-link:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -379,6 +414,10 @@ footer > div {
 
     .open-mobile-menu {
         display: block;
+    }
+
+    .menu > li a {
+        font-size: 1rem;
     }
 
     footer {

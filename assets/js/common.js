@@ -1,11 +1,17 @@
 (function(window) {
     'use strict';
 
-    window.onload = function() {
+    let lastKnownScrollPosition = 0;
+    let ticking = false;
+
+    window.onload = listenLoad;
+    window.addEventListener('scroll', listenScroll);
+
+    function listenLoad() {
         setCurrentFooterYear();
         initMobileMenu();
         initVendors();
-    };
+    }
 
     function initVendors() {
         if (window.Swiper) {
@@ -59,5 +65,27 @@
     function setCurrentFooterYear() {
         const poweredTime = document.querySelector('footer time');
         poweredTime.textContent = `2019 - ${new Date().getFullYear()}`;
+    }
+
+    function listenScroll() {
+        lastKnownScrollPosition = window.scrollY;
+
+        if (!ticking) {
+            window.requestAnimationFrame(() => {
+                toggleTopLink();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }
+
+    function toggleTopLink() {
+        const topLink = document.querySelector('.top-link');
+
+        if (lastKnownScrollPosition > 600) {
+            topLink.style.visibility = 'visible';
+        } else {
+            topLink.style.visibility = 'hidden';
+        }
     }
 })(window);
