@@ -154,6 +154,12 @@ header nav {
     will-change: width;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .mobile-menu-wrapper {
+        transition: none;
+    }
+}
+
 .mobile-menu {
     display: none;
     justify-content: center;
@@ -301,9 +307,11 @@ header nav {
     color: var(--black-color);
 }
 
-.top-link:hover {
-    opacity: 1;
-    cursor: pointer;
+@media (pointer: fine) {
+    .top-link:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }   
 }
 
 footer {
