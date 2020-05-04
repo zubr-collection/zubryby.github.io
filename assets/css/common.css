@@ -1,5 +1,6 @@
 :root {
     --black-color: #1d1e20;
+    --dark-gray-color: #414141;
     --gray-color: rgb(163, 170, 182);
 
     --stamps-color: #c5a979;
@@ -307,11 +308,61 @@ header nav {
     color: var(--black-color);
 }
 
+.top-link:focus {
+    outline: 0.05em dotted var(--gray-color);
+}
+
 @media (pointer: fine) {
     .top-link:hover {
         opacity: 0.8;
         cursor: pointer;
     }   
+}
+
+.skip-links {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.skip-links > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 4.75em 0 1em;
+    margin: 0;
+    background: var(--dark-gray-color);
+    font-size: 0.8em;
+    line-height: 1.75;
+    list-style: none;
+}
+
+.skip-links > ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.skip-links  a {
+    margin: 0 1em;
+    border: none;
+    color: white;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out;
+    text-decoration: none;
+}
+
+.skip-links  a:hover {
+    opacity: 1;
+}
+
+.skip-links  a:visited {
+    color: white;
+}
+
+.skip-links  a:focus {
+    outline: 0.15em dotted var(--gray-color);
 }
 
 footer {
@@ -438,6 +489,10 @@ footer > div {
 
     .menu > li a {
         font-size: 1rem;
+    }
+
+    .skip-links {
+        display: none;
     }
 
     footer {

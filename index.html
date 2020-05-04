@@ -235,6 +235,12 @@
 </head>
 <body>
 <header id="header">
+    <nav class="skip-links">
+        <ul>
+            <li><a href="#content">Перейти к основному контенту ↓</a></li>
+            <li><a href="#footer">Перейти к нижнему колонтитулу ↓</a></li>
+        </ul>
+    </nav>
     <nav>
         <a href="/" class="logo">
             <div class="logo-img">
@@ -277,8 +283,8 @@
 </header>
 <a class="top-link" aria-label="Перейти на верх страницы" title="Вверх" href="#top">↑</a>
 
-<div class="swiper-container">
-    <div class="swiper-wrapper">
+<div class="swiper-container" id="content">
+    <div tabindex="0" role="region" aria-live="polite" class="swiper-wrapper">
         <div class="swiper-slide slide-1"></div>
         <div class="swiper-slide slide-5"></div>
         <div class="swiper-slide slide-2"></div>
@@ -291,7 +297,7 @@
     <div class="swiper-button-next swiper-button-white"></div>
     <div class="swiper-button-prev swiper-button-white"></div>
 </div>
-<footer>
+<footer id="footer">
     <div>
         <p>&copy; <time itemprop="copyrightYear">2019</time> ZUBRY.BY<br> Все права защищены. <br> <a class="phone" href="./accessibility.html">Заявление о доступности</a></p>
         <a itemprop="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" aria-label="Лицензия: Creative Commons License" rel="external noreferrer noopener nofollow">
