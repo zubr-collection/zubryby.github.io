@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru" itemscope itemtype="http://schema.org/WebPage">
+<html lang="ru" itemscope itemtype="http://schema.org/AboutPage">
 <head>
     <meta charset="utf-8">
 
-<title>Главная | ZUBRY.BY - Коллекция Почтовых Предметов</title>
+<title>Политика конфиденциальности | ZUBRY.BY - Коллекция Почтовых Предметов</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 
@@ -31,16 +31,16 @@
 <meta name="twitter:site" content="@ArturBasak">
 <meta name="twitter:creator" content="@ArturBasak">
 
-<meta property="og:title" content="ZUBRY.BY - Главная">
+<meta property="og:title" content="ZUBRY.BY - Политика конфиденциальности">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://zubry.by">
-<meta property="og:image" content="https://zubry.by/assets/pics/slide4-800w.jpg">
+<meta property="og:image" content="https://zubry.by/assets/pics/slide2-800w.jpg">
 <meta property="og:description" content="ZUBRY.BY - Частная коллекция почтовых предметов, посвященная теме зубров. Автор - Артур Басак.">
 <meta property="og:locale" content="ru_RU">
 
-    <link rel="prefetch" href="./assets/pics/slide4" as="image" media="(min-width: 801px)">
-<link rel="prefetch" href="./assets/pics/slide4-800w.jpg" as="image" media="(max-width: 800px) and (min-width: 401px)">
-<link rel="prefetch" href="./assets/pics/slide4-400w.jpg" as="image" media="(max-width: 400px)">
+    <link rel="prefetch" href="./assets/pics/slide2" as="image" media="(min-width: 801px)">
+<link rel="prefetch" href="./assets/pics/slide2-800w.jpg" as="image" media="(max-width: 800px) and (min-width: 401px)">
+<link rel="prefetch" href="./assets/pics/slide2-400w.jpg" as="image" media="(max-width: 400px)">
 
 <link rel="preload" href="./assets/pics/slide-0.jpg" as="image" media="(min-width: 801px)">
 <link rel="preload" href="./assets/pics/slide-0-800w.jpg" as="image" media="(max-width: 800px) and (min-width: 401px)">
@@ -72,13 +72,11 @@
     gtag('config', 'UA-149477412-1');
 </script>
 
-    <link rel="stylesheet" href="./vendors/css/swiper.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@634&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./assets/css/common.min.css">
 <link rel="stylesheet" href="./assets/css/categories.min.css">
 
-    <script src="./vendors/js/swiper.min.js" defer async></script>
 <script src="./assets/js/common.min.js" defer async></script>
 <style>
     nav a, nav a:visited {
@@ -88,147 +86,69 @@
 
 
     <style>
-        .swiper-container {
-            width: 100%;
-            height: calc(100vh - 7.25em);
+        :root {
+            --page-color: var(--about-color);
         }
 
-        .swiper-slide {
-            text-align: center;
+        article {
+            flex-direction: column;
+        }
+
+        article h1 {
+            font-size: 3em;
+        }
+
+        article ul {
+            margin: 0 0 1.25em;
+            padding: 0 1.1em;
+        }
+
+        article h2, article h3 {
+            margin: 1em 0 0;
+            font-size: 1.6em;
+            font-weight: 500;
+            color: var(--page-color);
+        }
+
+        article hr {
+            width: 50%;
+            margin: 0;
+        }
+
+        article a {
+            color: var(--black-color);
+            font-style: normal;
+        }
+
+        article a:hover,
+        article a:focus {
             background-color: var(--black-color);
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .swiper-button-next,
-        .swiper-button-prev {
-            border-radius: 50%;
-            height: 5em;
-            width:  5em;
+            color: white;
+            font-style: normal;
             outline: none;
         }
 
-        .swiper-button-next:focus,
-        .swiper-button-prev:focus {
-            outline: 0.25em dotted white;
+        article p {
+            margin: 1em 0;
         }
 
-        .swiper-pagination-bullet {
-            width: 1em;
-            height: 1em;
-            opacity: 0.5;
-            box-shadow: 0.2em 0.3em 0.8em var(--black-color);
-        }
-
-        .swiper-pagination-bullet:focus {
-            outline: 0.25em dotted white;
-        }
-
-        .swiper-button-prev,
-        .swiper-button-next {
-            border: 0.3em solid var(--postcards-color);
-        }
-
-        .slide-0 {
-            background-image:url(./assets/pics/slide0.jpg);
-            background-position: center;
-        }
-
-        .slide-1 {
-            background-image:url(./assets/pics/slide1.jpg);
-            background-position: center;
-        }
-
-        .slide-2 {
-            background-image:url(./assets/pics/slide2.jpg);
-        }
-
-        .slide-3 {
-            background-image:url(./assets/pics/slide3.jpg);
-        }
-
-        .slide-4 {
-            background-image:url(./assets/pics/slide4.jpg);
-        }
-
-        .slide-5 {
-            background-image:url(./assets/pics/slide5.jpg);
-        }
-
-        @media (pointer: coarse) {
-            .swiper-button-next:focus,
-            .swiper-button-prev:focus,
-            .swiper-pagination-bullet:focus {
-                outline: none;
-            }
-        }
-
-        @media (max-width: 1025px) {
-            .swiper-slide {
-                background-position: center;
-            }
+        .cover {
+            background-image: url(./assets/pics/slide0.jpg);
         }
 
         @media (max-width: 800px) {
-            .swiper-button-next,
-            .swiper-button-prev {
-                border: none;
+            article h1 {
+                font-size: 1.85em;
+                top: -3.5em;
             }
 
-            .swiper-pagination {
-                display: none;
+            article figure {
+                width: 100%;
+                max-width: 100%;
             }
 
-            .slide-0 {
-                background-image:url(./assets/pics/slide0-800w.jpg);
-            }
-
-            .slide-1 {
-                background-image:url(./assets/pics/slide1-800w.jpg);
-            }
-
-            .slide-2 {
-                background-image:url(./assets/pics/slide2-800w.jpg);
-            }
-
-            .slide-3 {
-                background-image:url(./assets/pics/slide3-800w.jpg);
-            }
-
-            .slide-4 {
-                background-image:url(./assets/pics/slide4-800w.jpg);
-            }
-
-            .slide-5 {
-                background-image:url(./assets/pics/slide5-800w.jpg);
-            }
-        }
-
-        @media (max-width: 400px) {
-            .slide-0 {
-                background-image:url(./assets/pics/slide0-400w.jpg);
-            }
-
-            .slide-1 {
-                background-image:url(./assets/pics/slide1-400w.jpg);
-            }
-
-            .slide-2 {
-                background-image:url(./assets/pics/slide2-400w.jpg);
-            }
-
-            .slide-3 {
-                background-image:url(./assets/pics/slide3-400w.jpg);
-            }
-
-            .slide-4 {
-                background-image:url(./assets/pics/slide4-400w.jpg);
-            }
-
-            .slide-5 {
-                background-image:url(./assets/pics/slide5-400w.jpg);
+            .noshade {
+                width: 100%;
             }
         }
     </style>
@@ -283,20 +203,26 @@
 </header>
 <a class="top-link" aria-label="Перейти на верх страницы" title="Вверх" href="#top">↑</a>
 
-<div class="swiper-container" id="content">
-    <div tabindex="0" role="region" aria-live="polite" class="swiper-wrapper">
-        <div class="swiper-slide slide-1"></div>
-        <div class="swiper-slide slide-5"></div>
-        <div class="swiper-slide slide-2"></div>
-        <div class="swiper-slide slide-0"></div>
-        <div class="swiper-slide slide-3"></div>
-        <div class="swiper-slide slide-4"></div>
-    </div>
-
-    <div class="swiper-pagination swiper-pagination-white"></div>
-    <div class="swiper-button-next swiper-button-white"></div>
-    <div class="swiper-button-prev swiper-button-white"></div>
-</div>
+<div class="cover"></div>
+<article id="content">
+  <div>
+    <h1>Политика конфиденциальности</h1>
+          <h2>Политика Конфиденциальности сайта ZUBRY.BY</h2>
+          <p>Администрация сайта zubry.by обязуется сохранять вашу конфиденциальность в Интернете. Мы уделяем большое значение охране предоставленных вами данных. Наша политика конфиденциальности основана на требованиях <a href="https://ec.europa.eu/info/law/law-topic/data-protection_en">Общего регламента о защите персональных данных Европейского Союза (GDPR). </a> <br><br>Цели, в которых мы собираем персональные данные: улучшение работы нашего сервиса, осуществление услуг, связанных с направлением деятельности данного сайта, а так же для указанных ниже действий.</p>
+          <h3>Использование технических данных при посещении сайта</h3>
+          <p>При посещении вами сайта zubry.by в базе данных сохраняются записи о вашем IP адресе, времени посещения, настройках браузера, операционной системе, а также другая техническая информация необходимая для корректного отображения содержимого сайта. По этим данным нам невозможно идентифицировать личность посетителя.</p>
+          <h3>Использование cookies</h3>
+          <p>Для корректного отображения содержимого и для удобства использования сайта zubry.by мы используем cookie файлы. Это небольшие файлы, которые хранятся на вашем устройстве. Они помогают сайту запомнить информацию о вас, например на каком языке вы просматриваете сайт и какие страницы вы уже открывали, эта информация будет полезна при следующем посещении. <br><br>Благодаря файлам cookie просмотр сайта становится значительно более удобным. Подробнее про эти файлы вы можете <a href="https://ru.wikipedia.org/wiki/Cookie">прочитать тут</a>. Вы можете настроить прием или блокировку cookie в браузере самостоятельно. Невозможность принимать cookie может ограничить работоспособность сайта.</p>
+          <h3>Использование персональных данных другими сервисами</h3>
+          <p>На этом сайте используются сторонние интернет-сервисы, осуществляющие независимый от нас сбор информации: Google Analytics. Собранные ими данные могут предоставляться другим службам внутри этих организаций, они могут использовать данные для персонализации рекламы своей собственной рекламной сети.<br><br> Вы можете прочитать пользовательские соглашения этих организаций на их сайтах. Там же вы можете отказаться от сбора ими персональных данных, к примеру блокировщик <a href="https://tools.google.com/dlpage/gaoptout?hl=ru">Google Analytics находится тут</a>. <br><br>Мы не передаем персональные данные другим организациям и службам, не указанным в данной политике конфиденциальности. Исключение составляет только передача информации при законных требованиях государственных органов уполномоченных осуществлять данные действия.</p>
+          <h3>Ссылки на другие сайты</h3>
+          <p>Наш сайт zubry.by может содержать ссылки на другие сайты, которые не управляются нами. Мы не несем ответственность за их содержание. Мы рекомендуем вам ознакомиться с политикой конфиденциальности каждого сайта, который вы посещаете, если она там есть.</p>
+          <h3>Изменения в политике конфиденциальности</h3>
+          <p>Наш сайт zubry.by может&nbsp;обновлять нашу политику конфиденциальности время от времени. Мы сообщаем о любых изменениях, разместив новую политику конфиденциальности на этой странице. Мы отслеживаем изменения законодательства, касающегося персональных данных в Европейском Союзе и в государстве Республика Беларусь. <br><br>Если вы оставили персональные данные у нас, то мы оповестим вас об изменении в политике конфиденциальности. Если ваши персональные данные были введены не корректно, то мы не сможем с вами связаться.</p>
+          <h3>Обратная связь, заключительные положения</h3>
+          <p>Связаться с администрацией сайта zubry.by по вопросам, связанным с политикой конфиденциальности можно по адресу: <a class="email u-email" href="mailto:zubryby@gmail.com">zubryby@gmail.com</a>, либо с помощью контактной формы указанной в соответствующем разделе данного сайта. <br><br>Если вы не согласны с данной политикой конфиденциальности, вы не можете пользоваться услугами сайта zubry.by, в этом случае вы должны воздержаться от посещения нашего сайта.</p>
+  </div>
+</article>
 <footer id="footer">
     <div>
         <p>&copy;&nbsp;<time itemprop="copyrightYear">2019</time>&nbsp;ZUBRY.BY</p>
