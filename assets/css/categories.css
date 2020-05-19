@@ -108,7 +108,7 @@ article .details > a:focus svg {
 article .details > h2 {
     margin: 0.5em 0 0;
     font-family: Lora, 'Times New Roman', serif;
-    font-size: 1.9em;
+    font-size: 1.5em;
     font-weight: 500;
     color: var(--page-color);
 }

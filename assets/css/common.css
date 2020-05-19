@@ -176,6 +176,7 @@ header nav {
 .mobile-menu > .menu {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: unset;
     padding: 0;
