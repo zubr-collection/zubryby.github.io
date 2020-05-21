@@ -60,23 +60,27 @@ article div[role="search"] .field {
 }
 
 article div[role="search"] #search {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
     font-size: 1em;
     line-height: 1.5;
     font-weight: normal;
     width: 20em;
-    border: 0.125em solid var(--page-color);
+    border: 2px solid var(--page-color);
     padding: 0.5em;
     margin-right: 0.75em;
+}
 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+article div[role="search"] #search-submit:active {
+    background: var(--black-color);
 }
 
 article div[role="search"] #search:focus,
 article div[role="search"] #search-submit:focus {
-    outline: 0.2em dotted var(--black-color);
-    outline-offset: 0.125em;
+    outline: 3px dotted var(--black-color);
+    outline-offset: 0.2em;
 }
 
 article div[role="search"] #search-submit {
