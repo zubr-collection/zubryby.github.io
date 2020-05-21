@@ -67,6 +67,10 @@ article div[role="search"] #search {
     border: 0.125em solid var(--page-color);
     padding: 0.5em;
     margin-right: 0.75em;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 article div[role="search"] #search:focus,
