@@ -178,7 +178,17 @@
     <div>
         <h1 itemprop="name">Конверты</h1>
         <p itemprop="description">Почтовые конверты со всего мира, которые содержат изображение, спецштемпель или марку, посвященные теме зубров. Конверты расположены в хронологическом порядке.</p>
-            <section itemscope itemtype="http://schema.org/Thing">
+        <div role="search">
+            <form>
+                <label for="search">Поиск экспонатов:</label>
+                <div class="hint">Введите ключевые слова через пробел, к примеру, "Беловежский зубр СССР"</div>
+                <div class="field">
+                    <input id="search" type="search" name="search" value="">
+                    <input id="search-submit" type="submit" value="Найти">
+                </div>
+            </form>
+        </div>
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1954-480w.jpg">
                     <img itemprop="image"
@@ -214,7 +224,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#poland-1954" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1955-480w.jpg">
                     <img itemprop="image"
@@ -246,7 +256,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#poland-1955" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/germany-1956-480w.jpg">
                     <img itemprop="image"
@@ -282,7 +292,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#germany-1956" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/gdr-1957-480w.jpg">
                     <img itemprop="image"
@@ -316,7 +326,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#gdr-1957" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceskoslovenska-1959-480w.jpg">
                     <img itemprop="image"
@@ -352,7 +362,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ceskoslovenska-1959" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/hungary-1961-480w.jpg">
                     <img itemprop="image"
@@ -388,7 +398,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#hungary-1961" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/nederland-1964-480w.jpg">
                     <img itemprop="image"
@@ -426,7 +436,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#nederland-1964" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1968-480w.jpg">
                     <img itemprop="image"
@@ -472,7 +482,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ussr-1968" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romana-1968-480w.jpg">
                     <img itemprop="image"
@@ -508,7 +518,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#romana-1968" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-1-480w.jpg">
                     <img itemprop="image"
@@ -552,7 +562,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ussr-1969-1" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-480w.jpg">
                     <img itemprop="image"
@@ -598,7 +608,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ussr-1969" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1972-480w.jpg">
                     <img itemprop="image"
@@ -644,7 +654,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ussr-1972" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1972-480w.jpg">
                     <img itemprop="image"
@@ -686,7 +696,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#romania-1972" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-1-480w.jpg">
                     <img itemprop="image"
@@ -726,7 +736,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#romania-1977-1" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-480w.jpg">
                     <img itemprop="image"
@@ -766,7 +776,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#romania-1977" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1980-480w.jpg">
                     <img itemprop="image"
@@ -806,7 +816,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#romania-1980" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-1-480w.jpg">
                     <img itemprop="image"
@@ -852,7 +862,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ussr-1981-1" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-480w.jpg">
                     <img itemprop="image"
@@ -900,7 +910,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ussr-1981" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1981-480w.jpg">
                     <img itemprop="image"
@@ -940,7 +950,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#poland-1981" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1987-480w.jpg">
                     <img itemprop="image"
@@ -980,7 +990,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#romania-1987" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1988-480w.jpg">
                     <img itemprop="image"
@@ -1022,7 +1032,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#litva-1988" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1994-480w.jpg">
                     <img itemprop="image"
@@ -1066,7 +1076,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-1994" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1996-480w.jpg">
                     <img itemprop="image"
@@ -1110,7 +1120,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#litva-1996" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1996-480w.jpg">
                     <img itemprop="image"
@@ -1154,7 +1164,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-1996" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/slovensko-1996-480w.jpg">
                     <img itemprop="image"
@@ -1204,7 +1214,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#slovensko-1996" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1996-480w.jpg">
                     <img itemprop="image"
@@ -1244,7 +1254,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#romania-1996" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1996-480w.jpg">
                     <img itemprop="image"
@@ -1284,7 +1294,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#poland-1996" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1997-480w.jpg">
                     <img itemprop="image"
@@ -1320,7 +1330,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-1997" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1998-480w.jpg">
                     <img itemprop="image"
@@ -1356,7 +1366,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-1998" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-1-480w.jpg">
                     <img itemprop="image"
@@ -1392,7 +1402,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-1999-1" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-480w.jpg">
                     <img itemprop="image"
@@ -1440,7 +1450,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-1999" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1999-480w.jpg">
                     <img itemprop="image"
@@ -1480,7 +1490,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#poland-1999" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-3-480w.jpg">
                     <img itemprop="image"
@@ -1524,7 +1534,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-1999-3" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2002-480w.jpg">
                     <img itemprop="image"
@@ -1568,7 +1578,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2002" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2003-480w.jpg">
                     <img itemprop="image"
@@ -1610,7 +1620,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2003" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2005-1-480w.jpg">
                     <img itemprop="image"
@@ -1654,7 +1664,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2005-1" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2006-480w.jpg">
                     <img itemprop="image"
@@ -1700,7 +1710,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2006" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-1-480w.jpg">
                     <img itemprop="image"
@@ -1746,7 +1756,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2009-1" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-2009-480w.jpg">
                     <img itemprop="image"
@@ -1780,7 +1790,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#poland-2009" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-2-480w.jpg">
                     <img itemprop="image"
@@ -1826,7 +1836,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2009-2" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2010-480w.jpg">
                     <img itemprop="image"
@@ -1872,7 +1882,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2010" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-480w.jpg">
                     <img itemprop="image"
@@ -1916,7 +1926,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2011" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-2-480w.jpg">
                     <img itemprop="image"
@@ -1964,7 +1974,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2011-2" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2012-480w.jpg">
                     <img itemprop="image"
@@ -2012,7 +2022,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2012" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2014-480w.jpg">
                     <img itemprop="image"
@@ -2060,7 +2070,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2014" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2017-480w.jpg">
                     <img itemprop="image"
@@ -2110,7 +2120,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#belarus-2017" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceska-2017-480w.jpg">
                     <img itemprop="image"
@@ -2160,7 +2170,7 @@
                 </div>
                 <link itemprop="isPartOf" href="#ceska-2017" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/envelopes.html" />
             </section>
-            <section itemscope itemtype="http://schema.org/Thing">
+            <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2018-480w.jpg">
                     <img itemprop="image"

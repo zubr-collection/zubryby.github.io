@@ -11,6 +11,7 @@
         setCurrentFooterYear();
         initMobileMenu();
         initVendors();
+        initSearchFeature();
     }
 
     function initVendors() {
@@ -64,6 +65,41 @@
             mobileMenuClose.style.display = 'none';
             mobileMenuContainer.style.width = '0';
             document.body.style.overflowY = 'initial';
+        };
+    }
+
+    function initSearchFeature() {
+        const search = document.querySelector('#search');
+        const submit = document.querySelector('#search-submit');
+        const items = document.getElementsByClassName('collectionItem');
+
+        function clearSearch() {
+            for (let i = 0, max = items.length; i < max; i++) {
+                items[i].style.display = 'flex';
+            }
+        }
+
+        function performSearch() {
+            clearSearch();
+
+            if (search.value) {
+                const words = search.value.trim().split(' ');
+
+                for (let i = 0, max = items.length; i < max; i++) {
+                    const item = items[i];
+                    if (item.textContent &&
+                        item.textContent.match &&
+                        !words.reduce((acc, word) => acc && item.textContent.match(word), true)) {
+                        item.style.display = 'none';
+                    }
+                }
+            }
+        }
+
+        search.onchange = performSearch;
+        submit.onclick = event => {
+            event.preventDefault && event.preventDefault();
+            performSearch();
         };
     }
 

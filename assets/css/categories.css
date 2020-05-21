@@ -38,6 +38,53 @@ h1 {
     text-shadow: 2px 2px 6px black;
 }
 
+article div[role="search"] label {
+    font-size: 1.25em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+article div[role="search"] .hint {
+    font-size: 0.9em;
+    line-height: 1.5;
+    font-weight: normal;
+    opacity: 0.6;
+    margin-bottom: 1em;
+}
+
+article div[role="search"] .field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2em;
+}
+
+article div[role="search"] #search {
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: normal;
+    width: 20em;
+    border: 0.125em solid var(--page-color);
+    padding: 0.5em;
+    margin-right: 0.75em;
+}
+
+article div[role="search"] #search:focus,
+article div[role="search"] #search-submit:focus {
+    outline: 0.2em dotted var(--black-color);
+    outline-offset: 0.125em;
+}
+
+article div[role="search"] #search-submit {
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-radius: 10em;
+    background: var(--page-color);
+    color: white;
+    font-size: 1em;
+}
+
 article p {
     max-width: 50%;
     margin: 1.25em 0 2em;
