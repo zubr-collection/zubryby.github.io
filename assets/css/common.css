@@ -441,6 +441,14 @@ footer .info a {
     margin: 0 0 0.6em;
 }
 
+footer .info .a11y {
+    color: var(--postcards-color);
+}
+
+footer .info .privacy {
+    color: var(--photos-color);
+}
+
 footer .contacts svg {
     width: 1.5em;
     height: 1.5em;
