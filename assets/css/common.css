@@ -1,18 +1,55 @@
 :root {
+    /* palette */
+
     --black-color: #1d1e20;
     --dark-gray-color: #414141;
     --gray-color: rgb(163, 170, 182);
+    --beige-color: #c5a979;
+    --blue-sky-color: #7995c5;
+    --emerald-color: #79c5a9;
+    --red-color: #c57995;
+    --light-wood-color: #c9936c;
 
-    --stamps-color: #c5a979;
-    --envelopes-color: #7995c5;
-    --postcards-color: #79c5a9;
-    --photos-color: #c57995;
-    --about-color: #c9936c;
+    /* colors */
+
+    --stamps-color: var(--beige-color);
+    --envelopes-color: var(--blue-sky-color);
+    --postcards-color: var(--emerald-color);
+    --photos-color: var(--red-color);
+    --about-color: var(--light-wood-color);
 
     --page-color: white;
-
+    --btn-bg-color: var(--page-color);
     --scrollbar-bg-color: var(--page-color);
     --thumb-bg-color: var(--black-color);
+
+    --text-color: var(--black-color);
+    --secondary-text-color: var(--black-color);
+
+    /* typography */
+
+    --serif: Lora, 'Times New Roman', serif;
+    --sans-serif: Montserrat, Helvetica, sans-serif;
+    --rem: 0.875rem;
+    --head-1-text: 4em;
+    --normal-text: 1.5em;
+    /*0.875rem;*/
+    /*1em;*/
+    /*1.25em*/
+        /*2em;*/
+    /*1.5em;*/
+    /*0.9em*/
+
+    /* spacing system */
+    --space-factor: 8px;
+
+    /* layer system */
+    --main-layout-z: 1;
+    --nav-layout-z: 1;
+    --head-layout-z: 1;
+    --controls-layout-z: 1;
+    --hidden-layout-z: 2;
+
 }
 
 *::selection {
@@ -155,12 +192,6 @@ header nav {
     height: 100vh;
     transition: width 0.3s ease-in;
     will-change: width;
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .mobile-menu-wrapper {
-        transition: none;
-    }
 }
 
 .mobile-menu {
@@ -334,7 +365,7 @@ header nav {
     padding: 0 1em;
     margin: 0;
     background: var(--dark-gray-color);
-    font-size: 0.6em;
+    font-size: 0.7em;
     line-height: 1.75;
     list-style: none;
 }
@@ -553,5 +584,17 @@ footer > div {
     footer .contacts .phone,
     footer .contacts .geo-address {
         display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    footer a,
+    .logo > div,
+    .menu > li a,
+    .skip-links  a,
+    .menu > li a::after,
+    .mobile-menu-wrapper,
+    footer .social li img {
+        transition: none;
     }
 }
