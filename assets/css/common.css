@@ -10,7 +10,7 @@
     --red-color: #c57995;
     --light-wood-color: #c9936c;
 
-    /* colors */
+    /* themes */
 
     --stamps-color: var(--beige-color);
     --envelopes-color: var(--blue-sky-color);
@@ -30,6 +30,7 @@
 
     --serif: Lora, 'Times New Roman', serif;
     --sans-serif: Montserrat, Helvetica, sans-serif;
+
     --rem: 0.875rem;
     --head-1-text: 4em;
     --normal-text: 1.5em;
