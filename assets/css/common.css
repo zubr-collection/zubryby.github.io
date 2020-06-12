@@ -321,7 +321,7 @@ header nav {
     align-items: flex-end;
     justify-content: center;
 
-    color: var(--black-color);
+    color: var(--text-color);
     background: white;
     box-shadow: 0.02em 0.02em 0.15em currentColor;
     border: none;
@@ -336,7 +336,7 @@ header nav {
 }
 
 .top-link:active, .top-link:visited {
-    color: var(--black-color);
+    color: var(--text-color);
 }
 
 .top-link:focus {
@@ -473,12 +473,9 @@ footer .info a {
     margin: 0 0 0.6em;
 }
 
-footer .info .a11y {
-    color: var(--postcards-color);
-}
-
+footer .info .a11y,
 footer .info .privacy {
-    color: var(--photos-color);
+    color: var(--page-color);
 }
 
 footer .contacts svg {

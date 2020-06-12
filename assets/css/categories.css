@@ -4,7 +4,7 @@ article {
     display: flex;
     background: white;
     padding: 1em 2em;
-    color: var(--black-color);
+    color: var(--text-color);
     box-sizing: border-box;
 }
 
