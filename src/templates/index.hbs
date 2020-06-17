@@ -5,6 +5,23 @@
     {{resources true "slide4"}}
 
     <style>
+        h1 {
+            position: absolute;
+            top: 16px;
+            left: 20px;
+            padding: 0;
+            width: 660px;
+            margin: 0;
+            font-family: var(--serif-fonts);
+            font-size: var(--head-1-text);
+            font-weight: 100;
+            text-transform: inherit;
+            background: 0 0;
+            color: #fdfdfd;
+            text-shadow: 2px 2px 16px var(--black-color);
+            z-index: 2;
+        }
+
         .swiper-container {
             width: 100%;
             height: calc(100vh - 7.25em);
@@ -89,6 +106,16 @@
         }
 
         @media (max-width: 800px) {
+            :root {
+                --head-1-text: 2rem
+            }
+
+            h1 {
+                left: 12px;
+                padding: 0;
+                width: 350px;
+            }
+
             .swiper-button-next,
             .swiper-button-prev {
                 border: none;
@@ -153,6 +180,7 @@
 <body>
 {{header}}
 <div class="swiper-container" id="content">
+    <h1>Добро пожаловать в онлайн-музей ZUBRY.BY</h1>
     <div tabindex="0" role="region" aria-live="polite" class="swiper-wrapper">
         <div class="swiper-slide slide-1"></div>
         <div class="swiper-slide slide-5"></div>

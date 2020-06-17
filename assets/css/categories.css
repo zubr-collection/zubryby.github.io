@@ -29,8 +29,8 @@ h1 {
     left: 0;
     padding: 0;
     margin: 0;
-    font-family: Lora, 'Times New Roman', serif;
-    font-size: 4em;
+    font-family: var(--serif-fonts);
+    font-size: var(--head-1-text);
     font-weight: 300;
     text-transform: capitalize;
     background: transparent;
@@ -96,7 +96,7 @@ article div[role="search"] #search-submit {
 article p {
     max-width: 50%;
     margin: 1.25em 0 2em;
-    font-size: 0.875rem;
+    font-size: var(--normal-text);
     font-weight: 300;
     word-break: normal;
     overflow-wrap: break-word;
@@ -139,7 +139,7 @@ article .details .anchor {
 }
 
 article .details > a > time {
-    font-size: 2em;
+    font-size: var(--date-text);
     font-weight: 300;
 }
 
@@ -162,8 +162,8 @@ article .details > a:focus svg {
 
 article .details > h2 {
     margin: 0.5em 0 0;
-    font-family: Lora, 'Times New Roman', serif;
-    font-size: 1.5em;
+    font-family: var(--serif-fonts);
+    font-size: var(--head-2-text);
     font-weight: 500;
     color: var(--page-color);
 }
@@ -182,10 +182,6 @@ article .details dd {
 }
 
 @media all and (max-width: 800px) {
-    h1 {
-        font-size: 3em;
-    }
-
     article {
         padding: 1em;
     }
@@ -205,10 +201,6 @@ article .details dd {
 
     article .details {
         padding: 0.5em 0 0;
-    }
-
-    article .details > h2 {
-        font-size: 1.6em;
     }
 
     article img {

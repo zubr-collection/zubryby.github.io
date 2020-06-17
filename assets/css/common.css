@@ -28,18 +28,13 @@
 
     /* typography */
 
-    --serif: Lora, 'Times New Roman', serif;
-    --sans-serif: Montserrat, Helvetica, sans-serif;
+    --serif-fonts: Lora,'Times New Roman', serif;
+    --sans-serif-fonts: Montserrat, Helvetica, sans-serif;
 
-    --rem: 0.875rem;
-    --head-1-text: 4em;
-    --normal-text: 1.5em;
-    /*0.875rem;*/
-    /*1em;*/
-    /*1.25em*/
-        /*2em;*/
-    /*1.5em;*/
-    /*0.9em*/
+    --head-1-text: 3.5rem;
+    --head-2-text: 1.5rem;
+    --date-text: 1.75rem;
+    --normal-text: 0.875rem;
 
     /* spacing system */
     --space-factor: 8px;
@@ -65,8 +60,8 @@ body {
 
 body {
     background: var(--black-color);
-    font-family: Montserrat, Helvetica, sans-serif;
-    font-size: 0.875rem;
+    font-family: var(--sans-serif-fonts);
+    font-size: var(--normal-text);
     color: white;
     margin: 0;
     padding: 0;
@@ -234,7 +229,7 @@ header nav {
     position: relative;
     border: 0.25em solid transparent;
     color: white;
-    font-size: 0.825rem;
+    font-size: var(--normal-text);
     font-weight: 300;
     font-kerning: none;
     text-decoration: none;
@@ -409,10 +404,10 @@ footer {
 }
 
 footer p {
-    margin: 0 0 1em;
+    margin: 0 0 0.5em;
     opacity: 0.6;
     color: white;
-    font-size: 0.8rem;
+    font-size: var(--normal-text);
     font-weight: 400;
     line-height: 1.5;
 }
@@ -450,12 +445,12 @@ footer .info,
 footer .contacts {
     margin: 0;
     padding: 0;
-    font-size: 0.8rem;
+    font-size: var(--normal-text);
     list-style: none;
 }
 
 footer .info {
-    padding: 0 0 0.5em;
+    margin: 0 0 .8em;
 }
 
 footer .contacts a {
@@ -476,6 +471,12 @@ footer .info a {
 footer .info .a11y,
 footer .info .privacy {
     color: var(--page-color);
+
+    text-decoration: underline;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-style: dotted;
+    text-decoration-style: dotted;
 }
 
 footer .contacts svg {
@@ -506,6 +507,11 @@ footer > div {
 }
 
 @media all and (max-width: 800px) {
+    :root {
+        --head-1-text: 3em;
+        --head-2-text: 1.6em;
+    }
+
     header nav {
         padding: 0.5em 1em;
         box-shadow: 0 0.4em 0.75em 0 var(--black-color);
@@ -515,18 +521,8 @@ footer > div {
         padding: 0;
     }
 
-    .logo p {
+    .logo strong {
         font-size: 1.25em;
-    }
-
-    .logo h1,
-    .logo-text h1 {
-        font-size: 1.75em;
-    }
-
-    .logo-text {
-        height: auto;
-        padding: 1em 1.125em;
     }
 
     .menu {
@@ -547,7 +543,7 @@ footer > div {
 
     footer {
         padding: 1em 1em;
-        font-size: 0.8rem;
+        font-size: var(--normal-text);
     }
 
     footer > div {
