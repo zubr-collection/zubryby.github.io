@@ -71,12 +71,15 @@
     function initSearchFeature() {
         const search = document.querySelector('#search');
         const submit = document.querySelector('#search-submit');
+        const noResults = document.querySelector('.no-results');
         const items = document.getElementsByClassName('collectionItem');
 
         function clearSearch() {
             for (let i = 0, max = items.length; i < max; i++) {
                 items[i].style.display = 'flex';
             }
+            noResults.style.display = 'none';
+            noResults.setAttribute('aria-hidden', 'true');
         }
 
         function performSearch() {
@@ -84,14 +87,20 @@
 
             if (search.value) {
                 const words = search.value.trim().split(' ');
-
+                let count = 0;
                 for (let i = 0, max = items.length; i < max; i++) {
                     const item = items[i];
                     if (item.textContent &&
                         item.textContent.match &&
                         !words.reduce((acc, word) => acc && item.textContent.match(word), true)) {
                         item.style.display = 'none';
+                        count++;
                     }
+                }
+
+                if (count === items.length) {
+                    noResults.style.display = 'block';
+                    noResults.setAttribute('aria-hidden', 'false');
                 }
             }
         }

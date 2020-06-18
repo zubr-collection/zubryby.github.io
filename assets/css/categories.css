@@ -93,6 +93,12 @@ article div[role="search"] #search-submit {
     font-size: 1em;
 }
 
+article div[role="search"] .no-results {
+    display: none;
+    color: var(--page-color);
+    font-size: var(--head-2-text);
+}
+
 article p {
     max-width: 50%;
     margin: 1.25em 0 2em;
