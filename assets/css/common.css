@@ -396,11 +396,12 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    height: 10em;
     box-sizing: border-box;
     color: white;
     background: var(--black-color);
     padding: 1em 2em 0;
+    height: 10em;
+    max-height: 10em;
 }
 
 footer p {
@@ -564,6 +565,7 @@ footer > div {
         align-items: center;
         flex-direction: column-reverse;
         height: auto;
+        max-height: none;
     }
 
     footer p {
