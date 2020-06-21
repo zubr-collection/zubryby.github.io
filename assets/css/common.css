@@ -313,7 +313,7 @@ header nav {
     height: 50px;
 
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 
     color: var(--text-color);

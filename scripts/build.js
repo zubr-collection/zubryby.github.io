@@ -14,6 +14,12 @@ for (let i = 0; i < pageNames.length; i++) {
     const template = readTemplate(`templates/${pageName}.hbs`);
     const data = require(`../src/data/${pageName}`);
     if (data.things && data.things.length) {
+        // const names = data.things.map(t => t.props).reduce((acc, p) => {
+        //     acc.push(...p.map(i => i.name));
+        //     return acc;
+        // }, []);
+        // console.log(Array.from(new Set(names.filter(n => names.filter(nn => nn === n).length > 10))));
+
         data.things.forEach(thing => thing.formattedYear = thing.year.split('.').reverse().join('-'));
     }
     const html = template(data);
