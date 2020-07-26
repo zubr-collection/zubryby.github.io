@@ -2,10 +2,10 @@
 
 const Handlebars = require('handlebars');
 const readTemplate = require('./readTemplate');
+const { SafeString } = Handlebars;
 
-function registerHelpers() {
-    const { SafeString } = Handlebars;
-    Handlebars.registerHelper('header', name => {
+function registerHeader(helper) {
+    Handlebars.registerHelper(helper, name => {
         const flagMap = {
             isEnvelopes: name === 'envelopes',
             isPostcards: name === 'postcards',
@@ -14,24 +14,45 @@ function registerHelpers() {
             isAbout: name === 'photos'
         };
 
-        return new SafeString(readTemplate('fragments/header.hbs')(flagMap));
+        return new SafeString(readTemplate(`fragments/${helper}.hbs`)(flagMap));
     });
-    Handlebars.registerHelper('footer', () => new SafeString(readTemplate('fragments/footer.hbs')({})));
+}
+
+function registerFooter(helper) {
+    Handlebars.registerHelper(helper, () => new SafeString(readTemplate(`fragments/${helper}.hbs`)({})));
+}
+
+function registerSEO(helper) {
     Handlebars.registerHelper(
-        'seo',
+        helper,
         (title, picture, description) =>
-            new SafeString(readTemplate('fragments/seo.hbs')({ title, picture, description }))
+            new SafeString(readTemplate(`fragments/${helper}.hbs`)({ title, picture, description }))
     );
+}
+
+function registerCollection(helper) {
+    Handlebars.registerHelper(
+        helper,
+        (name, description, things, pictureFolder) =>
+            new SafeString(
+                readTemplate(`fragments/${helper}.hbs`)({ name, description, things, pictureFolder })
+            )
+    );
+}
+
+function registerHelpers() {
+    registerHeader('header');
+    registerHeader('header_en');
+    registerFooter('footer');
+    registerFooter('footer_en');
+    registerSEO('seo');
+    registerSEO('seo_en');
+    registerCollection('collectionArticle');
+    registerCollection('collectionArticle_en');
+
     Handlebars.registerHelper(
         'resources',
         (addSwiper, image) => new SafeString(readTemplate('fragments/resources.hbs')({ addSwiper, image }))
-    );
-    Handlebars.registerHelper(
-        'collectionArticle',
-        (name, description, things, pictureFolder) =>
-            new SafeString(
-                readTemplate('fragments/collectionArticle.hbs')({ name, description, things, pictureFolder })
-            )
     );
 }
 
