@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="ru" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <head>
-    {{seo "Главная" "slide4" "ZUBRY.BY - Частная коллекция почтовых предметов, посвященная теме зубров. Автор - Артур Басак."}}
+    {{seo "Main" "slide4" "ZUBRY.BY - Private collection of postal items dedicated to the topic of bison. Posted by Artur Basak."}}
     {{resources true "slide4"}}
 
     <style>
@@ -10,7 +10,7 @@
             top: 16px;
             left: 20px;
             padding: 0;
-            width: 660px;
+            width: 600px;
             margin: 0;
             font-family: var(--serif-fonts);
             font-size: var(--head-1-text);
@@ -30,7 +30,6 @@
         .swiper-slide {
             text-align: center;
             background-color: var(--black-color);
-            background-position: center;
             background-size: cover;
             display: flex;
             justify-content: center;
@@ -68,10 +67,12 @@
 
         .slide-0 {
             background-image:url(./assets/pics/slide0.jpg);
+            background-position: center;
         }
 
         .slide-1 {
             background-image:url(./assets/pics/slide1.jpg);
+            background-position: center;
         }
 
         .slide-2 {
@@ -84,12 +85,10 @@
 
         .slide-4 {
             background-image:url(./assets/pics/slide4.jpg);
-            background-position: top;
         }
 
         .slide-5 {
             background-image:url(./assets/pics/slide5.jpg);
-            background-position: top;
         }
 
         @media (pointer: coarse) {
@@ -100,6 +99,11 @@
             }
         }
 
+        @media (max-width: 1025px) {
+            .swiper-slide {
+                background-position: center;
+            }
+        }
 
         @media (max-width: 800px) {
             :root {
@@ -170,18 +174,20 @@
 
             .slide-4 {
                 background-image:url(./assets/pics/slide4-400w.jpg);
+                background-position: top;
             }
 
             .slide-5 {
                 background-image:url(./assets/pics/slide5-400w.jpg);
+                background-position: top;
             }
         }
     </style>
 </head>
 <body>
-{{header}}
+{{header_en}}
 <div class="swiper-container" id="content">
-    <h1>Добро пожаловать в онлайн-музей ZUBRY.BY</h1>
+    <h1>Welcome to the Online Museum ZUBRY.BY</h1>
     <div tabindex="0" role="region" aria-live="polite" class="swiper-wrapper">
         <div class="swiper-slide slide-1"></div>
         <div class="swiper-slide slide-5"></div>
@@ -195,6 +201,6 @@
     <!--<div class="swiper-button-next swiper-button-white"></div>-->
     <!--<div class="swiper-button-prev swiper-button-white"></div>-->
 </div>
-{{footer}}
+{{footer_en}}
 </body>
 </html>

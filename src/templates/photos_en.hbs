@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="http://schema.org/CollectionPage">
+<head>
+    {{seo_en "Cards/Photos" "slide7" description}}
+    {{resources false "slide7"}}
+
+    <style>
+        :root {
+            --page-color: var(--photos-color);
+        }
+
+        .menu a.photos {
+            color: var(--photos-color);
+            opacity: 1;
+        }
+
+        .menu > li a.photos::after {
+            width: 100%;
+        }
+
+        .cover {
+            background-image: url(./assets/pics/slide7.jpg);
+            background-position: center 25%;
+        }
+
+        @media (pointer: coarse) {
+            .menu > li a.photos::after {
+                width: 0;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .cover {
+                background-image: url(./assets/pics/slide7-800w.jpg);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .cover {
+                background-image: url(./assets/pics/slide7-400w.jpg);
+            }
+        }
+    </style>
+</head>
+<body>
+{{header_en 'photos'}}
+{{collectionArticle_en name description things pictureFolder}}
+{{footer_en}}
+</body>
+</html>
