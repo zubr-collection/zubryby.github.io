@@ -5,26 +5,39 @@
     {{resources true "slide4"}}
 
     <style>
-        h1 {
+        .skip-links {
+            display: none;
+        }
+
+        .welcome {
             position: absolute;
-            top: 16px;
-            left: 20px;
-            padding: 0;
-            width: 660px;
+            top: 0;
+            left: 22px;
+            z-index: 2;
             margin: 0;
+            padding: 10% 16px 40px;
+            max-width: 660px;
+            width: 40%;
+
             font-family: var(--serif-fonts);
-            font-size: var(--head-1-text);
+            font-size: 18px;
             font-weight: 100;
             text-transform: inherit;
-            background: 0 0;
-            color: #fdfdfd;
+            background: rgba(0, 0, 0, 0.6);
             text-shadow: 2px 2px 6px #000;
-            z-index: 2;
+            color: #fdfdfd;
+        }
+
+        .welcome h1 {
+            position: unset;
+            font-size: var(--welcome-head-text);
+            margin-bottom: 0.75em;
+            text-transform: unset;
         }
 
         .swiper-container {
             width: 100%;
-            height: calc(100vh - 7.25em - 11em);
+            height: calc(100vh - 7.25em);
         }
 
         .swiper-slide {
@@ -106,10 +119,12 @@
                 --head-1-text: 2rem
             }
 
-            h1 {
-                left: 12px;
-                padding: 0;
-                width: 350px;
+            .welcome {
+                top: initial;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                padding: 12px;
             }
 
             .swiper-container {
@@ -181,7 +196,11 @@
 <body>
 {{header}}
 <div class="swiper-container" id="content">
-    <h1>Добро пожаловать в онлайн-музей ZUBRY.BY</h1>
+    <div class="welcome">
+        <h1>Добро пожаловать в онлайн-музей ZUBRY.BY</h1>
+        <p>Данный сайт представляет собой каталог частной оцифрованной коллекции почтовых предметов, посвященных теме зубров.</p>
+        <p>Начать осмотр -></p>
+    </div>
     <div tabindex="0" role="region" aria-live="polite" class="swiper-wrapper">
         <div class="swiper-slide slide-1"></div>
         <div class="swiper-slide slide-5"></div>

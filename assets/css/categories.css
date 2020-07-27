@@ -217,7 +217,7 @@ article .details dd {
         padding: 0.5em 0 0;
     }
 
-    article img {
+    article picture {
         box-shadow: none;
         transform: rotate(0deg) translateY(0px);
     }
