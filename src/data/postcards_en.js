@@ -1,7 +1,7 @@
 module.exports = {
     name: 'Postcards',
     description:
-        'Postcards from around the world that contain a picture, a special post cancellation or stamp dedicated to the topic of European Bison (Bison Bonasus).',
+        'Postcards from around the world that contain a picture, a special postmark or postage stamp dedicated to the topic of European Bison (Bison Bonasus).',
     pictureFolder: 'postcards',
     things: [
         {
@@ -12,7 +12,7 @@ module.exports = {
                 { name: 'Country', value: 'Germany (FRG)' },
                 { name: 'Cost', value: '25 pfennigs' },
                 { name: 'Size (mm)', value: '147x105' },
-                { name: 'Stamp', value: 'Face value of 25 pfennigs, portrait of Gustav Walter Heinemann' },
+                { name: 'Postage Stamp', value: 'Face value of 25 pfennigs, portrait of Gustav Walter Heinemann' },
                 { name: 'Color', value: 'dark olive / green (grün)' },
                 { name: 'Printing', value: '20 000' }
             ]
@@ -24,10 +24,10 @@ module.exports = {
                 'Simple postal card with special cancellation 50 years of the International Society for the Conservation of Bison',
             props: [
                 { name: 'Country', value: 'Germany (FRG)' },
-                { name: 'Cancellation type', value: 'Commemorative cancellation, art special stamp' },
+                { name: 'Cancellation type', value: 'Commemorative cancellation, special art postmark' },
                 { name: 'Cancellation place', value: 'Berlin 12' },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Stamp', value: 'Face value of 25 pfennigs, portrait of Gustav Walter Heinemann' }
+                { name: 'Postage Stamp', value: 'Face value of 25 pfennigs, portrait of Gustav Walter Heinemann' }
             ]
         },
         {
@@ -40,7 +40,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '147x105' },
                 { name: 'Artist', value: 'V. Pimenov' },
                 {
-                    name: 'Stamp',
+                    name: 'Postage Stamp',
                     value:
                         'Face value 4 k., multicolor, picture of the Caucasian Bison - a representative of the fauna of the reserve'
                 },
@@ -57,7 +57,7 @@ module.exports = {
                 { name: 'Country', value: 'Romania' },
                 { name: 'Cost', value: '30 baths' },
                 { name: 'Size (mm)', value: '148x105' },
-                { name: 'Stamp', value: 'Face value of 30 baths, the falcon is represented' },
+                { name: 'Postage Stamp', value: 'Face value of 30 baths, the falcon is represented' },
                 { name: 'Color', value: 'brown or blue' }
             ]
         },
@@ -71,7 +71,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '145x104' },
                 { name: 'Picture', value: 'European Bison' },
                 {
-                    name: 'Stamp',
+                    name: 'Postage Stamp',
                     value:
                         'Face value of 1 zloty, picture of bison shadow, special cancellation of 1981 with bison picture'
                 },
@@ -88,7 +88,7 @@ module.exports = {
                 'Special Cancellation Youth Philatelic Contest - Polish Fauna on 1982 card dedicated to Polish folk poet Jan Potzeck',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Cancellation type', value: 'Commemorative cancellation, art special stamp' },
+                { name: 'Cancellation type', value: 'Commemorative cancellation, special art postmark' },
                 { name: 'Cancellation place', value: 'Warsaw 1' },
                 { name: 'Picture', value: 'Silhouettes of two grazing bison' },
                 { name: 'Mastic color', value: 'black' }
@@ -101,7 +101,7 @@ module.exports = {
                 'Special cancellation XV Youth Philatelic Exhibition - We Defend Nature on the 1980 Card dedicated to the poet Jan Kochanowski',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Cancellation type', value: 'Commemorative cancellation, art special stamp' },
+                { name: 'Cancellation type', value: 'Commemorative cancellation, special art postmark' },
                 { name: 'Cancellation place', value: 'Szczecin 1' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Mastic color', value: 'black' }
@@ -116,7 +116,7 @@ module.exports = {
                 { name: 'Cost', value: '1.10 zloty' },
                 { name: 'Size (mm)', value: '148x105' },
                 { name: 'Picture', value: 'Natural landscape and coat of arms of the national park' },
-                { name: 'Stamp', value: 'Face value of 1 zloty, picture of bison in the forest' },
+                { name: 'Postage Stamp', value: 'Face value of 1 zloty, picture of bison in the forest' },
                 { name: 'Designer', value: 'Jacek Brodowski' },
                 { name: 'Photographer', value: 'Grzegorz Okołów, Jan Walencik' },
                 { name: 'Number', value: 'Cp 1260' },
@@ -133,14 +133,14 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Size (mm)', value: '148x105' },
                 { name: 'Picture', value: 'A pair of bison' },
-                { name: 'Stamp', value: 'Letter “B” (internal tariff), blue' },
+                { name: 'Postage Stamp', value: 'Letter “B” (internal tariff), blue' },
                 { name: 'Order number', value: '508ц-2005' },
                 { name: 'Number of Belpost catalog (2002-2007)', value: '23' },
                 { name: 'Printing', value: '200 000' },
                 {
                     name: 'Printing house',
                     value:
-                        'Republican Unitary Enterprise “Bobruisk enlarged Printing house named after A.T. Nepogodina “'
+                        'Republican Unitary Enterprise “Bobruisk enlarged Printing house named after A.T. Nepogodin“'
                 },
                 { name: 'Color', value: 'multicolor' }
             ]
@@ -158,7 +158,7 @@ module.exports = {
                 },
                 { name: 'Artist', value: 'Nikolay Ryzhy (Red)' },
                 {
-                    name: 'Stamp',
+                    name: 'Postage Stamp',
                     value: 'Letter “B” (internal tariff), multicolor, depicts a spread of a stylized book, oak twigs'
                 },
                 {
@@ -172,7 +172,7 @@ module.exports = {
                 {
                     name: 'Printing house',
                     value:
-                        'Republican Unitary Enterprise “Bobruisk enlarged Printing house named after A.T. Nepogodina “'
+                        'Republican Unitary Enterprise “Bobruisk enlarged Printing house named after A.T. Nepogodin“'
                 },
                 { name: 'Color', value: 'multicolor' }
             ]
@@ -185,7 +185,7 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Size (mm)', value: '148x105' },
                 { name: 'Picture', value: 'Bison with calf' },
-                { name: 'Stamp', value: 'Letter “B” (internal tariff), blue' },
+                { name: 'Postage Stamp', value: 'Letter “B” (internal tariff), blue' },
                 { name: 'Design', value: 'LLC „My destiny“' },
                 { name: 'Order number', value: '5к-2009' },
                 { name: 'Number', value: '103-09' },
@@ -193,7 +193,7 @@ module.exports = {
                 {
                     name: 'Printing house',
                     value:
-                        'Republican Unitary Enterprise “Bobruisk enlarged Printing house named after A.T. Nepogodina “'
+                        'Republican Unitary Enterprise “Bobruisk enlarged Printing house named after A.T. Nepogodin“'
                 },
                 { name: 'Color', value: 'multicolor' }
             ]
@@ -207,7 +207,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '148x105' },
                 { name: 'Picture', value: 'Elk, flora, natural landscapes' },
                 {
-                    name: 'Stamp',
+                    name: 'Postage Stamp',
                     value:
                         'Face value of 1.55 zloty, a herd of bison on a feeding platform in the Bialowieza National Park, multicolor'
                 },
@@ -225,7 +225,7 @@ module.exports = {
                 'Special cancellation XV Anniversary Polish chapter of philately - Silesian bison on the 2004 post day card',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Cancellation type', value: 'commemorative cancellation, art special stamp' },
+                { name: 'Cancellation type', value: 'commemorative cancellation, special art postmark' },
                 { name: 'Cancellation place', value: 'Pshchina' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Mastic color', value: 'black' }

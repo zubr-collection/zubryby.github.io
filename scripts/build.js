@@ -23,7 +23,7 @@ const requiredProps = {
         'Номер в каталоге'
     ],
     postcards: ['Страна', 'Размер (мм)', 'Марка', 'Цвет', 'Изображение', 'Тираж', 'Типография'],
-    postcards_en: ['Country', 'Size (mm)', 'Stamp', 'Color', 'Picture', 'Printing', 'Printing house'],
+    postcards_en: ['Country', 'Size (mm)', 'Postage Stamp', 'Color', 'Picture', 'Printing', 'Printing house'],
     photos: ['Страна', 'Тип', 'Изображение', 'Размер (мм)', 'Цена', 'Издательство', 'Тираж', 'Типография', 'Номер'],
     envelopes: ['Страна', 'Тип', 'Изображение', 'Цвет', 'Размер (мм)', 'Изготовление', 'Тираж', 'Номер Заказа']
 };
