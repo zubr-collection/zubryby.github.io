@@ -12,18 +12,20 @@
         .welcome {
             position: absolute;
             top: 0;
-            left: 22px;
+            left: 1.375rem;
             z-index: 2;
             margin: 0;
-            padding: 10% 16px 40px;
+            padding: 1rem 1rem 2.5rem;
             max-width: 660px;
             width: 40%;
 
             font-family: var(--serif-fonts);
-            font-size: 18px;
+            font-size: var(--welcome-text);
             font-weight: 100;
             text-transform: inherit;
             background: rgba(0, 0, 0, 0.6);
+            border-bottom-left-radius: 1.25rem;
+            border-bottom-right-radius: 1.25rem;
             text-shadow: 2px 2px 6px #000;
             color: #fdfdfd;
         }
@@ -33,6 +35,35 @@
             font-size: var(--welcome-head-text);
             margin-bottom: 0.75em;
             text-transform: unset;
+        }
+
+        .welcome a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: var(--stamps-color);
+            text-decoration: none;
+            transition: color 0.2s ease-in;
+        }
+
+        .welcome a span {
+            display: block;
+            margin-left: 0.75em;
+        }
+
+        .welcome a:hover {
+            color: white;
+        }
+
+        .welcome .link-arrow {
+            font-size: 1.25em;
+            animation: link-arrow 0.6s ease-in-out infinite;;
+        }
+
+        @keyframes link-arrow {
+            0% { transform: translateX(-5px); }
+            50% { transform: translateX(0); }
+            100% { transform: translateX(5px); }
         }
 
         .swiper-container {
@@ -121,10 +152,13 @@
 
             .welcome {
                 top: initial;
-                bottom: 0;
+                bottom: 16px;
                 left: 0;
                 width: 100%;
                 padding: 12px;
+
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
             }
 
             .swiper-container {
@@ -198,8 +232,10 @@
 <div class="swiper-container" id="content">
     <div class="welcome">
         <h1>Добро пожаловать в онлайн-музей ZUBRY.BY</h1>
-        <p>Данный сайт представляет собой каталог частной оцифрованной коллекции почтовых предметов, посвященных теме зубров.</p>
-        <p>Начать осмотр -></p>
+        <p>Данный сайт представляет собой филателистический и филокартический каталог частной коллекции почтовых предметов, посвященных теме зубров.</p>
+        <p>
+            <a href="./stamps.html">Начать просмотр с почтовых марок <span class="link-arrow">→</span></a>
+        </p>
     </div>
     <div tabindex="0" role="region" aria-live="polite" class="swiper-wrapper">
         <div class="swiper-slide slide-1"></div>
