@@ -31,7 +31,8 @@
     --serif-fonts: Lora,'Times New Roman', serif;
     --sans-serif-fonts: Montserrat, Helvetica, sans-serif;
 
-    --welcome-head-text: 28px;
+    --welcome-head-text: 1.75em;
+    --welcome-text: 1.125em;
     --head-1-text: 3.5rem;
     --head-2-text: 1.5rem;
     --date-text: 1.75rem;
