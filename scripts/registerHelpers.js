@@ -7,6 +7,7 @@ const { SafeString } = Handlebars;
 function registerHeader(helper) {
     Handlebars.registerHelper(helper, name => {
         const flagMap = {
+            pageName: name,
             isEnvelopes: name === 'envelopes',
             isPostcards: name === 'postcards',
             isStamps: name === 'stamps',

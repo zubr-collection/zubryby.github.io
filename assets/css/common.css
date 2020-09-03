@@ -20,8 +20,8 @@
 
     --page-color: white;
     --btn-bg-color: var(--page-color);
-    --scrollbar-bg-color: var(--page-color);
-    --thumb-bg-color: var(--black-color);
+    --scrollbar-bg-color: var(--dark-gray-color);
+    --thumb-bg-color: var(--page-color);
 
     --text-color: var(--black-color);
     --secondary-text-color: var(--black-color);
@@ -45,6 +45,9 @@
     --header-z: 10;
     --nav-z: 9;
     --second-layer-z: 2;
+
+    /* common */
+    --header-height: 7.25em;
 
 }
 
@@ -72,7 +75,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 11px;
+    width: 16px;
 }
 
 body::-webkit-scrollbar-track {
@@ -80,9 +83,10 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--thumb-bg-color) ;
-    border-radius: 6px;
-    border: 3px solid var(--scrollbar-bg-color);
+    background: var(--thumb-bg-color) ;
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
 header {
@@ -92,6 +96,7 @@ header {
     z-index: var(--header-z);
     width: 100%;
     height: auto;
+    max-height: var(--header-height);
     box-sizing: border-box;
     background: var(--black-color);
 }
@@ -352,6 +357,10 @@ header nav {
     margin: 0;
 }
 
+.skip-links .arrow-down {
+    color: var(--page-color);
+}
+
 .skip-links > ul {
     display: flex;
     align-items: center;
@@ -371,25 +380,45 @@ header nav {
     margin: 0;
 }
 
-.skip-links  a {
+.skip-links  a,
+.skip-links  a:visited {
     margin: 0 1em;
     border: none;
-    color: white;
-    opacity: 0.6;
+    color: rgba(255, 255, 255, 0.6);
     transition: opacity 0.3s ease-out;
     text-decoration: underline;
 }
 
 .skip-links  a:hover {
-    opacity: 1;
-}
-
-.skip-links  a:visited {
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 
 .skip-links  a:focus {
     outline: 0.15em dotted var(--gray-color);
+}
+
+.skip-links .lang-opt a {
+    margin: 0;
+}
+
+.skip-links .lang-opt::after {
+    content: "|";
+    margin: 0;
+    margin-left: 1em;
+}
+
+.skip-links .lang-opt *:first-child {
+    margin-left: 0.5em;
+}
+
+.skip-links .lang-opt *:first-child::after {
+    content: "";
+    display: inline-block;
+    background-color: var(--page-color);
+    width: 4px;
+    height: 4px;
+    margin: -4px 0.5em 0;
+    vertical-align: middle;
 }
 
 footer {

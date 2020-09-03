@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en" itemscope itemtype="http://schema.org/AboutPage">
 <head>
     <meta charset="utf-8">
 
-<title>Main | ZUBRY.BY - Коллекция Почтовых Предметов</title>
+<title>Privacy policy | ZUBRY.BY - Collection of Postal Items</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 
@@ -25,18 +25,18 @@
 <meta name="msapplication-config" content="assets/meta/static/meta/browserconfig.xml">
 
 <meta name="description" content="ZUBRY.BY - Private collection of postal items dedicated to the topic of bison. Posted by Artur Basak.">
-<meta name="keywords" content="зубр беловежский,филателия,тематическая филателия,коллекция,открытки,почта,открытое письмо,марки,почтовые марки,почтовые карточки,филакартия,пост-карты,цельные вещи,зубр,зубры,европейский зубр,беловежская пуща">
+<meta name="keywords" content="Bison Bialowieza,philately,thematic philately,collection,postcards,mail,open letter,stamps,postage stamps,postcards,philakartia,post-cards,post whole things,european bison,Belovezhskaya Pushcha,philatelic,collection,stamps,envelopes,covers,letters,stamps,postcards,photos,wisent,bison,bison bonasus, zubr,zubry,zimbru">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@ArturBasak">
 <meta name="twitter:creator" content="@ArturBasak">
 
-<meta property="og:title" content="ZUBRY.BY - Main">
+<meta property="og:title" content="ZUBRY.BY - Privacy policy">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://zubry.by">
-<meta property="og:image" content="https://zubry.by/assets/pics/slide4-800w.jpg">
+<meta property="og:image" content="https://zubry.by/assets/pics/slide3-800w.jpg">
 <meta property="og:description" content="ZUBRY.BY - Private collection of postal items dedicated to the topic of bison. Posted by Artur Basak.">
-<meta property="og:locale" content="ru_RU">
+<meta property="og:locale" content="en_EN">
 
     <link rel="preload" href="./assets/css/fonts.min.css" as="style">
 
@@ -70,12 +70,10 @@
     gtag('config', 'UA-149477412-1');
 </script>
 
-    <link rel="stylesheet" href="./vendors/css/swiper.min.css">
 <link rel="stylesheet" href="./assets/css/fonts.min.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="./assets/css/common.min.css">
 <link rel="stylesheet" href="./assets/css/categories.min.css">
 
-    <script src="./vendors/js/swiper.min.js" defer async></script>
 <script src="./assets/js/common.min.js" defer async></script>
 <noscript>
     <link href="./assets/css/fonts.min.css" rel="stylesheet">
@@ -88,296 +86,66 @@
 
 
     <style>
-        .welcome {
-            position: absolute;
-            top: 0;
-            left: 1.375rem;
-            z-index: var(--second-layer-z);
+        :root {
+            --page-color: var(--photos-color);
+        }
+
+        article {
+            flex-direction: column;
+        }
+
+        article ul {
+            margin: 0 0 1.25em;
+            padding: 0 1.1em;
+        }
+
+        article h2, article h3 {
+            margin: 1em 0 0;
+            font-size: var(--head-2-text);
+            font-weight: 500;
+            color: var(--page-color);
+        }
+
+        article hr {
+            width: 50%;
             margin: 0;
-            padding: 1rem 1rem 2.5rem;
-            max-width: 660px;
-            width: 40%;
-            box-sizing: border-box;
-            font-family: var(--serif-fonts);
-            font-size: var(--welcome-text);
-            font-weight: 100;
-            text-transform: inherit;
-            background: rgba(0, 0, 0, 0.6);
-            border-bottom-left-radius: 1.25rem;
-            border-bottom-right-radius: 1.25rem;
-            text-shadow: 2px 2px 6px #000;
-            color: #fdfdfd;
         }
 
-        .welcome h1 {
-            position: unset;
-            font-size: var(--welcome-head-text);
-            margin-bottom: 0.75em;
-            text-transform: unset;
+        article a {
+            color: var(--text-color);
+            font-style: normal;
         }
 
-        .welcome a {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            padding: 0.15em;
-            color: var(--stamps-color);
-            text-decoration: none;
-            transition: color 0.2s ease-in;
-        }
-
-        .welcome a span {
-            display: block;
-            margin-left: 0.75em;
-        }
-
-        .welcome a:hover {
-            color: white;
-        }
-
-        .welcome a:focus {
-            outline: 2px dotted white;
-        }
-
-        .welcome .link-arrow {
-            animation: link-arrow 0.6s ease-in-out infinite;;
-        }
-
-        @keyframes link-arrow {
-            0% { transform: translateX(-5px); }
-            50% { transform: translateX(0); }
-            100% { transform: translateX(5px); }
-        }
-
-        .swiper-container {
-            position: relative;
-            width: 100%;
-            height: calc(100vh - var(--header-height));
-        }
-
-        .swiper-container .anchor {
-            position: absolute;
-            top: calc(-1 * var(--header-height));
-        }
-
-        .swiper-slide {
-            text-align: center;
+        article a:hover,
+        article a:focus {
             background-color: var(--black-color);
-            background-position: center;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .swiper-button-next,
-        .swiper-button-prev {
-            border-radius: 50%;
-            height: 5em;
-            width:  5em;
+            color: white;
+            font-style: normal;
             outline: none;
         }
 
-        .swiper-button-next:focus,
-        .swiper-button-prev:focus {
-            outline: 0.25em dotted white;
+        article p {
+            margin: 1em 0;
         }
 
-        .swiper-pagination-bullet {
-            width: 1em;
-            height: 1em;
-            opacity: 0.5;
-            box-shadow: 0.2em 0.3em 0.8em var(--black-color);
+        .cover {
+            background-image: url(./assets/pics/slide3.jpg);
+            background-position: center 25%;
         }
-
-        .swiper-pagination-bullet:focus {
-            outline: 0.25em dotted white;
-        }
-
-        .swiper-button-prev,
-        .swiper-button-next {
-            border: 0.3em solid var(--postcards-color);
-        }
-
-        .slide-0 {
-            background-image:url(./assets/pics/slide0.jpg);
-        }
-
-        .slide-1 {
-            background-image:url(./assets/pics/slide1.jpg);
-        }
-
-        .slide-2 {
-            background-image:url(./assets/pics/slide2.jpg);
-        }
-
-        .slide-3 {
-            background-image:url(./assets/pics/slide3.jpg);
-        }
-
-        .slide-4 {
-            background-image:url(./assets/pics/slide4.jpg);
-            background-position: top;
-        }
-
-        .slide-45 {
-            background-image:url(./assets/pics/slide45.jpg);
-        }
-
-        .slide-5 {
-            background-image:url(./assets/pics/slide5.jpg);
-            background-position: top;
-        }
-
-        .slide-6 {
-            background-image:url(./assets/pics/slide6.jpg);
-        }
-
-        .slide-7 {
-            background-image:url(./assets/pics/slide7.jpg);
-        }
-
-        .slide-8 {
-            background-image:url(./assets/pics/slide8.jpg);
-        }
-
-        .slide-9 {
-            background-image:url(./assets/pics/slide9.jpg);
-        }
-
-        @media (pointer: coarse) {
-            .swiper-button-next:focus,
-            .swiper-button-prev:focus,
-            .swiper-pagination-bullet:focus {
-                outline: none;
-            }
-        }
-
 
         @media (max-width: 800px) {
-            .welcome {
-                top: initial;
-                bottom: 1.5rem;
-                left: 0;
+            article h1 {
+                font-size: 1.85em;
+                top: -3.5em;
+            }
+
+            article figure {
                 width: 100%;
-                padding: 0.75rem;
-
-                border-bottom-left-radius: 0;
-                border-bottom-right-radius: 0;
+                max-width: 100%;
             }
 
-            .swiper-container {
+            .noshade {
                 width: 100%;
-                height: calc(100vh - var(--header-height));
-            }
-
-            .swiper-button-next,
-            .swiper-button-prev {
-                border: none;
-            }
-
-            .swiper-pagination {
-                display: none;
-            }
-
-            .slide-0 {
-                background-image:url(./assets/pics/slide0-800w.jpg);
-            }
-
-            .slide-1 {
-                background-image:url(./assets/pics/slide1-800w.jpg);
-            }
-
-            .slide-2 {
-                background-image:url(./assets/pics/slide2-800w.jpg);
-            }
-
-            .slide-3 {
-                background-image:url(./assets/pics/slide3-800w.jpg);
-            }
-
-            .slide-4 {
-                background-image:url(./assets/pics/slide4-800w.jpg);
-            }
-
-            .slide-45 {
-                background-image:url(./assets/pics/slide45-800w.jpg);
-            }
-
-            .slide-5 {
-                background-image:url(./assets/pics/slide5-800w.jpg);
-            }
-
-            .slide-6 {
-                background-image:url(./assets/pics/slide6-800w.jpg);
-            }
-
-            .slide-7 {
-                background-image:url(./assets/pics/slide7-800w.jpg);
-            }
-
-            .slide-8 {
-                background-image:url(./assets/pics/slide8-800w.jpg);
-            }
-
-            .slide-9 {
-                background-image:url(./assets/pics/slide9-800w.jpg);
-            }
-        }
-
-        @media (max-width: 400px) {
-            .slide-0 {
-                background-image:url(./assets/pics/slide0-400w.jpg);
-            }
-
-            .slide-1 {
-                background-image:url(./assets/pics/slide1-400w.jpg);
-            }
-
-            .slide-2 {
-                background-image:url(./assets/pics/slide2-400w.jpg);
-            }
-
-            .slide-3 {
-                background-image:url(./assets/pics/slide3-400w.jpg);
-            }
-
-            .slide-4 {
-                background-image:url(./assets/pics/slide4-400w.jpg);
-            }
-
-            .slide-45 {
-                background-image:url(./assets/pics/slide45-400w.jpg);
-            }
-
-            .slide-5 {
-                background-image:url(./assets/pics/slide5-400w.jpg);
-            }
-
-            .slide-6 {
-                background-image:url(./assets/pics/slide6-400w.jpg);
-            }
-
-            .slide-7 {
-                background-image:url(./assets/pics/slide7-400w.jpg);
-            }
-
-            .slide-8 {
-                background-image:url(./assets/pics/slide8-400w.jpg);
-            }
-
-            .slide-9 {
-                background-image:url(./assets/pics/slide9-400w.jpg);
-            }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            .welcome a {
-                transition: unset;
-            }
-
-            .welcome .link-arrow {
-                animation: unset;
             }
         }
     </style>
@@ -386,7 +154,7 @@
 <header id="header">
     <nav class="skip-links">
         <ul>
-            <li class="lang-opt">This page in: <a href="./index.html">Русском</a> <strong>English</strong></li>
+            <li class="lang-opt">This page in: <a href="./privacy.html">Русском</a> <strong>English</strong></li>
             <li><a href="#content">Skip to Content <span class="arrow-down">↓</span></a></li>
             <li><a href="#footer">Skip to Footer <span class="arrow-down">↓</span></a></li>
         </ul>
@@ -437,33 +205,27 @@
     </svg>
 </a>
 
-<div class="swiper-container">
-    <div id="content" class="anchor"></div>
-    <div class="welcome">
-        <h1>Welcome to the online museum ZUBRY.BY</h1>
-        <p>This site is a philatelic and philocartic catalog of a private collection of postal items dedicated to the topic of European Bison (Bison Bonasus).</p>
-        <p>
-            <a href="./stamps.html">Browse postage stamps <span class="link-arrow">→</span></a>
-        </p>
-    </div>
-    <div tabindex="0" role="region" aria-live="polite" class="swiper-wrapper">
-        <div class="swiper-slide slide-1"></div>
-        <div class="swiper-slide slide-5"></div>
-        <div class="swiper-slide slide-2"></div>
-        <div class="swiper-slide slide-45"></div>
-        <div class="swiper-slide slide-0"></div>
-        <div class="swiper-slide slide-3"></div>
-        <div class="swiper-slide slide-4"></div>
-        <div class="swiper-slide slide-6"></div>
-        <div class="swiper-slide slide-7"></div>
-        <div class="swiper-slide slide-8"></div>
-        <div class="swiper-slide slide-9"></div>
-    </div>
-
-    <div class="swiper-pagination swiper-pagination-white"></div>
-    <!--<div class="swiper-button-next swiper-button-white"></div>-->
-    <!--<div class="swiper-button-prev swiper-button-white"></div>-->
-</div>
+<div class="cover"></div>
+<article>
+  <div id="content" class="anchor"></div>
+  <div>
+    <h1>Privacy policy</h1>
+          <h2>Privacy policy of the website ZUBRY.BY</h2>
+          <p>The ZUBRY.BY website administration undertakes to maintain your privacy on the Internet. We attach great importance to the protection of the data you provide. Our privacy policy is based on the <a href="https://ec.europa.eu/info/law/law-topic/data-protection_en">General Data Protection Regulation of the European Union (GDPR).</a><br><br>The purposes for which we collect personal data: to improve the operation of our service, to provide services related to the activities of this site, as well as for the actions indicated below.</p>
+          <h3>Use of technical data when visiting the site</h3>
+          <p>When you visit the ZUBRY.BY website, the database stores records about your IP address, time of visit, browser settings, operating system, as well as other technical information necessary for the correct display of the website content. Based on this data, it is impossible for us to identify the identity of the visitor.</p>
+          <h3>Use of cookies</h3>
+          <p>For the correct display of the content and for the convenience of using the ZUBRY.BY website, we use cookies. These are small files that are stored on your device. They help the site remember information about you, for example, in what language you are viewing the site and which pages you have already opened, this information will be useful the next time you visit. <br><br>Cookies make browsing the site much more convenient. You can read more about these files <a href="https://en.wikipedia.org/wiki/Cookie">here</a>. You can configure the acceptance or blocking of cookies in your browser yourself. Failure to accept cookies may limit the site's performance.</p>
+          <h3>Use of personal data by third-party services</h3>
+          <p>This website uses third-party Internet services that collect information independent of us: Google Analytics. The data they collect may be shared with other services within these organizations, they may use the data to personalize the advertisements of their own ad network. <br><br>You can read the user agreements of these organizations on their sites. There you can also refuse to collect personal data by them, for example, the <a href="https://tools.google.com/dlpage/gaoptout?hl=en">Google Analytics blocker is located here</a>. <br><br>We do not transfer personal data to other organizations and services not specified in this privacy policy. The only exception is the transfer of information under the legal requirements of state bodies authorized to carry out these actions.</p>
+          <h3>Links to other websites</h3>
+          <p>Our site ZUBRY.BY may contain links to other sites that are not operated by us. We are not responsible for their content. We recommend that you read the privacy policy of each site you visit, if applicable.</p>
+          <h3>Changes to privacy policy</h3>
+          <p>Our website ZUBRY.BY may update our privacy policy from time to time. We will communicate any changes by posting a new privacy policy on this page. We monitor changes in legislation regarding personal data in the European Union and in the state of the Republic of Belarus. <br><br>If you have left personal data with us, we will notify you about the change in the privacy policy. If your personal data was entered incorrectly, then we will not be able to contact you.</p>
+          <h3>Feedback, final provisions</h3>
+          <p>You can contact the administration of the ZUBRY.BY website on questions related to the privacy policy at: <a class="email u-email" href="mailto:zubryby@gmail.com">zubryby@gmail.com</a>. <br><br>If you do not agree with this privacy policy, you cannot use the services of the ZUBRY.BY website, in which case you should refrain from visiting our website.</p>
+  </div>
+</article>
 <footer id="footer">
     <div>
         <p>&copy;&nbsp;<time itemprop="copyrightYear">2019</time>&nbsp;ZUBRY.BY</p>

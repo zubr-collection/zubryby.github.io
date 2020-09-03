@@ -88,10 +88,6 @@
 
 
     <style>
-        .skip-links {
-            display: none;
-        }
-
         .welcome {
             position: absolute;
             top: 0;
@@ -154,8 +150,14 @@
         }
 
         .swiper-container {
+            position: relative;
             width: 100%;
-            height: calc(100vh - 7.25em);
+            height: calc(100vh - var(--header-height));
+        }
+
+        .swiper-container .anchor {
+            position: absolute;
+            top: calc(-1 * var(--header-height));
         }
 
         .swiper-slide {
@@ -266,7 +268,7 @@
 
             .swiper-container {
                 width: 100%;
-                height: calc(100vh - 7.25em);
+                height: calc(100vh - var(--header-height));
             }
 
             .swiper-button-next,
@@ -384,8 +386,9 @@
 <header id="header">
     <nav class="skip-links">
         <ul>
-            <li><a href="#content">Перейти к основному контенту ↓</a></li>
-            <li><a href="#footer">Перейти к нижнему колонтитулу ↓</a></li>
+            <li class="lang-opt">Эта страница на: <strong>Русском</strong> <a href="./index_en.html">English</a></li>
+            <li><a href="#content">Перейти к основному контенту <span class="arrow-down">↓</span></a></li>
+            <li><a href="#footer">Перейти к нижнему колонтитулу <span class="arrow-down">↓</span></a></li>
         </ul>
     </nav>
     <nav>
@@ -434,7 +437,8 @@
     </svg>
 </a>
 
-<div class="swiper-container" id="content">
+<div class="swiper-container">
+    <div id="content" class="anchor"></div>
     <div class="welcome">
         <h1>Добро пожаловать в онлайн-музей ZUBRY.BY</h1>
         <p>Данный сайт представляет собой филателистический и филокартический каталог частной коллекции почтовых предметов, посвященных теме зубров.</p>
