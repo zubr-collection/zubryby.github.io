@@ -1,9 +1,17 @@
 https://zubry.by
 https://zubry.by/index.html
+https://zubry.by/index_en.html
 https://zubry.by/about.html
+https://zubry.by/about_en.html
 https://zubry.by/envelopes.html
+https://zubry.by/envelopes_en.html
 https://zubry.by/photos.html
+https://zubry.by/photos_en.html
 https://zubry.by/postcards.html
+https://zubry.by/postcards_en.html
 https://zubry.by/stamps.html
+https://zubry.by/stamps_en.html
 https://zubry.by/accessibility.html
+https://zubry.by/accessibility_en.html
 https://zubry.by/privacy.html
+https://zubry.by/privacy_en.html

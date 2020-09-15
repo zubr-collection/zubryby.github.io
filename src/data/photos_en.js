@@ -433,7 +433,7 @@ module.exports = {
                 { name: 'Cost', value: '1.5 lei' },
                 { name: 'Size (mm)', value: '104x146' },
                 { name: 'Publisher', value: 'Sport-Tourism' },
-                { name: 'Postmark', value: 'color of mastic is black, Protect bisons 27.03.1991, picture of bison' },
+                { name: 'Postmark', value: 'color of mastic is black, Protect bisons 27.03.1991, bison picture' },
                 { name: 'Commemorative Cancellation', value: 'Buzau 5100' }
             ]
         },

@@ -73,7 +73,7 @@ module.exports = {
                 {
                     name: 'Postage Stamp',
                     value:
-                        'Face value of 1 zloty, picture of bison shadow, special cancellation of 1981 with bison picture'
+                        'Face value of 1 zloty, bison picture shadow, special cancellation of 1981 with bison picture'
                 },
                 { name: 'Number', value: 'Cp 731' },
                 { name: 'Printing', value: '100 000' },
@@ -116,7 +116,7 @@ module.exports = {
                 { name: 'Cost', value: '1.10 zloty' },
                 { name: 'Size (mm)', value: '148x105' },
                 { name: 'Picture', value: 'Natural landscape and coat of arms of the national park' },
-                { name: 'Postage Stamp', value: 'Face value of 1 zloty, picture of bison in the forest' },
+                { name: 'Postage Stamp', value: 'Face value of 1 zloty, bison picture in the forest' },
                 { name: 'Designer', value: 'Jacek Brodowski' },
                 { name: 'Photographer', value: 'Grzegorz Okołów, Jan Walencik' },
                 { name: 'Number', value: 'Cp 1260' },
@@ -164,7 +164,7 @@ module.exports = {
                 {
                     name: 'Cancellation',
                     value:
-                        'Minsk Postal Office, special cancellation with picture of bison and text „The Song about Bison“, dedicated to the first day of issue'
+                        'Minsk Postal Office, special cancellation with bison picture and text „The Song about Bison“, dedicated to the first day of issue'
                 },
                 { name: 'Order number', value: '136к-2008' },
                 { name: 'Number', value: 'Michel PSo54' },
