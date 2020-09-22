@@ -23,7 +23,7 @@ module.exports = {
             title: 'Philatelic exhibition in Rzeszow',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Type', value: 'Unmarked plain cover' },
+                { name: 'Type', value: 'Plain Envelope' },
                 { name: 'Size (mm)', value: '115x161' },
                 { name: 'Commemorative Cancellation', value: 'Rzeszow, special postmark timed to the exhibition with the stamp 1954 (bisons)' }
             ]
@@ -102,7 +102,7 @@ module.exports = {
             title: 'Bison in Belovezhskaya Pushcha',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Number', value: '5357' },
                 { name: 'Picture', value: 'Herd of bison' },
                 { name: 'Color', value: 'brown, green' },
@@ -133,7 +133,7 @@ module.exports = {
             title: 'Bison. Belovezhskaya Pushcha',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Artist', value: 'V. Kolganov' },
@@ -168,7 +168,7 @@ module.exports = {
             title: 'Nature Museum „Belovezhskaya Pushcha“. Bison',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'Nature Museum „Belovezhskaya Pushcha“ - silhouette. Bison in the forest' },
                 { name: 'Artist', value: 'V. Kolganov' },
@@ -186,7 +186,7 @@ module.exports = {
             title: 'European Bison',
             props: [
                 { name: 'Country', value: 'Romania' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Stamp', value: '55 bani, blue' },
                 { name: 'Color', value: 'brown, green' },
@@ -219,7 +219,7 @@ module.exports = {
             title: 'European Bison',
             props: [
                 { name: 'Country', value: 'Romania' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'Bison and calf' },
                 { name: 'Stamp', value: '55 bani, blue, depicts a red deer' },
                 { name: 'Color', value: 'brown, blue' },
@@ -264,7 +264,7 @@ module.exports = {
             title: 'Bison in winter forest',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'Bison in winter forest' },
                 { name: 'Artist', value: 'A. Ljapin' },
@@ -282,7 +282,7 @@ module.exports = {
             title: 'VII Congress of the All-Russian Order of the Red Banner of Labor of the Nature Conservation Society',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'Bison on the logo of the congress (swan, deer, stork, marten, bison are woven by mountain ash branches)' },
                 { name: 'Artist', value: 'V. Chmarov' },
@@ -301,7 +301,7 @@ module.exports = {
             title: 'The Museum of Nature „Belovezhskaya Pushcha“',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'Bison as a symbol of the Pushcha emblem, the building of the Museum of Nature „Belovezhskaya Pushcha“' },
                 { name: 'Artist', value: 'Y. Artsimenev' },
@@ -364,7 +364,7 @@ module.exports = {
             title: 'Kaunas Zoological Garden is 50 years old',
             props: [
                 { name: 'Country', value: 'Lithuanian SSR (USSR)' },
-                { name: 'Type', value: 'Artistic unmarked cover' },
+                { name: 'Type', value: 'Illustrated Envelope' },
                 { name: 'Cost', value: '1 kopeck (ruble)' },
                 { name: 'Picture', value: 'giraffe and the logo of the Kaunas Zoological Garden - bison' },
                 { name: 'Artist', value: 'V. Skabijene' },
@@ -380,7 +380,7 @@ module.exports = {
             title: 'National Park Belovezhskaya Pushcha',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Stamp', value: '30 kopecks, brown, Pahonya image' },
                 { name: 'Artist', value: 'A. Medvedev' },
@@ -481,7 +481,7 @@ module.exports = {
             title: 'Philatelic exhibition NAPOSTA-97',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Simple' },
+                { name: 'Type', value: 'Plain Envelope' },
                 { name: 'Stamp', value: 'bison picture (1995)' },
                 { name: 'Postmark', value: 'mastic color is black, text NAPOSTA-97' },
                 { name: 'Size (mm)', value: '114x161' },
@@ -494,7 +494,7 @@ module.exports = {
             title: 'Philatelic exhibition Riga-98',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Simple' },
+                { name: 'Type', value: 'Plain Envelope' },
                 { name: 'Stamp', value: 'bison picture (1995)' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Size (mm)', value: '114x161' },
@@ -507,7 +507,7 @@ module.exports = {
             title: 'Post block. Minsk plant of wheeled tractors',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Goessler G-LINE' },
+                { name: 'Type', value: 'Goessler G-LINE Envelope' },
                 { name: 'Stamp', value: 'Stylized image of a bison (company logo) on a coupon' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture (company logo)' },
                 { name: 'Size (mm)', value: '161x228' },
@@ -554,7 +554,7 @@ module.exports = {
             title: 'Collector\'s Day',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic unmarked cover' },
+                { name: 'Type', value: 'Illustrated Envelope' },
                 { name: 'Picture', value: 'magnifying glass and stamps of the Republic of Belarus, bison picture (1995)' },
                 { name: 'Stamp', value: 'Minsk plant of wheeled tractors (1999)' },
                 { name: 'Postmark', value: 'mastic color is black, emblem of Grodno' },
@@ -571,7 +571,7 @@ module.exports = {
             title: 'The Grodno Zoo is 75 years old. Collector\'s Day',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'zoo gate, zoo emblem - bison' },
                 { name: 'Artist', value: 'A. Bushkin' },
                 { name: 'Stamp', value: 'letter A' },
@@ -588,7 +588,7 @@ module.exports = {
             title: 'Winter in Belovezhskaya Pushcha',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'Herd of bison' },
                 { name: 'Photographer', value: 'A. Kleshchuk' },
                 { name: 'Stamp', value: 'letter A' },
@@ -604,7 +604,7 @@ module.exports = {
             title: 'Day of Belarusian Written Language in Kamenets',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'a monument to Prince Vladimir Vasilkovich, next to a bison, against the background of the Kamenets Vezha' },
                 { name: 'Artist', value: 'M. Ryzhiy' },
                 { name: 'Order Number', value: '6664-05' },
@@ -621,7 +621,7 @@ module.exports = {
             title: 'Bisons',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'a herd of bison in the forest' },
                 { name: 'Photographer', value: 'I. Byshnev' },
                 { name: 'Designer', value: 'M. Trenkova' },
@@ -639,7 +639,7 @@ module.exports = {
             title: 'National Park „Belovezhskaya Pushcha“. 600 years of conservation of Belovezhskaya Pushcha',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'Bisons, a cow with a calf. Text in Belarusian: 600 years of conservation of Belovezhskaya Pushcha' },
                 { name: 'Description', value: 'The cover was issued with the return address: GPU (State Environmental Agency) National Park „Belovezhskaya Pushcha“' },
                 { name: 'Designer', value: 'E. Chirkova' },
@@ -657,7 +657,7 @@ module.exports = {
             title: 'The first Polish championship in thematic philately',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Type', value: 'Simple' },
+                { name: 'Type', value: 'Plain Envelope' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Size (mm)', value: '114x162' },
                 { name: 'Commemorative Cancellation', value: 'Pszczyna' },
@@ -705,7 +705,7 @@ module.exports = {
             title: 'Bison in a forest glade',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Artistic marked cover' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'Bison in a forest glade' },
                 { name: 'Designer', value: 'R. Dolbik' },
                 { name: 'Stamp', value: 'letter A' },
