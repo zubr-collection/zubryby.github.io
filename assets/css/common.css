@@ -167,6 +167,19 @@ header nav {
     list-style: none;
 }
 
+.switch-lang-mobile {
+    display: none;
+}
+
+.switch-lang-mobile a,
+.switch-lang-mobile a:visited {
+    color: var(--page-color);
+    margin-right: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .open-mobile-menu,
 .close-mobile-menu {
     display: none;
@@ -557,6 +570,10 @@ footer > div {
 
     .menu {
         display: none;
+    }
+
+    .switch-lang-mobile {
+        display: block;
     }
 
     .open-mobile-menu {

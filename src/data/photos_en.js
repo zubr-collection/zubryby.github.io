@@ -31,7 +31,7 @@ module.exports = {
                 { name: 'Editor', value: 'T.Yushchenko' },
                 { name: 'Order number', value: '1598' },
                 { name: 'Car number', value: '17' },
-                { name: 'Printing', value: '50 000' },
+                { name: 'Printing count', value: '50 000' },
                 { name: 'Printing house', value: 'Goznak, St. Mytnaya, 17' }
             ]
         },
@@ -45,7 +45,7 @@ module.exports = {
                 { name: 'Cost', value: '25 kopecks (ruble)' },
                 { name: 'Picture', value: 'Bisons. Bialowieza National Park' },
                 { name: 'Size (mm)', value: '112x145' },
-                { name: 'Printing', value: '100 000' },
+                { name: 'Printing count', value: '100 000' },
                 { name: 'Publisher', value: '„Zvyazda“ BSSR' }
             ]
         },
@@ -64,7 +64,7 @@ module.exports = {
                 { name: 'Editor', value: 'T.Yushchenko' },
                 { name: 'Order number', value: '2835' },
                 { name: 'Edition number', value: '19774' },
-                { name: 'Printing', value: '500 000' },
+                { name: 'Printing count', value: '500 000' },
                 { name: 'Printing house', value: 'Red proletarian' }
             ]
         },
@@ -123,7 +123,7 @@ module.exports = {
                 { name: 'Editor', value: 'A.Pogorelov' },
                 { name: 'Order number', value: '745' },
                 { name: 'Car number', value: '2219' },
-                { name: 'Printing', value: '2 000' }
+                { name: 'Printing count', value: '2 000' }
             ]
         },
         {
@@ -141,7 +141,7 @@ module.exports = {
                 { name: 'Editor', value: 'T.Yushchenko' },
                 { name: 'Order number', value: '841' },
                 { name: 'Car number', value: '4' },
-                { name: 'Printing', value: '265 000' },
+                { name: 'Printing count', value: '265 000' },
                 { name: 'Printing house', value: 'Kalinin Polygraph Plant' }
             ]
         },
@@ -156,7 +156,7 @@ module.exports = {
                 { name: 'Cost', value: '46 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '104x150' },
                 { name: 'Photographer', value: 'V. Gippenreiter' },
-                { name: 'Printing', value: '30 000' },
+                { name: 'Printing count', value: '30 000' },
                 { name: 'Number', value: '1115' },
                 { name: 'Publisher', value: "State Publishing House of the BSSR" },
                 { name: 'Printing house', value: "Polygraph plant them J. Kolas, Minsk" }
@@ -187,7 +187,7 @@ module.exports = {
                 { name: 'Cost', value: '?' },
                 { name: 'Size (mm)', value: '90x140' },
                 { name: 'Photographer', value: '?' },
-                { name: 'Printing', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Number', value: '?' },
                 { name: 'Publisher', value: "?" }
             ]
@@ -205,7 +205,7 @@ module.exports = {
                 { name: 'Cost', value: '2 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '105x148' },
                 { name: 'Publisher', value: '„Soviet artist“ Leningrad' },
-                { name: 'Printing', value: '200 000' },
+                { name: 'Printing count', value: '200 000' },
                 { name: 'Number', value: '2089' },
                 { name: 'Postmark', value: 'color of mastic is black, Romania, Birds and animals from nature reserves 1968' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
@@ -229,7 +229,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '102x145' },
                 { name: 'Photographer', value: 'T.Sumiński' },
                 { name: 'Number', value: '12' },
-                { name: 'Printing', value: '3500' }
+                { name: 'Printing count', value: '3500' }
             ]
         },
         {
@@ -242,7 +242,7 @@ module.exports = {
                 { name: 'Cost', value: '80 kopecks (ruble)' },
                 { name: 'Publisher', value: '„Belarus“, Minsk' },
                 { name: 'Size (mm)', value: '110x164' },
-                { name: 'Printing', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Photographer', value: 'A.Ananina, M.Ananin' },
                 { name: 'Number', value: '?' },
                 { name: 'Picture', value: 'Bisons and other animals' },
@@ -260,7 +260,7 @@ module.exports = {
                 { name: 'Cost', value: '1 penny / denarius (pound sterling), inside 0.5 penny' },
                 { name: 'Size (mm)', value: '85x138' },
                 { name: 'Photographer', value: 'F.V. Bond' },
-                { name: 'Printing', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Number', value: '5' },
                 { name: 'Publisher', value: "?" }
             ]
@@ -278,7 +278,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '105x148' },
                 { name: 'Artist', value: 'V.Y.Danchuk' },
                 { name: 'Order number', value: '272' },
-                { name: 'Printing', value: '250 000' },
+                { name: 'Printing count', value: '250 000' },
                 { name: 'Printing house', value: 'Polygraph plant them J.Kolas' }
             ]
         },
@@ -309,7 +309,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '90x140' },
                 { name: 'Author', value: 'R.Yakimenko and Y.Kovalenko' },
                 { name: 'Editor', value: 'A. Radchenko' },
-                { name: 'Printing', value: '100 000' },
+                { name: 'Printing count', value: '100 000' },
                 { name: 'Number', value: 'set - БФ 03086 З. 02137 / card - БФ 03088 З. 02151' },
                 { name: 'Publisher', value: "Radianska Ukrainian" }
             ]
@@ -325,7 +325,7 @@ module.exports = {
                 { name: 'Cost', value: '11 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '98x192' },
                 { name: 'Photographer', value: 'V. Minkevich' },
-                { name: 'Printing', value: '50 000' },
+                { name: 'Printing count', value: '50 000' },
                 { name: 'Number', value: '0-62' },
                 { name: 'Order number', value: '1227' },
                 { name: 'Type', value: '№ 32' },
@@ -343,7 +343,7 @@ module.exports = {
                 { name: 'Picture', value: 'Bison male, herd of bison' },
                 { name: 'Cost', value: '11 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '98x192' },
-                { name: 'Printing', value: '100 000 (2th factory 50 000)' },
+                { name: 'Printing count', value: '100 000 (2th factory 50 000)' },
                 { name: 'Number', value: '0-15' },
                 { name: 'Order number', value: '1158' },
                 { name: 'Type', value: '№ 32' },
@@ -366,7 +366,7 @@ module.exports = {
                 { name: 'Designer', value: 'M.Serotsinaskaya' },
                 { name: 'Number', value: '1068' },
                 { name: 'Order number', value: '9667 С-88' },
-                { name: 'Printing', value: '20 000' }
+                { name: 'Printing count', value: '20 000' }
             ]
         },
         {
@@ -379,7 +379,7 @@ module.exports = {
                 { name: 'Cost', value: '88 kopecks (ruble)' },
                 { name: 'Publisher', value: '„Belarus“, Minsk' },
                 { name: 'Size (mm)', value: '95x140' },
-                { name: 'Printing', value: '150000' },
+                { name: 'Printing count', value: '150000' },
                 { name: 'Photographer', value: 'Y.S.Ivanov, M.A.Sharai' },
                 { name: 'Artist', value: 'U.A.Kruglov' },
                 { name: 'Editor', value: 'G.P.Podberezsky, G.A.Tkatsevich, V.R.Mishchenko' },
@@ -415,7 +415,7 @@ module.exports = {
                 { name: 'Cost', value: '4 kopecks (ruble) + 6 kopecks to the fund for helping zoos' },
                 { name: 'Size (mm)', value: '104x147' },
                 { name: 'Artist', value: 'A. Isakov' },
-                { name: 'Printing', value: '1 200 000' },
+                { name: 'Printing count', value: '1 200 000' },
                 { name: 'Number', value: '5-1622 2465' },
                 { name: 'Publisher', value: "Fine arts, Moscow" }
             ]
@@ -467,7 +467,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '115x148' },
                 { name: 'Artist', value: 'Vilius Jurkūnas' },
                 { name: 'Number', value: '6, 7, 8, 9' },
-                { name: 'Printing', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Publisher', value: "?", }
             ]
         },
@@ -482,7 +482,7 @@ module.exports = {
                 { name: 'Cost', value: '55 grosze (zloty)' },
                 { name: 'Size (mm)', value: '105x150' },
                 { name: 'Photographer', value: 'T.Chernetsky' },
-                { name: 'Printing', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Publisher', value: "Bialystok District Post Office, Albert Institute 620 44 86", }
             ]
         },
@@ -497,7 +497,7 @@ module.exports = {
                 { name: 'Cost', value: 'letter B' },
                 { name: 'Size (mm)', value: '105x147' },
                 { name: 'Photographer', value: 'D.Lupach' },
-                { name: 'Printing', value: '3000' },
+                { name: 'Printing count', value: '3000' },
                 { name: 'Number', value: '141' },
                 { name: 'Publisher', value: "TAA Palifact" }
             ]
@@ -513,7 +513,7 @@ module.exports = {
                 { name: 'Cost', value: '10 zlotys + 2 zlotys (to the capital reconstruction fund)' },
                 { name: 'Size (mm)', value: '90x140' },
                 { name: 'Photographer', value: 'V.Tomashkevich' },
-                { name: 'Printing', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Number', value: 'B-112126' },
                 { name: 'Publisher', value: "?" }
             ]
@@ -529,7 +529,7 @@ module.exports = {
                 { name: 'Cost', value: '10 zlotys + 2 zlotys (to the capital reconstruction fund)' },
                 { name: 'Size (mm)', value: '90x140' },
                 { name: 'Photographer', value: 'V.Tomashkevich' },
-                { name: 'Printing', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Number', value: 'B-112126' },
                 { name: 'Publisher', value: "?" }
             ]
@@ -543,7 +543,7 @@ module.exports = {
                 { name: 'Type', value: 'Card' },
                 { name: 'Publisher', value: 'RUE „Belpochta“' },
                 { name: 'Size (mm)', value: '104x148' },
-                { name: 'Printing', value: '1300' },
+                { name: 'Printing count', value: '1300' },
                 { name: 'Number', value: '2843' },
                 { name: 'Picture', value: 'Monument to the founder of the city of Kamenets Vladimir Vasilkovich - prince and bison' },
                 { name: 'Printing house', value: 'UE „NOVIK“' },
@@ -560,7 +560,7 @@ module.exports = {
                 { name: 'Cost', value: '?' },
                 { name: 'Size (mm)', value: '104x147' },
                 { name: 'Photographer', value: '?' },
-                { name: 'Printing', value: '125' },
+                { name: 'Printing count', value: '125' },
                 { name: 'Number', value: '232' },
                 { name: 'Publisher', value: "?" }
             ]
@@ -576,7 +576,7 @@ module.exports = {
                 { name: 'Cost', value: '?' },
                 { name: 'Size (mm)', value: '104x147' },
                 { name: 'Photographer', value: '?' },
-                { name: 'Printing', value: '125' },
+                { name: 'Printing count', value: '125' },
                 { name: 'Number', value: '232' },
                 { name: 'Publisher', value: "?" }
             ]
@@ -604,7 +604,7 @@ module.exports = {
                 { name: 'Publisher', value: 'UE RIFTUR' },
                 { name: 'Size (mm)', value: '140x198' },
                 { name: 'Photographer', value: 'S.N.Bambiza' },
-                { name: 'Printing', value: '500' },
+                { name: 'Printing count', value: '500' },
                 { name: 'Number', value: '1316' },
                 { name: 'Text', value: 'E.V.Sadovskaya, V.O.Kuznecov' },
                 { name: 'Design', value: 'E.A.Zhdanovskaya' },
@@ -621,7 +621,7 @@ module.exports = {
                 { name: 'Type', value: 'Card' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
                 { name: 'Size (mm)', value: '106x148' },
-                { name: 'Printing', value: '5000' },
+                { name: 'Printing count', value: '5000' },
                 { name: 'Number', value: '8435' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Photographer', value: 'S.M.Plytkevich' },
@@ -656,7 +656,7 @@ module.exports = {
                 { name: 'Error', value: 'In the description of the edition on the cover the word „Belarus“ is cropped' },
                 { name: 'Size (mm)', value: '140x198' },
                 { name: 'Photographer', value: 'S.Plytkevich' },
-                { name: 'Printing', value: '3000' },
+                { name: 'Printing count', value: '3000' },
                 { name: 'Number', value: '460' },
                 { name: 'Text', value: 'S.Prokofiev' },
                 { name: 'Picture', value: 'Bison' },
@@ -673,7 +673,7 @@ module.exports = {
                 { name: 'Publisher', value: 'RUE "Publishing house „BELARUS“"' },
                 { name: 'Size (mm)', value: '140x204' },
                 { name: 'Photographer', value: 'I.I.Byshnev, N.I.Byshnev' },
-                { name: 'Printing', value: '1000' },
+                { name: 'Printing count', value: '1000' },
                 { name: 'Number', value: '2138' },
                 { name: 'Text and Pictures', value: 'I.I.Byshnev' },
                 { name: 'Picture', value: 'Herd of bison' },
@@ -689,7 +689,7 @@ module.exports = {
                 { name: 'Type', value: 'Single art cards' },
                 { name: 'Publisher', value: 'Online stores ACARDS.BY and Vanilla Tree Vale' },
                 { name: 'Size (mm)', value: '104x148' },
-                { name: 'Printing', value: '*' },
+                { name: 'Printing count', value: '*' },
                 { name: 'Artist', value: '*' },
                 { name: 'Editor', value: '*' },
                 { name: 'Number', value: '*' },

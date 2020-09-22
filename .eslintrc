@@ -4,7 +4,7 @@
         {
             "files": ["*.js"],
             "rules": {
-                "max-len": ["error", { "code": 120 }],
+                "max-len": ["error", { "code": 130 }],
                 "indent": ["error", 4],
                 "object-curly-spacing": "off",
                 "comma-dangle": "off",

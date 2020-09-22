@@ -63,7 +63,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Czechoslovakia' },
                 { name: 'Type', value: 'First Day Cover (FDC)' },
-                { name: 'Picture', value: 'Зубр с теленком, олененок' },
+                { name: 'Picture', value: 'Bison with calf, fawn' },
                 { name: 'Color', value: 'purple (plum), brown' },
                 { name: 'Size (mm)', value: '94x164' },
                 { name: 'Commemorative Cancellation', value: 'Prague 3, special postmark with translation date\n' }
@@ -72,7 +72,7 @@ module.exports = {
         {
             image: 'hungary-1961',
             year: '24.02.1961',
-            title: 'Животные зоопарка Будапешта',
+            title: 'Budapest zoo animals',
             props: [
                 { name: 'Country', value: 'Hungary' },
                 { name: 'Type', value: 'First Day Cover (FDC)' },
@@ -107,7 +107,7 @@ module.exports = {
                 { name: 'Picture', value: 'Herd of bison' },
                 { name: 'Color', value: 'brown, green' },
                 { name: 'Artist', value: 'P. I. Vuev' },
-                { name: 'Stamp', value: '1966, 4 kopecks, dark brown, depicts the USSR emblem' },
+                { name: 'Stamp', value: '1966, 4 kopecks, dark brown, image of the USSR emblem' },
                 { name: 'Size (mm)', value: '157x112' },
                 { name: 'Print', value: 'offset, two-color' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
@@ -123,7 +123,7 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Color', value: 'brown' },
-                { name: 'Size (mm)', value: '116х170' },
+                { name: 'Size (mm)', value: '116x170' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -137,10 +137,10 @@ module.exports = {
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Artist', value: 'V. Kolganov' },
-                { name: 'Stamp', value: '1966, 4 kopecks, orange, depicts the USSR emblem' },
+                { name: 'Stamp', value: '1966, 4 kopecks, orange, image of the USSR emblem' },
                 { name: 'Color', value: 'brown, orange' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
-                { name: 'Size (mm)', value: '112х157' },
+                { name: 'Size (mm)', value: '112x157' },
                 { name: 'Number', value: '6240' }
             ]
         },
@@ -158,7 +158,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, bison image' },
                 { name: 'Color', value: 'brown, orange' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
-                { name: 'Size (mm)', value: '112х157' },
+                { name: 'Size (mm)', value: '112x157' },
                 { name: 'Commemorative Cancellation', value: 'Moscow Post Office' }
             ]
         },
@@ -172,11 +172,11 @@ module.exports = {
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'Nature Museum „Belovezhskaya Pushcha“ - silhouette. Bison in the forest' },
                 { name: 'Artist', value: 'V. Kolganov' },
-                { name: 'Stamp', value: '1966, 4 kopecks, blue, depicts the USSR emblem' },
+                { name: 'Stamp', value: '1966, 4 kopecks, blue, image of the USSR emblem' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '112х157' },
+                { name: 'Size (mm)', value: '112x157' },
                 { name: 'Number', value: '8348' }
             ]
         },
@@ -190,7 +190,7 @@ module.exports = {
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Stamp', value: '55 bani, blue' },
                 { name: 'Color', value: 'brown, green' },
-                { name: 'Size (mm)', value: '116х161' },
+                { name: 'Size (mm)', value: '116x161' },
                 { name: 'Cancellation', value: 'Bucharest' },
                 { name: 'Code', value: '88672/77' },
                 { name: 'Number', value: '11.076' }
@@ -207,7 +207,7 @@ module.exports = {
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Stamp', value: '40 santims (franc), Nature Conservancy. Bison 1974' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '92х164' },
+                { name: 'Size (mm)', value: '92x164' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Commemorative Cancellation', value: 'Mouzon-08' }
 
@@ -221,9 +221,9 @@ module.exports = {
                 { name: 'Country', value: 'Romania' },
                 { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'Bison and calf' },
-                { name: 'Stamp', value: '55 bani, blue, depicts a red deer' },
+                { name: 'Stamp', value: '55 bani, blue, image of a red deer' },
                 { name: 'Color', value: 'brown, blue' },
-                { name: 'Size (mm)', value: '116х161' },
+                { name: 'Size (mm)', value: '116x161' },
                 { name: 'Code', value: '0089/77' },
                 { name: 'Number', value: '15008' }
             ]
@@ -239,7 +239,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, panda picture' },
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Color', value: 'purple, yellow' },
-                { name: 'Size (mm)', value: '116х163' },
+                { name: 'Size (mm)', value: '116x163' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -254,7 +254,7 @@ module.exports = {
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Postmark', value: 'mastic color is black' },
                 { name: 'Color', value: 'blue, green, brown' },
-                { name: 'Size (mm)', value: '119х162' },
+                { name: 'Size (mm)', value: '119x162' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -268,11 +268,11 @@ module.exports = {
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'Bison in winter forest' },
                 { name: 'Artist', value: 'A. Ljapin' },
-                { name: 'Stamp', value: '1976, 4 kopecks, gray-green, depicts the USSR emblem' },
-                { name: 'Color', value: 'серо-зеленый' },
+                { name: 'Stamp', value: '1976, 4 kopecks, gray-green, image of the USSR emblem' },
+                { name: 'Color', value: 'gray-green' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '114х160' },
+                { name: 'Size (mm)', value: '114x160' },
                 { name: 'Number', value: '14470' }
             ]
         },
@@ -286,11 +286,11 @@ module.exports = {
                 { name: 'Cost', value: '5 kopecks (ruble)' },
                 { name: 'Picture', value: 'Bison on the logo of the congress (swan, deer, stork, marten, bison are woven by mountain ash branches)' },
                 { name: 'Artist', value: 'V. Chmarov' },
-                { name: 'Stamp', value: '1981, 4 kopecks, multicolor, depicts the sign of the All-Russian Society for the Conservation of Nature (elk and planet earth)' },
+                { name: 'Stamp', value: '1981, 4 kopecks, multicolor, image of the sign of the All-Russian Society for the Conservation of Nature (elk and planet earth)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '114х160' },
+                { name: 'Size (mm)', value: '114x160' },
                 { name: 'Number', value: 'KOM № 64' },
                 { name: 'Commemorative Cancellation', value: 'Moscow K-9' }
             ]
@@ -309,7 +309,7 @@ module.exports = {
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '114х160' }
+                { name: 'Size (mm)', value: '114x160' }
             ]
         },
         {
@@ -320,10 +320,10 @@ module.exports = {
                 { name: 'Country', value: 'Poland' },
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'Bison - bull, cow and calf on three matching envelopes' },
-                { name: 'Stamp', value: 'depicts a herd of bison' },
+                { name: 'Stamp', value: 'image of a herd of bison' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'brown' },
-                { name: 'Size (mm)', value: '116х158' },
+                { name: 'Size (mm)', value: '116x158' },
                 { name: 'Commemorative Cancellation', value: 'Bialowieza' }
             ]
         },
@@ -336,10 +336,10 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover Set (FDC), fantastic, non-postal' },
                 { name: 'Description', value: 'The envelopes are non-postal, 1986 is a mistake on them, since the stamps and the postmark are 1996. In fact, the envelopes were issued after the 2000s' },
                 { name: 'Picture', value: 'Bisons picture' },
-                { name: 'Stamp', value: 'depicts a herd of bison' },
+                { name: 'Stamp', value: 'image of a herd of bison' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture - the stamp is a fake of the real stamp of 1996, the thickness of the lines, proportions, as well as the ears and eyebrows of the bison differ from the original' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '116х158' },
+                { name: 'Size (mm)', value: '116x158' },
                 { name: 'Commemorative Cancellation', value: 'On envelopes Vilnius 01/20/1996, real date unknown' }
             ]
         },
@@ -352,9 +352,9 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'bird' },
                 { name: 'Stamp', value: 'bison picture' },
-                { name: 'Postmark', value: 'mastic color is black, depicts a flower and a deer' },
+                { name: 'Postmark', value: 'mastic color is black, image of a flower and a deer' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '162х230' },
+                { name: 'Size (mm)', value: '162x230' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -368,9 +368,9 @@ module.exports = {
                 { name: 'Cost', value: '1 kopeck (ruble)' },
                 { name: 'Picture', value: 'giraffe and the logo of the Kaunas Zoological Garden - bison' },
                 { name: 'Artist', value: 'V. Skabijene' },
-                { name: 'Order Number', value: '947' },
+                { name: 'Order number', value: '947' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '114х160' },
+                { name: 'Size (mm)', value: '114x160' },
                 { name: 'Typography', value: 'Kaunas, Printing house them. K. Pozhely' }
             ]
         },
@@ -387,7 +387,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '114x162' },
                 { name: 'Number', value: '136680' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Circulation', value: '994 000' },
+                { name: 'Printing count', value: '994 000' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' }
             ]
         },
@@ -404,7 +404,7 @@ module.exports = {
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '114х162' },
+                { name: 'Size (mm)', value: '114x162' },
                 { name: 'Commemorative Cancellation', value: 'Vilnius' }
             ]
         },
@@ -439,7 +439,7 @@ module.exports = {
                 { name: 'Stamp', value: 'flora and bison picture' },
                 { name: 'Postmark', value: 'mastic color is black, flora and bison picture' },
                 { name: 'Color', value: 'black' },
-                { name: 'Circulation', value: '10 000' },
+                { name: 'Printing count', value: '10 000' },
                 { name: 'Size (mm)', value: '113x161' },
                 { name: 'Commemorative Cancellation', value: 'Topolchany' },
                 { name: 'Typography', value: 'Post Office Printing House, Prague' }
@@ -523,20 +523,20 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'Bison and other animals, map of Belarus with the mark of Belovezhskaya Pushcha' },
                 { name: 'Artist', value: 'M. Ryzhiy' },
-                { name: 'Order Number', value: '7' },
+                { name: 'Order number', value: '7' },
                 { name: 'Stamp', value: 'picture with bison and other animals' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'red, green' },
                 { name: 'Size (mm)', value: '114x162' },
                 { name: 'Commemorative Cancellation', value: 'Brest-Center' },
-                { name: 'Circulation', value: '3000' },
+                { name: 'Printing count', value: '3000' },
                 { name: 'Manufacturing', value: 'PaliBig' }
             ]
         },
         {
             image: 'poland-1999',
             year: '05.05.1999',
-            title: 'Европа 1999. Natural reserves. National Park Belovezhskaya Pushcha',
+            title: 'Europa 1999. Natural reserves. National Park Belovezhskaya Pushcha',
             props: [
                 { name: 'Country', value: 'Poland' },
                 { name: 'Type', value: 'First Day Cover (FDC)' },
@@ -559,8 +559,8 @@ module.exports = {
                 { name: 'Stamp', value: 'Minsk plant of wheeled tractors (1999)' },
                 { name: 'Postmark', value: 'mastic color is black, emblem of Grodno' },
                 { name: 'Size (mm)', value: '114x162' },
-                { name: 'Circulation', value: '10 000' },
-                { name: 'Order Number', value: '3546' },
+                { name: 'Printing count', value: '10 000' },
+                { name: 'Order number', value: '3546' },
                 { name: 'Commemorative Cancellation', value: 'Grodno-23' },
                 { name: 'Manufacturing', value: 'Grodno Regional Enlarged Printing House' }
             ]
@@ -577,8 +577,8 @@ module.exports = {
                 { name: 'Stamp', value: 'letter A' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Size (mm)', value: '114x162' },
-                { name: 'Circulation', value: '99 900' },
-                { name: 'Order Number', value: '1147ц' },
+                { name: 'Printing count', value: '99 900' },
+                { name: 'Order number', value: '1147ц' },
                 { name: 'Commemorative Cancellation', value: 'Grodno-25' }
             ]
         },
@@ -593,9 +593,9 @@ module.exports = {
                 { name: 'Photographer', value: 'A. Kleshchuk' },
                 { name: 'Stamp', value: 'letter A' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '100 000' },
+                { name: 'Printing count', value: '100 000' },
                 { name: 'Size (mm)', value: '111x219' },
-                { name: 'Order Number', value: '1673ц-03' }
+                { name: 'Order number', value: '1673ц-03' }
             ]
         },
         {
@@ -607,10 +607,10 @@ module.exports = {
                 { name: 'Type', value: 'Illustrated Stamped Envelope' },
                 { name: 'Picture', value: 'a monument to Prince Vladimir Vasilkovich, next to a bison, against the background of the Kamenets Vezha' },
                 { name: 'Artist', value: 'M. Ryzhiy' },
-                { name: 'Order Number', value: '6664-05' },
+                { name: 'Order number', value: '6664-05' },
                 { name: 'Stamp', value: 'letter A, Kamenets Vezha' },
                 { name: 'Color', value: 'red, brown' },
-                { name: 'Circulation', value: '50 000' },
+                { name: 'Printing count', value: '50 000' },
                 { name: 'Size (mm)', value: '114x162' },
                 { name: 'Manufacturing', value: 'Paper Mill of the State Sign, Borisov' }
             ]
@@ -625,10 +625,10 @@ module.exports = {
                 { name: 'Picture', value: 'a herd of bison in the forest' },
                 { name: 'Photographer', value: 'I. Byshnev' },
                 { name: 'Designer', value: 'M. Trenkova' },
-                { name: 'Order Number', value: '7116-06' },
+                { name: 'Order number', value: '7116-06' },
                 { name: 'Stamp', value: 'letter A' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '100 000' },
+                { name: 'Printing count', value: '100 000' },
                 { name: 'Size (mm)', value: '110x219' },
                 { name: 'Manufacturing', value: 'Paper Mill of the State Sign, Borisov' }
             ]
@@ -644,9 +644,9 @@ module.exports = {
                 { name: 'Description', value: 'The cover was issued with the return address: GPU (State Environmental Agency) National Park „Belovezhskaya Pushcha“' },
                 { name: 'Designer', value: 'E. Chirkova' },
                 { name: 'Stamp', value: 'letter A' },
-                { name: 'Order Number', value: '8435-08' },
+                { name: 'Order number', value: '8435-08' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '25 800' },
+                { name: 'Printing count', value: '25 800' },
                 { name: 'Size (mm)', value: '110x220' },
                 { name: 'Manufacturing', value: 'Paper Mill of the State Sign, Borisov' }
             ]
@@ -673,9 +673,9 @@ module.exports = {
                 { name: 'Picture', value: 'herd of deer, map of the forest' },
                 { name: 'Artist', value: 'I. Lukin' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture, artists O. Suzko, O. Lukin' },
-                { name: 'Order Number', value: '15к-09' },
+                { name: 'Order number', value: '15к-09' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '1500' },
+                { name: 'Printing count', value: '1500' },
                 { name: 'Size (mm)', value: '108x220' },
                 { name: 'Commemorative Cancellation', value: 'Kamenyuki' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
@@ -691,9 +691,9 @@ module.exports = {
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Artist', value: 'M. Plahatniuk' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture, fished and birds' },
-                { name: 'Order Number', value: '98к-10' },
+                { name: 'Order number', value: '98к-10' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '1000' },
+                { name: 'Printing count', value: '1000' },
                 { name: 'Size (mm)', value: '109x219' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
@@ -709,9 +709,9 @@ module.exports = {
                 { name: 'Picture', value: 'Bison in a forest glade' },
                 { name: 'Designer', value: 'R. Dolbik' },
                 { name: 'Stamp', value: 'letter A' },
-                { name: 'Order Number', value: '377ц-2011' },
+                { name: 'Order number', value: '377ц-2011' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '100 000' },
+                { name: 'Printing count', value: '100 000' },
                 { name: 'Size (mm)', value: '113x160' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
@@ -726,10 +726,10 @@ module.exports = {
                 { name: 'Picture', value: 'animal silhouettes picture' },
                 { name: 'Designer', value: 'A. Mamaev' },
                 { name: 'Stamp', value: 'grazing bison, 2500' },
-                { name: 'Order Number', value: '64к-2011' },
+                { name: 'Order number', value: '64к-2011' },
                 { name: 'Postmark', value: 'mastic color is black, animals and forest picture' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '1000' },
+                { name: 'Printing count', value: '1000' },
                 { name: 'Size (mm)', value: '113x160' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
@@ -745,10 +745,10 @@ module.exports = {
                 { name: 'Picture', value: 'China and Belarus flags' },
                 { name: 'Designer', value: 'I. Lukin' },
                 { name: 'Stamp', value: 'bison and panda, block, 15000' },
-                { name: 'Order Number', value: '336к-2011' },
+                { name: 'Order number', value: '336к-2011' },
                 { name: 'Postmark', value: 'mastic color is red, China and Belarus flags' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '1000' },
+                { name: 'Printing count', value: '1000' },
                 { name: 'Size (mm)', value: '113x162' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
@@ -764,10 +764,10 @@ module.exports = {
                 { name: 'Picture', value: 'the logo of the UNESCO Commission' },
                 { name: 'Designer', value: 'G. Malysh' },
                 { name: 'Stamp', value: 'letter N, herd of bison' },
-                { name: 'Order Number', value: '77к-14' },
+                { name: 'Order number', value: '77к-14' },
                 { name: 'Postmark', value: 'mastic color is black, the logo of the UNESCO Commission' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '1000' },
+                { name: 'Printing count', value: '1000' },
                 { name: 'Size (mm)', value: '113x160' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
@@ -784,10 +784,10 @@ module.exports = {
                 { name: 'Designer', value: 'T. Kuznetsova' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Stamp', value: 'letter H (1,26 rubles), emblems of Poland and Belarus, a herd of bison on the coupon' },
-                { name: 'Order Number', value: '21к-17' },
+                { name: 'Order number', value: '21к-17' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '1200' },
+                { name: 'Printing count', value: '1200' },
                 { name: 'Size (mm)', value: '112x162' },
                 { name: 'Commemorative Cancellation', value: 'Minsk-1' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
@@ -804,10 +804,10 @@ module.exports = {
                 { name: 'Designer', value: 'Libuše and Jaromír Knotek' },
                 { name: 'Engraver', value: 'Martin Srb' },
                 { name: 'Stamp', value: '16 Czech crowns, bison' },
-                { name: 'Order Number', value: '?' },
+                { name: 'Order number', value: '?' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'brown' },
-                { name: 'Circulation', value: '?' },
+                { name: 'Printing count', value: '?' },
                 { name: 'Size (mm)', value: '113x161' },
                 { name: 'Commemorative Cancellation', value: 'Khomutov' },
                 { name: 'Manufacturing', value: '?' }
@@ -822,11 +822,11 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'emblems of Belarus and Kyrgyzstan' },
                 { name: 'Designer', value: 'T. Kuznetsova' },
-                { name: 'Stamp', value: 'letter H (1,56 rubles), гербы Кыргызстана и Беларуси, на купоне зубр и барс' },
-                { name: 'Order Number', value: '35к-18' },
+                { name: 'Stamp', value: 'letter H (1,56 rubles), emblems of Kyrgyzstan and Belarus, bison and snow leopard on the coupon' },
+                { name: 'Order number', value: '35к-18' },
                 { name: 'Postmark', value: 'mastic color is black, picture of the national dwellings of both countries' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Circulation', value: '1000' },
+                { name: 'Printing count', value: '1000' },
                 { name: 'Size (mm)', value: '114x161' },
                 { name: 'Commemorative Cancellation', value: 'Minsk-1' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
