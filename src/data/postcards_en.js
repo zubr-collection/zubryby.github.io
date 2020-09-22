@@ -14,7 +14,7 @@ module.exports = {
                 { name: 'Size (mm)', value: '147x105' },
                 { name: 'Postage Stamp', value: 'Face value of 25 pfennigs, portrait of Gustav Walter Heinemann' },
                 { name: 'Color', value: 'dark olive / green (grün)' },
-                { name: 'Printing', value: '20 000' }
+                { name: 'Printing count', value: '20 000' }
             ]
         },
         {
@@ -45,7 +45,7 @@ module.exports = {
                         'Face value 4 k., multicolor, picture of the Caucasian Bison - a representative of the fauna of the reserve'
                 },
                 { name: 'Order number', value: '2465' },
-                { name: 'Printing', value: '200 000' },
+                { name: 'Printing count', value: '200 000' },
                 { name: 'Printing house', value: 'Moscow Printing House of Goznak' }
             ]
         },
@@ -73,10 +73,10 @@ module.exports = {
                 {
                     name: 'Postage Stamp',
                     value:
-                        'Face value of 1 zloty, picture of bison shadow, special cancellation of 1981 with bison picture'
+                        'Face value of 1 zloty, bison picture shadow, special cancellation of 1981 with bison picture'
                 },
                 { name: 'Number', value: 'Cp 731' },
-                { name: 'Printing', value: '100 000' },
+                { name: 'Printing count', value: '100 000' },
                 { name: 'Printing house', value: 'Polska Poczta, Telegraf i Telefon (PPTiT)' },
                 { name: 'Color', value: 'blue-green, black' }
             ]
@@ -116,11 +116,11 @@ module.exports = {
                 { name: 'Cost', value: '1.10 zloty' },
                 { name: 'Size (mm)', value: '148x105' },
                 { name: 'Picture', value: 'Natural landscape and coat of arms of the national park' },
-                { name: 'Postage Stamp', value: 'Face value of 1 zloty, picture of bison in the forest' },
+                { name: 'Postage Stamp', value: 'Face value of 1 zloty, bison picture in the forest' },
                 { name: 'Designer', value: 'Jacek Brodowski' },
                 { name: 'Photographer', value: 'Grzegorz Okołów, Jan Walencik' },
                 { name: 'Number', value: 'Cp 1260' },
-                { name: 'Printing', value: '190 000' },
+                { name: 'Printing count', value: '190 000' },
                 { name: 'Printing house', value: 'Polska Poczta, Telegraf i Telefon (PPTiT) ' },
                 { name: 'Color', value: 'blue-green, black' }
             ]
@@ -136,7 +136,7 @@ module.exports = {
                 { name: 'Postage Stamp', value: 'Letter “B” (internal tariff), blue' },
                 { name: 'Order number', value: '508ц-2005' },
                 { name: 'Number of Belpost catalog (2002-2007)', value: '23' },
-                { name: 'Printing', value: '200 000' },
+                { name: 'Printing count', value: '200 000' },
                 {
                     name: 'Printing house',
                     value:
@@ -159,16 +159,16 @@ module.exports = {
                 { name: 'Artist', value: 'Nikolay Ryzhy (Red)' },
                 {
                     name: 'Postage Stamp',
-                    value: 'Letter “B” (internal tariff), multicolor, depicts a spread of a stylized book, oak twigs'
+                    value: 'Letter “B” (internal tariff), multicolor, image of a spread of a stylized book, oak twigs'
                 },
                 {
                     name: 'Cancellation',
                     value:
-                        'Minsk Postal Office, special cancellation with picture of bison and text „The Song about Bison“, dedicated to the first day of issue'
+                        'Minsk Postal Office, special cancellation with bison picture and text „The Song about Bison“, dedicated to the first day of issue'
                 },
                 { name: 'Order number', value: '136к-2008' },
                 { name: 'Number', value: 'Michel PSo54' },
-                { name: 'Printing', value: '100 000' },
+                { name: 'Printing count', value: '100 000' },
                 {
                     name: 'Printing house',
                     value:
@@ -189,7 +189,7 @@ module.exports = {
                 { name: 'Design', value: 'LLC „My destiny“' },
                 { name: 'Order number', value: '5к-2009' },
                 { name: 'Number', value: '103-09' },
-                { name: 'Printing', value: '50 000' },
+                { name: 'Printing count', value: '50 000' },
                 {
                     name: 'Printing house',
                     value:
@@ -214,7 +214,7 @@ module.exports = {
                 { name: 'Designer', value: 'Joanna Czerwińska-Jędrych' },
                 { name: 'Photographer', value: 'A. Kostecka, M. i F. Skrypko' },
                 { name: 'Number', value: 'Cp 1538' },
-                { name: 'Printing', value: '35 500' },
+                { name: 'Printing count', value: '35 500' },
                 { name: 'Color', value: 'multicolor' }
             ]
         },

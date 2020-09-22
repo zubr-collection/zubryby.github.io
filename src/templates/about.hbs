@@ -39,6 +39,12 @@
             filter: none;
         }
 
+        article figure img:hover {
+            transform: unset;
+            transition: none;
+            cursor: default;
+        }
+
         article figure figcaption {
             margin: 0.5em 0 0;
             color: rgb(119, 109, 109);
@@ -79,7 +85,8 @@
 <body>
 {{header 'about'}}
 <div class="cover"></div>
-<article id="content">
+<article>
+    <div id="content" class="anchor"></div>
     <div>
         <h1>{{name}}</h1>
         <div>
@@ -125,8 +132,8 @@
                 <figcaption>Зубры в Беловежской пуще. Зима 2016 г. Фото Басак Артур</figcaption>
             </figure>
             <figure>
-                <img loading="lazy" decoding="async" src="assets/pics/about/puscha_3.jpg" alt="Молодые зубры бадаются. Национальный парк „Беловежская пуща“. Лето 2020 г. Фото Басак Артур">
-                <figcaption>Молодые зубры бадаются. Национальный парк „Беловежская пуща“. Лето 2020 г. Фото Басак Артур</figcaption>
+                <img loading="lazy" decoding="async" src="assets/pics/about/puscha_3.jpg" alt="Молодые зубры бодаются. Национальный парк „Беловежская пуща“. Лето 2020 г. Фото Басак Артур">
+                <figcaption>Молодые зубры бодаются. Национальный парк „Беловежская пуща“. Лето 2020 г. Фото Басак Артур</figcaption>
             </figure>
             <figure>
                 <img loading="lazy" decoding="async" src="assets/pics/about/puscha_2.jpg" alt="Зубр пасется. Национальный парк „Беловежская пуща“. Лето 2020 г. Фото Басак Артур">

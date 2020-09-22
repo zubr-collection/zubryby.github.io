@@ -22,10 +22,25 @@ const requiredProps = {
         'Типография',
         'Номер в каталоге'
     ],
+    stamps_en: [
+        'Issuer',
+        'Type',
+        'Cost of the stamp with bison',
+        'Color',
+        'Paper',
+        'Perforation',
+        'Print',
+        'Size (mm)',
+        'Printing count',
+        'Printing house',
+        'Catalog number'
+    ],
     postcards: ['Страна', 'Размер (мм)', 'Марка', 'Цвет', 'Изображение', 'Тираж', 'Типография'],
-    postcards_en: ['Country', 'Size (mm)', 'Postage Stamp', 'Color', 'Picture', 'Printing', 'Printing house'],
+    postcards_en: ['Country', 'Size (mm)', 'Postage Stamp', 'Color', 'Picture', 'Printing count', 'Printing house'],
     photos: ['Страна', 'Тип', 'Изображение', 'Размер (мм)', 'Цена', 'Издательство', 'Тираж', 'Типография', 'Номер'],
-    envelopes: ['Страна', 'Тип', 'Изображение', 'Цвет', 'Размер (мм)', 'Изготовление', 'Тираж', 'Номер Заказа']
+    photos_en: ['Country', 'Type', 'Picture', 'Size (mm)', 'Cost', 'Publisher', 'Printing count', 'Printing house', 'Number'],
+    envelopes: ['Страна', 'Тип', 'Изображение', 'Цвет', 'Размер (мм)', 'Изготовление', 'Тираж', 'Номер Заказа'],
+    envelopes_en: ['Country', 'Type', 'Picture', 'Color', 'Size (mm)', 'Manufacturing', 'Printing count', 'Order number']
 };
 
 const pageNames = fs.readdirSync(path.join(__dirname, '../src/data')).map(name => name.replace('.js', ''));

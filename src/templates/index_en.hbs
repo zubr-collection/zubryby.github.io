@@ -5,10 +5,6 @@
     {{resources true "slide4"}}
 
     <style>
-        .skip-links {
-            display: none;
-        }
-
         .welcome {
             position: absolute;
             top: 0;
@@ -71,8 +67,14 @@
         }
 
         .swiper-container {
+            position: relative;
             width: 100%;
-            height: calc(100vh - 7.25em);
+            height: calc(100vh - var(--header-height));
+        }
+
+        .swiper-container .anchor {
+            position: absolute;
+            top: calc(-1 * var(--header-height));
         }
 
         .swiper-slide {
@@ -183,7 +185,7 @@
 
             .swiper-container {
                 width: 100%;
-                height: calc(100vh - 7.25em);
+                height: calc(100vh - var(--header-height));
             }
 
             .swiper-button-next,
@@ -298,8 +300,9 @@
     </style>
 </head>
 <body>
-{{header_en}}
-<div class="swiper-container" id="content">
+{{header_en 'index'}}
+<div class="swiper-container">
+    <div id="content" class="anchor"></div>
     <div class="welcome">
         <h1>Welcome to the online museum ZUBRY.BY</h1>
         <p>This site is a philatelic and philocartic catalog of a private collection of postal items dedicated to the topic of European Bison (Bison Bonasus).</p>
