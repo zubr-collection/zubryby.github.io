@@ -132,6 +132,13 @@ article img:hover {
     cursor: zoom-in;
 }
 
+@media (pointer: coarse) {
+    article img:hover {
+        transform: scale(1);
+        cursor: initial;
+    }
+}
+
 article section {
     position: relative;
     display: flex;
