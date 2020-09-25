@@ -25,7 +25,7 @@ const requiredProps = {
     stamps_en: [
         'Issuer',
         'Type',
-        'Cost of the stamp with bison',
+        'Denomination (bison stamp)',
         'Color',
         'Paper',
         'Perforation',
