@@ -10,7 +10,7 @@ module.exports = {
             title: 'Bison in the forest. Belarus',
             props: [
                 { name: 'Country', value: 'German Empire' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'V.Planer, Charlottenburg, Sibelstrasse 7 (or Rotophot?)' },
                 { name: 'Picture', value: 'Bison in the forest' },
                 { name: 'Size (mm)', value: '88x140' }
@@ -22,7 +22,7 @@ module.exports = {
             title: 'Zoological series. Bialowieza bison',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Cost', value: '7 kopecks (ruble)' },
                 { name: 'Publisher', value: 'IZOGIZ (Fine Arts)' },
                 { name: 'Picture', value: 'Bison' },
@@ -55,7 +55,7 @@ module.exports = {
             title: 'Bisons',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Cost', value: '20 kopecks (ruble)' },
                 { name: 'Publisher', value: 'IZOGIZ (Fine Arts)' },
                 { name: 'Picture', value: 'Bisons move through snow' },
@@ -114,7 +114,7 @@ module.exports = {
             title: 'Askania-Nova. European Bison',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Cost', value: '65 kopecks (ruble)' },
                 { name: 'Publisher', value: 'Factory of mass printing of the trust „Ukrfoto“' },
                 { name: 'Picture', value: 'Bison on the background of the fence' },
@@ -132,7 +132,7 @@ module.exports = {
             title: 'From the animal world',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Cards set' },
+                { name: 'Type', value: 'Postcards set' },
                 { name: 'Cost', value: '20 kopecks (ruble), since 01.01.1961 2 kopecks' },
                 { name: 'Publisher', value: 'IZOGIZ (Fine Arts)' },
                 { name: 'Picture', value: 'Bison in the forest' },
@@ -151,7 +151,7 @@ module.exports = {
             title: 'Bialowieza National Park. 23 cards',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Cards set' },
+                { name: 'Type', value: 'Postcards set' },
                 { name: 'Picture', value: 'Bisons in Bialowieza National Park' },
                 { name: 'Cost', value: '46 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '104x150' },
@@ -255,7 +255,7 @@ module.exports = {
             title: 'European bison. From the gardens of the Zoological Society of London, Regent\'s Park',
             props: [
                 { name: 'Country', value: 'Great Britain' },
-                { name: 'Type', value: 'Cards set, №5' },
+                { name: 'Type', value: 'Postcards set, №5' },
                 { name: 'Picture', value: 'European bison' },
                 { name: 'Cost', value: '1 penny / denarius (pound sterling), inside 0.5 penny' },
                 { name: 'Size (mm)', value: '85x138' },
@@ -271,7 +271,7 @@ module.exports = {
             title: 'Happy New Year!',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Cost', value: '3 kopecks (ruble)' },
                 { name: 'Publisher', value: 'Belarus' },
                 { name: 'Picture', value: 'Bison pulls a sleigh with Santa Claus' },
@@ -303,7 +303,7 @@ module.exports = {
             title: 'Kiev Zoo. 16 cards',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Cards set' },
+                { name: 'Type', value: 'Postcards set' },
                 { name: 'Picture', value: 'Bison with sika deer' },
                 { name: 'Cost', value: 'set - 54 kopecks / card - 3 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '90x140' },
@@ -320,7 +320,7 @@ module.exports = {
             title: 'In the nature reserve „Bialowieza National Park“',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons in the forest, bison, wild boar, black stork' },
                 { name: 'Cost', value: '11 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '98x192' },
@@ -339,7 +339,7 @@ module.exports = {
             title: 'Bialowieza National Park. Bisons - the pride of the forest',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bison male, herd of bison' },
                 { name: 'Cost', value: '11 kopecks (ruble)' },
                 { name: 'Size (mm)', value: '98x192' },
@@ -357,7 +357,7 @@ module.exports = {
             title: 'Bialowieza National Park',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Cost', value: '3.30 zlotys + 20 grosz (to the reconstruction fund / NFOZ)' },
                 { name: 'Publisher', value: 'RUCH' },
                 { name: 'Picture', value: 'Herd of bisons, map of Bialowieza National Park' },
@@ -375,7 +375,7 @@ module.exports = {
             title: 'Bialowieza National Park',
             props: [
                 { name: 'Country', value: 'USSR (BSSR)' },
-                { name: 'Type', value: 'Cards set, non-postal, 16 pieces' },
+                { name: 'Type', value: 'Postcards set, non-postal, 16 pieces' },
                 { name: 'Cost', value: '88 kopecks (ruble)' },
                 { name: 'Publisher', value: '„Belarus“, Minsk' },
                 { name: 'Size (mm)', value: '95x140' },
@@ -410,7 +410,7 @@ module.exports = {
             title: 'Animals',
             props: [
                 { name: 'Country', value: 'USSR' },
-                { name: 'Type', value: 'Cards set' },
+                { name: 'Type', value: 'Postcards set' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Cost', value: '4 kopecks (ruble) + 6 kopecks to the fund for helping zoos' },
                 { name: 'Size (mm)', value: '104x147' },
@@ -492,7 +492,7 @@ module.exports = {
             title: 'Bialowieza National Park',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bison, bird, forest' },
                 { name: 'Cost', value: 'letter B' },
                 { name: 'Size (mm)', value: '105x147' },
@@ -508,7 +508,7 @@ module.exports = {
             title: 'Bialowieza National Park. Bison',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bialowieza National Park. Bison' },
                 { name: 'Cost', value: '10 zlotys + 2 zlotys (to the capital reconstruction fund)' },
                 { name: 'Size (mm)', value: '90x140' },
@@ -524,7 +524,7 @@ module.exports = {
             title: 'Bialowieza National Park. Bisons',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bialowieza National Park. Bisons' },
                 { name: 'Cost', value: '10 zlotys + 2 zlotys (to the capital reconstruction fund)' },
                 { name: 'Size (mm)', value: '90x140' },
@@ -540,7 +540,7 @@ module.exports = {
             title: 'Kamenets. Monument to the founder of the city',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'RUE „Belpochta“' },
                 { name: 'Size (mm)', value: '104x148' },
                 { name: 'Printing count', value: '1300' },
@@ -587,7 +587,7 @@ module.exports = {
             title: "Bison and it's conservation program",
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'published with the financial support of the European Union' },
                 { name: 'Picture', value: 'European bison' },
                 { name: 'Size (mm)', value: '100x148' },
@@ -600,7 +600,7 @@ module.exports = {
             title: 'National park „Pripyatsky“',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Cards set, non-postal, 9 pieces' },
+                { name: 'Type', value: 'Postcards set, non-postal, 9 pieces' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
                 { name: 'Size (mm)', value: '140x198' },
                 { name: 'Photographer', value: 'S.N.Bambiza' },
@@ -618,7 +618,7 @@ module.exports = {
             title: 'Belarus is reserved. Bison. Nalibokskaya Pushcha',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Card' },
+                { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
                 { name: 'Size (mm)', value: '106x148' },
                 { name: 'Printing count', value: '5000' },
@@ -636,7 +636,7 @@ module.exports = {
             title: 'Natural complex „Krasny Bor“',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Card, non-postal' },
+                { name: 'Type', value: 'Postcard, non-postal' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
                 { name: 'Picture', value: 'Herd of bison' },
                 { name: 'Size (mm)', value: '140x204' },
@@ -651,7 +651,7 @@ module.exports = {
             title: 'Bialowieza National Park. Beasts',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Cards set, non-postal, 14 pieces' },
+                { name: 'Type', value: 'Postcards set, non-postal, 14 pieces' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
                 { name: 'Error', value: 'In the description of the edition on the cover the word „Belarus“ is cropped' },
                 { name: 'Size (mm)', value: '140x198' },
@@ -669,7 +669,7 @@ module.exports = {
             title: 'Animal world of Belarus. Bialowieza National Park',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Cards set, non-postal, 16 pieces' },
+                { name: 'Type', value: 'Postcards set, non-postal, 16 pieces' },
                 { name: 'Publisher', value: 'RUE "Publishing house „BELARUS“"' },
                 { name: 'Size (mm)', value: '140x204' },
                 { name: 'Photographer', value: 'I.I.Byshnev, N.I.Byshnev' },
@@ -686,7 +686,7 @@ module.exports = {
             title: 'Modern postcards ACARDS.BY and Vanilla Tree Vale',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Type', value: 'Single art cards' },
+                { name: 'Type', value: 'Art postcards' },
                 { name: 'Publisher', value: 'Online stores ACARDS.BY and Vanilla Tree Vale' },
                 { name: 'Size (mm)', value: '104x148' },
                 { name: 'Printing count', value: '*' },
