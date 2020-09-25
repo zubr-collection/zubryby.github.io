@@ -47,7 +47,7 @@ module.exports = {
             title: 'First flight of flight LH 622 over the airmail center of Hamburg',
             props: [
                 { name: 'Country', value: 'German Democratic Republic' },
-                { name: 'Type', value: 'Airmail (+ sticker)' },
+                { name: 'Type', value: 'Airmail (+ etiquette)' },
                 { name: 'Size (mm)', value: '113,5x160' },
                 {
                     name: 'Commemorative Cancellation',

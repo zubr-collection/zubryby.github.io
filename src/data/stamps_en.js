@@ -11,7 +11,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '45 groszy (zloty)' },
+                { name: 'Denomination (bison stamp)', value: '45 groszy (zloty)' },
                 { name: 'Color', value: 'olive-green, black-brown' },
                 { name: 'Paper', value: 'uncoated' },
                 { name: 'Engraver', value: 'Czesław Borowczyk' },
@@ -31,7 +31,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'German Democratic Republic Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '25 pfennigs (mark)' },
+                { name: 'Denomination (bison stamp)', value: '25 pfennigs (mark)' },
                 { name: 'Withdrawn from circulation', value: '01.04.1959' },
                 { name: 'Color', value: 'dark-brown, gray-brown' },
                 { name: 'Paper', value: 'with watermarks' },
@@ -50,7 +50,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'USSR Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '30 kopecks (ruble)' },
+                { name: 'Denomination (bison stamp)', value: '30 kopecks (ruble)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'simple' },
                 { name: 'Engraver', value: 'A. Komarov' },
@@ -68,8 +68,8 @@ module.exports = {
             title: '1954 stamp template for the 400th anniversary of the Polish Post (400 Lat Poczty Polskiej)',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Type', value: 'template, example' },
-                { name: 'Cost of the stamp with bison', value: '45 groszy (zloty)' },
+                { name: 'Type', value: 'dummy stamp' },
+                { name: 'Denomination (bison stamp)', value: '45 groszy (zloty)' },
                 { name: 'Color', value: 'olive-green, black-brown' },
                 { name: 'Engraver', value: 'Czesław Borowczyk' },
                 { name: 'Engraver', value: 'B. Brandt' },
@@ -84,7 +84,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Czechoslovak Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '40 hellers (crown)' },
+                { name: 'Denomination (bison stamp)', value: '40 hellers (crown)' },
                 { name: 'Color', value: 'brown, green-blue' },
                 { name: 'Engraver', value: 'Josef Baláž' },
                 { name: 'Engraver', value: 'Jan Mraček' },
@@ -102,7 +102,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Hungarian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '2.60 forints' },
+                { name: 'Denomination (bison stamp)', value: '2.60 forints' },
                 { name: 'Withdrawn from circulation', value: '01.02.1962' },
                 { name: 'Reintroduced', value: '01.09.1971' },
                 { name: 'Color', value: 'bright purple, brown (bison with calf)' },
@@ -126,7 +126,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Netherlands Post, Hague' },
                 { name: 'Type', value: '"Summer stamps", with surcharge (since 1993 "Senior stamps")' },
-                { name: 'Cost of the stamp with bison', value: '30 + 9 cents (guilder)' },
+                { name: 'Denomination (bison stamp)', value: '30 + 9 cents (guilder)' },
                 { name: 'Withdrawn from circulation', value: '31.12.1965' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Perforation', value: '12:12,5' },
@@ -143,7 +143,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '5.60 zlotys' },
+                { name: 'Denomination (bison stamp)', value: '5.60 zlotys' },
                 { name: 'Designer', value: 'Jerzy Desselberger' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
@@ -163,7 +163,7 @@ module.exports = {
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'standard issue' },
                 { name: 'Description', value: 'Tourist card. Bison as an emblem of Belovezhskaya Pushcha' },
-                { name: 'Cost of the stamp with bison', value: '10 groszy (zloty)' },
+                { name: 'Denomination (bison stamp)', value: '10 groszy (zloty)' },
                 { name: 'Artist', value: 'T. Michaluk' },
                 { name: 'Engraver', value: 'J. Miller' },
                 { name: 'Color', value: 'carmine (red-purple)' },
@@ -183,7 +183,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '1.60 lei' },
+                { name: 'Denomination (bison stamp)', value: '1.60 lei' },
                 {
                     name: 'Description',
                     value:
@@ -206,7 +206,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '1.60 lei' },
+                { name: 'Denomination (bison stamp)', value: '1.60 lei' },
                 { name: 'Withdrawn from circulation', value: '01.04.1969' },
                 { name: 'Color', value: 'yellow-green, brown, dark brown' },
                 { name: 'Paper', value: 'coated' },
@@ -225,7 +225,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'USSR Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '10 kopecks (ruble)' },
+                { name: 'Denomination (bison stamp)', value: '10 kopecks (ruble)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'V. Kolganov' },
@@ -245,7 +245,7 @@ module.exports = {
                 { name: 'Issuer', value: 'Hungarian Post' },
                 { name: 'Type', value: 'commemorative' },
                 { name: 'Withdrawn from circulation', value: '01.07.1972' },
-                { name: 'Cost of the stamp with bison', value: '40 fillers (forint)' },
+                { name: 'Denomination (bison stamp)', value: '40 fillers (forint)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'Sándor Légrády' },
@@ -266,7 +266,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Umm al-Qaiwain Post Office (since 1973 Emirates Post Office)' },
                 { name: 'Type', value: 'commemorative, airmail' },
-                { name: 'Cost of the stamp with bison', value: '1 rial' },
+                { name: 'Denomination (bison stamp)', value: '1 rial' },
                 {
                     name: 'Description',
                     value:
@@ -287,7 +287,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Bulgaria Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '18 stotinki (lion)' },
+                { name: 'Denomination (bison stamp)', value: '18 stotinki (lion)' },
                 { name: 'Color', value: 'brown-purple, red-orange, pink-purple' },
                 { name: 'Paper', value: '?' },
                 { name: 'Engraver', value: 'M. Peikova, G. Kovachev' },
@@ -308,7 +308,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'USSR Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '1 kopeck (ruble)' },
+                { name: 'Denomination (bison stamp)', value: '1 kopeck (ruble)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'V. Kolganov' },
@@ -327,7 +327,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'La Poste, France' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '40 centimes (franc)' },
+                { name: 'Denomination (bison stamp)', value: '40 centimes (franc)' },
                 { name: 'Withdrawn from circulation', value: '14.03.1975' },
                 { name: 'Color', value: 'brown, light brown, blue' },
                 { name: 'Paper', value: 'coated' },
@@ -350,7 +350,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Equatorial Guinea Post' },
                 { name: 'Type', value: 'commemorative, airmail' },
-                { name: 'Cost of the stamp with bison', value: '200 ecuelle' },
+                { name: 'Denomination (bison stamp)', value: '200 ecuelle' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 {
@@ -371,7 +371,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '2.15 lei' },
+                { name: 'Denomination (bison stamp)', value: '2.15 lei' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Engraver', value: 'Florin Ivănuș' },
@@ -389,7 +389,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '4.50 zlotys' },
+                { name: 'Denomination (bison stamp)', value: '4.50 zlotys' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Description', value: 'Black silhouette of a bison aboard a tug' },
@@ -407,7 +407,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '4.80 lei' },
+                { name: 'Denomination (bison stamp)', value: '4.80 lei' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Engraver', value: 'Eugen Palade' },
@@ -425,7 +425,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '6.50 zlotys' },
+                { name: 'Denomination (bison stamp)', value: '6.50 zlotys' },
                 {
                     name: 'Description',
                     value: 'The stamps are issued in the form of a coupling of 5 stamps with the same denomination, united by a common pattern'
@@ -448,7 +448,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Ministry of Posts and Telematics, Vietnam' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '30 sous (dong)' },
+                { name: 'Denomination (bison stamp)', value: '30 sous (dong)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?, without glue' },
                 { name: 'Artist and engraver', value: 'Nguyen Hiep' },
@@ -466,7 +466,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '31 zloty' },
+                { name: 'Denomination (bison stamp)', value: '31 zloty' },
                 { name: 'Description', value: 'European bison and red deer with a fawn' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
@@ -486,7 +486,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '1 lei' },
+                { name: 'Denomination (bison stamp)', value: '1 lei' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Engraver', value: 'Florin Ivănuș' },
@@ -506,7 +506,7 @@ module.exports = {
                 { name: 'Type', value: 'provisional, fantastic' },
                 { name: 'Paper', value: 'uncoated' },
                 { name: 'Color of mastic', value: 'black' },
-                { name: 'Cost of the stamp with bison', value: '1000' }
+                { name: 'Denomination (bison stamp)', value: '1000' }
             ]
         },
         {
@@ -518,7 +518,7 @@ module.exports = {
                 { name: 'Type', value: 'provisional, fantastic' },
                 { name: 'Paper', value: 'uncoated' },
                 { name: 'Color of mastic', value: 'black' },
-                { name: 'Cost of the stamp with bison', value: '1500' }
+                { name: 'Denomination (bison stamp)', value: '1500' }
             ]
         },
         {
@@ -530,7 +530,7 @@ module.exports = {
                 { name: 'Type', value: 'provisional, fantastic' },
                 { name: 'Paper', value: 'uncoated' },
                 { name: 'Color of mastic', value: 'black' },
-                { name: 'Cost of the stamp with bison', value: '750 and 1200' }
+                { name: 'Denomination (bison stamp)', value: '750 and 1200' }
             ]
         },
         {
@@ -559,7 +559,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Lithuanian post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '80 cents (litas)' },
+                { name: 'Denomination (bison stamp)', value: '80 cents (litas)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'V. Skabeikienė' },
@@ -578,7 +578,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Type', value: 'charitable, to help the conservation society' },
-                { name: 'Cost of the stamp with bison', value: '1000 rubles' },
+                { name: 'Denomination (bison stamp)', value: '1000 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Print', value: 'offset' },
@@ -592,7 +592,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Ukraine' },
                 { name: 'Type', value: 'booklet, 10 stamps, non-postal' },
-                { name: 'Cost of the stamp with bison', value: '50000 hryvnia' },
+                { name: 'Denomination (bison stamp)', value: '50000 hryvnia' },
                 { name: 'Color', value: 'red, black' },
                 { name: 'Paper', value: '?' },
                 { name: 'Print', value: 'offset' },
@@ -606,7 +606,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Lithuanian post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '30 cents (litas)' },
+                { name: 'Denomination (bison stamp)', value: '30 cents (litas)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Designer', value: 'Vilius Jurkūnas' },
@@ -625,7 +625,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '5000 rubles' },
+                { name: 'Denomination (bison stamp)', value: '5000 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'A. Fedin' },
@@ -644,7 +644,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Slovenská Pošta, a. s.' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '4 Slovak crowns' },
+                { name: 'Denomination (bison stamp)', value: '4 Slovak crowns' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'uncoated' },
                 { name: 'Artist', value: 'Vladimír Machaj' },
@@ -664,7 +664,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Maldives Post Limited' },
                 { name: 'Type', value: 'commemorative, with error' },
-                { name: 'Cost of the stamp with bison', value: '7 rufiyaa' },
+                { name: 'Denomination (bison stamp)', value: '7 rufiyaa' },
                 { name: 'Color', value: 'multicolor' },
                 {
                     name: 'Error',
@@ -685,7 +685,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '55 groszy (zloty)' },
+                { name: 'Denomination (bison stamp)', value: '55 groszy (zloty)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'uncoated' },
                 { name: 'Designer', value: 'J. Wysocki' },
@@ -704,7 +704,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Cuba Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '90 centavos (Cuban peso)' },
+                { name: 'Denomination (bison stamp)', value: '90 centavos (Cuban peso)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Perforation', value: '12,75' },
@@ -720,7 +720,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'standard issue' },
-                { name: 'Cost of the stamp with bison', value: '1000 rubles' },
+                { name: 'Denomination (bison stamp)', value: '1000 rubles' },
                 { name: 'Color', value: 'green, black' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'V. Stashchenyuk' },
@@ -759,7 +759,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '150 000 rubles' },
+                { name: 'Denomination (bison stamp)', value: '150 000 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'N. Ryzhiy' },
@@ -778,7 +778,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Russian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '5 rubles' },
+                { name: 'Denomination (bison stamp)', value: '5 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'V. Kolganov' },
@@ -797,7 +797,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Ukrposhta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '30 kopecks (hryvnia)' },
+                { name: 'Denomination (bison stamp)', value: '30 kopecks (hryvnia)' },
                 { name: 'Description', value: 'Stamp - Polesie nature reserve' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
@@ -818,7 +818,7 @@ module.exports = {
                 { name: 'Country', value: 'Udmurt Republic' },
                 { name: 'Type', value: 'fantastic' },
                 { name: 'Paper', value: '?' },
-                { name: 'Cost of the stamp with bison', value: '6' }
+                { name: 'Denomination (bison stamp)', value: '6' }
             ]
         },
         {
@@ -828,7 +828,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'standard issue' },
-                { name: 'Cost of the stamp with bison', value: '1 ruble' },
+                { name: 'Denomination (bison stamp)', value: '1 ruble' },
                 { name: 'Color', value: 'green, black' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'V. Stashenyuk' },
@@ -847,7 +847,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'standard issue' },
-                { name: 'Cost of the stamp with bison', value: '1 ruble' },
+                { name: 'Denomination (bison stamp)', value: '1 ruble' },
                 { name: 'Color', value: 'green, black' },
                 { name: 'Paper', value: 'coated' },
                 {
@@ -872,7 +872,7 @@ module.exports = {
                 { name: 'Issuer', value: 'Bulgarian Post' },
                 { name: 'Withdrawn from circulation', value: '25.09.2003' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '0.30 leva' },
+                { name: 'Denomination (bison stamp)', value: '0.30 leva' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Engraver', value: 'T. Vardzhiev' },
@@ -891,8 +891,8 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '11500 lei' },
-                { name: 'Overlay color', value: 'red-brown' },
+                { name: 'Denomination (bison stamp)', value: '11500 lei' },
+                { name: 'Overprint color', value: 'red-brown' },
                 { name: 'Paper', value: 'with watermarks' },
                 { name: 'Engraver', value: 'Florin Ivănuș' },
                 { name: 'Perforation', value: '13,25' },
@@ -909,7 +909,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'standard issue' },
-                { name: 'Cost of the stamp with bison', value: '1 ruble' },
+                { name: 'Denomination (bison stamp)', value: '1 ruble' },
                 { name: 'Color', value: 'green, black' },
                 { name: 'Paper', value: 'coated' },
                 {
@@ -933,7 +933,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'La Poste, France' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '0.55 euro' },
+                { name: 'Denomination (bison stamp)', value: '0.55 euro' },
                 { name: 'Description', value: 'Poland, Belovezhskaya Pushcha' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'fluorescent' },
@@ -953,7 +953,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative, block' },
-                { name: 'Cost of the stamp with bison', value: '2.20 lei' },
+                { name: 'Denomination (bison stamp)', value: '2.20 lei' },
                 { name: 'Color', value: 'multicolor' },
                 {
                     name: 'Description',
@@ -975,7 +975,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Russian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '8 rubles' },
+                { name: 'Denomination (bison stamp)', value: '8 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Engraver', value: 'A. Povarikhin' },
@@ -994,7 +994,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Russian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '7 rubles' },
+                { name: 'Denomination (bison stamp)', value: '7 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Designer', value: 'A. Moskavets' },
@@ -1014,7 +1014,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'standard issue' },
-                { name: 'Cost of the stamp with bison', value: '5000 rubles' },
+                { name: 'Denomination (bison stamp)', value: '5000 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Description', value: 'european bison - Bison bonasus' },
                 { name: 'Protection', value: 'protective inscription in three lines - "BELARUS / Fragment of the Belarusian ornament / BELARUS", visible in ultraviolet light' },
@@ -1034,7 +1034,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '1500 rubles' },
+                { name: 'Denomination (bison stamp)', value: '1500 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Protection', value: 'ultraviolet protection' },
@@ -1054,7 +1054,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '2500 rubles' },
+                { name: 'Denomination (bison stamp)', value: '2500 rubles' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Protection', value: 'ultraviolet protection' },
@@ -1075,7 +1075,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Polish Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '3 zlotys' },
+                { name: 'Denomination (bison stamp)', value: '3 zlotys' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'fluorescent' },
                 { name: 'Designer', value: 'A. Niemierko' },
@@ -1138,7 +1138,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: 'letters М, Ф, Р and coupon' },
+                { name: 'Denomination (bison stamp)', value: 'letters М, Ф, Р and coupon' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Description', value: 'The stamps bear the logo of the Grodno Zoo - bison' },
                 { name: 'Engraver', value: 'A. Mityanin' },
@@ -1158,7 +1158,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '9.10 lei' },
+                { name: 'Denomination (bison stamp)', value: '9.10 lei' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Designer', value: 'Vlad Vămășescu' },
@@ -1176,7 +1176,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: 'N (6000 rubles)' },
+                { name: 'Denomination (bison stamp)', value: 'N (6000 rubles)' },
                 {
                     name: 'Description',
                     value:
@@ -1201,7 +1201,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: 'M (11 700 rubles)' },
+                { name: 'Denomination (bison stamp)', value: 'M (11 700 rubles)' },
                 { name: 'Description', value: 'Gennady Loiko. Bison. 1968. Fragment of the picture' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
@@ -1222,7 +1222,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: 'letter А' },
+                { name: 'Denomination (bison stamp)', value: 'letter А' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Description', value: 'Artistic woodworking - bison picture' },
                 { name: 'Protection', value: 'ornament, star pattern' },
@@ -1243,7 +1243,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Moldova Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost of the stamp with bison', value: '11 lei' },
+                { name: 'Denomination (bison stamp)', value: '11 lei' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Description', value: 'Artistic woodworking - bison picture' },
                 { name: 'Protection', value: '?' },
@@ -1264,8 +1264,8 @@ module.exports = {
                 'Small sheet. 25th anniversary of the establishment of diplomatic relations between the Republic of Belarus and the Republic of Poland',
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
-                { name: 'Type', value: 'coupon in the small sheet' },
-                { name: 'Cost', value: 'Н (1.26 rubles)' },
+                { name: 'Type', value: 'coupon (label) in the small sheet' },
+                { name: 'Denomination', value: 'Н (1.26 rubles)' },
                 { name: 'Description', value: 'Emblems of Belarus and Poland, a herd of bison on the coupon' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
@@ -1286,7 +1286,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Czech post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost', value: '16 Czech crowns' },
+                { name: 'Denomination', value: '16 Czech crowns' },
                 { name: 'Description', value: 'Chomutov Zoo. Bison' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
@@ -1306,9 +1306,9 @@ module.exports = {
             title: '25 years of diplomatic relations Uruguay-Belarus',
             props: [
                 { name: 'Issuer', value: 'Uruguay Post' },
-                { name: 'Type', value: 'coupon in the sheet with stamp' },
-                { name: 'Cost', value: '65 pesos' },
-                { name: 'Description', value: 'stamp of Big Opera and Ballet Theater of the Republic of Belarus with a coupon that contains image of bison' },
+                { name: 'Type', value: 'coupon (label) in the sheet with stamp' },
+                { name: 'Denomination', value: '65 pesos' },
+                { name: 'Description', value: 'stamp of Big Opera and Ballet Theater of the Republic of Belarus with a coupon (label) that contains image of bison' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
                 { name: 'Engraver', value: 'Daniel Pereyra' },
@@ -1325,8 +1325,8 @@ module.exports = {
             title: 'Bison. Endangered wild animals',
             props: [
                 { name: 'Issuer', value: 'Netherlands Post' },
-                { name: 'Type', value: 'commemorative, coupon in the sheet' },
-                { name: 'Cost', value: '1 (euro ?)' },
+                { name: 'Type', value: 'commemorative, coupon (label) in the sheet' },
+                { name: 'Denomination', value: '1 (euro ?)' },
                 { name: 'Description', value: 'series of 5 stamps (M/S)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
@@ -1334,7 +1334,7 @@ module.exports = {
                 { name: 'Print', value: '?' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Printing house', value: '?' },
-                { name: 'Size (mm)', value: '?; size of sheet with coupon ?' },
+                { name: 'Size (mm)', value: '?; size of sheet with coupon (label) ?' },
                 { name: 'Code', value: '268333' },
                 { name: 'Number', value: '770050' }
             ]
@@ -1346,7 +1346,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Moldova Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Cost', value: '5.75 lei' },
+                { name: 'Denomination', value: '5.75 lei' },
                 { name: 'Description', value: 'the image of a bison, on each stamp of the series there is a logo of the reserve - a silhouette of a bison' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
@@ -1366,7 +1366,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'Post block' },
-                { name: 'Cost', value: '28.50 lei' },
+                { name: 'Denomination', value: '28.50 lei' },
                 { name: 'Description', value: 'a series of 6 stamps and a postal block, the block image of a bison' },
                 { name: 'Color', value: 'multicolor (4 colors)' },
                 { name: 'Paper', value: 'chrome-rubberized' },

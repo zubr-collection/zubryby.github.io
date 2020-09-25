@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'Cards & Photos',
+    name: 'Postcard',
     description:
-        'Cards or photos from around the world that contain a picture, a special postmark or postage stamp dedicated to the topic of European Bison (Bison Bonasus).',
+        'Postcards or photos from around the world that contain a picture, a special postmark or postage stamp dedicated to the topic of European Bison (Bison Bonasus).',
     pictureFolder: 'photos',
     things: [
         {
