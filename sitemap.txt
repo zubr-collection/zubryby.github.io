@@ -5,8 +5,8 @@ https://zubry.by/about.html
 https://zubry.by/about_en.html
 https://zubry.by/envelopes.html
 https://zubry.by/envelopes_en.html
-https://zubry.by/photos.html
-https://zubry.by/photos_en.html
+https://zubry.by/postal_cards.html
+https://zubry.by/postal_cards_en.html
 https://zubry.by/postcards.html
 https://zubry.by/postcards_en.html
 https://zubry.by/stamps.html

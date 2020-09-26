@@ -35,10 +35,10 @@ const requiredProps = {
         'Printing house',
         'Catalog number'
     ],
-    postcards: ['Страна', 'Размер (мм)', 'Марка', 'Цвет', 'Изображение', 'Тираж', 'Типография'],
-    postcards_en: ['Country', 'Size (mm)', 'Postage Stamp', 'Color', 'Picture', 'Printing count', 'Printing house'],
-    photos: ['Страна', 'Тип', 'Изображение', 'Размер (мм)', 'Цена', 'Издательство', 'Тираж', 'Типография', 'Номер'],
-    photos_en: ['Country', 'Type', 'Picture', 'Size (mm)', 'Cost', 'Publisher', 'Printing count', 'Printing house', 'Number'],
+    postal_cards: ['Страна', 'Размер (мм)', 'Марка', 'Цвет', 'Изображение', 'Тираж', 'Типография'],
+    postal_cards_en: ['Country', 'Size (mm)', 'Postage Stamp', 'Color', 'Picture', 'Printing count', 'Printing house'],
+    postcards: ['Страна', 'Тип', 'Изображение', 'Размер (мм)', 'Цена', 'Издательство', 'Тираж', 'Типография', 'Номер'],
+    postcards_en: ['Country', 'Type', 'Picture', 'Size (mm)', 'Cost', 'Publisher', 'Printing count', 'Printing house', 'Number'],
     envelopes: ['Страна', 'Тип', 'Изображение', 'Цвет', 'Размер (мм)', 'Изготовление', 'Тираж', 'Номер Заказа'],
     envelopes_en: ['Country', 'Type', 'Picture', 'Color', 'Size (mm)', 'Manufacturing', 'Printing count', 'Order number']
 };

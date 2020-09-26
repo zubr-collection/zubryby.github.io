@@ -9,10 +9,10 @@ function registerHeader(helper) {
         const flagMap = {
             pageName: name,
             isEnvelopes: name === 'envelopes',
-            isPostcards: name === 'postcards',
+            isPostalCards: name === 'postal-cards',
             isStamps: name === 'stamps',
-            isPhotos: name === 'photos',
-            isAbout: name === 'photos'
+            isPostcards: name === 'postcards',
+            isAbout: name === 'about'
         };
 
         return new SafeString(readTemplate(`fragments/${helper}.hbs`)(flagMap));

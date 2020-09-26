@@ -14,8 +14,8 @@
 
     --stamps-color: var(--beige-color);
     --envelopes-color: var(--blue-sky-color);
-    --postcards-color: var(--emerald-color);
-    --photos-color: var(--red-color);
+    --postal-cards-color: var(--emerald-color);
+    --postcards-color: var(--red-color);
     --about-color: var(--light-wood-color);
 
     --page-color: white;
@@ -283,12 +283,12 @@ header nav {
     color: var(--envelopes-color);
 }
 
-.menu > li .postcards:hover {
-    color: var(--postcards-color);
+.menu > li .postal-cards:hover {
+    color: var(--postal-cards-color);
 }
 
-.menu > li .photos:hover {
-    color: var(--photos-color);
+.menu > li .postcards:hover {
+    color: var(--postcards-color);
 }
 
 .menu > li .about:hover {
@@ -308,7 +308,7 @@ header nav {
 .menu > li .stamps:focus,
 .menu > li .envelopes:focus,
 .menu > li .postcards:focus,
-.menu > li .photos:focus {
+.menu > li .postal-cards:focus {
     color: #1d1e20;
 }
 

@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru" itemscope itemtype="http://schema.org/CollectionPage">
 <head>
-    {{seo "Открытки" "slide7" description}}
-    {{resources false "slide7"}}
+    {{seo "Пост-карты" "slide4" description}}
+    {{resources false "slide4"}}
 
     <style>
         :root {
-            --page-color: var(--photos-color);
+            --page-color: var(--postal-cards-color);
         }
 
-        .menu a.photos {
-            color: var(--photos-color);
+        .menu a.postal-cards {
+            color: var(--postal-cards-color);
             opacity: 1;
         }
 
-        .menu > li a.photos::after {
+        .menu > li a.postal-cards::after {
             width: 100%;
         }
 
         .cover {
-            background-image: url(./assets/pics/slide7.jpg);
+            background-image: url(./assets/pics/slide4.jpg);
             background-position: center 25%;
         }
 
         @media (pointer: coarse) {
-            .menu > li a.photos::after {
+            .menu > li a.postal-cards::after {
                 width: 0;
             }
         }
 
         @media (max-width: 800px) {
             .cover {
-                background-image: url(./assets/pics/slide7-800w.jpg);
+                background-image: url(./assets/pics/slide4-800w.jpg);
             }
         }
 
         @media (max-width: 400px) {
             .cover {
-                background-image: url(./assets/pics/slide7-400w.jpg);
+                background-image: url(./assets/pics/slide4-400w.jpg);
             }
         }
     </style>
 </head>
 <body>
-{{header 'photos'}}
+{{header 'postal-cards'}}
 {{collectionArticle name description things pictureFolder}}
 {{footer}}
 </body>
