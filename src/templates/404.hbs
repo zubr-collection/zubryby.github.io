@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="http://schema.org/AboutPage">
+<head>
+    {{seo_en "404 Error" "slide45" "ZUBRY.BY"}}
+    {{resources false "slide45"}}
+
+    <style>
+        :root {
+            --page-color: var(--about-color);
+        }
+
+        article {
+            flex-direction: column;
+        }
+
+        article ul {
+            margin: 0 0 1.25em;
+            padding: 0 1.1em;
+        }
+
+        article h2, article h3 {
+            margin: 1em 0 0;
+            font-size: var(--head-2-text);
+            font-weight: 500;
+            color: var(--page-color);
+        }
+
+        article hr {
+            width: 50%;
+            margin: 0;
+        }
+
+        article a {
+            color: var(--text-color);
+            font-style: normal;
+        }
+
+        article a:hover,
+        article a:focus {
+            background-color: var(--black-color);
+            color: white;
+            font-style: normal;
+            outline: none;
+        }
+
+        article p {
+            margin: 1em 0;
+        }
+
+        .cover {
+            background-image: url(./assets/pics/slide45.jpg);
+            background-position: center 25%;
+        }
+
+        @media (max-width: 800px) {
+            article figure {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .noshade {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+{{header_en '404'}}
+<div class="cover"></div>
+<article>
+  <div id="content" class="anchor"></div>
+  <div>
+    <h1>404 Error</h1>
+    <h2>Page not found</h2>
+    <br><a href="./index_en.html">Back to the main page</a>
+    <h2>Страница не найдена</h2>
+    <br><a href="./index.html">Вернуться на главную страницу</a>
+  </div>
+</article>
+{{footer_en}}
+</body>
+</html>
