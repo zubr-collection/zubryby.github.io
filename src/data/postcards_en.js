@@ -405,6 +405,18 @@ module.exports = {
             ]
         },
         {
+            image: 'german-1980',
+            year: 'since 1970',
+            title: 'German postcards from different publishers with fauna picture',
+            props: [
+                { name: 'Country', value: 'German' },
+                { name: 'Type', value: 'Postcards' },
+                { name: 'Publisher', value: 'Planet Verlag Berlin, Auslese-Bild-Verlag, Bild und Heimat, Crammers Kunstanstalt Dortmund, Druck und Verlag Morsak' },
+                { name: 'Picture', value: 'European bison as part of the fauna of German reserves Jabel, Heimattierpark Suhl, National park Bayer-Wald and other' },
+                { name: 'Size (mm)', value: '104х146' }
+            ]
+        },
+        {
             image: 'ussr-1989',
             year: '??.??.1989',
             title: 'Animals',
@@ -582,6 +594,42 @@ module.exports = {
             ]
         },
         {
+            image: 'belarus-2009-3',
+            year: '??.??.2009',
+            title: 'Belovezhskaya Pushcha. Bisons',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcards from set' },
+                { name: 'Picture', value: 'Belovezhskaya Pushcha. Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Designer', value: 'L. Karchazhinskaya' },
+                { name: 'Printing count', value: '3000' },
+                { name: 'Number', value: '1295' },
+                { name: 'Publisher', value: "„RIFTOUR“" },
+                { name: 'Printing house', value: "„Justmaj“" }
+            ]
+        },
+        {
+            image: 'belarus-2009-4',
+            year: '??.??.2009',
+            title: 'Belovezhskaya Pushcha. Bisons',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcards set with perforation' },
+                { name: 'Picture', value: 'Belovezhskaya Pushcha. Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147 (with coupon 104х210)' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Designer', value: 'L. Karchazhinskaya' },
+                { name: 'Printing count', value: '3000' },
+                { name: 'Number', value: '1295' },
+                { name: 'Publisher', value: "„RIFTOUR“" },
+                { name: 'Printing house', value: "„Justmaj“" }
+            ]
+        },
+        {
             image: 'belarus-2010-1',
             year: '??.??.2010',
             title: "Bison and it's conservation program",
@@ -592,6 +640,19 @@ module.exports = {
                 { name: 'Picture', value: 'European bison' },
                 { name: 'Size (mm)', value: '100x148' },
                 { name: 'Photographer', value: 'M.Cherkas' }
+            ]
+        },
+        {
+            image: 'belarus-2010-2',
+            year: '??.??.2010',
+            title: 'Happy New Year!',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard with cover' },
+                { name: 'Publisher', value: 'My Destiny Ltd.' },
+                { name: 'Picture', value: 'European Bison in the winter forest' },
+                { name: 'Size (mm)', value: '104х209' },
+                { name: 'Number', value: 'НР 312' }
             ]
         },
         {
@@ -609,6 +670,24 @@ module.exports = {
                 { name: 'Text', value: 'E.V.Sadovskaya, V.O.Kuznecov' },
                 { name: 'Design', value: 'E.A.Zhdanovskaya' },
                 { name: 'Picture', value: 'Bison' },
+                { name: 'Printing house', value: '„G&D“' },
+            ]
+        },
+        {
+            image: 'belarus-2011-1',
+            year: '??.??.2011',
+            title: 'European bison',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Printing count', value: '5000' },
+                { name: 'Number', value: '1248' },
+                { name: 'Code', value: '380-11' },
+                { name: 'Publisher', value: '„RIFTOUR PRINT“' },
                 { name: 'Printing house', value: '„G&D“' },
             ]
         },
@@ -631,6 +710,24 @@ module.exports = {
             ]
         },
         {
+            image: 'belarus-2013-1',
+            year: '??.??.2013',
+            title: 'European bison',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'A. Kleshchuk' },
+                { name: 'Photographer', value: 'A. Medvedz' },
+                { name: 'Printing count', value: '3000' },
+                { name: 'Number', value: '2581' },
+                { name: 'Code', value: '557-13' },
+                { name: 'Printing house', value: '„IntegralPolygraph“' }
+            ]
+        },
+        {
             image: 'belarus-2015',
             year: '??.??.2015',
             title: 'Natural complex „Krasny Bor“',
@@ -643,6 +740,42 @@ module.exports = {
                 { name: 'Photographer', value: 'S.M.Plytkevich' },
                 { name: 'Design', value: 'E.A.Zhdanovskaya' },
                 { name: 'Text', value: 'A.D.Ocheretniy' }
+            ]
+        },
+        {
+            image: 'belarus-2016',
+            year: '??.??.2016',
+            title: 'European bison',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bison' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Printing count', value: '4000' },
+                { name: 'Number', value: '322' },
+                { name: 'Code', value: '474-11' },
+                { name: 'Publisher', value: '„RIFTOUR PRINT“' },
+                { name: 'Printing house', value: '„G&D“' },
+            ]
+        },
+        {
+            image: 'belarus-2016-1',
+            year: '??.??.2016',
+            title: 'European bison',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Printing count', value: '4000' },
+                { name: 'Number', value: '323' },
+                { name: 'Code', value: '475-11' },
+                { name: 'Publisher', value: '„RIFTOUR PRINT“' },
+                { name: 'Printing house', value: '„G&D“' },
             ]
         },
         {
@@ -696,6 +829,60 @@ module.exports = {
                 { name: 'Picture', value: 'Every postcard features a bison' },
                 { name: 'Printing house', value: 'PUE „G&D“, LLC „Argo-Graphics“' },
             ]
-        }
+        },
+        {
+            image: 'belarus-2019',
+            year: '??.??.2019',
+            title: 'The most northern bison population in Belarus. Reserve Krasny Bor. Vitebsk region',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Printing count', value: '2000' },
+                { name: 'Number', value: '1221' },
+                { name: 'Code', value: '1004-19' },
+                { name: 'Publisher', value: '„RIFTOUR PRINT“' },
+                { name: 'Printing house', value: '„G&D“' },
+            ]
+        },
+        {
+            image: 'belarus-2019-1',
+            year: '??.??.2019',
+            title: 'Bison - the largest representative of the fauna of Belarus',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Printing count', value: '2000' },
+                { name: 'Number', value: '1222' },
+                { name: 'Code', value: '1005-19' },
+                { name: 'Publisher', value: '„RIFTOUR PRINT“' },
+                { name: 'Printing house', value: '„G&D“' },
+            ]
+        },
+        {
+            image: 'belarus-2019-2',
+            year: '??.??.2019',
+            title: 'The most northern bison population in Belarus. Reserve Krasny Bor. Vitebsk region',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bisons' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Photographer', value: 'S. Plytkevich' },
+                { name: 'Printing count', value: '1000' },
+                { name: 'Number', value: '737' },
+                { name: 'Code', value: '691-19' },
+                { name: 'Publisher', value: '„RIFTOUR PRINT“' },
+                { name: 'Printing house', value: '„G&D“' },
+            ]
+        },
     ]
 };

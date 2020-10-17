@@ -244,6 +244,25 @@ module.exports = {
             ]
         },
         {
+            image: 'ussr-1980',
+            year: '06.11.1979 (1980)',
+            title: 'Games of the XXII Olympiad - Moscow-80',
+            props: [
+                { name: 'Country', value: 'USSR' },
+                { name: 'Type', value: 'Illustrated Stamped Envelope' },
+                { name: 'Cost', value: '5 kopecks (ruble)' },
+                { name: 'Picture', value: 'Games of the XXII Olympiad - Moscow-80, football' },
+                { name: 'Artist', value: 'I. Filipov' },
+                { name: 'Stamp', value: '1976, 4 kopecks, red, image of the USSR emblem' },
+                { name: 'Postmark', value: 'mastic color is black, picture of bison, text Minsk Olympic' },
+                { name: 'Color', value: 'black, gray, red, green' },
+                { name: 'Edition', value: 'USSR Ministry of Communications' },
+                { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
+                { name: 'Size (mm)', value: '114х160' },
+                { name: 'Commemorative Cancellation', value: 'Minsk Post Office' }
+            ]
+        },
+        {
             image: 'romania-1980',
             year: '25.03.1980',
             title: 'European year for the protection of nature',
