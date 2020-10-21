@@ -4,6 +4,7 @@
     --black-color: #1d1e20;
     --dark-gray-color: #414141;
     --gray-color: rgb(163, 170, 182);
+    --light-gray-color: #f1efef;
     --beige-color: #c5a979;
     --blue-sky-color: #7995c5;
     --emerald-color: #79c5a9;
@@ -25,6 +26,8 @@
 
     --text-color: var(--black-color);
     --secondary-text-color: var(--black-color);
+
+    --image-placeholder-color: var(--light-gray-color);
 
     /* typography */
 
@@ -360,7 +363,7 @@ header nav {
     .top-link:hover {
         opacity: 0.8;
         cursor: pointer;
-    }   
+    }
 }
 
 .skip-links {
