@@ -234,6 +234,17 @@ article .details dd {
     }
 }
 
+#blur {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 16px;
+    width: 100vw;
+    background: white;
+    z-index: var(--second-layer-z);
+    box-shadow: 0 0 20px 20px white;
+}
+
 @media all and (max-width: 400px) {
     .cover {
         height: 25em;

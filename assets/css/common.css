@@ -46,6 +46,7 @@
 
     /* layer system */
     --header-z: 10;
+    --footer-z: 3;
     --nav-z: 9;
     --second-layer-z: 2;
 
@@ -447,6 +448,8 @@ footer {
     padding: 1em 2em 0;
     height: 10em;
     max-height: 10em;
+    position: relative;
+    z-index: var(--footer-z);
 }
 
 footer p {
