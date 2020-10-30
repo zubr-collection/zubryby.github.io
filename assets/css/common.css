@@ -153,7 +153,7 @@ header nav {
     opacity: 0.8;
 }
 
-.logo p > span {
+.logo p > .subtext {
     font-size: .5em;
     font-weight: 300;
     max-width: 14em;
