@@ -11,7 +11,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Germany (FRG)' },
                 { name: 'Cost', value: '25 pfennigs' },
-                { name: 'Size (mm)', value: '147x105' },
+                { name: 'Size (mm)', value: '147×105' },
                 { name: 'Postage Stamp', value: 'Face value of 25 pfennigs, portrait of Gustav Walter Heinemann' },
                 { name: 'Color', value: 'dark olive / green (grün)' },
                 { name: 'Printing count', value: '20 000' }
@@ -37,7 +37,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'USSR' },
                 { name: 'Cost', value: '5 kopecks (ruble)' },
-                { name: 'Size (mm)', value: '147x105' },
+                { name: 'Size (mm)', value: '147×105' },
                 { name: 'Artist', value: 'V. Pimenov' },
                 {
                     name: 'Postage Stamp',
@@ -56,7 +56,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Romania' },
                 { name: 'Cost', value: '30 baths' },
-                { name: 'Size (mm)', value: '148x105' },
+                { name: 'Size (mm)', value: '148×105' },
                 { name: 'Postage Stamp', value: 'Face value of 30 baths, the falcon is represented' },
                 { name: 'Color', value: 'brown or blue' }
             ]
@@ -68,7 +68,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Poland' },
                 { name: 'Cost', value: '1 zloty' },
-                { name: 'Size (mm)', value: '145x104' },
+                { name: 'Size (mm)', value: '145×104' },
                 { name: 'Picture', value: 'European Bison' },
                 {
                     name: 'Postage Stamp',
@@ -114,7 +114,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Poland' },
                 { name: 'Cost', value: '1.10 zloty' },
-                { name: 'Size (mm)', value: '148x105' },
+                { name: 'Size (mm)', value: '148×105' },
                 { name: 'Picture', value: 'Natural landscape and coat of arms of the national park' },
                 { name: 'Postage Stamp', value: 'Face value of 1 zloty, bison picture in the forest' },
                 { name: 'Designer', value: 'Jacek Brodowski' },
@@ -131,7 +131,7 @@ module.exports = {
             title: 'Bialowieza Bison',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Size (mm)', value: '148x105' },
+                { name: 'Size (mm)', value: '148×105' },
                 { name: 'Picture', value: 'A pair of bison' },
                 { name: 'Postage Stamp', value: 'Letter “B” (internal tariff), blue' },
                 { name: 'Order number', value: '508ц-2005' },
@@ -151,7 +151,7 @@ module.exports = {
             title: '485 years since the publication of Nikolai Gusovsky’s poem „The Song about Bison“',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Size (mm)', value: '148x105' },
+                { name: 'Size (mm)', value: '148×105' },
                 {
                     name: 'Picture',
                     value: 'Artistic composition based on the poem by N. Gusovsky „The Song about Bison“'
@@ -183,7 +183,7 @@ module.exports = {
             title: '600 years of the reserve of Bialowieza Forest',
             props: [
                 { name: 'Country', value: 'Belarus' },
-                { name: 'Size (mm)', value: '148x105' },
+                { name: 'Size (mm)', value: '148×105' },
                 { name: 'Picture', value: 'Bison with calf' },
                 { name: 'Postage Stamp', value: 'Letter “B” (internal tariff), blue' },
                 { name: 'Design', value: 'LLC „My destiny“' },
@@ -204,7 +204,7 @@ module.exports = {
             title: 'The beauty of the Polish land - Bialostocczyzna',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Size (mm)', value: '148x105' },
+                { name: 'Size (mm)', value: '148×105' },
                 { name: 'Picture', value: 'Elk, flora, natural landscapes' },
                 {
                     name: 'Postage Stamp',
