@@ -12,6 +12,7 @@
         initMobileMenu();
         initVendors();
         initSearchFeature();
+        imageAsyncLoader();
     }
 
     function initVendors() {
@@ -71,45 +72,50 @@
     function initSearchFeature() {
         const search = document.querySelector('#search');
         const submit = document.querySelector('#search-submit');
-        const noResults = document.querySelector('.no-results');
-        const items = document.getElementsByClassName('collectionItem');
 
-        function clearSearch() {
-            for (let i = 0, max = items.length; i < max; i++) {
-                items[i].style.display = 'flex';
-            }
-            noResults.style.display = 'none';
-            noResults.setAttribute('aria-hidden', 'true');
-        }
+        if (search && submit) {
+            const noResults = document.querySelector('.no-results');
+            const items = document.getElementsByClassName('collectionItem');
 
-        function performSearch() {
-            clearSearch();
-
-            if (search.value) {
-                const words = search.value.trim().split(' ');
-                let count = 0;
+            function clearSearch() {
                 for (let i = 0, max = items.length; i < max; i++) {
-                    const item = items[i];
-                    if (item.textContent &&
-                        item.textContent.match &&
-                        !words.reduce((acc, word) => acc && item.textContent.match(word), true)) {
-                        item.style.display = 'none';
-                        count++;
+                    items[i].style.display = 'flex';
+                }
+                noResults.style.display = 'none';
+                noResults.setAttribute('aria-hidden', 'true');
+            }
+
+            function performSearch() {
+                clearSearch();
+
+                if (search.value) {
+                    const words = search.value.trim().split(' ');
+                    let count = 0;
+                    for (let i = 0, max = items.length; i < max; i++) {
+                        const item = items[i];
+                        if (
+                            item.textContent &&
+                            item.textContent.match &&
+                            !words.reduce((acc, word) => acc && item.textContent.match(word), true)
+                        ) {
+                            item.style.display = 'none';
+                            count++;
+                        }
+                    }
+
+                    if (count === items.length) {
+                        noResults.style.display = 'block';
+                        noResults.setAttribute('aria-hidden', 'false');
                     }
                 }
-
-                if (count === items.length) {
-                    noResults.style.display = 'block';
-                    noResults.setAttribute('aria-hidden', 'false');
-                }
             }
-        }
 
-        search.onchange = performSearch;
-        submit.onclick = event => {
-            event.preventDefault && event.preventDefault();
-            performSearch();
-        };
+            search.onchange = performSearch;
+            submit.onclick = event => {
+                event.preventDefault && event.preventDefault();
+                performSearch();
+            };
+        }
     }
 
     function setCurrentFooterYear() {
@@ -136,6 +142,22 @@
             topLink.style.visibility = 'visible';
         } else {
             topLink.style.visibility = 'hidden';
+        }
+    }
+
+    function imageAsyncLoader() {
+        const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        const tail = vw > 1450 ? '.jpg' : vw > 800 ? '-1450w.jpg' : vw > 400 ? '-800w.jpg' : '-400w.jpg';
+
+        const nodes = document.getElementsByClassName('asyncImage');
+        for (let i = 0; i < nodes.length; i++) {
+            const node = nodes[i];
+            const img = new Image();
+            img.src = `${node.dataset.src}${tail}`;
+            img.onload = () => {
+                node.classList.remove('asyncImage');
+                node.style.backgroundImage = `url(${node.dataset.src}${tail})`;
+            };
         }
     }
 })(window);
