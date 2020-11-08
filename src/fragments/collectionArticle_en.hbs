@@ -21,6 +21,8 @@
         {{#each things}}
             <section class="collectionItem" itemscope itemtype="http://schema.org/Thing">
                 <picture>
+                    <source media="(max-width: 480px)" srcset="./assets/pics/{{../pictureFolder}}/{{image}}-480w.webp" type="image/webp">
+                    <source srcset="./assets/pics/{{../pictureFolder}}/{{image}}.webp" type="image/webp">
                     <source media="(max-width: 480px)" srcset="./assets/pics/{{../pictureFolder}}/{{image}}-480w.jpg">
                     <img itemprop="image"
                          aria-describedby="{{image}}"
