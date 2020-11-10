@@ -40,9 +40,13 @@
 <meta name="locale" content="ru">
 <link rel="alternate" hreflang="en" href="https://zubry.by/index_en.html">
 
-    <link rel="preconnect" href="https://instant.page">
+    <link rel="dns-prefetch" href="https://instant.page">
+<link rel="preconnect" href="https://instant.page">
 <link rel="dns-prefetch" href="https://lux.speedcurve.com">
+<link rel="preconnect" href="https://lux.speedcurve.com">
+<link rel="dns-prefetch" href="https://cdn.speedcurve.com">
 <link rel="preconnect" href="https://cdn.speedcurve.com">
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -59,13 +63,12 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'UA-149477412-1');
+    gtag('config', 'UA-149477412-1', { 'transport_type': 'beacon'});
 </script>
 
 <script>LUX=(function(){var a=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMarks)?LUX.gaMarks:[]);var d=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMeasures)?LUX.gaMeasures:[]);var j="LUX_start";var k=window.performance;var l=("undefined"!==typeof(LUX)&&LUX.ns?LUX.ns:(Date.now?Date.now():+(new Date())));if(k&&k.timing&&k.timing.navigationStart){l=k.timing.navigationStart}function f(){if(k&&k.now){return k.now()}var o=Date.now?Date.now():+(new Date());return o-l}function b(n){if(k){if(k.mark){return k.mark(n)}else{if(k.webkitMark){return k.webkitMark(n)}}}a.push({name:n,entryType:"mark",startTime:f(),duration:0});return}function m(p,t,n){if("undefined"===typeof(t)&&h(j)){t=j}if(k){if(k.measure){if(t){if(n){return k.measure(p,t,n)}else{return k.measure(p,t)}}else{return k.measure(p)}}else{if(k.webkitMeasure){return k.webkitMeasure(p,t,n)}}}var r=0,o=f();if(t){var s=h(t);if(s){r=s.startTime}else{if(k&&k.timing&&k.timing[t]){r=k.timing[t]-k.timing.navigationStart}else{return}}}if(n){var q=h(n);if(q){o=q.startTime}else{if(k&&k.timing&&k.timing[n]){o=k.timing[n]-k.timing.navigationStart}else{return}}}d.push({name:p,entryType:"measure",startTime:r,duration:(o-r)});return}function h(n){return c(n,g())}function c(p,o){for(i=o.length-1;i>=0;i--){var n=o[i];if(p===n.name){return n}}return undefined}function g(){if(k){if(k.getEntriesByType){return k.getEntriesByType("mark")}else{if(k.webkitGetEntriesByType){return k.webkitGetEntriesByType("mark")}}}return a}return{mark:b,measure:m,gaMarks:a,gaMeasures:d}})();LUX.ns=(Date.now?Date.now():+(new Date()));LUX.ac=[];LUX.cmd=function(a){LUX.ac.push(a)};LUX.init=function(){LUX.cmd(["init"])};LUX.send=function(){LUX.cmd(["send"])};LUX.addData=function(a,b){LUX.cmd(["addData",a,b])};LUX_ae=[];window.addEventListener("error",function(a){LUX_ae.push(a)});LUX_al=[];if("function"===typeof(PerformanceObserver)&&"function"===typeof(PerformanceLongTaskTiming)){var LongTaskObserver=new PerformanceObserver(function(c){var b=c.getEntries();for(var a=0;a<b.length;a++){var d=b[a];LUX_al.push(d)}});try{LongTaskObserver.observe({type:["longtask"]})}catch(e){}};</script>
 <script src="https://cdn.speedcurve.com/js/lux.js?id=619540492" async crossorigin="anonymous"></script>
-<script async src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+<script defer src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 <noscript>
     <link href="./assets/css/fonts.min.css" rel="stylesheet">
 </noscript>
@@ -194,7 +197,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1954-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/poland-1954.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1954-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1954-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1954"
                          loading="lazy"
@@ -221,7 +224,7 @@
                             <dt>Цвет</dt>
                             <dd>оливково-зелёный, чёрно-коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>99,5x154</dd>
+                            <dd>99,5×154</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -238,7 +241,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1955-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/poland-1955.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1955-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1955-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1955"
                          loading="lazy"
@@ -265,7 +268,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>115x161</dd>
+                            <dd>115×161</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -282,7 +285,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/germany-1956-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/germany-1956.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/germany-1956-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/germany-1956-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="germany-1956"
                          loading="lazy"
@@ -309,7 +312,7 @@
                             <dt>Цвет</dt>
                             <dd>темно-зелёный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>107x157</dd>
+                            <dd>107×157</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -326,7 +329,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/gdr-1957-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/gdr-1957.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/gdr-1957-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/gdr-1957-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="gdr-1957"
                          loading="lazy"
@@ -353,7 +356,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>113,5x160</dd>
+                            <dd>113,5×160</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -372,7 +375,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceskoslovenska-1959-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ceskoslovenska-1959.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceskoslovenska-1959-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceskoslovenska-1959-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ceskoslovenska-1959"
                          loading="lazy"
@@ -399,7 +402,7 @@
                             <dt>Цвет</dt>
                             <dd>фиолетовый (слива), коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>94x164</dd>
+                            <dd>94×164</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -416,7 +419,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/hungary-1961-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/hungary-1961.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/hungary-1961-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/hungary-1961-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="hungary-1961"
                          loading="lazy"
@@ -443,7 +446,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>121x193</dd>
+                            <dd>121×193</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -460,7 +463,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/nederland-1964-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/nederland-1964.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/nederland-1964-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/nederland-1964-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="nederland-1964"
                          loading="lazy"
@@ -487,7 +490,7 @@
                             <dt>Цвет</dt>
                             <dd>красный, коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>99,5x189</dd>
+                            <dd>99,5×189</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -506,7 +509,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1968-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1968.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1968-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1968-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1968"
                          loading="lazy"
@@ -533,7 +536,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый, зеленый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>157x112</dd>
+                            <dd>157×112</dd>
                             <dt>Изготовление</dt>
                             <dd>Пермская печатная фабрика Госзнака</dd>
                             <dt>Тираж</dt>
@@ -558,7 +561,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romana-1968-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/romana-1968.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romana-1968-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romana-1968-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romana-1968"
                          loading="lazy"
@@ -585,7 +588,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>116х170</dd>
+                            <dd>116×170</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -602,7 +605,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1969-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1969-1"
                          loading="lazy"
@@ -629,7 +632,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый, оранжевый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>112х157</dd>
+                            <dd>112×157</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -654,7 +657,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1969.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1969-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1969"
                          loading="lazy"
@@ -681,7 +684,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый, оранжевый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>112х157</dd>
+                            <dd>112×157</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -708,7 +711,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1972-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1972.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1972-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1972-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1972"
                          loading="lazy"
@@ -735,7 +738,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>112х157</dd>
+                            <dd>112×157</dd>
                             <dt>Изготовление</dt>
                             <dd>Пермская печатная фабрика Госзнака</dd>
                             <dt>Тираж</dt>
@@ -760,7 +763,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1972-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/romania-1972.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1972-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1972-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1972"
                          loading="lazy"
@@ -787,7 +790,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый, зеленый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>116х161</dd>
+                            <dd>116×161</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -810,7 +813,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/france-1974-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/france-1974.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/france-1974-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/france-1974-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="france-1974"
                          loading="lazy"
@@ -837,7 +840,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>92х164</dd>
+                            <dd>92×164</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -860,7 +863,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/romania-1977-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1977-1"
                          loading="lazy"
@@ -887,7 +890,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый, голубой</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>116х161</dd>
+                            <dd>116×161</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -908,7 +911,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/romania-1977.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1977-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1977"
                          loading="lazy"
@@ -935,7 +938,7 @@
                             <dt>Цвет</dt>
                             <dd>фиолетовый, желтый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>116х163</dd>
+                            <dd>116×163</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -956,7 +959,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1980-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1980.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1980-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1980-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1980"
                          loading="lazy"
@@ -983,7 +986,7 @@
                             <dt>Цвет</dt>
                             <dd>черный, серый, красный, зеленый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114х160</dd>
+                            <dd>114×160</dd>
                             <dt>Изготовление</dt>
                             <dd>Пермская печатная фабрика Госзнака</dd>
                             <dt>Тираж</dt>
@@ -1010,7 +1013,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1980-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/romania-1980.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1980-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1980-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1980"
                          loading="lazy"
@@ -1037,7 +1040,7 @@
                             <dt>Цвет</dt>
                             <dd>голубой, зеленый, коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>119х162</dd>
+                            <dd>119×162</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1058,7 +1061,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1981-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1981-1"
                          loading="lazy"
@@ -1085,7 +1088,7 @@
                             <dt>Цвет</dt>
                             <dd>серо-зеленый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114х160</dd>
+                            <dd>114×160</dd>
                             <dt>Изготовление</dt>
                             <dd>Пермская печатная фабрика Госзнака</dd>
                             <dt>Тираж</dt>
@@ -1110,7 +1113,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1981.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1981"
                          loading="lazy"
@@ -1137,7 +1140,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114х160</dd>
+                            <dd>114×160</dd>
                             <dt>Изготовление</dt>
                             <dd>Пермская печатная фабрика Госзнака</dd>
                             <dt>Тираж</dt>
@@ -1164,7 +1167,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ussr-1981-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ussr-1981-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1981-2"
                          loading="lazy"
@@ -1191,7 +1194,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114х160</dd>
+                            <dd>114×160</dd>
                             <dt>Изготовление</dt>
                             <dd>Пермская печатная фабрика Госзнака</dd>
                             <dt>Тираж</dt>
@@ -1214,7 +1217,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1981-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/poland-1981.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1981-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1981-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1981"
                          loading="lazy"
@@ -1241,7 +1244,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>116х158</dd>
+                            <dd>116×158</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1262,7 +1265,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1986-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/litva-1986.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1986-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1986-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="litva-1986"
                          loading="lazy"
@@ -1289,7 +1292,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>116х158</dd>
+                            <dd>116×158</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1312,7 +1315,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1987-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/romania-1987.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1987-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1987-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1987"
                          loading="lazy"
@@ -1339,7 +1342,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>162х230</dd>
+                            <dd>162×230</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1360,7 +1363,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1988-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/litva-1988.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1988-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1988-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="litva-1988"
                          loading="lazy"
@@ -1387,7 +1390,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114х160</dd>
+                            <dd>114×160</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1410,7 +1413,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1994-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-1994.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1994-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1994-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1994"
                          loading="lazy"
@@ -1437,7 +1440,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>Пермская печатная фабрика Госзнака</dd>
                             <dt>Тираж</dt>
@@ -1460,7 +1463,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/litva-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/litva-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="litva-1996"
                          loading="lazy"
@@ -1487,7 +1490,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114х162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1512,7 +1515,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1996"
                          loading="lazy"
@@ -1564,7 +1567,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/slovensko-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/slovensko-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/slovensko-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/slovensko-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="slovensko-1996"
                          loading="lazy"
@@ -1591,7 +1594,7 @@
                             <dt>Цвет</dt>
                             <dd>черный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>113x161</dd>
+                            <dd>113×161</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1620,7 +1623,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/romania-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/romania-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1996"
                          loading="lazy"
@@ -1647,7 +1650,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>129x189</dd>
+                            <dd>129×189</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1668,7 +1671,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/poland-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1996"
                          loading="lazy"
@@ -1695,7 +1698,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x160</dd>
+                            <dd>114×160</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1716,7 +1719,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1997-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-1997.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1997-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1997-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1997"
                          loading="lazy"
@@ -1743,7 +1746,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x161</dd>
+                            <dd>114×161</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1764,7 +1767,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1998-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-1998.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1998-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1998-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1998"
                          loading="lazy"
@@ -1791,7 +1794,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x161</dd>
+                            <dd>114×161</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1812,7 +1815,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-1999-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1999-1"
                          loading="lazy"
@@ -1839,7 +1842,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>161x228</dd>
+                            <dd>161×228</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1860,7 +1863,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-1999.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1999"
                          loading="lazy"
@@ -1887,7 +1890,7 @@
                             <dt>Цвет</dt>
                             <dd>красный, зеленый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>ВКТАА ПалиБиг (PaliBig)</dd>
                             <dt>Тираж</dt>
@@ -1910,7 +1913,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1999-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/poland-1999.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1999-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-1999-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1999"
                          loading="lazy"
@@ -1937,7 +1940,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый, зеленый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -1958,7 +1961,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-3-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-1999-3.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-3-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-1999-3-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1999-3"
                          loading="lazy"
@@ -1985,7 +1988,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>Гродненская Областная Укрупненная Типография</dd>
                             <dt>Тираж</dt>
@@ -2006,7 +2009,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2002-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2002.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2002-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2002-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2002"
                          loading="lazy"
@@ -2033,7 +2036,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -2056,7 +2059,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2003-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2003.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2003-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2003-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2003"
                          loading="lazy"
@@ -2083,7 +2086,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>111x219</dd>
+                            <dd>111×219</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -2102,7 +2105,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2005-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2005-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2005-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2005-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2005-1"
                          loading="lazy"
@@ -2129,7 +2132,7 @@
                             <dt>Цвет</dt>
                             <dd>красный, коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>Бумажная фабрика Госзнака, г.Борисов</dd>
                             <dt>Тираж</dt>
@@ -2148,7 +2151,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2006-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2006.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2006-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2006-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2006"
                          loading="lazy"
@@ -2175,7 +2178,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>110x219</dd>
+                            <dd>110×219</dd>
                             <dt>Изготовление</dt>
                             <dd>Бумажная фабрика Госзнака, г.Борисов</dd>
                             <dt>Тираж</dt>
@@ -2196,7 +2199,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2009-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2009-1"
                          loading="lazy"
@@ -2223,7 +2226,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>110x220</dd>
+                            <dd>110×220</dd>
                             <dt>Изготовление</dt>
                             <dd>Бумажная фабрика Госзнака, г.Борисов</dd>
                             <dt>Тираж</dt>
@@ -2244,7 +2247,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-2009-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/poland-2009.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-2009-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/poland-2009-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-2009"
                          loading="lazy"
@@ -2271,7 +2274,7 @@
                             <dt>Цвет</dt>
                             <dd>?</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x162</dd>
+                            <dd>114×162</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -2290,7 +2293,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2009-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2009-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2009-2"
                          loading="lazy"
@@ -2317,7 +2320,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>108x220</dd>
+                            <dd>108×220</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>
@@ -2338,7 +2341,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2010-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2010.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2010-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2010-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2010"
                          loading="lazy"
@@ -2365,7 +2368,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>109x219</dd>
+                            <dd>109×219</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>
@@ -2386,7 +2389,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2011.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2011"
                          loading="lazy"
@@ -2413,7 +2416,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>113x160</dd>
+                            <dd>113×160</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>
@@ -2432,7 +2435,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2011-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2011-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2011-2"
                          loading="lazy"
@@ -2459,7 +2462,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>113x160</dd>
+                            <dd>113×160</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>
@@ -2482,7 +2485,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2012-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2012.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2012-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2012-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2012"
                          loading="lazy"
@@ -2509,7 +2512,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>113x162</dd>
+                            <dd>113×162</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>
@@ -2532,7 +2535,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2014-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2014.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2014-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2014-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2014"
                          loading="lazy"
@@ -2559,7 +2562,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>113x160</dd>
+                            <dd>113×160</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>
@@ -2582,7 +2585,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2017-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2017.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2017-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2017-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2017"
                          loading="lazy"
@@ -2609,7 +2612,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>112x162</dd>
+                            <dd>112×162</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>
@@ -2634,7 +2637,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceska-2017-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/ceska-2017.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceska-2017-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/ceska-2017-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ceska-2017"
                          loading="lazy"
@@ -2661,7 +2664,7 @@
                             <dt>Цвет</dt>
                             <dd>коричневый</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>113x161</dd>
+                            <dd>113×161</dd>
                             <dt>Изготовление</dt>
                             <dd>?</dd>
                             <dt>Тираж</dt>
@@ -2686,7 +2689,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2018-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/envelopes/belarus-2018.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2018-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/envelopes/belarus-2018-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2018"
                          loading="lazy"
@@ -2713,7 +2716,7 @@
                             <dt>Цвет</dt>
                             <dd>многоцветный</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114x161</dd>
+                            <dd>114×161</dd>
                             <dt>Изготовление</dt>
                             <dd>РУП „Бобруйская укрупненная типография им. А. Т. Непогодина“</dd>
                             <dt>Тираж</dt>

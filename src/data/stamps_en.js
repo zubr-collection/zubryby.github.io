@@ -18,7 +18,7 @@ module.exports = {
                 { name: 'Engraver', value: 'B. Brandt' },
                 { name: 'Perforation', value: '12:12,25 or toothless' },
                 { name: 'Print', value: 'metallography from steel engravings and intaglio printing' },
-                { name: 'Size (mm)', value: '32x39,5; in the sheet: 100 (10x10) stamps' },
+                { name: 'Size (mm)', value: '32×39,5; in the sheet: 100 (10×10) stamps' },
                 { name: 'Printing count', value: '3 860 000 (toothless - 200 000)' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych (PWPW)' },
                 { name: 'Catalog number', value: 'Michel #885, Scott #660, Yvert #785' }
@@ -38,7 +38,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Bengs' },
                 { name: 'Perforation', value: '13:12,5' },
                 { name: 'Print', value:  'intaglio printing' },
-                { name: 'Size (mm)', value: '43x26; in the sheet: 50 (5x10) stamps' },
+                { name: 'Size (mm)', value: '43×26; in the sheet: 50 (5×10) stamps' },
                 { name: 'Printing count', value: '6 000 000' },
                 { name: 'Catalog number', value: 'Michel #555, Scott #321, Yvert #280' }
             ]
@@ -57,7 +57,7 @@ module.exports = {
                 { name: 'Perforation', value: '12,5:12' },
                 { name: 'Print', value: 'lithography' },
                 { name: 'Printing house', value: 'Moscow printing house of Goznak' },
-                { name: 'Size (mm)', value: '42x30; in the sheet: 72 (6x12) stamps' },
+                { name: 'Size (mm)', value: '42×30; in the sheet: 72 (6×12) stamps' },
                 { name: 'Printing count', value: '2 000 000' },
                 { name: 'Catalog number', value: 'Michel #1927, Scott #1920, Yvert #1907' }
             ]
@@ -74,7 +74,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Czesław Borowczyk' },
                 { name: 'Engraver', value: 'B. Brandt' },
                 { name: 'Perforation', value: 'toothless' },
-                { name: 'Size (mm)', value: '43x38' }
+                { name: 'Size (mm)', value: '43×38' }
             ]
         },
         {
@@ -90,7 +90,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Jan Mraček' },
                 { name: 'Print', value: 'metallography (printing from steel engravings) and intaglio printing' },
                 { name: 'Perforation', value: '11,75:11,25' },
-                { name: 'Size (mm)', value: '44x27' },
+                { name: 'Size (mm)', value: '44×27' },
                 { name: 'Printing count', value: '2 300 000' },
                 { name: 'Catalog number', value: 'Michel #1154, Scott #934, Yvert #1038' }
             ]
@@ -110,7 +110,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Zoltán Nagy' },
                 { name: 'Print', value: 'intaglio printing' },
                 { name: 'Perforation', value: '12:11,5 or toothless' },
-                { name: 'Size (mm)', value: '44x34' },
+                { name: 'Size (mm)', value: '44×34' },
                 { name: 'Printing count', value: '400 000 (toothless - 3710)' },
                 { name: 'Printing house', value: 'State Printing House of Hungary' },
                 {
@@ -131,7 +131,7 @@ module.exports = {
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Perforation', value: '12:12,5' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '32x25' },
+                { name: 'Size (mm)', value: '32×25' },
                 { name: 'Printing count', value: '1 351 489' },
                 { name: 'Catalog number', value: 'Michel #821, Scott #B391, Yvert #795' }
             ]
@@ -149,7 +149,7 @@ module.exports = {
                 { name: 'Paper', value: 'coated' },
                 { name: 'Perforation', value: '11,5' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '40,5x40,5; in the sheet: 20 (5x4) stamps' },
+                { name: 'Size (mm)', value: '40,5×40,5; in the sheet: 20 (5×4) stamps' },
                 { name: 'Printing count', value: '1 382 020' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych (PWPW)' },
                 { name: 'Catalog number', value: 'Michel #1642, Scott #1376, Yvert #1490' }
@@ -170,7 +170,7 @@ module.exports = {
                 { name: 'Paper', value: 'uncoated' },
                 { name: 'Perforation', value: '11,5:11,75 or 12,75:12,5' },
                 { name: 'Print', value: 'metallography (printing from steel engravings)' },
-                { name: 'Size (mm)', value: '32x26; in the sheet: 100 (10x10) stamps' },
+                { name: 'Size (mm)', value: '32×26; in the sheet: 100 (10×10) stamps' },
                 { name: 'Printing count', value: '70 040 100' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych (PWPW)' },
                 { name: 'Catalog number', value: 'Michel #1705, Scott #1439, Yvert #1555' }
@@ -194,7 +194,7 @@ module.exports = {
                 { name: 'Designer', value: 'I. Dumitrana' },
                 { name: 'Perforation', value: '13,5' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '54x33' },
+                { name: 'Size (mm)', value: '54×33' },
                 { name: 'Printing count', value: '1 000 000' },
                 { name: 'Catalog number', value: 'Michel #2676, Scott #2009, Yvert #2379' }
             ]
@@ -213,7 +213,7 @@ module.exports = {
                 { name: 'Engraver', value: 'H. Meschendörfer' },
                 { name: 'Perforation', value: '13,5' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '33x27' },
+                { name: 'Size (mm)', value: '33×27' },
                 { name: 'Printing count', value: '300 000' },
                 { name: 'Catalog number', value: 'Michel #2731, Scott #2054, Yvert #2430' }
             ]
@@ -231,7 +231,7 @@ module.exports = {
                 { name: 'Engraver', value: 'V. Kolganov' },
                 { name: 'Perforation', value: '11,5:11,5' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '80x28; in the sheet: 20 (2x10) stamps' },
+                { name: 'Size (mm)', value: '80×28; in the sheet: 20 (2×10) stamps' },
                 { name: 'Printing count', value: '4 000 000' },
                 { name: 'Printing house', value: 'Moscow printing house of Goznak' },
                 { name: 'Catalog number', value: 'Michel #3669, Scott #3642, Yvert #3530' }
@@ -251,7 +251,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Sándor Légrády' },
                 { name: 'Perforation', value: '12:12 or toothless' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '60x35' },
+                { name: 'Size (mm)', value: '60×35' },
                 { name: 'Printing count', value: '600 000 (toothless - 6211)' },
                 {
                     name: 'Catalog number',
@@ -276,7 +276,7 @@ module.exports = {
                 { name: 'Paper', value: 'coated' },
                 { name: 'Perforation', value: '13:13,25' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '23x16,5; in the sheet: 16 (4x4) stamps' },
+                { name: 'Size (mm)', value: '23×16,5; in the sheet: 16 (4×4) stamps' },
                 { name: 'Catalog number', value: 'Michel #1530 / #1546' }
             ]
         },
@@ -293,7 +293,7 @@ module.exports = {
                 { name: 'Engraver', value: 'M. Peikova, G. Kovachev' },
                 { name: 'Perforation', value: '12,75:13,25' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '44x33' },
+                { name: 'Size (mm)', value: '44×33' },
                 { name: 'Printing count', value: '200 000' },
                 {
                     name: 'Catalog number',
@@ -314,7 +314,7 @@ module.exports = {
                 { name: 'Engraver', value: 'V. Kolganov' },
                 { name: 'Perforation', value: '11,25' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '70x35, tête-bêche (haed-to-tail) 50x50, in the sheet: 20 (5x4) tête-bêche (haed-to-tail)' },
+                { name: 'Size (mm)', value: '70×35, tête-bêche (haed-to-tail) 50×50, in the sheet: 20 (5×4) tête-bêche (haed-to-tail)' },
                 { name: 'Printing count', value: '7 100 000' },
                 { name: 'Printing house', value: 'Moscow printing house of Goznak' },
                 { name: 'Catalog number', value: 'Michel #4137, Scott #4093, Yvert #3945' }
@@ -334,7 +334,7 @@ module.exports = {
                 { name: 'Artist and engraver', value: 'Robert Cami' },
                 { name: 'Perforation', value: '13' },
                 { name: 'Print', value: 'metallography (printing from steel engravings)' },
-                { name: 'Size (mm)', value: '40x26; in the sheet: 50 (5x10) stamps' },
+                { name: 'Size (mm)', value: '40×26; in the sheet: 50 (5×10) stamps' },
                 { name: 'Printing count', value: '10 350 000' },
                 { name: 'Printing house', value: 'La Poste, Imprimerie des timbres-poste et des valeurs fiduciaires' },
                 {
@@ -360,7 +360,7 @@ module.exports = {
                 },
                 { name: 'Perforation', value: '13,75' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '42x33' },
+                { name: 'Size (mm)', value: '42×33' },
                 { name: 'Catalog number', value: 'Michel #850, Scott not cataloged, Yvert #77(PA66)' }
             ]
         },
@@ -377,7 +377,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Florin Ivănuș' },
                 { name: 'Perforation', value: '13,5' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '42x53,5; in the sheet: 25 (5x5) stamps' },
+                { name: 'Size (mm)', value: '42×53,5; in the sheet: 25 (5×5) stamps' },
                 { name: 'Printing count', value: '1 000 000' },
                 { name: 'Catalog number', value: 'Michel #3420, Scott #2715, Yvert #3024' }
             ]
@@ -413,7 +413,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Eugen Palade' },
                 { name: 'Perforation', value: '13,5' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '33x48' },
+                { name: 'Size (mm)', value: '33×48' },
                 { name: 'Printing count', value: '250 000' },
                 { name: 'Catalog number', value: 'Michel #3420, Scott #2715, Yvert #3024' }
             ]
@@ -435,7 +435,7 @@ module.exports = {
                 { name: 'Designer', value: 'K. Śliwka' },
                 { name: 'Perforation', value: '11,5:11,25' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '31,25x43; in the sheet: 50 (10x5) stamps' },
+                { name: 'Size (mm)', value: '31,25×43; in the sheet: 50 (10×5) stamps' },
                 { name: 'Printing count', value: '6 547 000' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych (PWPW)' },
                 { name: 'Catalog number', value: 'Michel #2764-#2768, Scott #2471a-#2471e, Yvert #2580-#2584' }
@@ -454,7 +454,7 @@ module.exports = {
                 { name: 'Artist and engraver', value: 'Nguyen Hiep' },
                 { name: 'Perforation', value: '12,25:12 or toothless' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '53x38' },
+                { name: 'Size (mm)', value: '53×38' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Catalog number', value: 'Michel #1189, Scott #1155, Yvert #307' }
             ]
@@ -473,7 +473,7 @@ module.exports = {
                 { name: 'Designer', value: 'S. Małecki' },
                 { name: 'Perforation', value: '11,5:11,25' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '40,5x40,5' },
+                { name: 'Size (mm)', value: '40,5×40,5' },
                 { name: 'Printing count', value: '3 940 000' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych (PWPW)' },
                 { name: 'Catalog number', value: 'Michel #2854, Scott #2560, Yvert #2667' }
@@ -492,7 +492,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Florin Ivănuș' },
                 { name: 'Perforation', value: '13,25' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '43x28; in the sheet: 12 (3x4) stamps' },
+                { name: 'Size (mm)', value: '43×28; in the sheet: 12 (3×4) stamps' },
                 { name: 'Printing count', value: '100 000' },
                 { name: 'Catalog number', value: 'Michel #4388, Scott #3466e, Yvert #B192' }
             ]
@@ -565,7 +565,7 @@ module.exports = {
                 { name: 'Engraver', value: 'V. Skabeikienė' },
                 { name: 'Perforation', value: '12' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '30x37; in the sheet: 50 (10x5) stamps' },
+                { name: 'Size (mm)', value: '30×37; in the sheet: 50 (10×5) stamps' },
                 { name: 'Printing count', value: '500 000' },
                 { name: 'Printing house', value: 'Budapest Printing House of Securities' },
                 { name: 'Catalog number', value: 'Michel #565, Scott #499, Yvert #494' }
@@ -612,7 +612,7 @@ module.exports = {
                 { name: 'Designer', value: 'Vilius Jurkūnas' },
                 { name: 'Perforation', value: '13:13,5' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '36,5x30; in the sheet: 50 (5x10) stamps' },
+                { name: 'Size (mm)', value: '36,5×30; in the sheet: 50 (5×10) stamps' },
                 { name: 'Printing count', value: '500 000' },
                 { name: 'Printing house', value: 'Budapest Printing House of Securities' },
                 { name: 'Catalog number', value: 'Michel #599 - #602, Scott #529 - #532, Yvert #529 - #532' }
@@ -631,7 +631,7 @@ module.exports = {
                 { name: 'Engraver', value: 'A. Fedin' },
                 { name: 'Perforation', value: '14:14,25' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '40x28; in the sheet: 36 (6x6) stamps' },
+                { name: 'Size (mm)', value: '40×28; in the sheet: 36 (6×6) stamps' },
                 { name: 'Printing count', value: '200 000' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
                 { name: 'Catalog number', value: 'Michel #118, Scott #133, Yvert #116' }
@@ -651,7 +651,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Martin Činovský' },
                 { name: 'Perforation', value: '11,25:11,75' },
                 { name: 'Print', value: 'metallography from steel engravings and intaglio printing' },
-                { name: 'Size (mm)', value: '23x40; in the sheet: 50 stamps' },
+                { name: 'Size (mm)', value: '23×40; in the sheet: 50 stamps' },
                 { name: 'Printing count', value: '5 865 000' },
                 { name: 'Printing house', value: 'Post Office Printing House, Prague' },
                 { name: 'Catalog number', value: 'Michel #258, Scott #250, Yvert #217' }
@@ -674,7 +674,7 @@ module.exports = {
                 { name: 'Paper', value: 'coated' },
                 { name: 'Perforation', value: '14,25' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '42x28; in the sheet: 9 (3x3) stamps, size of sheet 160x137' },
+                { name: 'Size (mm)', value: '42×28; in the sheet: 9 (3×3) stamps, size of sheet 160×137' },
                 { name: 'Catalog number', value: 'Michel #2734, Scott #2195b' }
             ]
         },
@@ -691,7 +691,7 @@ module.exports = {
                 { name: 'Designer', value: 'J. Wysocki' },
                 { name: 'Perforation', value: '11,5:11,75 (syncopated)' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '31,25x43; in the sheet: 16 (4x4) stamps' },
+                { name: 'Size (mm)', value: '31,25×43; in the sheet: 16 (4×4) stamps' },
                 { name: 'Printing count', value: '1 000 000' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych (PWPW)' },
                 { name: 'Catalog number', value: 'Michel #3629 - #3632, Scott #3324 - #3327, Yvert #3415 - #3418' }
@@ -709,7 +709,7 @@ module.exports = {
                 { name: 'Paper', value: 'coated' },
                 { name: 'Perforation', value: '12,75' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '33x44' },
+                { name: 'Size (mm)', value: '33×44' },
                 { name: 'Catalog number', value: 'Michel #4000, Scott #3812, Yvert #3611' }
             ]
         },
@@ -728,7 +728,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '11 500 000 (four factories - 5 million, 2.5 million, 2 million, 2 million)' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '18x26; in the sheet 98 (14x7) stamps' },
+                { name: 'Size (mm)', value: '18×26; in the sheet 98 (14×7) stamps' },
                 { name: 'Catalog number', value: 'Michel #279, Scott #251, Yvert #266' }
             ]
         },
@@ -748,7 +748,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '30 000 blocks' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '52x30; in the sheet 9 (3x3) - 6 stamps and 3 coupons' },
+                { name: 'Size (mm)', value: '52×30; in the sheet 9 (3×3) - 6 stamps and 3 coupons' },
                 { name: 'Catalog number', value: 'Michel #Klb.303 Scott #299 Yvert #B21' }
             ]
         },
@@ -767,7 +767,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '270 000' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '52x30; in the sheet 9 (3x3)' },
+                { name: 'Size (mm)', value: '52×30; in the sheet 9 (3×3)' },
                 { name: 'Catalog number', value: 'Michel #317, Scott #305, Yvert #288' }
             ]
         },
@@ -786,7 +786,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '300 000' },
                 { name: 'Printing house', value: 'Goznak Moscow Printing Factory' },
-                { name: 'Size (mm)', value: '42x30; in the sheet 36 (6x6)' },
+                { name: 'Size (mm)', value: '42×30; in the sheet 36 (6×6)' },
                 { name: 'Catalog number', value: 'Michel #722, Scott #6513, Yvert #6401' }
             ]
         },
@@ -806,7 +806,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '80 000' },
                 { name: 'Printing house', value: 'SE "Printing plant" Ukraine "for the production of securities"' },
-                { name: 'Size (mm)', value: '40x28; in the sheet 6 (2x3)' },
+                { name: 'Size (mm)', value: '40×28; in the sheet 6 (2×3)' },
                 { name: 'Catalog number', value: 'Michel #348, Scott #369b' }
             ]
         },
@@ -836,7 +836,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '1 000 000' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '18x26; in the sheet 98 (14x7) stamps' },
+                { name: 'Size (mm)', value: '18×26; in the sheet 98 (14×7) stamps' },
                 { name: 'Catalog number', value: 'Michel #348Ix, Scott #331, Yvert #329' }
             ]
         },
@@ -860,7 +860,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '10 438 000 (five factories - 5.33 million, 2.12 million, 1.088 million, 1 million, 1 million)' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '18x26; in the sheet 98 (14x7) stamps' },
+                { name: 'Size (mm)', value: '18×26; in the sheet 98 (14×7) stamps' },
                 { name: 'Catalog number', value: 'Michel #348Iy, Scott #331mi' }
             ]
         },
@@ -878,7 +878,7 @@ module.exports = {
                 { name: 'Engraver', value: 'T. Vardzhiev' },
                 { name: 'Perforation', value: '13' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '43x32,5; in the sheet 50 (5x10) stamps' },
+                { name: 'Size (mm)', value: '43×32,5; in the sheet 50 (5×10) stamps' },
                 { name: 'Printing count', value: '310 000' },
                 { name: 'Catalog number', value: 'Michel #4486, Scott #4161, Yvert #3883' }
             ]
@@ -897,7 +897,7 @@ module.exports = {
                 { name: 'Engraver', value: 'Florin Ivănuș' },
                 { name: 'Perforation', value: '13,25' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '28x43' },
+                { name: 'Size (mm)', value: '28×43' },
                 { name: 'Printing count', value: '212 000' },
                 { name: 'Catalog number', value: 'Michel #5548, Scott #4424, Yvert #4647' }
             ]
@@ -922,7 +922,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '1 500 000' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '18x26; in the sheet 98 (14x7) stamps' },
+                { name: 'Size (mm)', value: '18×26; in the sheet 98 (14×7) stamps' },
                 { name: 'Catalog number', value: 'Michel #348II, Scott #409, Yvert #401' }
             ]
         },
@@ -942,7 +942,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '240 000' },
                 { name: 'Printing house', value: 'Imprimerie des timbres-poste et des valeurs fiduciaires (ITVF)' },
-                { name: 'Size (mm)', value: '26x40; in the sheet 50 (10x5)' },
+                { name: 'Size (mm)', value: '26×40; in the sheet 50 (10×5)' },
                 { name: 'Catalog number', value: 'Michel #55, Scott #2055, Yvert #132' }
             ]
         },
@@ -963,7 +963,7 @@ module.exports = {
                 { name: 'Paper', value: '?' },
                 { name: 'Perforation', value: '13,5:14' },
                 { name: 'Print', value: 'intaglio printing' },
-                { name: 'Size (mm)', value: '41x51; size of block: 98x121,5' },
+                { name: 'Size (mm)', value: '41×51; size of block: 98×121,5' },
                 { name: 'Printing house', value: 'Fabrica de timbre' },
                 { name: 'Catalog number', value: 'Michel #B386, #Scott 4875, Yvert #BF320' }
             ]
@@ -983,7 +983,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '240 000' },
                 { name: 'Printing house', value: 'Goznak Moscow Printing Factory' },
-                { name: 'Size (mm)', value: '40x28; in the sheet 36 (6x6)' },
+                { name: 'Size (mm)', value: '40×28; in the sheet 36 (6×6)' },
                 { name: 'Catalog number', value: 'Michel #1381, Scott #7002c' }
             ]
         },
@@ -1003,7 +1003,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '240 000' },
                 { name: 'Printing house', value: 'Goznak Moscow Printing Factory' },
-                { name: 'Size (mm)', value: '37x37; in the sheet 30 (6x5)' },
+                { name: 'Size (mm)', value: '37×37; in the sheet 30 (6×5)' },
                 { name: 'Catalog number', value: 'Michel #1436' }
             ]
         },
@@ -1022,7 +1022,7 @@ module.exports = {
                 { name: 'Paper', value: 'coated' },
                 { name: 'Perforation', value: '13,25:14' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '18x26; in the sheet: 21 (7*3) stamps' },
+                { name: 'Size (mm)', value: '18×26; in the sheet: 21 (7×3) stamps' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
                 { name: 'Catalog number', value: 'Michel #749, Scott #768, Yvert #661' }
             ]
@@ -1043,7 +1043,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '20 000' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '40x28; in the sheet 3 (3x1) stamps' },
+                { name: 'Size (mm)', value: '40×28; in the sheet 3 (3×1) stamps' },
                 { name: 'Catalog number', value: 'Michel #780, Scott #707b, Yvert #684' }
             ]
         },
@@ -1064,7 +1064,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '72 000' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '28x40; in the sheet 8 (4x2) stamps' },
+                { name: 'Size (mm)', value: '28×40; in the sheet 8 (4×2) stamps' },
                 { name: 'Catalog number', value: 'Michel #854, Scott #767, Yvert #733' }
             ]
         },
@@ -1083,7 +1083,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '630 000' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych Spółka Akcyjna (PWPW S.A.)' },
-                { name: 'Size (mm)', value: '43x31,25; in the sheet 9 (3x3) stamps' },
+                { name: 'Size (mm)', value: '43×31,25; in the sheet 9 (3×3) stamps' },
                 { name: 'Catalog number', value: 'Michel #4521, Yvert #4241' }
             ]
         },
@@ -1106,7 +1106,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '20 000' },
                 { name: 'Printing house', value: '"Belarusian House of Press", Minsk' },
-                { name: 'Size (mm)', value: '28x40; block - 100x55' },
+                { name: 'Size (mm)', value: '28×40; block - 100×55' },
                 { name: 'Catalog number', value: 'Michel #883(B90) Scott #792 Yvert #B87' }
             ]
         },
@@ -1127,7 +1127,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '540 000' },
                 { name: 'Printing house', value: 'Polska Wytwórnia Papierów Wartościowych Spółka Akcyjna (PWPW S.A.)' },
-                { name: 'Size (mm)', value: '31,25x43; in the sheet 9 (3x3) stamps' },
+                { name: 'Size (mm)', value: '31,25×43; in the sheet 9 (3×3) stamps' },
                 { name: 'Catalog number', value: 'Michel #4564, Yvert #4276' }
             ]
         },
@@ -1145,7 +1145,7 @@ module.exports = {
                 { name: 'Paper', value: 'coated, gummed' },
                 { name: 'Perforation', value: '14:14,25' },
                 { name: 'Print', value: 'offset, fullcolor' },
-                { name: 'Size (mm)', value: '40x28, in the sheet 7 stamps and 1 coupon' },
+                { name: 'Size (mm)', value: '40×28, in the sheet 7 stamps and 1 coupon' },
                 { name: 'Printing house', value: 'RUE "Bobruisk enlarged printing house named after A. T. Nepogodin"' },
                 { name: 'Printing count', value: '70 000' },
                 { name: 'Catalog number', value: '?' }
@@ -1164,7 +1164,7 @@ module.exports = {
                 { name: 'Designer', value: 'Vlad Vămășescu' },
                 { name: 'Perforation', value: '13,5' },
                 { name: 'Print', value: 'offset' },
-                { name: 'Size (mm)', value: '48x33; size of sheet: 120x115' },
+                { name: 'Size (mm)', value: '48×33; size of sheet: 120×115' },
                 { name: 'Printing count', value: '12 080 (3 680 + 1 680 small sheets)' },
                 { name: 'Catalog number', value: 'Michel #6757, Scott# 5496' }
             ]
@@ -1190,7 +1190,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '60 000' },
                 { name: 'Printing house', value: 'RUE "Bobruisk enlarged printing house named after A. T. Nepogodin"' },
-                { name: 'Size (mm)', value: '52x29,5; in the sheet 6 (2x3) stamps' },
+                { name: 'Size (mm)', value: '52×29,5; in the sheet 6 (2×3) stamps' },
                 { name: 'Catalog number', value: 'Michel #1010, Scott #897' }
             ]
         },
@@ -1211,7 +1211,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '60 000' },
                 { name: 'Printing house', value: 'RUE "Bobruisk enlarged printing house named after A. T. Nepogodin"' },
-                { name: 'Size (mm)', value: '38,18x28; in the sheet 6 (2x3) stamps' },
+                { name: 'Size (mm)', value: '38,18×28; in the sheet 6 (2×3) stamps' },
                 { name: 'Catalog number', value: 'Michel #1094' }
             ]
         },
@@ -1230,7 +1230,7 @@ module.exports = {
                 { name: 'Paper', value: 'coated, gummed' },
                 { name: 'Perforation', value: '13:13,5' },
                 { name: 'Print', value: 'offset, fullcolor' },
-                { name: 'Size (mm)', value: '52x29,6; in the sheet: 8 (2*4) stamps' },
+                { name: 'Size (mm)', value: '52×29,6; in the sheet: 8 (2×4) stamps' },
                 { name: 'Printing house', value: 'RUE "Bobruisk enlarged printing house named after A. T. Nepogodin"' },
                 { name: 'Printing count', value: '44 000' },
                 { name: 'Catalog number', value: '?' }
@@ -1275,7 +1275,7 @@ module.exports = {
                 { name: 'Print', value: 'foil-stamped offset' },
                 { name: 'Printing count', value: '60 000' },
                 { name: 'Printing house', value: 'RUE "Bobruisk enlarged printing house named after A. T. Nepogodin"' },
-                { name: 'Size (mm)', value: '40x28; in the sheet 6 (3x2) stamps' },
+                { name: 'Size (mm)', value: '40×28; in the sheet 6 (3×2) stamps' },
                 { name: 'Catalog number', value: 'Michel #Klb.1185 ' }
             ]
         },
@@ -1296,7 +1296,7 @@ module.exports = {
                 { name: 'Print', value: 'offset and metallography' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Printing house', value: 'Post Office Printing House, Prague' },
-                { name: 'Size (mm)', value: '50x40; size of sheet 159x108 (4 stamps and 4 coupons)' },
+                { name: 'Size (mm)', value: '50×40; size of sheet 159×108 (4 stamps and 4 coupons)' },
                 { name: 'Catalog number', value: 'Michel #934' },
             ]
         },
@@ -1316,7 +1316,7 @@ module.exports = {
                 { name: 'Print', value: 'offset ' },
                 { name: 'Printing count', value: '30 000' },
                 { name: 'Printing house', value: '?' },
-                { name: 'Size (mm)', value: '31x42; size of sheet 106x149 (6 stamps and 3 coupons)' },
+                { name: 'Size (mm)', value: '31×42; size of sheet 106×149 (6 stamps and 3 coupons)' },
             ]
         },
         {
@@ -1355,7 +1355,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '162 000' },
                 { name: 'Printing house', value: 'Enterprise d\'Etat editorial-polygraphique Tipografia Centrala Chisinau Moldova' },
-                { name: 'Size (mm)', value: '46x27.5; size of sheet 114x164; in the sheet 10 stamps' },
+                { name: 'Size (mm)', value: '46×27,5; size of sheet 114×164; in the sheet 10 stamps' },
                 { name: 'Catalog number', value: 'Michel #1040' }
             ]
         },
@@ -1375,7 +1375,7 @@ module.exports = {
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '3850' },
                 { name: 'Printing house', value: 'Fabrica de timbre' },
-                { name: 'Size (mm)', value: '48x33; size of block 80x70' },
+                { name: 'Size (mm)', value: '48×33; size of block 80×70' },
                 { name: 'Catalog number', value: '?' }
             ]
         }

@@ -40,9 +40,13 @@
 <meta name="locale" content="ru">
 <link rel="alternate" hreflang="en" href="https://zubry.by/index_en.html">
 
-    <link rel="preconnect" href="https://instant.page">
+    <link rel="dns-prefetch" href="https://instant.page">
+<link rel="preconnect" href="https://instant.page">
 <link rel="dns-prefetch" href="https://lux.speedcurve.com">
+<link rel="preconnect" href="https://lux.speedcurve.com">
+<link rel="dns-prefetch" href="https://cdn.speedcurve.com">
 <link rel="preconnect" href="https://cdn.speedcurve.com">
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -59,13 +63,12 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'UA-149477412-1');
+    gtag('config', 'UA-149477412-1', { 'transport_type': 'beacon'});
 </script>
 
 <script>LUX=(function(){var a=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMarks)?LUX.gaMarks:[]);var d=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMeasures)?LUX.gaMeasures:[]);var j="LUX_start";var k=window.performance;var l=("undefined"!==typeof(LUX)&&LUX.ns?LUX.ns:(Date.now?Date.now():+(new Date())));if(k&&k.timing&&k.timing.navigationStart){l=k.timing.navigationStart}function f(){if(k&&k.now){return k.now()}var o=Date.now?Date.now():+(new Date());return o-l}function b(n){if(k){if(k.mark){return k.mark(n)}else{if(k.webkitMark){return k.webkitMark(n)}}}a.push({name:n,entryType:"mark",startTime:f(),duration:0});return}function m(p,t,n){if("undefined"===typeof(t)&&h(j)){t=j}if(k){if(k.measure){if(t){if(n){return k.measure(p,t,n)}else{return k.measure(p,t)}}else{return k.measure(p)}}else{if(k.webkitMeasure){return k.webkitMeasure(p,t,n)}}}var r=0,o=f();if(t){var s=h(t);if(s){r=s.startTime}else{if(k&&k.timing&&k.timing[t]){r=k.timing[t]-k.timing.navigationStart}else{return}}}if(n){var q=h(n);if(q){o=q.startTime}else{if(k&&k.timing&&k.timing[n]){o=k.timing[n]-k.timing.navigationStart}else{return}}}d.push({name:p,entryType:"measure",startTime:r,duration:(o-r)});return}function h(n){return c(n,g())}function c(p,o){for(i=o.length-1;i>=0;i--){var n=o[i];if(p===n.name){return n}}return undefined}function g(){if(k){if(k.getEntriesByType){return k.getEntriesByType("mark")}else{if(k.webkitGetEntriesByType){return k.webkitGetEntriesByType("mark")}}}return a}return{mark:b,measure:m,gaMarks:a,gaMeasures:d}})();LUX.ns=(Date.now?Date.now():+(new Date()));LUX.ac=[];LUX.cmd=function(a){LUX.ac.push(a)};LUX.init=function(){LUX.cmd(["init"])};LUX.send=function(){LUX.cmd(["send"])};LUX.addData=function(a,b){LUX.cmd(["addData",a,b])};LUX_ae=[];window.addEventListener("error",function(a){LUX_ae.push(a)});LUX_al=[];if("function"===typeof(PerformanceObserver)&&"function"===typeof(PerformanceLongTaskTiming)){var LongTaskObserver=new PerformanceObserver(function(c){var b=c.getEntries();for(var a=0;a<b.length;a++){var d=b[a];LUX_al.push(d)}});try{LongTaskObserver.observe({type:["longtask"]})}catch(e){}};</script>
 <script src="https://cdn.speedcurve.com/js/lux.js?id=619540492" async crossorigin="anonymous"></script>
-<script async src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+<script defer src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 <noscript>
     <link href="./assets/css/fonts.min.css" rel="stylesheet">
 </noscript>
@@ -194,7 +197,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/german-1918-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/german-1918.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/german-1918-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/german-1918-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="german-1918"
                          loading="lazy"
@@ -219,7 +222,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр в лесу</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>88х140</dd>
+                            <dd>88×140</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -238,7 +241,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1931-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1931.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1931-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1931-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1931"
                          loading="lazy"
@@ -263,7 +266,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90х132</dd>
+                            <dd>90×132</dd>
                             <dt>Цена</dt>
                             <dd>7 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -290,7 +293,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1950th-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1950th.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1950th-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1950th-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1950th"
                          loading="lazy"
@@ -315,7 +318,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры. Беловежская пуща</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>112х145</dd>
+                            <dd>112×145</dd>
                             <dt>Цена</dt>
                             <dd>25 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -334,7 +337,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1954-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1954.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1954-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1954-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1954"
                          loading="lazy"
@@ -359,7 +362,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры преодолевают сугробы снега</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>110х148</dd>
+                            <dd>110×148</dd>
                             <dt>Цена</dt>
                             <dd>20 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -386,7 +389,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/gdr-1955-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/gdr-1955.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/gdr-1955-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/gdr-1955-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="gdr-1955"
                          loading="lazy"
@@ -411,7 +414,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90x140</dd>
+                            <dd>90×140</dd>
                             <dt>Цена</dt>
                             <dd>20 пфеннигов (марка)</dd>
                             <dt>Издательство</dt>
@@ -434,7 +437,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/gdr-1956-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/gdr-1956.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/gdr-1956-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/gdr-1956-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="gdr-1956"
                          loading="lazy"
@@ -459,7 +462,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90x140</dd>
+                            <dd>90×140</dd>
                             <dt>Цена</dt>
                             <dd>20 пфеннигов (марка)</dd>
                             <dt>Издательство</dt>
@@ -480,7 +483,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1957-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1957.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1957-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1957-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1957"
                          loading="lazy"
@@ -505,7 +508,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр на фоне изгороди</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90х140</dd>
+                            <dd>90×140</dd>
                             <dt>Цена</dt>
                             <dd>65 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -532,7 +535,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1960-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1960.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1960-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1960-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1960"
                          loading="lazy"
@@ -557,7 +560,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр в лесу</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>103х148</dd>
+                            <dd>103×148</dd>
                             <dt>Цена</dt>
                             <dd>20 копеек (рубль), с 01.01.1961 2 копейки</dd>
                             <dt>Издательство</dt>
@@ -584,7 +587,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1963-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1963.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1963-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1963-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1963"
                          loading="lazy"
@@ -609,7 +612,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры в Беловежской пуще</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х150</dd>
+                            <dd>104×150</dd>
                             <dt>Цена</dt>
                             <dd>46 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -630,7 +633,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/nederland-1964-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/nederland-1964.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/nederland-1964-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/nederland-1964-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="nederland-1964"
                          loading="lazy"
@@ -655,7 +658,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр с теленком на фоне изгороди</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>112х150</dd>
+                            <dd>112×150</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -678,7 +681,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/germany-cuba-1961-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/germany-cuba-1961.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/germany-cuba-1961-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/germany-cuba-1961-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="germany-cuba-1961"
                          loading="lazy"
@@ -703,7 +706,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90х140</dd>
+                            <dd>90×140</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -724,7 +727,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1965-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1965.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1965-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1965-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1965"
                          loading="lazy"
@@ -749,7 +752,7 @@
                             <dt>Изображение</dt>
                             <dd>Ленинградский зоопарк. Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>105х148</dd>
+                            <dd>105×148</dd>
                             <dt>Цена</dt>
                             <dd>2 копейки (рубль)</dd>
                             <dt>Издательство</dt>
@@ -776,7 +779,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1969-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/poland-1969.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1969-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1969-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1969"
                          loading="lazy"
@@ -801,7 +804,7 @@
                             <dt>Изображение</dt>
                             <dd>Стадо зубров</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>102х145</dd>
+                            <dd>102×145</dd>
                             <dt>Цена</dt>
                             <dd>1.70 злотых + 20 грошей (в фонд реконструкции / SFOS)</dd>
                             <dt>Издательство</dt>
@@ -824,7 +827,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-1960th-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-1960th.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-1960th-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-1960th-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1960th"
                          loading="lazy"
@@ -849,7 +852,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры и другие животные пущи</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>110х164</dd>
+                            <dd>110×164</dd>
                             <dt>Цена</dt>
                             <dd>80 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -870,7 +873,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/london-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/london-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/london-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/london-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="london-1"
                          loading="lazy"
@@ -895,7 +898,7 @@
                             <dt>Изображение</dt>
                             <dd>Европейский зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>85х138</dd>
+                            <dd>85×138</dd>
                             <dt>Цена</dt>
                             <dd>1 пенни / денарий (фунт стерлингов), внутренний 0.5 пенни</dd>
                             <dt>Издательство</dt>
@@ -916,7 +919,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1973-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1973.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1973-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1973-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1973"
                          loading="lazy"
@@ -941,7 +944,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр тянет сани с Дедушкой Морозом</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>105х148</dd>
+                            <dd>105×148</dd>
                             <dt>Цена</dt>
                             <dd>3 копейки (рубль)</dd>
                             <dt>Издательство</dt>
@@ -964,7 +967,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/france-1974-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/france-1974.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/france-1974-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/france-1974-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="france-1974"
                          loading="lazy"
@@ -989,7 +992,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>114х154</dd>
+                            <dd>114×154</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1014,7 +1017,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1976-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1976.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1976-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1976-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1976"
                          loading="lazy"
@@ -1039,7 +1042,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр с пятнистым оленем</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90х140</dd>
+                            <dd>90×140</dd>
                             <dt>Цена</dt>
                             <dd>набор - 54 копеек / открытка - 3 копейки (рубль)</dd>
                             <dt>Издательство</dt>
@@ -1062,7 +1065,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1978-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1978-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1978-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1978-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1978-1"
                          loading="lazy"
@@ -1087,7 +1090,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры в пуще, зубр, кабан, черный аист</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>98х192</dd>
+                            <dd>98×192</dd>
                             <dt>Цена</dt>
                             <dd>11 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -1110,7 +1113,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1978-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1978-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1978-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1978-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1978-2"
                          loading="lazy"
@@ -1135,7 +1138,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр самец, стадо зубров</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>98х192</dd>
+                            <dd>98×192</dd>
                             <dt>Цена</dt>
                             <dd>11 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -1156,7 +1159,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1978-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/poland-1978.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1978-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1978-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1978"
                          loading="lazy"
@@ -1181,7 +1184,7 @@
                             <dt>Изображение</dt>
                             <dd>Стадо зубров, карта Беловежской пущи</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х146</dd>
+                            <dd>104×146</dd>
                             <dt>Цена</dt>
                             <dd>3.30 злотых + 20 грошей (в фонд реконструкции / NFOZ)</dd>
                             <dt>Издательство</dt>
@@ -1206,7 +1209,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-1981-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-1981.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-1981-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-1981-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1981"
                          loading="lazy"
@@ -1231,7 +1234,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры и другие животные пущи</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>95х140</dd>
+                            <dd>95×140</dd>
                             <dt>Цена</dt>
                             <dd>88 копеек (рубль)</dd>
                             <dt>Издательство</dt>
@@ -1256,7 +1259,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1981-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/romania-1981.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1981-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1981-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1981"
                          loading="lazy"
@@ -1281,7 +1284,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>95х146</dd>
+                            <dd>95×146</dd>
                             <dt>Цена</dt>
                             <dd>1.5 лей</dd>
                             <dt>Издательство</dt>
@@ -1306,7 +1309,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/german-1980-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/german-1980.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/german-1980-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/german-1980-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="german-1980"
                          loading="lazy"
@@ -1331,7 +1334,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр как часть фауны немецких заповедников Jabel, Heimattierpark Suhl, Национальный парк Bayer-Wald и другие</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х146</dd>
+                            <dd>104×146</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1350,7 +1353,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1989-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/ussr-1989.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1989-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/ussr-1989-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1989"
                          loading="lazy"
@@ -1375,7 +1378,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>4 копейки (рубль) + 6 копеек в фонд помощи зоопаркам</dd>
                             <dt>Издательство</dt>
@@ -1396,7 +1399,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1991-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/romania-1991.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1991-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1991-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1991"
                          loading="lazy"
@@ -1421,7 +1424,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х146</dd>
+                            <dd>104×146</dd>
                             <dt>Цена</dt>
                             <dd>1.5 лей</dd>
                             <dt>Издательство</dt>
@@ -1448,7 +1451,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1992-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/romania-1992.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1992-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/romania-1992-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1992"
                          loading="lazy"
@@ -1473,7 +1476,7 @@
                             <dt>Изображение</dt>
                             <dd>Виды города Хацег, первая резервация зубров в Румынии</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>100х150</dd>
+                            <dd>100×150</dd>
                             <dt>Цена</dt>
                             <dd>1.5 лей</dd>
                             <dt>Издательство</dt>
@@ -1500,7 +1503,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/litva-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/litva-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/litva-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/litva-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="litva-1996"
                          loading="lazy"
@@ -1525,7 +1528,7 @@
                             <dt>Изображение</dt>
                             <dd>Европейский зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>115х148</dd>
+                            <dd>115×148</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1546,7 +1549,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1996-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/poland-1996-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1996-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1996-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1996-1"
                          loading="lazy"
@@ -1571,7 +1574,7 @@
                             <dt>Изображение</dt>
                             <dd>Европейский зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>105х150</dd>
+                            <dd>105×150</dd>
                             <dt>Цена</dt>
                             <dd>55 грошей (злотый)</dd>
                             <dt>Издательство</dt>
@@ -1592,7 +1595,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2010.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2010"
                          loading="lazy"
@@ -1617,7 +1620,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр, птица, лес</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>105х147</dd>
+                            <dd>105×147</dd>
                             <dt>Цена</dt>
                             <dd>литера B</dd>
                             <dt>Издательство</dt>
@@ -1638,7 +1641,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/poland-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1"
                          loading="lazy"
@@ -1663,7 +1666,7 @@
                             <dt>Изображение</dt>
                             <dd>Беловежская пуща. Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90х140</dd>
+                            <dd>90×140</dd>
                             <dt>Цена</dt>
                             <dd>10 злотых + 2 злотых (в фонд реконструкции столицы)</dd>
                             <dt>Издательство</dt>
@@ -1684,7 +1687,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/poland-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/poland-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-2"
                          loading="lazy"
@@ -1709,7 +1712,7 @@
                             <dt>Изображение</dt>
                             <dd>Беловежская пуща. Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>90х140</dd>
+                            <dd>90×140</dd>
                             <dt>Цена</dt>
                             <dd>10 злотых + 2 злотых (в фонд реконструкции столицы)</dd>
                             <dt>Издательство</dt>
@@ -1730,7 +1733,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2005-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2005.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2005-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2005-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2005"
                          loading="lazy"
@@ -1755,7 +1758,7 @@
                             <dt>Изображение</dt>
                             <dd>Памятник основателю города Каменец Владимиру Васильковичу - князь и зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х148</dd>
+                            <dd>104×148</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1774,7 +1777,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2009-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2009-1"
                          loading="lazy"
@@ -1799,7 +1802,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр и теленок</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1820,7 +1823,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2009-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2009-2"
                          loading="lazy"
@@ -1845,7 +1848,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр и теленок</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1866,7 +1869,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-3-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2009-3.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-3-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-3-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2009-3"
                          loading="lazy"
@@ -1891,7 +1894,7 @@
                             <dt>Изображение</dt>
                             <dd>Беловежская пуща. Зубры и поединок</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1914,7 +1917,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-4-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2009-4.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-4-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2009-4-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2009-4"
                          loading="lazy"
@@ -1939,7 +1942,7 @@
                             <dt>Изображение</dt>
                             <dd>Беловежская пуща. Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147 (с купоном 104х210)</dd>
+                            <dd>104×147 (с купоном 104×210)</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -1962,7 +1965,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2010-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2010-1"
                          loading="lazy"
@@ -1987,7 +1990,7 @@
                             <dt>Изображение</dt>
                             <dd>Европейский зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>100х148</dd>
+                            <dd>100×148</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2008,7 +2011,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2010-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2010-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2010-2"
                          loading="lazy"
@@ -2033,7 +2036,7 @@
                             <dt>Изображение</dt>
                             <dd>Европейский зубр в зимнем лесу</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х209</dd>
+                            <dd>104×209</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2052,7 +2055,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2011-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2011.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2011-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2011-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2011"
                          loading="lazy"
@@ -2077,7 +2080,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>140х198</dd>
+                            <dd>140×198</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2102,7 +2105,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2011-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2011-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2011-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2011-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2011-1"
                          loading="lazy"
@@ -2127,7 +2130,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2150,7 +2153,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2013-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2013.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2013-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2013-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2013"
                          loading="lazy"
@@ -2175,7 +2178,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>106х148</dd>
+                            <dd>106×148</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2198,7 +2201,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2013-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2013-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2013-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2013-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2013-1"
                          loading="lazy"
@@ -2223,7 +2226,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2248,7 +2251,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2015-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2015.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2015-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2015-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2015"
                          loading="lazy"
@@ -2273,7 +2276,7 @@
                             <dt>Изображение</dt>
                             <dd>Стадо зубров</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>140х204</dd>
+                            <dd>140×204</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2298,7 +2301,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2016-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2016.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2016-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2016-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2016"
                          loading="lazy"
@@ -2323,7 +2326,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2346,7 +2349,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2016-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2016-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2016-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2016-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2016-1"
                          loading="lazy"
@@ -2371,7 +2374,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2394,7 +2397,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2018-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2018-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2018-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2018-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2018-1"
                          loading="lazy"
@@ -2419,7 +2422,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>140х198</dd>
+                            <dd>140×198</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2444,7 +2447,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2018-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2018.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2018-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2018-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2018"
                          loading="lazy"
@@ -2469,7 +2472,7 @@
                             <dt>Изображение</dt>
                             <dd>Стадо зубров</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>140х204</dd>
+                            <dd>140×204</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2492,7 +2495,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2014-2018-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2014-2018.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2014-2018-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2014-2018-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2014-2018"
                          loading="lazy"
@@ -2517,7 +2520,7 @@
                             <dt>Изображение</dt>
                             <dd>На каждой открытке фигурирует зубр</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х148</dd>
+                            <dd>104×148</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2540,7 +2543,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2019.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2019"
                          loading="lazy"
@@ -2565,7 +2568,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2588,7 +2591,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2019-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2019-1"
                          loading="lazy"
@@ -2613,7 +2616,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>
@@ -2636,7 +2639,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/postcards/belarus-2019-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/postcards/belarus-2019-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2019-2"
                          loading="lazy"
@@ -2661,7 +2664,7 @@
                             <dt>Изображение</dt>
                             <dd>Зубры</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>104х147</dd>
+                            <dd>104×147</dd>
                             <dt>Цена</dt>
                             <dd>?</dd>
                             <dt>Издательство</dt>

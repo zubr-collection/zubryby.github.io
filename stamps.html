@@ -40,9 +40,13 @@
 <meta name="locale" content="ru">
 <link rel="alternate" hreflang="en" href="https://zubry.by/index_en.html">
 
-    <link rel="preconnect" href="https://instant.page">
+    <link rel="dns-prefetch" href="https://instant.page">
+<link rel="preconnect" href="https://instant.page">
 <link rel="dns-prefetch" href="https://lux.speedcurve.com">
+<link rel="preconnect" href="https://lux.speedcurve.com">
+<link rel="dns-prefetch" href="https://cdn.speedcurve.com">
 <link rel="preconnect" href="https://cdn.speedcurve.com">
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -59,13 +63,12 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'UA-149477412-1');
+    gtag('config', 'UA-149477412-1', { 'transport_type': 'beacon'});
 </script>
 
 <script>LUX=(function(){var a=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMarks)?LUX.gaMarks:[]);var d=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMeasures)?LUX.gaMeasures:[]);var j="LUX_start";var k=window.performance;var l=("undefined"!==typeof(LUX)&&LUX.ns?LUX.ns:(Date.now?Date.now():+(new Date())));if(k&&k.timing&&k.timing.navigationStart){l=k.timing.navigationStart}function f(){if(k&&k.now){return k.now()}var o=Date.now?Date.now():+(new Date());return o-l}function b(n){if(k){if(k.mark){return k.mark(n)}else{if(k.webkitMark){return k.webkitMark(n)}}}a.push({name:n,entryType:"mark",startTime:f(),duration:0});return}function m(p,t,n){if("undefined"===typeof(t)&&h(j)){t=j}if(k){if(k.measure){if(t){if(n){return k.measure(p,t,n)}else{return k.measure(p,t)}}else{return k.measure(p)}}else{if(k.webkitMeasure){return k.webkitMeasure(p,t,n)}}}var r=0,o=f();if(t){var s=h(t);if(s){r=s.startTime}else{if(k&&k.timing&&k.timing[t]){r=k.timing[t]-k.timing.navigationStart}else{return}}}if(n){var q=h(n);if(q){o=q.startTime}else{if(k&&k.timing&&k.timing[n]){o=k.timing[n]-k.timing.navigationStart}else{return}}}d.push({name:p,entryType:"measure",startTime:r,duration:(o-r)});return}function h(n){return c(n,g())}function c(p,o){for(i=o.length-1;i>=0;i--){var n=o[i];if(p===n.name){return n}}return undefined}function g(){if(k){if(k.getEntriesByType){return k.getEntriesByType("mark")}else{if(k.webkitGetEntriesByType){return k.webkitGetEntriesByType("mark")}}}return a}return{mark:b,measure:m,gaMarks:a,gaMeasures:d}})();LUX.ns=(Date.now?Date.now():+(new Date()));LUX.ac=[];LUX.cmd=function(a){LUX.ac.push(a)};LUX.init=function(){LUX.cmd(["init"])};LUX.send=function(){LUX.cmd(["send"])};LUX.addData=function(a,b){LUX.cmd(["addData",a,b])};LUX_ae=[];window.addEventListener("error",function(a){LUX_ae.push(a)});LUX_al=[];if("function"===typeof(PerformanceObserver)&&"function"===typeof(PerformanceLongTaskTiming)){var LongTaskObserver=new PerformanceObserver(function(c){var b=c.getEntries();for(var a=0;a<b.length;a++){var d=b[a];LUX_al.push(d)}});try{LongTaskObserver.observe({type:["longtask"]})}catch(e){}};</script>
 <script src="https://cdn.speedcurve.com/js/lux.js?id=619540492" async crossorigin="anonymous"></script>
-<script async src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+<script defer src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 <noscript>
     <link href="./assets/css/fonts.min.css" rel="stylesheet">
 </noscript>
@@ -193,7 +196,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1954-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1954.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1954-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1954-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1954"
                          loading="lazy"
@@ -226,7 +229,7 @@
                             <dt>Печать</dt>
                             <dd>металлография со стальных гравюр и глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>32x39,5; В листе: 100 (10x10) марок</dd>
+                            <dd>32×39,5; В листе: 100 (10×10) марок</dd>
                             <dt>Тираж</dt>
                             <dd>3 860 000 (беззубцовых - 200 000)</dd>
                             <dt>Типография</dt>
@@ -245,7 +248,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/gdr-1956-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/gdr-1956.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/gdr-1956-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/gdr-1956-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="gdr-1956"
                          loading="lazy"
@@ -278,7 +281,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>43x26; В листе: 50 (5x10) марок</dd>
+                            <dd>43×26; В листе: 50 (5×10) марок</dd>
                             <dt>Тираж</dt>
                             <dd>6 000 000</dd>
                             <dt>Типография</dt>
@@ -297,7 +300,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1957-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/ussr-1957.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1957-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1957-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1957"
                          loading="lazy"
@@ -330,7 +333,7 @@
                             <dt>Печать</dt>
                             <dd>литография</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>42x30; В листе: 72 (6x12) марок</dd>
+                            <dd>42×30; В листе: 72 (6×12) марок</dd>
                             <dt>Тираж</dt>
                             <dd>2 000 000</dd>
                             <dt>Типография</dt>
@@ -347,7 +350,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1958-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1958.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1958-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1958-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1958"
                          loading="lazy"
@@ -394,7 +397,7 @@
                             <dt>Гравёр</dt>
                             <dd>Б. Брандт (B. Brandt)</dd>
                             <dt>Размер (мм)</dt>
-                            <dd>43x38</dd>
+                            <dd>43×38</dd>
                     </dl>
                 </div>
                 <link itemprop="isPartOf" href="#poland-1958" itemscope itemtype="http://schema.org/Collection" itemid="https://zubry.by/stamps.html" />
@@ -403,7 +406,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ceskoslovensko-1959-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/ceskoslovensko-1959.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ceskoslovensko-1959-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ceskoslovensko-1959-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ceskoslovensko-1959"
                          loading="lazy"
@@ -436,7 +439,7 @@
                             <dt>Печать</dt>
                             <dd>металлография (печать со стальных гравюр) и глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>44x27</dd>
+                            <dd>44×27</dd>
                             <dt>Тираж</dt>
                             <dd>2 300 000</dd>
                             <dt>Типография</dt>
@@ -455,7 +458,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/hungary-1961-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/hungary-1961.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/hungary-1961-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/hungary-1961-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="hungary-1961"
                          loading="lazy"
@@ -488,7 +491,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>44x34</dd>
+                            <dd>44×34</dd>
                             <dt>Тираж</dt>
                             <dd>400 000 (беззубцовых - 3710)</dd>
                             <dt>Типография</dt>
@@ -509,7 +512,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/nederland-1964-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/nederland-1964.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/nederland-1964-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/nederland-1964-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="nederland-1964"
                          loading="lazy"
@@ -542,7 +545,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>32x25</dd>
+                            <dd>32×25</dd>
                             <dt>Тираж</dt>
                             <dd>1 351 489</dd>
                             <dt>Типография</dt>
@@ -559,7 +562,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1965-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1965.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1965-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1965-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1965"
                          loading="lazy"
@@ -592,7 +595,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40,5x40,5; В листе: 20 (5x4) марок</dd>
+                            <dd>40,5×40,5; В листе: 20 (5×4) марок</dd>
                             <dt>Тираж</dt>
                             <dd>1 382 020</dd>
                             <dt>Типография</dt>
@@ -609,7 +612,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1966-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1966.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1966-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1966-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1966"
                          loading="lazy"
@@ -642,7 +645,7 @@
                             <dt>Печать</dt>
                             <dd>металлография (печать со стальных гравюр)</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>32x26; В листе: 100 (10x10) марок</dd>
+                            <dd>32×26; В листе: 100 (10×10) марок</dd>
                             <dt>Тираж</dt>
                             <dd>70 040 100</dd>
                             <dt>Типография</dt>
@@ -663,7 +666,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1968-1-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-1968-1.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1968-1-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1968-1-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1968-1"
                          loading="lazy"
@@ -696,7 +699,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>54x33</dd>
+                            <dd>54×33</dd>
                             <dt>Тираж</dt>
                             <dd>1 000 000</dd>
                             <dt>Типография</dt>
@@ -715,7 +718,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1968-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-1968-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1968-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1968-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1968-2"
                          loading="lazy"
@@ -748,7 +751,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>33x27</dd>
+                            <dd>33×27</dd>
                             <dt>Тираж</dt>
                             <dd>300 000</dd>
                             <dt>Типография</dt>
@@ -767,7 +770,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1969-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/ussr-1969.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1969-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1969-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1969"
                          loading="lazy"
@@ -800,7 +803,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>80x28; В листе: 20 (2x10) марок</dd>
+                            <dd>80×28; В листе: 20 (2×10) марок</dd>
                             <dt>Тираж</dt>
                             <dd>4 000 000</dd>
                             <dt>Типография</dt>
@@ -817,7 +820,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/hungary-1971-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/hungary-1971.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/hungary-1971-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/hungary-1971-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="hungary-1971"
                          loading="lazy"
@@ -850,7 +853,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>60x35</dd>
+                            <dd>60×35</dd>
                             <dt>Тираж</dt>
                             <dd>600 000 (беззубцовых - 6211)</dd>
                             <dt>Типография</dt>
@@ -869,7 +872,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/umm-al-qiwain-1972-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/umm-al-qiwain-1972.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/umm-al-qiwain-1972-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/umm-al-qiwain-1972-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="umm-al-qiwain-1972"
                          loading="lazy"
@@ -902,7 +905,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>23x16,5; В листе: 16 (4x4) марок</dd>
+                            <dd>23×16,5; В листе: 16 (4×4) марок</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -919,7 +922,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/bulgaria-1973-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/bulgaria-1973.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/bulgaria-1973-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/bulgaria-1973-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="bulgaria-1973"
                          loading="lazy"
@@ -952,7 +955,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>44x33</dd>
+                            <dd>44×33</dd>
                             <dt>Тираж</dt>
                             <dd>200 000</dd>
                             <dt>Типография</dt>
@@ -969,7 +972,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1973-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/ussr-1973.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1973-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ussr-1973-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ussr-1973"
                          loading="lazy"
@@ -1002,7 +1005,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>70x35, тет-беш 50x50, В листе: 20 (5x4) тет-бешей</dd>
+                            <dd>70×35, тет-беш 50×50, В листе: 20 (5×4) тет-бешей</dd>
                             <dt>Тираж</dt>
                             <dd>7 100 000</dd>
                             <dt>Типография</dt>
@@ -1019,7 +1022,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/france-1974-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/france-1974.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/france-1974-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/france-1974-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="france-1974"
                          loading="lazy"
@@ -1052,7 +1055,7 @@
                             <dt>Печать</dt>
                             <dd>металлография (печать со стальных гравюр)</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40x26; В листе: 50 (5x10) марок</dd>
+                            <dd>40×26; В листе: 50 (5×10) марок</dd>
                             <dt>Тираж</dt>
                             <dd>10 350 000</dd>
                             <dt>Типография</dt>
@@ -1071,7 +1074,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/equatorial-1976-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/equatorial-1976.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/equatorial-1976-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/equatorial-1976-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="equatorial-1976"
                          loading="lazy"
@@ -1104,7 +1107,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>42x33</dd>
+                            <dd>42×33</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -1121,7 +1124,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1977-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-1977.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1977-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1977-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1977"
                          loading="lazy"
@@ -1154,7 +1157,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>42x53,5; В листе: 25 (5x5) марок</dd>
+                            <dd>42×53,5; В листе: 25 (5×5) марок</dd>
                             <dt>Тираж</dt>
                             <dd>1 000 000</dd>
                             <dt>Типография</dt>
@@ -1171,7 +1174,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1979-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1979.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1979-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1979-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1979"
                          loading="lazy"
@@ -1221,7 +1224,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1980-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-1980.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1980-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1980-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1980"
                          loading="lazy"
@@ -1254,7 +1257,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>33x48</dd>
+                            <dd>33×48</dd>
                             <dt>Тираж</dt>
                             <dd>250 000</dd>
                             <dt>Типография</dt>
@@ -1271,7 +1274,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1981-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1981.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1981-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1981-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1981"
                          loading="lazy"
@@ -1304,7 +1307,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>31,25x43; В листе: 50 (10x5) марок</dd>
+                            <dd>31,25×43; В листе: 50 (10×5) марок</dd>
                             <dt>Тираж</dt>
                             <dd>6 547 000</dd>
                             <dt>Типография</dt>
@@ -1323,7 +1326,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/vietnam-1981-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/vietnam-1981.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/vietnam-1981-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/vietnam-1981-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="vietnam-1981"
                          loading="lazy"
@@ -1356,7 +1359,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>53x38</dd>
+                            <dd>53×38</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -1373,7 +1376,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1983-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1983.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1983-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1983-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1983"
                          loading="lazy"
@@ -1406,7 +1409,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40,5x40,5</dd>
+                            <dd>40,5×40,5</dd>
                             <dt>Тираж</dt>
                             <dd>3 940 000</dd>
                             <dt>Типография</dt>
@@ -1425,7 +1428,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1987-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-1987.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1987-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-1987-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-1987"
                          loading="lazy"
@@ -1458,7 +1461,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>43x28; В листе: 12 (3x4) марок</dd>
+                            <dd>43×28; В листе: 12 (3×4) марок</dd>
                             <dt>Тираж</dt>
                             <dd>100 000</dd>
                             <dt>Типография</dt>
@@ -1475,7 +1478,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/dagestan-1991-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/dagestan-1991.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/dagestan-1991-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/dagestan-1991-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="dagestan-1991"
                          loading="lazy"
@@ -1527,7 +1530,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1991-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/ukraine-1991.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1991-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1991-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ukraine-1991"
                          loading="lazy"
@@ -1579,7 +1582,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/osetia-1991-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/osetia-1991.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/osetia-1991-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/osetia-1991-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="osetia-1991"
                          loading="lazy"
@@ -1631,7 +1634,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/german-1994-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/german-1994.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/german-1994-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/german-1994-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="german-1994"
                          loading="lazy"
@@ -1685,7 +1688,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/litva-1994-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/litva-1994.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/litva-1994-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/litva-1994-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="litva-1994"
                          loading="lazy"
@@ -1718,7 +1721,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>30x37; В листе: 50 (10x5) марок</dd>
+                            <dd>30×37; В листе: 50 (10×5) марок</dd>
                             <dt>Тираж</dt>
                             <dd>500 000</dd>
                             <dt>Типография</dt>
@@ -1735,7 +1738,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-wwf-1995-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-wwf-1995.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-wwf-1995-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-wwf-1995-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-wwf-1995"
                          loading="lazy"
@@ -1785,7 +1788,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1995-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/ukraine-1995.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1995-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1995-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ukraine-1995"
                          loading="lazy"
@@ -1835,7 +1838,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/litva-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/litva-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/litva-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/litva-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="litva-1996"
                          loading="lazy"
@@ -1868,7 +1871,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>36,5x30; В листе: 50 (5x10) марок</dd>
+                            <dd>36,5×30; В листе: 50 (5×10) марок</dd>
                             <dt>Тираж</dt>
                             <dd>500 000</dd>
                             <dt>Типография</dt>
@@ -1885,7 +1888,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1995-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-1995.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1995-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1995-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1995"
                          loading="lazy"
@@ -1918,7 +1921,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40x28; В листе: 36 (6x6) марок</dd>
+                            <dd>40×28; В листе: 36 (6×6) марок</dd>
                             <dt>Тираж</dt>
                             <dd>200 000</dd>
                             <dt>Типография</dt>
@@ -1935,7 +1938,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/slovensko-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/slovensko-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/slovensko-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/slovensko-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="slovensko-1996"
                          loading="lazy"
@@ -1968,7 +1971,7 @@
                             <dt>Печать</dt>
                             <dd>металлография со стальных гравюр и глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>23x40; В листе: 50 марок</dd>
+                            <dd>23×40; В листе: 50 марок</dd>
                             <dt>Тираж</dt>
                             <dd>5 865 000</dd>
                             <dt>Типография</dt>
@@ -1987,7 +1990,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/maldives-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/maldives-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/maldives-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/maldives-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="maldives-1996"
                          loading="lazy"
@@ -2020,7 +2023,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>42x28; В листе: 9 (3x3) марок, размер листа 160x137</dd>
+                            <dd>42×28; В листе: 9 (3×3) марок, размер листа 160×137</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -2037,7 +2040,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1996-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-1996.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1996-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-1996-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-1996"
                          loading="lazy"
@@ -2070,7 +2073,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>31,25x43; В листе: 16 (4x4) марок</dd>
+                            <dd>31,25×43; В листе: 16 (4×4) марок</dd>
                             <dt>Тираж</dt>
                             <dd>1 000 000</dd>
                             <dt>Типография</dt>
@@ -2087,7 +2090,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/cuba-1997-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/cuba-1997.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/cuba-1997-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/cuba-1997-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="cuba-1997"
                          loading="lazy"
@@ -2120,7 +2123,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>33x44</dd>
+                            <dd>33×44</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -2135,7 +2138,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1998-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-1998.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1998-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1998-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1998"
                          loading="lazy"
@@ -2168,7 +2171,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>18x26; В листе 98 (14x7) марок</dd>
+                            <dd>18×26; В листе 98 (14×7) марок</dd>
                             <dt>Тираж</dt>
                             <dd>11 500 000 (четыре завода - 5 млн, 2.5 млн, 2 млн, 2 млн)</dd>
                             <dt>Типография</dt>
@@ -2185,7 +2188,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1999-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-1999.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1999-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1999-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1999"
                          loading="lazy"
@@ -2218,7 +2221,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>52x30; В листе 9 (3x3) - 6 марок и 3 купона</dd>
+                            <dd>52×30; В листе 9 (3×3) - 6 марок и 3 купона</dd>
                             <dt>Тираж</dt>
                             <dd>30 000 блоков</dd>
                             <dt>Типография</dt>
@@ -2239,7 +2242,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1999-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-1999-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1999-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-1999-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-1999-2"
                          loading="lazy"
@@ -2272,7 +2275,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>52x30; В листе 9 (3x3)</dd>
+                            <dd>52×30; В листе 9 (3×3)</dd>
                             <dt>Тираж</dt>
                             <dd>270 000</dd>
                             <dt>Типография</dt>
@@ -2289,7 +2292,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-1999-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/russia-1999.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-1999-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-1999-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="russia-1999"
                          loading="lazy"
@@ -2322,7 +2325,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>42x30; В листе 36 (6x6)</dd>
+                            <dd>42×30; В листе 36 (6×6)</dd>
                             <dt>Тираж</dt>
                             <dd>300 000</dd>
                             <dt>Типография</dt>
@@ -2339,7 +2342,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1999-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/ukraine-1999.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1999-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/ukraine-1999-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="ukraine-1999"
                          loading="lazy"
@@ -2372,7 +2375,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40x28; В листе 6 (2x3)</dd>
+                            <dd>40×28; В листе 6 (2×3)</dd>
                             <dt>Тираж</dt>
                             <dd>80 000</dd>
                             <dt>Типография</dt>
@@ -2391,7 +2394,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/udmurtia-1999-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/udmurtia-1999.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/udmurtia-1999-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/udmurtia-1999-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="udmurtia-1999"
                          loading="lazy"
@@ -2441,7 +2444,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2000-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2000.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2000-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2000-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2000"
                          loading="lazy"
@@ -2474,7 +2477,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>18x26; В листе 98 (14x7) марок</dd>
+                            <dd>18×26; В листе 98 (14×7) марок</dd>
                             <dt>Тираж</dt>
                             <dd>1 000 000</dd>
                             <dt>Типография</dt>
@@ -2491,7 +2494,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2000-2-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2000-2.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2000-2-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2000-2-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2000-2"
                          loading="lazy"
@@ -2524,7 +2527,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>18x26; В листе 98 (14x7) марок</dd>
+                            <dd>18×26; В листе 98 (14×7) марок</dd>
                             <dt>Тираж</dt>
                             <dd>10 438 000 (пять заводов - 5.33 млн, 2.12 млн, 1.088 млн, 1 млн, 1 млн)</dd>
                             <dt>Типография</dt>
@@ -2543,7 +2546,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/bulgaria-2000-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/bulgaria-2000.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/bulgaria-2000-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/bulgaria-2000-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="bulgaria-2000"
                          loading="lazy"
@@ -2576,7 +2579,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>43x32,5; В листе 50 (5x10) марок</dd>
+                            <dd>43×32,5; В листе 50 (5×10) марок</dd>
                             <dt>Тираж</dt>
                             <dd>310 000</dd>
                             <dt>Типография</dt>
@@ -2595,7 +2598,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2000-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-2000.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2000-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2000-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-2000"
                          loading="lazy"
@@ -2628,7 +2631,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>28x43</dd>
+                            <dd>28×43</dd>
                             <dt>Тираж</dt>
                             <dd>212 000</dd>
                             <dt>Типография</dt>
@@ -2647,7 +2650,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2002-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2002.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2002-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2002-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2002"
                          loading="lazy"
@@ -2680,7 +2683,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>18x26; В листе 98 (14x7) марок</dd>
+                            <dd>18×26; В листе 98 (14×7) марок</dd>
                             <dt>Тираж</dt>
                             <dd>1 500 000</dd>
                             <dt>Типография</dt>
@@ -2699,7 +2702,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/france-2005-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/france-2005.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/france-2005-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/france-2005-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="france-2005"
                          loading="lazy"
@@ -2732,7 +2735,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>26x40; В листе 50 (10x5)</dd>
+                            <dd>26×40; В листе 50 (10×5)</dd>
                             <dt>Тираж</dt>
                             <dd>240 000</dd>
                             <dt>Типография</dt>
@@ -2751,7 +2754,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2008-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-2008.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2008-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2008-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-2008"
                          loading="lazy"
@@ -2784,7 +2787,7 @@
                             <dt>Печать</dt>
                             <dd>глубокая печать</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>41x51; размер блока: 98x121,5</dd>
+                            <dd>41×51; размер блока: 98×121,5</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -2801,7 +2804,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-2006-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/russia-2006.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-2006-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-2006-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="russia-2006"
                          loading="lazy"
@@ -2834,7 +2837,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40x28; В листе 36 (6x6)</dd>
+                            <dd>40×28; В листе 36 (6×6)</dd>
                             <dt>Тираж</dt>
                             <dd>240 000</dd>
                             <dt>Типография</dt>
@@ -2851,7 +2854,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-2007-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/russia-2007.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-2007-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/russia-2007-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="russia-2007"
                          loading="lazy"
@@ -2884,7 +2887,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>37x37; В листе 30 (6x5)</dd>
+                            <dd>37×37; В листе 30 (6×5)</dd>
                             <dt>Тираж</dt>
                             <dd>240 000</dd>
                             <dt>Типография</dt>
@@ -2903,7 +2906,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2008-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2008.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2008-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2008-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2008"
                          loading="lazy"
@@ -2936,7 +2939,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>18x26; В листе: 21 (7*3) марок</dd>
+                            <dd>18×26; В листе: 21 (7×3) марок</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -2957,7 +2960,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2009-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2009.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2009-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2009-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2009"
                          loading="lazy"
@@ -2990,7 +2993,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40x28; В листе 3 (3x1) марок</dd>
+                            <dd>40×28; В листе 3 (3×1) марок</dd>
                             <dt>Тираж</dt>
                             <dd>20 000</dd>
                             <dt>Типография</dt>
@@ -3009,7 +3012,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2011-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2011.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2011-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2011-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2011"
                          loading="lazy"
@@ -3042,7 +3045,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>28x40; В листе 8 (4x2) марок</dd>
+                            <dd>28×40; В листе 8 (4×2) марок</dd>
                             <dt>Тираж</dt>
                             <dd>72 000</dd>
                             <dt>Типография</dt>
@@ -3063,7 +3066,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-2011-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-2011.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-2011-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-2011-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-2011"
                          loading="lazy"
@@ -3096,7 +3099,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>43x31,25; В листе 9 (3x3) марок</dd>
+                            <dd>43×31,25; В листе 9 (3×3) марок</dd>
                             <dt>Тираж</dt>
                             <dd>630 000</dd>
                             <dt>Типография</dt>
@@ -3113,7 +3116,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2012-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2012.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2012-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2012-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2012"
                          loading="lazy"
@@ -3146,7 +3149,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>28x40; блока - 100x55</dd>
+                            <dd>28×40; блока - 100×55</dd>
                             <dt>Тираж</dt>
                             <dd>20 000</dd>
                             <dt>Типография</dt>
@@ -3171,7 +3174,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-2012-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/poland-2012.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-2012-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/poland-2012-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="poland-2012"
                          loading="lazy"
@@ -3204,7 +3207,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>31,25x43; В листе 9 (3x3) марок</dd>
+                            <dd>31,25×43; В листе 9 (3×3) марок</dd>
                             <dt>Тираж</dt>
                             <dd>540 000</dd>
                             <dt>Типография</dt>
@@ -3227,7 +3230,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2013-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2013.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2013-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2013-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2013"
                          loading="lazy"
@@ -3260,7 +3263,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная, полноцветная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40х28, в листе 7 марок и 1 купон</dd>
+                            <dd>40×28, в листе 7 марок и 1 купон</dd>
                             <dt>Тираж</dt>
                             <dd>70 000</dd>
                             <dt>Типография</dt>
@@ -3279,7 +3282,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2013-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-2013.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2013-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2013-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-2013"
                          loading="lazy"
@@ -3312,7 +3315,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>48x33; размер листа: 120x115</dd>
+                            <dd>48×33; размер листа: 120×115</dd>
                             <dt>Тираж</dt>
                             <dd>12 080 (3 680 + 1 680 малых листов)</dd>
                             <dt>Типография</dt>
@@ -3329,7 +3332,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2014-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2014.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2014-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2014-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2014"
                          loading="lazy"
@@ -3362,7 +3365,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>52x29,5; В листе 6 (2x3) марок</dd>
+                            <dd>52×29,5; В листе 6 (2×3) марок</dd>
                             <dt>Тираж</dt>
                             <dd>60 000</dd>
                             <dt>Типография</dt>
@@ -3383,7 +3386,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2015-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2015.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2015-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2015-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2015"
                          loading="lazy"
@@ -3416,7 +3419,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>38,18x28; В листе 6 (2x3) марок</dd>
+                            <dd>38,18×28; В листе 6 (2×3) марок</dd>
                             <dt>Тираж</dt>
                             <dd>60 000</dd>
                             <dt>Типография</dt>
@@ -3437,7 +3440,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2016-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2016.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2016-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2016-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2016"
                          loading="lazy"
@@ -3470,7 +3473,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная, полноцветная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>52х29,6; В листе: 8 (2*4) марок</dd>
+                            <dd>52×29,6; В листе: 8 (2×4) марок</dd>
                             <dt>Тираж</dt>
                             <dd>44 000</dd>
                             <dt>Типография</dt>
@@ -3491,7 +3494,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/moldova-2016-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/moldova-2016.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/moldova-2016-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/moldova-2016-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="moldova-2016"
                          loading="lazy"
@@ -3545,7 +3548,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2017-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/belarus-2017.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2017-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/belarus-2017-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="belarus-2017"
                          loading="lazy"
@@ -3578,7 +3581,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная с тиснением фольгой</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>40x28; В листе 6 (3x2) марок</dd>
+                            <dd>40×28; В листе 6 (3×2) марок</dd>
                             <dt>Тираж</dt>
                             <dd>60 000</dd>
                             <dt>Типография</dt>
@@ -3601,7 +3604,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/cheska-2017-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/cheska-2017.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/cheska-2017-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/cheska-2017-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="cheska-2017"
                          loading="lazy"
@@ -3634,7 +3637,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная и металлография</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>50x40; размер листа 159x108 (4 марки и 4 купона)</dd>
+                            <dd>50×40; размер листа 159×108 (4 марки и 4 купона)</dd>
                             <dt>Тираж</dt>
                             <dd>?</dd>
                             <dt>Типография</dt>
@@ -3657,7 +3660,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/uruguay-2017-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/uruguay-2017.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/uruguay-2017-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/uruguay-2017-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="uruguay-2017"
                          loading="lazy"
@@ -3690,7 +3693,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная </dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>31x42; размер листа 106x149 (6 марок и 3 купона)</dd>
+                            <dd>31×42; размер листа 106×149 (6 марок и 3 купона)</dd>
                             <dt>Тираж</dt>
                             <dd>30 000</dd>
                             <dt>Типография</dt>
@@ -3711,7 +3714,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/nederland-2017-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/nederland-2017.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/nederland-2017-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/nederland-2017-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="nederland-2017"
                          loading="lazy"
@@ -3767,7 +3770,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/moldova-2018-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/moldova-2018.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/moldova-2018-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/moldova-2018-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="moldova-2018"
                          loading="lazy"
@@ -3800,7 +3803,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>46x27.5; размер листа 114x164; в листе 10 марок</dd>
+                            <dd>46×27,5; размер листа 114×164; в листе 10 марок</dd>
                             <dt>Тираж</dt>
                             <dd>162 000</dd>
                             <dt>Типография</dt>
@@ -3821,7 +3824,7 @@
                 <picture>
                     <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2019-480w.webp" type="image/webp">
                     <source srcset="./assets/pics/stamps/romania-2019.webp" type="image/webp">
-                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2019-480w.jpg">
+                    <source media="(max-width: 480px)" srcset="./assets/pics/stamps/romania-2019-480w.jpg" type="image/jpeg">
                     <img itemprop="image"
                          aria-describedby="romania-2019"
                          loading="lazy"
@@ -3854,7 +3857,7 @@
                             <dt>Печать</dt>
                             <dd>офсетная</dd>
                             <dt>Размер марки (мм)</dt>
-                            <dd>48x33; размер блока 80x70</dd>
+                            <dd>48×33; размер блока 80×70</dd>
                             <dt>Тираж</dt>
                             <dd>3850</dd>
                             <dt>Типография</dt>

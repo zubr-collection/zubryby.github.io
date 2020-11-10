@@ -13,7 +13,7 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'V.Planer, Charlottenburg, Sibelstrasse 7 (or Rotophot?)' },
                 { name: 'Picture', value: 'Bison in the forest' },
-                { name: 'Size (mm)', value: '88x140' }
+                { name: 'Size (mm)', value: '88×140' }
             ]
         },
         {
@@ -26,7 +26,7 @@ module.exports = {
                 { name: 'Cost', value: '7 kopecks (ruble)' },
                 { name: 'Publisher', value: 'IZOGIZ (Fine Arts)' },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Size (mm)', value: '90x132' },
+                { name: 'Size (mm)', value: '90×132' },
                 { name: 'Artist', value: 'V.Trophimov' },
                 { name: 'Editor', value: 'T.Yushchenko' },
                 { name: 'Order number', value: '1598' },
@@ -44,7 +44,7 @@ module.exports = {
                 { name: 'Type', value: 'Postcards set „Bialowieza National Park“ 30 pieces' },
                 { name: 'Cost', value: '25 kopecks (ruble)' },
                 { name: 'Picture', value: 'Bisons. Bialowieza National Park' },
-                { name: 'Size (mm)', value: '112x145' },
+                { name: 'Size (mm)', value: '112×145' },
                 { name: 'Printing count', value: '100 000' },
                 { name: 'Publisher', value: '„Zvyazda“ BSSR' }
             ]
@@ -59,7 +59,7 @@ module.exports = {
                 { name: 'Cost', value: '20 kopecks (ruble)' },
                 { name: 'Publisher', value: 'IZOGIZ (Fine Arts)' },
                 { name: 'Picture', value: 'Bisons move through snow' },
-                { name: 'Size (mm)', value: '110x148' },
+                { name: 'Size (mm)', value: '110×148' },
                 { name: 'Artist', value: 'V.Trophimov' },
                 { name: 'Editor', value: 'T.Yushchenko' },
                 { name: 'Order number', value: '2835' },
@@ -78,7 +78,7 @@ module.exports = {
                 { name: 'Cost', value: '20 pfennigs (mark)' },
                 { name: 'Publisher', value: 'Graphokopie H. Sander, Berlin N58' },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Size (mm)', value: '90x140' },
+                { name: 'Size (mm)', value: '90×140' },
                 {
                     name: 'Commemorative Cancellation',
                     value:
@@ -100,7 +100,7 @@ module.exports = {
                     value: 'Cultural Association for the Democratic Renaissance of Germany, Philately branch'
                 },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Size (mm)', value: '90x140' },
+                { name: 'Size (mm)', value: '90×140' },
                 {
                     name: 'Commemorative Cancellation',
                     value:
@@ -118,7 +118,7 @@ module.exports = {
                 { name: 'Cost', value: '65 kopecks (ruble)' },
                 { name: 'Publisher', value: 'Factory of mass printing of the trust „Ukrfoto“' },
                 { name: 'Picture', value: 'Bison on the background of the fence' },
-                { name: 'Size (mm)', value: '90x140' },
+                { name: 'Size (mm)', value: '90×140' },
                 { name: 'Photographer', value: 'D.Kramarenko' },
                 { name: 'Editor', value: 'A.Pogorelov' },
                 { name: 'Order number', value: '745' },
@@ -136,7 +136,7 @@ module.exports = {
                 { name: 'Cost', value: '20 kopecks (ruble), since 01.01.1961 2 kopecks' },
                 { name: 'Publisher', value: 'IZOGIZ (Fine Arts)' },
                 { name: 'Picture', value: 'Bison in the forest' },
-                { name: 'Size (mm)', value: '103x148' },
+                { name: 'Size (mm)', value: '103×148' },
                 { name: 'Artist', value: 'V.Vatagin' },
                 { name: 'Editor', value: 'T.Yushchenko' },
                 { name: 'Order number', value: '841' },
@@ -154,12 +154,12 @@ module.exports = {
                 { name: 'Type', value: 'Postcards set' },
                 { name: 'Picture', value: 'Bisons in Bialowieza National Park' },
                 { name: 'Cost', value: '46 kopecks (ruble)' },
-                { name: 'Size (mm)', value: '104x150' },
+                { name: 'Size (mm)', value: '104×150' },
                 { name: 'Photographer', value: 'V. Gippenreiter' },
                 { name: 'Printing count', value: '30 000' },
                 { name: 'Number', value: '1115' },
-                { name: 'Publisher', value: "State Publishing House of the BSSR" },
-                { name: 'Printing house', value: "Polygraph plant them J. Kolas, Minsk" }
+                { name: 'Publisher', value: 'State Publishing House of the BSSR' },
+                { name: 'Printing house', value: 'Polygraph plant them J. Kolas, Minsk' }
             ]
         },
         {
@@ -170,8 +170,11 @@ module.exports = {
                 { name: 'Country', value: 'Netherlands' },
                 { name: 'Type', value: 'Maximum card' },
                 { name: 'Picture', value: 'Bison with calf on the background of the hedge' },
-                { name: 'Commemorative Cancellation', value: 'Hague 9, special postmark with date and word „dieren“ (animals)' },
-                { name: 'Size (mm)', value: '112x150' },
+                {
+                    name: 'Commemorative Cancellation',
+                    value: 'Hague 9, special postmark with date and word „dieren“ (animals)'
+                },
+                { name: 'Size (mm)', value: '112×150' },
                 { name: 'Designer', value: 'Theo van Amstel' },
                 { name: 'Printing house', value: "Printing company 'De IJsel' Deventer" }
             ]
@@ -185,11 +188,11 @@ module.exports = {
                 { name: 'Type', value: 'Maximum card' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '90x140' },
+                { name: 'Size (mm)', value: '90×140' },
                 { name: 'Photographer', value: '?' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Number', value: '?' },
-                { name: 'Publisher', value: "?" }
+                { name: 'Publisher', value: '?' }
             ]
         },
         {
@@ -203,11 +206,14 @@ module.exports = {
                 { name: 'Picture', value: 'Leningrad Zoo. Bison' },
                 { name: 'Photographer', value: 'R.Mazelev and O.Grinbaum' },
                 { name: 'Cost', value: '2 kopecks (ruble)' },
-                { name: 'Size (mm)', value: '105x148' },
+                { name: 'Size (mm)', value: '105×148' },
                 { name: 'Publisher', value: '„Soviet artist“ Leningrad' },
                 { name: 'Printing count', value: '200 000' },
                 { name: 'Number', value: '2089' },
-                { name: 'Postmark', value: 'color of mastic is black, Romania, Birds and animals from nature reserves 1968' },
+                {
+                    name: 'Postmark',
+                    value: 'color of mastic is black, Romania, Birds and animals from nature reserves 1968'
+                },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -226,7 +232,7 @@ module.exports = {
                     value:
                         'Bialystok 1, postmark dedicated to the philatelic exhibition 30.11.1969 with stamp 1954 (bison picture)'
                 },
-                { name: 'Size (mm)', value: '102x145' },
+                { name: 'Size (mm)', value: '102×145' },
                 { name: 'Photographer', value: 'T.Sumiński' },
                 { name: 'Number', value: '12' },
                 { name: 'Printing count', value: '3500' }
@@ -241,28 +247,28 @@ module.exports = {
                 { name: 'Type', value: 'Album-book, postcard coupling' },
                 { name: 'Cost', value: '80 kopecks (ruble)' },
                 { name: 'Publisher', value: '„Belarus“, Minsk' },
-                { name: 'Size (mm)', value: '110x164' },
+                { name: 'Size (mm)', value: '110×164' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Photographer', value: 'A.Ananina, M.Ananin' },
                 { name: 'Number', value: '?' },
                 { name: 'Picture', value: 'Bisons and other animals' },
-                { name: 'Printing house', value: '?' },
+                { name: 'Printing house', value: '?' }
             ]
         },
         {
             image: 'london-1',
             year: '??.??.???? (before 1971)',
-            title: 'European bison. From the gardens of the Zoological Society of London, Regent\'s Park',
+            title: "European bison. From the gardens of the Zoological Society of London, Regent's Park",
             props: [
                 { name: 'Country', value: 'Great Britain' },
                 { name: 'Type', value: 'Postcards set, №5' },
                 { name: 'Picture', value: 'European bison' },
                 { name: 'Cost', value: '1 penny / denarius (pound sterling), inside 0.5 penny' },
-                { name: 'Size (mm)', value: '85x138' },
+                { name: 'Size (mm)', value: '85×138' },
                 { name: 'Photographer', value: 'F.V. Bond' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Number', value: '5' },
-                { name: 'Publisher', value: "?" }
+                { name: 'Publisher', value: '?' }
             ]
         },
         {
@@ -275,7 +281,7 @@ module.exports = {
                 { name: 'Cost', value: '3 kopecks (ruble)' },
                 { name: 'Publisher', value: 'Belarus' },
                 { name: 'Picture', value: 'Bison pulls a sleigh with Santa Claus' },
-                { name: 'Size (mm)', value: '105x148' },
+                { name: 'Size (mm)', value: '105×148' },
                 { name: 'Artist', value: 'V.Y.Danchuk' },
                 { name: 'Order number', value: '272' },
                 { name: 'Printing count', value: '250 000' },
@@ -291,7 +297,7 @@ module.exports = {
                 { name: 'Type', value: 'Maximum card' },
                 { name: 'Stamp', value: '40 centimes (franc), Nature Conservancy. Bison 1974' },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Size (mm)', value: '114x154' },
+                { name: 'Size (mm)', value: '114×154' },
                 { name: 'Publisher', value: 'French fund for nature and the environment' },
                 { name: 'Postmark', value: 'color of mastic is black, bison picture' },
                 { name: 'Commemorative Cancellation', value: 'Mouzon-08' }
@@ -306,12 +312,12 @@ module.exports = {
                 { name: 'Type', value: 'Postcards set' },
                 { name: 'Picture', value: 'Bison with sika deer' },
                 { name: 'Cost', value: 'set - 54 kopecks / card - 3 kopecks (ruble)' },
-                { name: 'Size (mm)', value: '90x140' },
+                { name: 'Size (mm)', value: '90×140' },
                 { name: 'Author', value: 'R.Yakimenko and Y.Kovalenko' },
                 { name: 'Editor', value: 'A. Radchenko' },
                 { name: 'Printing count', value: '100 000' },
                 { name: 'Number', value: 'set - БФ 03086 З. 02137 / card - БФ 03088 З. 02151' },
-                { name: 'Publisher', value: "Radianska Ukrainian" }
+                { name: 'Publisher', value: 'Radianska Ukrainian' }
             ]
         },
         {
@@ -323,13 +329,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons in the forest, bison, wild boar, black stork' },
                 { name: 'Cost', value: '11 kopecks (ruble)' },
-                { name: 'Size (mm)', value: '98x192' },
+                { name: 'Size (mm)', value: '98×192' },
                 { name: 'Photographer', value: 'V. Minkevich' },
                 { name: 'Printing count', value: '50 000' },
                 { name: 'Number', value: '0-62' },
                 { name: 'Order number', value: '1227' },
                 { name: 'Type', value: '№ 32' },
-                { name: 'Publisher', value: "Planet, Moscow" },
+                { name: 'Publisher', value: 'Planet, Moscow' },
                 { name: 'Printing house', value: 'Photo printing factory' }
             ]
         },
@@ -342,12 +348,12 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bison male, herd of bison' },
                 { name: 'Cost', value: '11 kopecks (ruble)' },
-                { name: 'Size (mm)', value: '98x192' },
+                { name: 'Size (mm)', value: '98×192' },
                 { name: 'Printing count', value: '100 000 (2th factory 50 000)' },
                 { name: 'Number', value: '0-15' },
                 { name: 'Order number', value: '1158' },
                 { name: 'Type', value: '№ 32' },
-                { name: 'Publisher', value: "Planet, Moscow" },
+                { name: 'Publisher', value: 'Planet, Moscow' },
                 { name: 'Printing house', value: 'Photo printing factory' }
             ]
         },
@@ -361,7 +367,7 @@ module.exports = {
                 { name: 'Cost', value: '3.30 zlotys + 20 grosz (to the reconstruction fund / NFOZ)' },
                 { name: 'Publisher', value: 'RUCH' },
                 { name: 'Picture', value: 'Herd of bisons, map of Bialowieza National Park' },
-                { name: 'Size (mm)', value: '104x146' },
+                { name: 'Size (mm)', value: '104×146' },
                 { name: 'Photographer', value: 'V.Lapinsky, V.Pavlovsky, Z.Rachkovskaya, M.Rachkovsky' },
                 { name: 'Designer', value: 'M.Serotsinaskaya' },
                 { name: 'Number', value: '1068' },
@@ -378,14 +384,14 @@ module.exports = {
                 { name: 'Type', value: 'Postcards set, non-postal, 16 pieces' },
                 { name: 'Cost', value: '88 kopecks (ruble)' },
                 { name: 'Publisher', value: '„Belarus“, Minsk' },
-                { name: 'Size (mm)', value: '95x140' },
+                { name: 'Size (mm)', value: '95×140' },
                 { name: 'Printing count', value: '150000' },
                 { name: 'Photographer', value: 'Y.S.Ivanov, M.A.Sharai' },
                 { name: 'Artist', value: 'U.A.Kruglov' },
                 { name: 'Editor', value: 'G.P.Podberezsky, G.A.Tkatsevich, V.R.Mishchenko' },
                 { name: 'Number', value: '14' },
                 { name: 'Picture', value: 'Bisons and other animals' },
-                { name: 'Printing house', value: 'Polygraph plant them. J. Kolas, Minsk' },
+                { name: 'Printing house', value: 'Polygraph plant them. J. Kolas, Minsk' }
             ]
         },
         {
@@ -398,9 +404,13 @@ module.exports = {
                 { name: 'Stamp', value: '1.6 lei, Birds and animals of reserves. Bison 1968' },
                 { name: 'Picture', value: 'Bisons' },
                 { name: 'Cost', value: '1.5 lei' },
-                { name: 'Size (mm)', value: '95x146' },
+                { name: 'Size (mm)', value: '95×146' },
                 { name: 'Publisher', value: 'French fund for nature and the environment' },
-                { name: 'Postmark', value: 'color of mastic is black, Philatelic exhibition Expofauna\'81, 02.10.1981, bison picture, deer and mountain goat' },
+                {
+                    name: 'Postmark',
+                    value:
+                        "color of mastic is black, Philatelic exhibition Expofauna'81, 02.10.1981, bison picture, deer and mountain goat"
+                },
                 { name: 'Commemorative Cancellation', value: 'Timisoara' }
             ]
         },
@@ -411,9 +421,17 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'German' },
                 { name: 'Type', value: 'Postcards' },
-                { name: 'Publisher', value: 'Planet Verlag Berlin, Auslese-Bild-Verlag, Bild und Heimat, Crammers Kunstanstalt Dortmund, Druck und Verlag Morsak' },
-                { name: 'Picture', value: 'European bison as part of the fauna of German reserves Jabel, Heimattierpark Suhl, National park Bayer-Wald and other' },
-                { name: 'Size (mm)', value: '104х146' }
+                {
+                    name: 'Publisher',
+                    value:
+                        'Planet Verlag Berlin, Auslese-Bild-Verlag, Bild und Heimat, Crammers Kunstanstalt Dortmund, Druck und Verlag Morsak'
+                },
+                {
+                    name: 'Picture',
+                    value:
+                        'European bison as part of the fauna of German reserves Jabel, Heimattierpark Suhl, National park Bayer-Wald and other'
+                },
+                { name: 'Size (mm)', value: '104×146' }
             ]
         },
         {
@@ -425,11 +443,11 @@ module.exports = {
                 { name: 'Type', value: 'Postcards set' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Cost', value: '4 kopecks (ruble) + 6 kopecks to the fund for helping zoos' },
-                { name: 'Size (mm)', value: '104x147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Artist', value: 'A. Isakov' },
                 { name: 'Printing count', value: '1 200 000' },
                 { name: 'Number', value: '5-1622 2465' },
-                { name: 'Publisher', value: "Fine arts, Moscow" }
+                { name: 'Publisher', value: 'Fine arts, Moscow' }
             ]
         },
         {
@@ -443,7 +461,7 @@ module.exports = {
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Photographer', value: 'Paul Decei' },
                 { name: 'Cost', value: '1.5 lei' },
-                { name: 'Size (mm)', value: '104x146' },
+                { name: 'Size (mm)', value: '104×146' },
                 { name: 'Publisher', value: 'Sport-Tourism' },
                 { name: 'Postmark', value: 'color of mastic is black, Protect bisons 27.03.1991, bison picture' },
                 { name: 'Commemorative Cancellation', value: 'Buzau 5100' }
@@ -460,7 +478,7 @@ module.exports = {
                 { name: 'Picture', value: 'Hatseg city, first bisons reservation of Romania' },
                 { name: 'Photographer', value: 'D. F. Dumitru, Z. Haragos' },
                 { name: 'Cost', value: '1.5 lei' },
-                { name: 'Size (mm)', value: '100x150' },
+                { name: 'Size (mm)', value: '100×150' },
                 { name: 'Publisher', value: 'Meridian' },
                 { name: 'Number', value: '14983' },
                 { name: 'Postmark', value: 'color of mastic is black, inscription Hatseg' },
@@ -476,11 +494,11 @@ module.exports = {
                 { name: 'Type', value: 'Maximum card' },
                 { name: 'Picture', value: 'European bison' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '115x148' },
+                { name: 'Size (mm)', value: '115×148' },
                 { name: 'Artist', value: 'Vilius Jurkūnas' },
                 { name: 'Number', value: '6, 7, 8, 9' },
                 { name: 'Printing count', value: '?' },
-                { name: 'Publisher', value: "?", }
+                { name: 'Publisher', value: '?' }
             ]
         },
         {
@@ -492,10 +510,10 @@ module.exports = {
                 { name: 'Type', value: 'Maximum card' },
                 { name: 'Picture', value: 'European bison' },
                 { name: 'Cost', value: '55 grosze (zloty)' },
-                { name: 'Size (mm)', value: '105x150' },
+                { name: 'Size (mm)', value: '105×150' },
                 { name: 'Photographer', value: 'T.Chernetsky' },
                 { name: 'Printing count', value: '?' },
-                { name: 'Publisher', value: "Bialystok District Post Office, Albert Institute 620 44 86", }
+                { name: 'Publisher', value: 'Bialystok District Post Office, Albert Institute 620 44 86' }
             ]
         },
         {
@@ -507,11 +525,11 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bison, bird, forest' },
                 { name: 'Cost', value: 'letter B' },
-                { name: 'Size (mm)', value: '105x147' },
+                { name: 'Size (mm)', value: '105×147' },
                 { name: 'Photographer', value: 'D.Lupach' },
                 { name: 'Printing count', value: '3000' },
                 { name: 'Number', value: '141' },
-                { name: 'Publisher', value: "TAA Palifact" }
+                { name: 'Publisher', value: 'TAA Palifact' }
             ]
         },
         {
@@ -523,11 +541,11 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bialowieza National Park. Bison' },
                 { name: 'Cost', value: '10 zlotys + 2 zlotys (to the capital reconstruction fund)' },
-                { name: 'Size (mm)', value: '90x140' },
+                { name: 'Size (mm)', value: '90×140' },
                 { name: 'Photographer', value: 'V.Tomashkevich' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Number', value: 'B-112126' },
-                { name: 'Publisher', value: "?" }
+                { name: 'Publisher', value: '?' }
             ]
         },
         {
@@ -539,11 +557,11 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bialowieza National Park. Bisons' },
                 { name: 'Cost', value: '10 zlotys + 2 zlotys (to the capital reconstruction fund)' },
-                { name: 'Size (mm)', value: '90x140' },
+                { name: 'Size (mm)', value: '90×140' },
                 { name: 'Photographer', value: 'V.Tomashkevich' },
                 { name: 'Printing count', value: '?' },
                 { name: 'Number', value: 'B-112126' },
-                { name: 'Publisher', value: "?" }
+                { name: 'Publisher', value: '?' }
             ]
         },
         {
@@ -554,11 +572,14 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'RUE „Belpochta“' },
-                { name: 'Size (mm)', value: '104x148' },
+                { name: 'Size (mm)', value: '104×148' },
                 { name: 'Printing count', value: '1300' },
                 { name: 'Number', value: '2843' },
-                { name: 'Picture', value: 'Monument to the founder of the city of Kamenets Vladimir Vasilkovich - prince and bison' },
-                { name: 'Printing house', value: 'UE „NOVIK“' },
+                {
+                    name: 'Picture',
+                    value: 'Monument to the founder of the city of Kamenets Vladimir Vasilkovich - prince and bison'
+                },
+                { name: 'Printing house', value: 'UE „NOVIK“' }
             ]
         },
         {
@@ -570,11 +591,11 @@ module.exports = {
                 { name: 'Type', value: 'Maximum card. Postcards set' },
                 { name: 'Picture', value: 'Bison and calf' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104x147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: '?' },
                 { name: 'Printing count', value: '125' },
                 { name: 'Number', value: '232' },
-                { name: 'Publisher', value: "?" }
+                { name: 'Publisher', value: '?' }
             ]
         },
         {
@@ -586,11 +607,11 @@ module.exports = {
                 { name: 'Type', value: 'Maximum card. Postcards set' },
                 { name: 'Picture', value: 'Bison and calf' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104x147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: '?' },
                 { name: 'Printing count', value: '125' },
                 { name: 'Number', value: '232' },
-                { name: 'Publisher', value: "?" }
+                { name: 'Publisher', value: '?' }
             ]
         },
         {
@@ -602,13 +623,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcards from set' },
                 { name: 'Picture', value: 'Belovezhskaya Pushcha. Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Designer', value: 'L. Karchazhinskaya' },
                 { name: 'Printing count', value: '3000' },
                 { name: 'Number', value: '1295' },
-                { name: 'Publisher', value: "„RIFTOUR“" },
-                { name: 'Printing house', value: "„Justmaj“" }
+                { name: 'Publisher', value: '„RIFTOUR“' },
+                { name: 'Printing house', value: '„Justmaj“' }
             ]
         },
         {
@@ -620,13 +641,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcards set with perforation' },
                 { name: 'Picture', value: 'Belovezhskaya Pushcha. Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147 (with coupon 104х210)' },
+                { name: 'Size (mm)', value: '104×147 (with coupon 104×210)' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Designer', value: 'L. Karchazhinskaya' },
                 { name: 'Printing count', value: '3000' },
                 { name: 'Number', value: '1295' },
-                { name: 'Publisher', value: "„RIFTOUR“" },
-                { name: 'Printing house', value: "„Justmaj“" }
+                { name: 'Publisher', value: '„RIFTOUR“' },
+                { name: 'Printing house', value: '„Justmaj“' }
             ]
         },
         {
@@ -638,7 +659,7 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'published with the financial support of the European Union' },
                 { name: 'Picture', value: 'European bison' },
-                { name: 'Size (mm)', value: '100x148' },
+                { name: 'Size (mm)', value: '100×148' },
                 { name: 'Photographer', value: 'M.Cherkas' }
             ]
         },
@@ -651,7 +672,7 @@ module.exports = {
                 { name: 'Type', value: 'Postcard with cover' },
                 { name: 'Publisher', value: 'My Destiny Ltd.' },
                 { name: 'Picture', value: 'European Bison in the winter forest' },
-                { name: 'Size (mm)', value: '104х209' },
+                { name: 'Size (mm)', value: '104×209' },
                 { name: 'Number', value: 'НР 312' }
             ]
         },
@@ -663,14 +684,14 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Type', value: 'Postcards set, non-postal, 9 pieces' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
-                { name: 'Size (mm)', value: '140x198' },
+                { name: 'Size (mm)', value: '140×198' },
                 { name: 'Photographer', value: 'S.N.Bambiza' },
                 { name: 'Printing count', value: '500' },
                 { name: 'Number', value: '1316' },
                 { name: 'Text', value: 'E.V.Sadovskaya, V.O.Kuznecov' },
                 { name: 'Design', value: 'E.A.Zhdanovskaya' },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
         },
         {
@@ -682,13 +703,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Printing count', value: '5000' },
                 { name: 'Number', value: '1248' },
                 { name: 'Code', value: '380-11' },
                 { name: 'Publisher', value: '„RIFTOUR PRINT“' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
         },
         {
@@ -699,14 +720,14 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
-                { name: 'Size (mm)', value: '106x148' },
+                { name: 'Size (mm)', value: '106×148' },
                 { name: 'Printing count', value: '5000' },
                 { name: 'Number', value: '8435' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Photographer', value: 'S.M.Plytkevich' },
                 { name: 'Design', value: 'A.A.Zhdanovskaya' },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Printing house', value: 'ODO „DIVIMAX“' },
+                { name: 'Printing house', value: 'ODO „DIVIMAX“' }
             ]
         },
         {
@@ -718,7 +739,7 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'A. Kleshchuk' },
                 { name: 'Photographer', value: 'A. Medvedz' },
                 { name: 'Printing count', value: '3000' },
@@ -736,7 +757,7 @@ module.exports = {
                 { name: 'Type', value: 'Postcard, non-postal' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
                 { name: 'Picture', value: 'Herd of bison' },
-                { name: 'Size (mm)', value: '140x204' },
+                { name: 'Size (mm)', value: '140×204' },
                 { name: 'Photographer', value: 'S.M.Plytkevich' },
                 { name: 'Design', value: 'E.A.Zhdanovskaya' },
                 { name: 'Text', value: 'A.D.Ocheretniy' }
@@ -751,13 +772,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Printing count', value: '4000' },
                 { name: 'Number', value: '322' },
                 { name: 'Code', value: '474-11' },
                 { name: 'Publisher', value: '„RIFTOUR PRINT“' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
         },
         {
@@ -769,13 +790,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Printing count', value: '4000' },
                 { name: 'Number', value: '323' },
                 { name: 'Code', value: '475-11' },
                 { name: 'Publisher', value: '„RIFTOUR PRINT“' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
         },
         {
@@ -786,14 +807,17 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Type', value: 'Postcards set, non-postal, 14 pieces' },
                 { name: 'Publisher', value: 'UE RIFTUR' },
-                { name: 'Error', value: 'In the description of the edition on the cover the word „Belarus“ is cropped' },
-                { name: 'Size (mm)', value: '140x198' },
+                {
+                    name: 'Error',
+                    value: 'In the description of the edition on the cover the word „Belarus“ is cropped'
+                },
+                { name: 'Size (mm)', value: '140×198' },
                 { name: 'Photographer', value: 'S.Plytkevich' },
                 { name: 'Printing count', value: '3000' },
                 { name: 'Number', value: '460' },
                 { name: 'Text', value: 'S.Prokofiev' },
                 { name: 'Picture', value: 'Bison' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
         },
         {
@@ -804,13 +828,13 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Type', value: 'Postcards set, non-postal, 16 pieces' },
                 { name: 'Publisher', value: 'RUE "Publishing house „BELARUS“"' },
-                { name: 'Size (mm)', value: '140x204' },
+                { name: 'Size (mm)', value: '140×204' },
                 { name: 'Photographer', value: 'I.I.Byshnev, N.I.Byshnev' },
                 { name: 'Printing count', value: '1000' },
                 { name: 'Number', value: '2138' },
                 { name: 'Text and Pictures', value: 'I.I.Byshnev' },
                 { name: 'Picture', value: 'Herd of bison' },
-                { name: 'Printing house', value: 'UE „Printing House of the Federation of Trade Unions of Belarus“' },
+                { name: 'Printing house', value: 'UE „Printing House of the Federation of Trade Unions of Belarus“' }
             ]
         },
         {
@@ -821,13 +845,13 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Type', value: 'Art postcards' },
                 { name: 'Publisher', value: 'Online stores ACARDS.BY and Vanilla Tree Vale' },
-                { name: 'Size (mm)', value: '104x148' },
+                { name: 'Size (mm)', value: '104×148' },
                 { name: 'Printing count', value: '*' },
                 { name: 'Artist', value: '*' },
                 { name: 'Editor', value: '*' },
                 { name: 'Number', value: '*' },
                 { name: 'Picture', value: 'Every postcard features a bison' },
-                { name: 'Printing house', value: 'PUE „G&D“, LLC „Argo-Graphics“' },
+                { name: 'Printing house', value: 'PUE „G&D“, LLC „Argo-Graphics“' }
             ]
         },
         {
@@ -839,13 +863,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Printing count', value: '2000' },
                 { name: 'Number', value: '1221' },
                 { name: 'Code', value: '1004-19' },
                 { name: 'Publisher', value: '„RIFTOUR PRINT“' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
         },
         {
@@ -857,13 +881,13 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Printing count', value: '2000' },
                 { name: 'Number', value: '1222' },
                 { name: 'Code', value: '1005-19' },
                 { name: 'Publisher', value: '„RIFTOUR PRINT“' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
         },
         {
@@ -875,14 +899,14 @@ module.exports = {
                 { name: 'Type', value: 'Postcard' },
                 { name: 'Picture', value: 'Bisons' },
                 { name: 'Cost', value: '?' },
-                { name: 'Size (mm)', value: '104х147' },
+                { name: 'Size (mm)', value: '104×147' },
                 { name: 'Photographer', value: 'S. Plytkevich' },
                 { name: 'Printing count', value: '1000' },
                 { name: 'Number', value: '737' },
                 { name: 'Code', value: '691-19' },
                 { name: 'Publisher', value: '„RIFTOUR PRINT“' },
-                { name: 'Printing house', value: '„G&D“' },
+                { name: 'Printing house', value: '„G&D“' }
             ]
-        },
+        }
     ]
 };

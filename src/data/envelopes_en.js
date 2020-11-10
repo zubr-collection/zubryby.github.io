@@ -13,7 +13,7 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Color', value: 'olive green, black brown' },
-                { name: 'Size (mm)', value: '99,5x154' },
+                { name: 'Size (mm)', value: '99,5×154' },
                 { name: 'Commemorative Cancellation', value: 'Warsaw 1' }
             ]
         },
@@ -24,7 +24,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'Poland' },
                 { name: 'Type', value: 'Plain Envelope' },
-                { name: 'Size (mm)', value: '115x161' },
+                { name: 'Size (mm)', value: '115×161' },
                 { name: 'Commemorative Cancellation', value: 'Rzeszow, special postmark timed to the exhibition with the stamp 1954 (bisons)' }
             ]
         },
@@ -37,7 +37,7 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'Zoo map' },
                 { name: 'Color', value: 'dark green' },
-                { name: 'Size (mm)', value: '107x157' },
+                { name: 'Size (mm)', value: '107×157' },
                 { name: 'Commemorative Cancellation', value: 'Berlin Friedrichsfelde' }
             ]
         },
@@ -48,7 +48,7 @@ module.exports = {
             props: [
                 { name: 'Country', value: 'German Democratic Republic' },
                 { name: 'Type', value: 'Airmail (+ etiquette)' },
-                { name: 'Size (mm)', value: '113,5x160' },
+                { name: 'Size (mm)', value: '113,5×160' },
                 {
                     name: 'Commemorative Cancellation',
                     value: 'Berlin, special postmark dated to the first flight with the stamp 1956 (bison)'
@@ -65,7 +65,7 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'Bison with calf, fawn' },
                 { name: 'Color', value: 'purple (plum), brown' },
-                { name: 'Size (mm)', value: '94x164' },
+                { name: 'Size (mm)', value: '94×164' },
                 { name: 'Commemorative Cancellation', value: 'Prague 3, special postmark with translation date\n' }
             ]
         },
@@ -78,7 +78,7 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'Zoo gate' },
                 { name: 'Color', value: 'brown' },
-                { name: 'Size (mm)', value: '121x193' },
+                { name: 'Size (mm)', value: '121×193' },
                 { name: 'Commemorative Cancellation', value: 'Budapest' }
             ]
         },
@@ -91,7 +91,7 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'silhouette of a bird on a background of geometric shapes' },
                 { name: 'Color', value: 'red, brown' },
-                { name: 'Size (mm)', value: '99,5x189' },
+                { name: 'Size (mm)', value: '99,5×189' },
                 { name: 'Number of NVPH', value: 'E63' },
                 { name: 'Commemorative Cancellation', value: 'Hague' }
             ]
@@ -108,7 +108,7 @@ module.exports = {
                 { name: 'Color', value: 'brown, green' },
                 { name: 'Artist', value: 'P. I. Vuev' },
                 { name: 'Stamp', value: '1966, 4 kopecks, dark brown, image of the USSR emblem' },
-                { name: 'Size (mm)', value: '157x112' },
+                { name: 'Size (mm)', value: '157×112' },
                 { name: 'Print', value: 'offset, two-color' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' }
@@ -123,7 +123,7 @@ module.exports = {
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Color', value: 'brown' },
-                { name: 'Size (mm)', value: '116x170' },
+                { name: 'Size (mm)', value: '116×170' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -140,7 +140,7 @@ module.exports = {
                 { name: 'Stamp', value: '1966, 4 kopecks, orange, image of the USSR emblem' },
                 { name: 'Color', value: 'brown, orange' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
-                { name: 'Size (mm)', value: '112x157' },
+                { name: 'Size (mm)', value: '112×157' },
                 { name: 'Number', value: '6240' }
             ]
         },
@@ -158,7 +158,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, bison image' },
                 { name: 'Color', value: 'brown, orange' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
-                { name: 'Size (mm)', value: '112x157' },
+                { name: 'Size (mm)', value: '112×157' },
                 { name: 'Commemorative Cancellation', value: 'Moscow Post Office' }
             ]
         },
@@ -176,7 +176,7 @@ module.exports = {
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '112x157' },
+                { name: 'Size (mm)', value: '112×157' },
                 { name: 'Number', value: '8348' }
             ]
         },
@@ -190,7 +190,7 @@ module.exports = {
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Stamp', value: '55 bani, blue' },
                 { name: 'Color', value: 'brown, green' },
-                { name: 'Size (mm)', value: '116x161' },
+                { name: 'Size (mm)', value: '116×161' },
                 { name: 'Cancellation', value: 'Bucharest' },
                 { name: 'Code', value: '88672/77' },
                 { name: 'Number', value: '11.076' }
@@ -207,7 +207,7 @@ module.exports = {
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Stamp', value: '40 santims (franc), Nature Conservancy. Bison 1974' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '92x164' },
+                { name: 'Size (mm)', value: '92×164' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Commemorative Cancellation', value: 'Mouzon-08' }
 
@@ -223,7 +223,7 @@ module.exports = {
                 { name: 'Picture', value: 'Bison and calf' },
                 { name: 'Stamp', value: '55 bani, blue, image of a red deer' },
                 { name: 'Color', value: 'brown, blue' },
-                { name: 'Size (mm)', value: '116x161' },
+                { name: 'Size (mm)', value: '116×161' },
                 { name: 'Code', value: '0089/77' },
                 { name: 'Number', value: '15008' }
             ]
@@ -239,7 +239,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, panda picture' },
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Color', value: 'purple, yellow' },
-                { name: 'Size (mm)', value: '116x163' },
+                { name: 'Size (mm)', value: '116×163' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -258,7 +258,7 @@ module.exports = {
                 { name: 'Color', value: 'black, gray, red, green' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '114х160' },
+                { name: 'Size (mm)', value: '114×160' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' }
             ]
         },
@@ -273,7 +273,7 @@ module.exports = {
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Postmark', value: 'mastic color is black' },
                 { name: 'Color', value: 'blue, green, brown' },
-                { name: 'Size (mm)', value: '119x162' },
+                { name: 'Size (mm)', value: '119×162' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -291,7 +291,7 @@ module.exports = {
                 { name: 'Color', value: 'gray-green' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '114x160' },
+                { name: 'Size (mm)', value: '114×160' },
                 { name: 'Number', value: '14470' }
             ]
         },
@@ -309,7 +309,7 @@ module.exports = {
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '114x160' },
+                { name: 'Size (mm)', value: '114×160' },
                 { name: 'Number', value: 'KOM № 64' },
                 { name: 'Commemorative Cancellation', value: 'Moscow K-9' }
             ]
@@ -328,7 +328,7 @@ module.exports = {
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' },
-                { name: 'Size (mm)', value: '114x160' }
+                { name: 'Size (mm)', value: '114×160' }
             ]
         },
         {
@@ -342,7 +342,7 @@ module.exports = {
                 { name: 'Stamp', value: 'image of a herd of bison' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'brown' },
-                { name: 'Size (mm)', value: '116x158' },
+                { name: 'Size (mm)', value: '116×158' },
                 { name: 'Commemorative Cancellation', value: 'Bialowieza' }
             ]
         },
@@ -358,7 +358,7 @@ module.exports = {
                 { name: 'Stamp', value: 'image of a herd of bison' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture - the stamp is a fake of the real stamp of 1996, the thickness of the lines, proportions, as well as the ears and eyebrows of the bison differ from the original' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '116x158' },
+                { name: 'Size (mm)', value: '116×158' },
                 { name: 'Commemorative Cancellation', value: 'On envelopes Vilnius 01/20/1996, real date unknown' }
             ]
         },
@@ -373,7 +373,7 @@ module.exports = {
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Postmark', value: 'mastic color is black, image of a flower and a deer' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '162x230' },
+                { name: 'Size (mm)', value: '162×230' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -389,7 +389,7 @@ module.exports = {
                 { name: 'Artist', value: 'V. Skabijene' },
                 { name: 'Order number', value: '947' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '114x160' },
+                { name: 'Size (mm)', value: '114×160' },
                 { name: 'Typography', value: 'Kaunas, Printing house them. K. Pozhely' }
             ]
         },
@@ -403,7 +403,7 @@ module.exports = {
                 { name: 'Picture', value: 'European Bison' },
                 { name: 'Stamp', value: '30 kopecks, brown, Pahonya image' },
                 { name: 'Artist', value: 'A. Medvedev' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Number', value: '136680' },
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '994 000' },
@@ -423,7 +423,7 @@ module.exports = {
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Commemorative Cancellation', value: 'Vilnius' }
             ]
         },
@@ -459,7 +459,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, flora and bison picture' },
                 { name: 'Color', value: 'black' },
                 { name: 'Printing count', value: '10 000' },
-                { name: 'Size (mm)', value: '113x161' },
+                { name: 'Size (mm)', value: '113×161' },
                 { name: 'Commemorative Cancellation', value: 'Topolchany' },
                 { name: 'Typography', value: 'Post Office Printing House, Prague' }
             ]
@@ -475,7 +475,7 @@ module.exports = {
                 { name: 'Stamp', value: 'animals picture' },
                 { name: 'Postmark', value: 'mastic color is black, eagle picture' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '129x189' },
+                { name: 'Size (mm)', value: '129×189' },
                 { name: 'Commemorative Cancellation', value: 'Bucharest' }
             ]
         },
@@ -490,7 +490,7 @@ module.exports = {
                 { name: 'Stamp', value: 'bison picture' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture, text żubry' },
                 { name: 'Color', value: 'multicolor' },
-                { name: 'Size (mm)', value: '114x160' },
+                { name: 'Size (mm)', value: '114×160' },
                 { name: 'Commemorative Cancellation', value: 'Bialowieza' }
             ]
         },
@@ -503,7 +503,7 @@ module.exports = {
                 { name: 'Type', value: 'Plain Envelope' },
                 { name: 'Stamp', value: 'bison picture (1995)' },
                 { name: 'Postmark', value: 'mastic color is black, text NAPOSTA-97' },
-                { name: 'Size (mm)', value: '114x161' },
+                { name: 'Size (mm)', value: '114×161' },
                 { name: 'Commemorative Cancellation', value: 'Stuttgart, Germany, Philatelic Exhibition NAPOSTA-97' }
             ]
         },
@@ -516,7 +516,7 @@ module.exports = {
                 { name: 'Type', value: 'Plain Envelope' },
                 { name: 'Stamp', value: 'bison picture (1995)' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
-                { name: 'Size (mm)', value: '114x161' },
+                { name: 'Size (mm)', value: '114×161' },
                 { name: 'Commemorative Cancellation', value: 'Riga, Latvia, Philatelic exhibition Riga-98' }
             ]
         },
@@ -529,7 +529,7 @@ module.exports = {
                 { name: 'Type', value: 'Goessler G-LINE Envelope' },
                 { name: 'Stamp', value: 'Stylized image of a bison (company logo) on a coupon' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture (company logo)' },
-                { name: 'Size (mm)', value: '161x228' },
+                { name: 'Size (mm)', value: '161×228' },
                 { name: 'Commemorative Cancellation', value: 'Minsk, Post office' }
             ]
         },
@@ -546,7 +546,7 @@ module.exports = {
                 { name: 'Stamp', value: 'picture with bison and other animals' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'red, green' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Commemorative Cancellation', value: 'Brest-Center' },
                 { name: 'Printing count', value: '3000' },
                 { name: 'Manufacturing', value: 'PaliBig' }
@@ -563,7 +563,7 @@ module.exports = {
                 { name: 'Stamp', value: 'Bison bonasus and Picoides tridactylus' },
                 { name: 'Postmark', value: 'mastic color is black, text Europa' },
                 { name: 'Color', value: 'brown, green' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Commemorative Cancellation', value: 'Warsaw' }
             ]
         },
@@ -577,7 +577,7 @@ module.exports = {
                 { name: 'Picture', value: 'magnifying glass and stamps of the Republic of Belarus, bison picture (1995)' },
                 { name: 'Stamp', value: 'Minsk plant of wheeled tractors (1999)' },
                 { name: 'Postmark', value: 'mastic color is black, emblem of Grodno' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Printing count', value: '10 000' },
                 { name: 'Order number', value: '3546' },
                 { name: 'Commemorative Cancellation', value: 'Grodno-23' },
@@ -595,7 +595,7 @@ module.exports = {
                 { name: 'Artist', value: 'A. Bushkin' },
                 { name: 'Stamp', value: 'letter A' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Printing count', value: '99 900' },
                 { name: 'Order number', value: '1147ц' },
                 { name: 'Commemorative Cancellation', value: 'Grodno-25' }
@@ -613,7 +613,7 @@ module.exports = {
                 { name: 'Stamp', value: 'letter A' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '100 000' },
-                { name: 'Size (mm)', value: '111x219' },
+                { name: 'Size (mm)', value: '111×219' },
                 { name: 'Order number', value: '1673ц-03' }
             ]
         },
@@ -630,7 +630,7 @@ module.exports = {
                 { name: 'Stamp', value: 'letter A, Kamenets Vezha' },
                 { name: 'Color', value: 'red, brown' },
                 { name: 'Printing count', value: '50 000' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Manufacturing', value: 'Paper Mill of the State Sign, Borisov' }
             ]
         },
@@ -648,7 +648,7 @@ module.exports = {
                 { name: 'Stamp', value: 'letter A' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '100 000' },
-                { name: 'Size (mm)', value: '110x219' },
+                { name: 'Size (mm)', value: '110×219' },
                 { name: 'Manufacturing', value: 'Paper Mill of the State Sign, Borisov' }
             ]
         },
@@ -666,7 +666,7 @@ module.exports = {
                 { name: 'Order number', value: '8435-08' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '25 800' },
-                { name: 'Size (mm)', value: '110x220' },
+                { name: 'Size (mm)', value: '110×220' },
                 { name: 'Manufacturing', value: 'Paper Mill of the State Sign, Borisov' }
             ]
         },
@@ -678,7 +678,7 @@ module.exports = {
                 { name: 'Country', value: 'Poland' },
                 { name: 'Type', value: 'Plain Envelope' },
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
-                { name: 'Size (mm)', value: '114x162' },
+                { name: 'Size (mm)', value: '114×162' },
                 { name: 'Commemorative Cancellation', value: 'Pszczyna' },
             ]
         },
@@ -695,7 +695,7 @@ module.exports = {
                 { name: 'Order number', value: '15к-09' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '1500' },
-                { name: 'Size (mm)', value: '108x220' },
+                { name: 'Size (mm)', value: '108×220' },
                 { name: 'Commemorative Cancellation', value: 'Kamenyuki' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
@@ -713,7 +713,7 @@ module.exports = {
                 { name: 'Order number', value: '98к-10' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '1000' },
-                { name: 'Size (mm)', value: '109x219' },
+                { name: 'Size (mm)', value: '109×219' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
@@ -731,7 +731,7 @@ module.exports = {
                 { name: 'Order number', value: '377ц-2011' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '100 000' },
-                { name: 'Size (mm)', value: '113x160' },
+                { name: 'Size (mm)', value: '113×160' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
         },
@@ -749,7 +749,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, animals and forest picture' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '1000' },
-                { name: 'Size (mm)', value: '113x160' },
+                { name: 'Size (mm)', value: '113×160' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
@@ -768,7 +768,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is red, China and Belarus flags' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '1000' },
-                { name: 'Size (mm)', value: '113x162' },
+                { name: 'Size (mm)', value: '113×162' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
@@ -787,7 +787,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, the logo of the UNESCO Commission' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '1000' },
-                { name: 'Size (mm)', value: '113x160' },
+                { name: 'Size (mm)', value: '113×160' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
@@ -807,7 +807,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '1200' },
-                { name: 'Size (mm)', value: '112x162' },
+                { name: 'Size (mm)', value: '112×162' },
                 { name: 'Commemorative Cancellation', value: 'Minsk-1' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
@@ -827,7 +827,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, bison picture' },
                 { name: 'Color', value: 'brown' },
                 { name: 'Printing count', value: '?' },
-                { name: 'Size (mm)', value: '113x161' },
+                { name: 'Size (mm)', value: '113×161' },
                 { name: 'Commemorative Cancellation', value: 'Khomutov' },
                 { name: 'Manufacturing', value: '?' }
             ]
@@ -846,7 +846,7 @@ module.exports = {
                 { name: 'Postmark', value: 'mastic color is black, picture of the national dwellings of both countries' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Printing count', value: '1000' },
-                { name: 'Size (mm)', value: '114x161' },
+                { name: 'Size (mm)', value: '114×161' },
                 { name: 'Commemorative Cancellation', value: 'Minsk-1' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]

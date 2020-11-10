@@ -6,6 +6,7 @@
 
     window.onload = listenLoad;
     window.addEventListener('scroll', listenScroll);
+    window.addEventListener('resize', imageAsyncLoader);
 
     function listenLoad() {
         setCurrentFooterYear();
@@ -155,7 +156,7 @@
             const img = new Image();
             img.src = `${node.dataset.src}${tail}`;
             img.onload = () => {
-                node.classList.remove('asyncImage');
+                // node.classList.remove('asyncImage');
                 node.style.backgroundImage = `url(${node.dataset.src}${tail})`;
             };
         }
