@@ -160,7 +160,7 @@ article .details {
 
 article .anchor {
     position: absolute;
-    top: calc(-1 * var(--header-height));
+    top: calc(-1 * var(--header-height) - 12px);
 }
 
 article .details > a > time {
