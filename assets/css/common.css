@@ -261,7 +261,7 @@ header nav {
     font-kerning: none;
     text-decoration: none;
     text-transform: uppercase;
-    transition: opacity, color 0.3s ease-out;
+    transition: opacity, color 0.3s ease-out, outline-offset .2s linear;
 }
 
 .menu > li a::after {
@@ -306,6 +306,7 @@ header nav {
 
 .menu > li a:focus {
     outline: 0.25em solid white;
+    outline-offset: .1em;
     color: white;
 }
 
@@ -352,7 +353,7 @@ header nav {
     font-size: 2.8rem;
     line-height: 1.25;
     text-decoration: none;
-
+    transition: outline-offset .2s linear;
     visibility: hidden;
 }
 
@@ -362,6 +363,7 @@ header nav {
 
 .top-link:focus {
     outline: 0.05em dotted var(--gray-color);
+    outline-offset: .2em;
 }
 
 @media (pointer: fine) {
@@ -406,7 +408,7 @@ header nav {
     margin: 0 1em;
     border: none;
     color: rgba(255, 255, 255, 0.6);
-    transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out, outline-offset .2s linear;
     text-decoration: underline;
 }
 
@@ -416,6 +418,7 @@ header nav {
 
 .skip-links  a:focus {
     outline: 0.15em dotted var(--gray-color);
+    outline-offset: .1em;
 }
 
 .skip-links .lang-opt a {
@@ -482,7 +485,7 @@ footer a {
     border: none;
     color: white;
     opacity: 0.6;
-    transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out, outline-offset .2s linear;;
     text-decoration: none;
 }
 
@@ -491,7 +494,8 @@ footer a:hover {
 }
 
 footer a:focus {
-    outline: 0.25em dotted var(--gray-color);
+    outline: 0.2em dotted var(--gray-color);
+    outline-offset: .2em;
 }
 
 footer .info,

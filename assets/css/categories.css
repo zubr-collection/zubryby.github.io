@@ -74,6 +74,7 @@ article div[role="search"] #search {
     color: white;
     padding: 0.5em;
     margin-right: 0.75em;
+    transition: outline-offset .2s linear;
 }
 
 article div[role="search"] #search-submit:active {
@@ -95,6 +96,7 @@ article div[role="search"] #search-submit {
     background: var(--page-color);
     color: var(--black-gray-color);
     font-size: 1em;
+    transition: outline-offset .2s linear;
 }
 
 article div[role="search"] .no-results {
