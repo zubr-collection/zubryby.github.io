@@ -94,8 +94,8 @@
         figcaption > a:focus,
         article p > a:hover,
         article p > a:focus {
-            background-color: var(--black-color);
-            color: white;
+            background-color: var(--gray-color);
+            color: var(--black-color);
             font-style: normal;
             outline: none;
         }
@@ -104,7 +104,8 @@
             border: none;
             box-shadow: none;
             transform: rotate(0deg);
-            background-image: none;
+            background: none;
+            border-radius: 1em;
         }
 
         article figure {
@@ -124,7 +125,7 @@
 
         article figure figcaption {
             margin: 0.5em 0 0;
-            color: rgb(119, 109, 109);
+            color: var(--gray-color);
             font-size: 1em;
             font-style: normal;
             font-weight: normal;
@@ -171,14 +172,14 @@
 </head>
 <body>
 <header id="header">
-    <nav class="skip-links">
+    <nav class="skip-links" title="Skip links">
         <ul>
             <li class="lang-opt">This page in: <a translate="no" lang="ru" href="./about.html">Русском</a> <strong translate="no">English</strong></li>
             <li><a href="#content">Skip to Content <span class="arrow-down">↓</span></a></li>
             <li><a href="#footer">Skip to Footer <span class="arrow-down">↓</span></a></li>
         </ul>
     </nav>
-    <nav>
+    <nav title="Main menu">
         <a href="./index_en.html" class="logo">
             <div class="logo-img">
                 <img width="44" height="44" src="./assets/meta/android-chrome-192x192.png" alt="Logo. Stamp with bison picture." />
@@ -228,7 +229,7 @@
 <div class="cover"></div>
 <article>
     <div id="content" class="anchor"></div>
-    <div>
+    <div role="main">
         <h1>About</h1>
         <div>
             <p>Welcome to my site! My name is Artur Basak, I am from Belarus and since childhood I have been collecting postage stamps. </p>

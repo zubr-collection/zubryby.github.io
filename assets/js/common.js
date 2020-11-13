@@ -18,6 +18,7 @@
 
     function initVendors() {
         if (window.Swiper) {
+            const isEng = document.documentElement.lang === 'en';
             const swiper = new window.Swiper('.swiper-container', {
                 spaceBetween: 30,
                 centeredSlides: true,
@@ -37,11 +38,11 @@
                 a11y: {
                     enabled: true,
                     notificationClass: 'swiper-notification',
-                    prevSlideMessage: 'Предыдущий слайд',
-                    nextSlideMessage: 'Следующий слайд',
-                    firstSlideMessage: 'Это первый слайд',
-                    lastSlideMessage: 'Это последний слайд',
-                    paginationBulletMessage: 'Перейти к слайду {{index}}'
+                    prevSlideMessage: isEng ? 'Previous slide' : 'Предыдущий слайд',
+                    nextSlideMessage: isEng ? 'Next slide' : 'Следующий слайд',
+                    firstSlideMessage: isEng ? 'The first slide' : 'Это первый слайд',
+                    lastSlideMessage: isEng ? 'The last slide' : 'Это последний слайд',
+                    paginationBulletMessage: isEng ? 'Go to the slide №{{index}}' : 'Перейти к слайду №{{index}}'
                 }
             });
         }
