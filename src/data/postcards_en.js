@@ -37,7 +37,7 @@ module.exports = {
         },
         {
             image: 'ussr-1950th',
-            year: '??.??.1950-th',
+            year: '??.??.1950s',
             title: 'Bisons. Bialowieza National Park',
             props: [
                 { name: 'Country', value: 'USSR' },
@@ -240,7 +240,7 @@ module.exports = {
         },
         {
             image: 'belarus-1960th',
-            year: '??.??.1960-th',
+            year: '??.??.1960s',
             title: 'Bialowieza National Park',
             props: [
                 { name: 'Country', value: 'USSR (BSSR)' },
