@@ -57,6 +57,20 @@ module.exports = {
             ]
         },
         {
+            image: 'romania-1957',
+            year: '14.09.1957',
+            title: 'International Athletics Championships',
+            props: [
+                { name: 'Country', value: 'Romania' },
+                { name: 'Type', value: 'First Day Cover (FDC)' },
+                { name: 'Size (mm)', value: '90×162' },
+                { name: 'Stamp', value: '55 bani (leu), yellow, an athlete throwing a spear, against the background of a silhouette of a running bison' },
+                { name: 'Picture', value: 'athlete throwing disc' },
+                { name: 'Color', value: 'light blue' },
+                { name: 'Commemorative Cancellation', value: 'Bucharest' }
+            ]
+        },
+        {
             image: 'ceskoslovenska-1959',
             year: '25.09.1959',
             title: 'Ten years of the Tatra National Park',
@@ -112,6 +126,20 @@ module.exports = {
                 { name: 'Print', value: 'offset, two-color' },
                 { name: 'Edition', value: 'USSR Ministry of Communications' },
                 { name: 'Manufacturing', value: 'Perm Printing Factory of Goznak' }
+            ]
+        },
+        {
+            image: 'romania-1968',
+            year: '17.05.1968',
+            title: 'XV Hunting Congress in Mamaia',
+            props: [
+                { name: 'Country', value: 'Romania' },
+                { name: 'Type', value: 'First Day Cover (FDC)' },
+                { name: 'Size (mm)', value: '118×161' },
+                { name: 'Stamp', value: '1.60 lei, Painting "Prince Dragos and the Bison" by Nicolae Grigorescu' },
+                { name: 'Picture', value: 'congress emblem, deer head' },
+                { name: 'Color', value: 'yellow, brown, green, blue' },
+                { name: 'Commemorative Cancellation', value: 'Mamaia' }
             ]
         },
         {

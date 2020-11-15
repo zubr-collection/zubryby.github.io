@@ -108,6 +108,37 @@ module.exports = {
             ]
         },
         {
+            image: 'poland-1987',
+            year: '23.08.1987',
+            title:
+                'Special cancellation XVIII Congress of the Union of Hunting Biologists on the 1986 Card',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Cancellation type', value: 'Commemorative cancellation, special art postmark' },
+                { name: 'Cancellation place', value: 'Krakow 1'},
+                { name: 'Picture', value: 'bison and crossbow' },
+                { name: 'Mastic color', value: 'black' },
+                { name: 'Size (mm)', value: '145×104' }
+            ]
+        },
+        {
+            image: 'poland-1995',
+            year: '06.08.1995',
+            title: 'World Scout Meeting in Poland',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Cancellation type', value: 'Commemorative cancellation, special art postmark' },
+                { name: 'Cancellation place', value: 'Zegrze'},
+                { name: 'Picture', value: 'forest' },
+                { name: 'Cost', value: '45 groszy (zloty)' },
+                { name: 'Printing count', value: '200 000' },
+                { name: 'Artist', value: 'Janusz Vysotsky' },
+                { name: 'Postage Stamp', value: '35 groszy (zloty), picture of bison' },
+                { name: 'Mastic color', value: 'black' },
+                { name: 'Size (mm)', value: '148×105' }
+            ]
+        },
+        {
             image: 'poland-2001',
             year: '29.06.2001',
             title: 'Bialowieza National Park',
@@ -133,7 +164,7 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Size (mm)', value: '148×105' },
                 { name: 'Picture', value: 'A pair of bison' },
-                { name: 'Postage Stamp', value: 'Letter “B” (internal tariff), blue' },
+                { name: 'Postage Stamp', value: 'letter „B“ (internal tariff), blue' },
                 { name: 'Order number', value: '508ц-2005' },
                 { name: 'Number of Belpost catalog (2002-2007)', value: '23' },
                 { name: 'Printing count', value: '200 000' },
@@ -159,7 +190,7 @@ module.exports = {
                 { name: 'Artist', value: 'Nikolay Ryzhy (Red)' },
                 {
                     name: 'Postage Stamp',
-                    value: 'Letter “B” (internal tariff), multicolor, image of a spread of a stylized book, oak twigs'
+                    value: 'letter „B“ (internal tariff), multicolor, image of a spread of a stylized book, oak twigs'
                 },
                 {
                     name: 'Cancellation',
@@ -185,7 +216,7 @@ module.exports = {
                 { name: 'Country', value: 'Belarus' },
                 { name: 'Size (mm)', value: '148×105' },
                 { name: 'Picture', value: 'Bison with calf' },
-                { name: 'Postage Stamp', value: 'Letter “B” (internal tariff), blue' },
+                { name: 'Postage Stamp', value: 'letter „B“ (internal tariff), blue' },
                 { name: 'Design', value: 'LLC „My destiny“' },
                 { name: 'Order number', value: '5к-2009' },
                 { name: 'Number', value: '103-09' },
@@ -229,6 +260,28 @@ module.exports = {
                 { name: 'Cancellation place', value: 'Pshchina' },
                 { name: 'Picture', value: 'Bison' },
                 { name: 'Mastic color', value: 'black' }
+            ]
+        },
+        {
+            image: 'belarus-2020',
+            year: '03.11.2020',
+            title: 'Under the sign of the Year of the Small Homeland in Belarus',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Picture', value: 'Herd of bison, winter' },
+                { name: 'Cost', value: '67 kopecks (ruble)' },
+                { name: 'Printing count', value: '20 000' },
+                { name: 'Artist', value: 'M.Z.Belenitsky' },
+                { name: 'Designer', value: 'V.Kogut' },
+                {
+                    name: 'Printing house',
+                    value:
+                        'Republican Unitary Enterprise “Bobruisk enlarged Printing house named after A.T. Nepogodin“'
+                },
+                { name: 'Number', value: '127ц-2020' },
+                { name: 'Code', value: '314-20' },
+                { name: 'Postage Stamp', value: 'letter „B“ (internal tariff), blue' },
+                { name: 'Size (mm)', value: '148×105' }
             ]
         }
     ]

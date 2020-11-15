@@ -17,6 +17,18 @@ module.exports = {
             ]
         },
         {
+            image: 'german-1929',
+            year: '??.??.1929',
+            title: 'Bison (Wisent) at Berlin Zoo',
+            props: [
+                { name: 'Country', value: 'German Empire (German Reich)' },
+                { name: 'Type', value: 'Vintage Postcard' },
+                { name: 'Publisher', value: 'Rotophot Berlin SW 13' },
+                { name: 'Picture', value: 'ЗBison (Wisent) at Berlin Zoo' },
+                { name: 'Size (mm)', value: '91×140' }
+            ]
+        },
+        {
             image: 'ussr-1931',
             year: '??.??.1931',
             title: 'Zoological series. Bialowieza bison',

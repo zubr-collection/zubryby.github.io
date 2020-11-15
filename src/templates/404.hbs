@@ -11,6 +11,11 @@
 
         article {
             flex-direction: column;
+            min-height: initial;
+        }
+
+        article div[role="main"] {
+            padding-bottom: 16px;
         }
 
         article ul {
@@ -37,7 +42,8 @@
 
         article a:hover,
         article a:focus {
-            background-color: var(--black-color);
+            background-color: var(--gray-color);
+            color: var(--black-color);
             color: white;
             font-style: normal;
             outline: none;

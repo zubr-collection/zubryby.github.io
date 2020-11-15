@@ -63,6 +63,22 @@ module.exports = {
             ]
         },
         {
+            image: 'romania-1957',
+            year: '14.09.1957',
+            title: 'International Athletics Championships',
+            props: [
+                { name: 'Issuer', value: 'Romanian Post' },
+                { name: 'Type', value: 'commemorative' },
+                { name: 'Denomination (bison stamp)', value: '55 bani (leu)' },
+                { name: 'Color', value: 'yellow, black, white' },
+                { name: 'Paper', value: '?' },
+                { name: 'Perforation', value: '13,5' },
+                { name: 'Size (mm)', value: '28×33' },
+                { name: 'Printing count', value: '?' },
+                { name: 'Catalog number', value: 'Michel ?, Scott ?, Yvert ?' }
+            ]
+        },
+        {
             image: 'poland-1958',
             year: '??.??.1958',
             title: '1954 stamp template for the 400th anniversary of the Polish Post (400 Lat Poczty Polskiej)',
