@@ -71,7 +71,7 @@ module.exports = {
                 { name: 'Type', value: 'commemorative' },
                 { name: 'Denomination (bison stamp)', value: '55 bani (leu)' },
                 { name: 'Color', value: 'yellow, black, white' },
-                { name: 'Paper', value: '?' },
+                { name: 'Paper', value: 'uncoated' },
                 { name: 'Perforation', value: '13,5' },
                 { name: 'Size (mm)', value: '28×33' },
                 { name: 'Printing count', value: '?' },
