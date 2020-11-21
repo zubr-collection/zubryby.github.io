@@ -1255,22 +1255,21 @@ module.exports = {
         {
             image: 'moldova-2016',
             year: '08.09.2016',
-            title: 'Joint issue of the Republic of Belarus and the Republic of Moldova. Folk crafts',
+            title: 'Folk crafts. Decorative woodworking. (Joint issue Republic of Moldova - Republic of Belarus)',
             props: [
                 { name: 'Issuer', value: 'Moldova Post' },
                 { name: 'Type', value: 'commemorative' },
                 { name: 'Denomination (bison stamp)', value: '11 lei' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Description', value: 'Artistic woodworking - bison picture' },
-                { name: 'Protection', value: '?' },
-                { name: 'Engraver', value: '?' },
-                { name: 'Paper', value: '?' },
-                { name: 'Perforation', value: '?' },
+                { name: 'Designer', value: 'Alexandr Kornienko' },
+                { name: 'Paper', value: 'coated' },
+                { name: 'Perforation', value: '14:14,5' },
                 { name: 'Print', value: 'offset, fullcolor' },
-                { name: 'Size (mm)', value: '?' },
-                { name: 'Printing house', value: '?' },
-                { name: 'Printing count', value: '?' },
-                { name: 'Catalog number', value: '?' }
+                { name: 'Size (mm)', value: '45×27' },
+                { name: 'Printing house', value: 'Nova Imprim S.R.L.' },
+                { name: 'Printing count', value: '100 000' },
+                { name: 'Catalog number', value: 'MP1002' }
             ]
         },
         {
@@ -1281,7 +1280,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'RUE Belpochta' },
                 { name: 'Type', value: 'coupon (label) in the small sheet' },
-                { name: 'Denomination', value: 'Н (1.26 rubles)' },
+                { name: 'Denomination (bison stamp)', value: 'Н (1.26 rubles)' },
                 { name: 'Description', value: 'Emblems of Belarus and Poland, a herd of bison on the coupon' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
@@ -1302,7 +1301,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Czech post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Denomination', value: '16 Czech crowns' },
+                { name: 'Denomination (bison stamp)', value: '16 Czech crowns' },
                 { name: 'Description', value: 'Chomutov Zoo. Bison' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
@@ -1323,7 +1322,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Uruguay Post' },
                 { name: 'Type', value: 'coupon (label) in the sheet with stamp' },
-                { name: 'Denomination', value: '65 pesos' },
+                { name: 'Denomination (bison stamp)', value: '65 pesos' },
                 { name: 'Description', value: 'stamp of Big Opera and Ballet Theater of the Republic of Belarus with a coupon (label) that contains image of bison' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
@@ -1342,7 +1341,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Netherlands Post' },
                 { name: 'Type', value: 'commemorative, coupon (label) in the sheet' },
-                { name: 'Denomination', value: '1 (euro ?)' },
+                { name: 'Denomination (bison stamp)', value: '1 (euro ?)' },
                 { name: 'Description', value: 'series of 5 stamps (M/S)' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: '?' },
@@ -1358,21 +1357,21 @@ module.exports = {
         {
             image: 'moldova-2018',
             year: '29.03.2018',
-            title: 'Fauna of the Tsarsky Forest Reserve',
+            title: 'Fauna from the Nature Reserve "Princely Forest"',
             props: [
                 { name: 'Issuer', value: 'Moldova Post' },
                 { name: 'Type', value: 'commemorative' },
-                { name: 'Denomination', value: '5.75 lei' },
+                { name: 'Denomination (bison stamp)', value: '5.75 lei' },
                 { name: 'Description', value: 'the image of a bison, on each stamp of the series there is a logo of the reserve - a silhouette of a bison' },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },
-                { name: 'Designer', value: 'V. Melnik' },
+                { name: 'Designer', value: 'V. Melnic' },
                 { name: 'Perforation', value: '14:14,5' },
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '162 000' },
                 { name: 'Printing house', value: 'Enterprise d\'Etat editorial-polygraphique Tipografia Centrala Chisinau Moldova' },
                 { name: 'Size (mm)', value: '46×27,5; size of sheet 114×164; in the sheet 10 stamps' },
-                { name: 'Catalog number', value: 'Michel #1040' }
+                { name: 'Catalog number', value: 'Michel #1040, MP1067' }
             ]
         },
         {
@@ -1382,7 +1381,7 @@ module.exports = {
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'Post block' },
-                { name: 'Denomination', value: '28.50 lei' },
+                { name: 'Denomination (bison stamp)', value: '28.50 lei' },
                 { name: 'Description', value: 'a series of 6 stamps and a postal block, the block image of a bison' },
                 { name: 'Color', value: 'multicolor (4 colors)' },
                 { name: 'Paper', value: 'chrome-rubberized' },
