@@ -1267,7 +1267,7 @@ module.exports = {
                 { name: 'Перфорация', value: '14:14,5' },
                 { name: 'Печать', value: 'офсетная, полноцветная' },
                 { name: 'Размер марки (мм)', value: '45×27' },
-                { name: 'Типография', value: 'НОВА-ИМПРИМ (Nova Imprim S.R.L.)' },
+                { name: 'Типография', value: 'НОВА ИМПРИМ (Nova Imprim S.R.L.)' },
                 { name: 'Тираж', value: '100 000' },
                 { name: 'Номер в каталоге', value: 'MP1002' }
             ]
@@ -1369,7 +1369,7 @@ module.exports = {
                 { name: 'Перфорация', value: '14:14,5' },
                 { name: 'Печать', value: 'офсетная' },
                 { name: 'Тираж', value: '162 000' },
-                { name: 'Типография', value: 'Типография в Кишинёве (Enterprise d\'Etat editorial-polygraphique Tipografia Centrala Chisinau Moldova)' },
+                { name: 'Типография', value: 'НОВА ИМПРИМ (Nova Imprim S.R.L.)' },
                 { name: 'Размер марки (мм)', value: '46×27,5; размер листа 114×164; в листе 10 марок' },
                 { name: 'Номер в каталоге', value: 'Michel #1040, MP1067' }
             ]

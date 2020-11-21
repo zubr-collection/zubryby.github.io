@@ -1369,7 +1369,7 @@ module.exports = {
                 { name: 'Perforation', value: '14:14,5' },
                 { name: 'Print', value: 'offset' },
                 { name: 'Printing count', value: '162 000' },
-                { name: 'Printing house', value: 'Enterprise d\'Etat editorial-polygraphique Tipografia Centrala Chisinau Moldova' },
+                { name: 'Printing house', value: 'Nova Imprim S.R.L.' },
                 { name: 'Size (mm)', value: '46×27,5; size of sheet 114×164; in the sheet 10 stamps' },
                 { name: 'Catalog number', value: 'Michel #1040, MP1067' }
             ]
