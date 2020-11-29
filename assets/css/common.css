@@ -120,7 +120,7 @@ header {
     opacity: 0.8;
 }
 
-.logo > div {
+.logo .logo-img {
     padding: 0.25em 0 0;
     border: none;
     background: var(--page-color);
@@ -135,6 +135,11 @@ header {
     height: 2.75em;
 }
 
+.logo p {
+    margin: 0;
+    padding: 0;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -147,7 +152,7 @@ header nav {
     box-sizing: border-box;
 }
 
-.logo p {
+.logo .text {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -159,7 +164,7 @@ header nav {
     opacity: 0.8;
 }
 
-.logo p > .subtext {
+.logo .subtext {
     font-size: .5em;
     font-weight: 300;
     max-width: 14em;

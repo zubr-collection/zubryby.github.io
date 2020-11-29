@@ -40,9 +40,9 @@
                     notificationClass: 'swiper-notification',
                     prevSlideMessage: isEng ? 'Previous slide' : 'Предыдущий слайд',
                     nextSlideMessage: isEng ? 'Next slide' : 'Следующий слайд',
-                    firstSlideMessage: isEng ? 'The first slide' : 'Это первый слайд',
-                    lastSlideMessage: isEng ? 'The last slide' : 'Это последний слайд',
-                    paginationBulletMessage: isEng ? 'Go to the slide №{{index}}' : 'Перейти к слайду №{{index}}'
+                    firstSlideMessage: isEng ? 'This is the first slide' : 'Это первый слайд',
+                    lastSlideMessage: isEng ? 'This is the last slide' : 'Это последний слайд',
+                    paginationBulletMessage: isEng ? 'Go to slide №{{index}}' : 'Перейти к слайду №{{index}}'
                 }
             });
         }
