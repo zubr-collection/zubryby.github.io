@@ -515,7 +515,7 @@ module.exports = {
         },
         {
             image: 'dagestan-1991',
-            year: 'after 1991',
+            year: '??.??.1993',
             title: 'A provisional stamp with a picture of a bison on the USSR stamps of 1988',
             props: [
                 { name: 'Country', value: 'The Republic of Dagestan' },
@@ -539,7 +539,7 @@ module.exports = {
         },
         {
             image: 'osetia-1991',
-            year: 'after 1992',
+            year: '??.??.1993',
             title: 'A provisional stamp with a picture of a bison on the USSR stamps of 1988 and 1992',
             props: [
                 { name: 'Country', value: 'Republic of North Ossetia' },
