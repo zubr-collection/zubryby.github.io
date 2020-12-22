@@ -191,6 +191,22 @@ module.exports = {
             ]
         },
         {
+            image: 'poland-1969',
+            year: '11.10.1969',
+            title: 'Spala. European Bison',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Plain Envelope' },
+                {
+                    name: 'Commemorative Cancellation',
+                    value:
+                        'Spala, postmark dedicated to the All-Polish Congress of Tourist Leaders 11.10.1969 (bison picture)'
+                },
+                { name: 'Size (mm)', value: '114×163' },
+                { name: 'Printing house', value: 'Factory in Wroclaw (PTTK)' }
+            ]
+        },
+        {
             image: 'ussr-1972',
             year: '12.07.1972',
             title: 'Nature Museum „Belovezhskaya Pushcha“. Bison',
@@ -818,6 +834,18 @@ module.exports = {
                 { name: 'Size (mm)', value: '113×160' },
                 { name: 'Commemorative Cancellation', value: 'Minsk Post Office' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
+            ]
+        },
+        {
+            image: 'belarus-2016',
+            year: '2016',
+            title: 'Special envelope of the National Park „Belovezhskaya Pushcha“',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Special envelope, organization cover' },
+                { name: 'Color', value: 'green' },
+                { name: 'Size (mm)', value: 'big - 162×224, small - 109×218' },
+                { name: 'Picture', value: 'emblem of National Park „Belovezhskaya Pushcha“, bison picture' },
             ]
         },
         {

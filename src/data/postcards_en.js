@@ -17,14 +17,26 @@ module.exports = {
             ]
         },
         {
+            image: 'german-rotophot',
+            year: '??.??.1928',
+            title: 'Bison (Wisentstier) at Berlin Zoo',
+            props: [
+                { name: 'Country', value: 'German Empire (German Reich)' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Publisher', value: 'Berlin Zoological Garden Association, Charlottenburg / Rotophot Berlin' },
+                { name: 'Picture', value: 'Bison (Wisentstier) at Berlin Zoo' },
+                { name: 'Size (mm)', value: '86×135' }
+            ]
+        },
+        {
             image: 'german-1929',
             year: '??.??.1929',
             title: 'Bison (Wisent) at Berlin Zoo',
             props: [
                 { name: 'Country', value: 'German Empire (German Reich)' },
                 { name: 'Type', value: 'Vintage Postcard' },
-                { name: 'Publisher', value: 'Rotophot Berlin SW 13' },
-                { name: 'Picture', value: 'ЗBison (Wisent) at Berlin Zoo' },
+                { name: 'Publisher', value: 'Berlin Zoological Garden Association / Rotophot Berlin SW 13' },
+                { name: 'Picture', value: 'Bison (Wisent) at Berlin Zoo' },
                 { name: 'Size (mm)', value: '91×140' }
             ]
         },
@@ -45,6 +57,18 @@ module.exports = {
                 { name: 'Car number', value: '17' },
                 { name: 'Printing count', value: '50 000' },
                 { name: 'Printing house', value: 'Goznak, St. Mytnaya, 17' }
+            ]
+        },
+        {
+            image: 'poland-1935',
+            year: '20.07.1935',
+            title: 'Spala 1935. Jubilee (25-years) Boy Scout Jamboree',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Commemorative card, maximum card' },
+                { name: 'Commemorative Cancellation', value: 'Spala, Jubilee (25-years) Boy Scout Jamboree 11-25.07.1935' },
+                { name: 'Picture', value: 'Jamboree Emblem - Bronze Bison Statue' },
+                { name: 'Size (mm)', value: '93×139' }
             ]
         },
         {
@@ -248,6 +272,44 @@ module.exports = {
                 { name: 'Photographer', value: 'T.Sumiński' },
                 { name: 'Number', value: '12' },
                 { name: 'Printing count', value: '3500' }
+            ]
+        },
+        {
+            image: 'poland-1969-1',
+            year: '11.10.1969',
+            title: 'Spala. European Bison',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Postcard with commemorative cancellation' },
+                { name: 'Cost', value: '1.70 zlotys + 20 grosze (to the reconstruction fund / SFOS)' },
+                { name: 'Publisher', value: 'Polish Tourist and Excursion Society' },
+                { name: 'Picture', value: 'Bison monument' },
+                {
+                    name: 'Commemorative Cancellation',
+                    value:
+                        'Spala, postmark dedicated to the All-Polish Congress of Tourist Leaders 11.10.1969 (bison picture)'
+                },
+                { name: 'Size (mm)', value: '102×150' },
+                { name: 'Photographer', value: 'P.Mystkowski' },
+                { name: 'Number', value: '?' },
+                { name: 'Printing house', value: 'Factory in Wroclaw (PTTK)' },
+                { name: 'Printing count', value: '?' }
+            ]
+        },
+        {
+            image: 'ussr-1969',
+            year: '??.??.1969',
+            title: 'Moscow Zoo. European Bison',
+            props: [
+                { name: 'Country', value: 'USSR' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Cost', value: '3 kopecks (ruble)' },
+                { name: 'Publisher', value: '„Soviet artist“ Moscow' },
+                { name: 'Picture', value: 'Bison' },
+                { name: 'Size (mm)', value: '90×140' },
+                { name: 'Photographer', value: 'N.Nemnonova' },
+                { name: 'Order number', value: '893' },
+                { name: 'Number', value: '4а-1446' }
             ]
         },
         {
