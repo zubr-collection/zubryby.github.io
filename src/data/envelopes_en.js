@@ -1,7 +1,7 @@
 module.exports = {
     name: 'Covers',
     description:
-        'Postage covers from all over the world that contain an image, special postmark or stamp dedicated to the bison theme. The envelopes are arranged chronologically.',
+        'Postage and commemorative covers from all over the world that contain an image, special postmark or stamp dedicated to the bison theme. The envelopes are arranged chronologically.',
     pictureFolder: 'envelopes',
     things: [
         {

@@ -65,9 +65,9 @@ module.exports = {
             title: 'Spala 1935. Jubilee (25-years) Boy Scout Jamboree',
             props: [
                 { name: 'Country', value: 'Poland' },
-                { name: 'Type', value: 'Commemorative card, maximum card' },
+                { name: 'Type', value: 'Commemorative card' },
                 { name: 'Commemorative Cancellation', value: 'Spala, Jubilee (25-years) Boy Scout Jamboree 11-25.07.1935' },
-                { name: 'Picture', value: 'Jamboree Emblem - Bronze Bison Statue' },
+                { name: 'Picture', value: 'Jamboree Emblem - Cast Iron Bison Statue in Spala' },
                 { name: 'Size (mm)', value: '93×139' }
             ]
         },

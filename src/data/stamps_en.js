@@ -1,9 +1,22 @@
 module.exports = {
     name: 'Stamps',
     description:
-        'A series of postage stamps from around the world that contain an image of a bison. The stamps are arranged chronologically.',
+        'A series of postage and commemorative stamps from around the world that contain an image of a bison. The stamps are arranged chronologically.',
     pictureFolder: 'stamps',
     things: [
+        {
+            image: 'poland-1935',
+            year: '22.07.1935',
+            title: 'Spala 1935. Jubilee (25-years) Boy Scout Jamboree',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'commemorative, non-postal' },
+                { name: 'Color', value: 'green or orange, black' },
+                { name: 'Paper', value: 'uncoated' },
+                { name: 'Perforation', value: '11,5:11,5' },
+                { name: 'Size (mm)', value: '25×40' },
+            ]
+        },
         {
             image: 'poland-1954',
             year: '22.12.1954',
