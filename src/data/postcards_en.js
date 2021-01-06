@@ -363,6 +363,33 @@ module.exports = {
             ]
         },
         {
+            image: 'poland-spala',
+            year: '??.??.????',
+            title: 'Spala. Bison monument',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Monument of European Bison' },
+                { name: 'Photographer', value: 'K.Jablonski' },
+                { name: 'Size (mm)', value: '85×126' },
+                { name: 'Publisher', value: '„RUCH“' },
+                { name: 'Number', value: '28-843/С 721 2' }
+            ]
+        },
+        {
+            image: 'poland-spala-1974',
+            year: '10.05.1974',
+            title: 'Spala. Monument of European Bison. Park. Children\'s camp',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Spala. Monument of European Bison. Park. Children\'s camp' },
+                { name: 'Photographer', value: 'K.Kaczynski' },
+                { name: 'Size (mm)', value: '105×148' },
+                { name: 'Publisher', value: '„RUCH“' },
+            ]
+        },
+        {
             image: 'france-1974',
             year: '25.05.1974',
             title: 'European Bison',
@@ -525,6 +552,19 @@ module.exports = {
             ]
         },
         {
+            image: 'poland-spala-1989',
+            year: '09.02.1989',
+            title: 'Spala',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Pilica forest. Rest house „Dzik“. Bison monument. Rest house „Rogacz“. In the vicinity of the forest reserve „Spala“' },
+                { name: 'Photographer', value: 'W.Dudzinski, K.Kaczynski, M.Raczkowski, J.Siudecki' },
+                { name: 'Size (mm)', value: '105×148' },
+                { name: 'Publisher', value: '„RUCH“' },
+            ]
+        },
+        {
             image: 'romania-1991',
             year: '27.03.1991',
             title: 'Bucharest Zoo. Bison',
@@ -539,6 +579,19 @@ module.exports = {
                 { name: 'Publisher', value: 'Sport-Tourism' },
                 { name: 'Postmark', value: 'color of mastic is black, Protect bisons 27.03.1991, bison picture' },
                 { name: 'Commemorative Cancellation', value: 'Buzau 5100' }
+            ]
+        },
+        {
+            image: 'poland-spala-1992',
+            year: '03.02.1992',
+            title: 'Spala. European Bison',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Picture', value: 'Bison monument in Spala' },
+                { name: 'Photographer', value: 'J.Siudecki' },
+                { name: 'Size (mm)', value: '104×147' },
+                { name: 'Publisher', value: '„RUCH“' },
             ]
         },
         {
