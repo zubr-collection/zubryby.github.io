@@ -15,7 +15,7 @@ module.exports = {
                 { name: 'Picture', value: 'The photo shows a part of the forest called „cossack barns“, in the background you can see a hayloft for bison. The postcard is decorated with a graphic frame - gilded heads of bison on the left and right in oak leaves' },
                 { name: 'Size (mm)', value: '90×140' },
                 { name: 'Number', value: 'Serie B - 5' },
-                { name: 'Photographer', value: 'Zygmunt Gloger' },
+                // { name: 'Photographer', value: 'Zygmunt Gloger' },
                 { name: 'Designer', value: 'Mikolay Vishnitsky' },
                 { name: 'Printing house', value: '„B. Vezhbitsky and Company“ plant, Warsaw' }
             ]
