@@ -15,3 +15,6 @@ https://zubry.by/accessibility.html
 https://zubry.by/accessibility_en.html
 https://zubry.by/privacy.html
 https://zubry.by/privacy_en.html
+https://zubry.by/articles.html
+https://zubry.by/spala-1935.html
+https://zubry.by/poland-1908.html

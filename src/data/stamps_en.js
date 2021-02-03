@@ -361,10 +361,10 @@ module.exports = {
                 { name: 'Color', value: 'brown, light brown, blue' },
                 { name: 'Paper', value: 'coated' },
                 { name: 'Artist and engraver', value: 'Robert Cami' },
-                { name: 'Perforation', value: '13' },
+                { name: 'Perforation', value: '13 and few non-perforated' },
                 { name: 'Print', value: 'metallography (printing from steel engravings)' },
                 { name: 'Size (mm)', value: '40×26; in the sheet: 50 (5×10) stamps' },
-                { name: 'Printing count', value: '10 350 000' },
+                { name: 'Printing count', value: '10 350 000 (non-perforated - ?)' },
                 { name: 'Printing house', value: 'La Poste, Imprimerie des timbres-poste et des valeurs fiduciaires' },
                 {
                     name: 'Catalog number',
@@ -1406,6 +1406,27 @@ module.exports = {
                 { name: 'Size (mm)', value: '48×33; size of block 80×70' },
                 { name: 'Catalog number', value: '?' }
             ]
-        }
+        },
+        {
+            image: 'belarus-2019',
+            year: '04.11.2019',
+            title: 'History of banknotes of Belarus',
+            props: [
+                { name: 'Issuer', value: 'RUE Belpochta' },
+                { name: 'Type', value: 'commemorative stamp, coupon (label) in the small sheet' },
+                { name: 'Denomination (bison stamp)', value: 'A (54 kopecks)' },
+                { name: 'Description', value: 'Picture of a bison on the banknote of 100 rubles 1992' },
+                { name: 'Color', value: 'multicolor' },
+                { name: 'Paper', value: 'coated' },
+                { name: 'Protection', value: 'ultraviolet protection' },
+                { name: 'Designer', value: 'T. Kuznetsova' },
+                { name: 'Perforation', value: '12:12,25' },
+                { name: 'Print', value: 'offset' },
+                { name: 'Printing count', value: '72 000 (15 000 for small sheet)' },
+                { name: 'Printing house', value: 'RUE "Bobruisk enlarged printing house named after A. T. Nepogodin"' },
+                { name: 'Size (mm)', value: '40×28; in the sheet 6 (2×3) stamps' },
+                { name: 'Catalog number', value: 'Michel #1319' }
+            ]
+        },
     ]
 };

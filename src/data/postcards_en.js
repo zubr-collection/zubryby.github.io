@@ -5,6 +5,22 @@ module.exports = {
     pictureFolder: 'postcards',
     things: [
         {
+            image: 'poland-1908',
+            year: '??.??.1908',
+            title: 'From Belovezhskaya Pushcha. A trip to the forest',
+            props: [
+                { name: 'Country', value: 'Kingdom of Poland. The Russian Empire' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Publisher', value: 'Polish Society of Local Lore' },
+                { name: 'Picture', value: 'The photo shows a part of the forest called „cossack barns“, in the background you can see a hayloft for bison. The postcard is decorated with a graphic frame - gilded heads of bison on the left and right in oak leaves' },
+                { name: 'Size (mm)', value: '90×140' },
+                { name: 'Number', value: 'Serie B - 5' },
+                { name: 'Photographer', value: 'Zygmunt Gloger' },
+                { name: 'Designer', value: 'Mikolay Vishnitsky' },
+                { name: 'Printing house', value: '„B. Vezhbitsky and Company“ plant, Warsaw' }
+            ]
+        },
+        {
             image: 'german-1918',
             year: '15.08.1918',
             title: 'Bison in the forest. Belarus',

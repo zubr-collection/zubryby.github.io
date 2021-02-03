@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/AboutPage">
+<html lang="ru" itemscope itemtype="http://schema.org/WebPage">
 <head>
-    {{seo_en "About" "slide0" "ZUBRY.BY - Private collection of postal items dedicated to the topic of bison. Posted by Artur Basak."}}
+    {{seo "Информационный портал" "slide0" "ZUBRY.BY - Частная коллекция почтовых предметов, посвященная теме зубров. Автор - Артур Басак."}}
     {{resources false "slide0"}}
 
     <style>
@@ -9,10 +9,52 @@
             --page-color: var(--about-color);
         }
 
+        article a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        article section {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        article section > p {
+            margin-bottom: 0.5em;
+            max-width: 100%;
+        }
+
+        article section > strong {
+            color: var(--page-color);
+        }
+
+        article section > time {
+            font-style: normal;
+            color: var(--page-color);
+        }
+
         figcaption > a,
         article p > a {
             color: var(--text-color);
             font-style: normal;
+        }
+
+        article h2, article h3 {
+            margin: 1em 0 0;
+            font-weight: 500;
+            color: white;
+        }
+
+        article h2 {
+            margin-bottom: 2em;
+            font-size: var(--head-2-text);
+            color: var(--page-color);
+        }
+
+        article h3 {
+            font-size: var(--head-3-text);
+            margin-top: 0.25em;
         }
 
         figcaption > a:hover,
@@ -34,8 +76,8 @@
         }
 
         article figure {
-            max-width: 50%;
-            margin: 1em 0;
+            max-width: 100%;
+            margin: 1em 0 0.5em;
         }
 
         article figure img {
@@ -45,7 +87,7 @@
         article figure img:hover {
             transform: unset;
             transition: none;
-            cursor: default;
+            cursor: pointer;
         }
 
         article figure figcaption {
@@ -55,15 +97,6 @@
             font-style: normal;
             font-weight: normal;
             text-align: center;
-        }
-
-        .menu a.about {
-            color: var(--about-color);
-            opacity: 1;
-        }
-
-        .menu > li a.about::after {
-            width: 100%;
         }
 
         .cover {
@@ -82,6 +115,8 @@
                 background-image: url(./assets/pics/slide0-800w.jpg), url('data:image/jpeg;base64,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GKBjMUuKdilxQA0CnAUYp2KAAUtJS0AFLSUUAFFFFIAooooAKKKWmAUUUtACUUtFMQlFLRQAlLRRQAUUUUhhTTTqSgBpphFSEU0igRGRSEVIRTcUwGYoxTsUYoAbilFLilxQACnCkApRQAop1IKWgCpijFOxS4pANxRinYoxQA3FGKdRigBuKXFLiigBKWiloASjFLRigBuKMU7FGKAGYoxTsUYoAbilxS4pcUANxRinYoxQAmKMUuKXFADcUtLRQAUUUUDCiiigBKTFOpKAExRilpcUANxRinYoxQITFGKdijFADcUuKXFFACUUtFAhKKWigAopaUUCAUtApaYwpaKKBhRRRQMWiiigAooopAFFFFIApMUtFMBMUmKdRQA3FGKWigBMUYpaKAEpaKKACilooASloopAJRRRQAUUUUAFLSUtMApaSloAKKKKACiiigAooooAKKKKACiiigBKTFOpKBDcUmKfikxTAZijFPxSYoAbijFOxRQAmKUUUtAAKWkpaYFfFFLSVABRRSUDFopKKAFooooEFLRS0AJRS0UwEopaSgApKKKAClpKWgYUUUtAgoopaAEopaSkMSiikoHYWkopKB2FopKWgLC0tJS0CsFLRS0CEopaKYCUUUUCEooooAKKSlpiFpRSClFADhS0gooGLRRRQAUUUUDFopKWgAooopAFFFFABRRRQIKKSimAUUUlIBaKSigBaKSigYtLSUUALSUUUCCiiigAopKKAFopKWgBaKSloGLRRRQAUUUlABRSUUALRSUUALS0lLQAUUUtMQlFLSUAJSUtIaYBSUZpM0CFopM0ZoGOpabmlzQBDSUUhqBhmkzSE0maAHZozTc0ZoGPzS0wGnCgQ6lpop1ABRRRQAU00pppNABmjNNJpM0AOzS5pmaUGmA8UtNBpwoAWlpKWgApKWkpDENJRSUFBSUtJQAtFFFACinCminCgBaWkpaCQooopiEpKWkoAKSiimIKKKKYhRThTRSigBwpaSigYtFFFABRRRSAWim5ozQA7NJmm5ozSAdmim5pc0AOopuaWmAUUUlMBaSikpALRSUUgFozSUUgFzS02loAWikopgLRSUUwFopKKAFpaSigBaWkpaQBS0lLQMKSlpKAEpKWkoAKWkpaAFFLSCloELRRRTAKQ0tNNAAaaTSmmmgBCaTNBNNzTAdmjNNzRmgB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tpNtAEO2jbU22k20ARbaULUu2lC0CIwtOC08LTttAEeKMVJto20AR4oxUm2jbQMZto20/bS4oEM20uKfijFMBmKXFPxRigBmKXFOxS4oAbtpdtOxS4oAbto20/FGKAGbaXFOxRigBuKXFLRQAlLRRTAWlpKKBDqKSloAWiiigAooooAKKKKYBRRRQAlFLRQIKWiimAUlLRQA00008000gGmkpxpKBjaKXFGKBiUtFLQBnUUuKMVIxKWlxRigBKWjFLigQCnikApwFACiniminigBRThSCloAWiiimAUlLSUgEooooASilooAYaaRTzTSKQyJhUZFTEUwigZCRSYqUim7aQEeKUCn4oxTAaBTgKUCnAUAIBS4pwFLiiwhuKMU7FLigBoFOApcUoFACAU4ClApwFMQ3bS7acBS4oAZto21JijFAEe2jbUmKXFAEW2jbUuKTbQBHtpNtS7aNtAEe2jbUmKMUAM20u2n4pcUCI8UYqTFJigBmKMU/FGKAGYoxTsUYpgJijFLRQAmKMUtFABijFLS0AJilxS0tACYoxS0UAJRS0lACUlLSUDCiiigQUtJS0ALS0lLQAtFFLQAlFLRQAlFFFABRRS0AJS0UUwCloooEFFLSUAIaaRT6TFADCKTFPxSYoGNxRinYpMUAJiilxRigDPxRinYoxSGJijFOxRikA3FLinYoxQAgFOAoApwoABThSCnCgBRS0gpaAFooooAKSlooASiiigApKWigBDTSKdSGgCMimkVIaaaBkZFJinkUYoAjxS4p2KMUANxS4pcUUCCloopgLRRRQAopwpopwoAcKcKaKcKAFAp2KQU6gQmKXFLRQAmKXFLRQAmKMUtFADcUYp1JTATFGKWigBMUtFFABiilopANxSU6koASkp1JQAlJTqSgBKWlooAKWiloAKKWigAopaKAEpKWigBtJTqSgBKKWjFMBKWiloAKWkpaQBS0UtACUUtFACUUtFACUUtFABRRS0AFFFFMAopaKBCUmKdSUAJikxTqMUANxSYp2KMUANxRinYoxQMz8UUUtSMSloooAKKKWgApRRRQA4UoptLQA6lptLQAtLSUtABRRRTAKKKKAEooopAJSGg0hoAQ000pNNJoAKSjNJmmAtFJmjNAC0lGaTNAC5ozTc0ZpiHZpc0zNGaBkgNOBqMGnA0gJBTxTBTxQA8UopBThQIKWiigBaKKKACiiimAlFFFACUUUUAFLSUtABRS0UAJSUtFIBKTFOooAbijFOxRigBuKMU7FGKAExS4oxS0AFFLRTASilooASilpKQCYpMU6imA3FGKWigBMUtLiigBKWiloAKKKKACilooASilopAJS0UUAFFFLQAUUUUwCilooEJRS0UAJRS0lABSUtFACUYpaKAM3NGabmjNSWOzRmm5pc0AOzRmm5ozQA+jNNzS5oAdmlpuaUGgQ6lpopwoAdRSCloAWiiimAUUUUAJSGlpDSAQ0w04000ANJppNKaaaYBmjNJSUALmjNJRQAuaSiimIKSiigApRSUooAcKeKYKeKBj1qRajWpFoEPFOFNFOFIBaWkpaACiiimAUUUUAJRRSUwCiiigApaSloAWiiikAUUUUAFFFFIAoopaAEopaKACiilpgJS0UUCCiiigApKWigBKKWigBKKWigBKKWigBKWiigAooooAKKWigBKKWigBKKWigAooooAKWiigAooooAKKKKACiiigAooooAKKKKAMjNGaSioNB2aM02loAXNLmm0UAOzS5ptKKBDgacKaKUUwHilFNFOFAhwpaQUtAC0UUUwCiiigBKQ0tIaAGmmGnmmGkA00w08000wG0UtJQAUUUtMQlFLRQAlFLRQAlKKKUCgBRTxTQKeKAHLUgpgp4oAcKcKQUtIBaWkooAWiiimAUUUUAJSUtJTAKSiigBaWkpaAFopKWkAUUUUAFFFFIBaKKKACiilpgFFFFABRRRQIKKKKACiiigAooooAKKKKACiiigApaSloAKKKKACiiigAooooAKKKKACiiigBaKKKACiiigAooooAKKKWgBKKWigBKWiigDGopcUYqDQSloxS4oASloxS4oASlopRQIUUopBThTAUU4UgpRQIcKWkFLQAtFFFMAoopKACkNKaaaQCGmmlNNNACGmmnGmmgBKSlopgJRS0UCCkoopgFFFFAC0opKUUAOFPFMFPFIB4p4pgp4oAcKWkFLQAtFFFMBaKSigBaSlpKACkpaSmAlFFFABS0lLQAtLSUtIAooooAKKKWgAooooAKKKWgAooooEFFFLQAUUUUAFJS0UAJRS0lABRRRQAUUUtACUtFFABRRRQAUUUUAFFFFABRRRQAUtFFABRRRQAUUUtMAooooAKKKKACiiigAooooAycUY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');
             }
 
+            article h2, article h3,
+            article section,
             article figure {
                 width: 100%;
                 max-width: 100%;
@@ -96,126 +131,45 @@
     </style>
 </head>
 <body>
-{{header_en 'about'}}
+{{header ''}}
 <div class="cover"></div>
 <article>
     <div id="content" class="anchor"></div>
     <div role="main">
         <h1>{{name}}</h1>
         <div>
-            <p>Welcome to my site! My name is Artur Basak, I am from Belarus and since childhood I have been collecting postage stamps. </p>
-            <p>Nowadays this is not the most popular activity, however, in Soviet times, collecting postal items was one of the most popular hobbies among courtyard boys. By inheritance from my grandfather, father and uncle, I got albums with postage stamps. I decided not to give them away to anyone or sell them, but to continue collecting them. </p>
-            <p>At some point, I realized that I needed to choose a certain theme for my collection, since there are an incredible variety of stamps and even the philatelic department of the British Library cannot collect all of them. </p>
-            <p>I decided to dwell on the topic of European Bison - Zubr or Wisent. This is symbolic for my country. My first non-Belarusian bison stamp was a <a href="./stamps_en.html#vietnam-1981">1981 Vietnamese stamp from the Wild Animals set</a>. Since then, I have greatly expanded my collection.</p>
-            <p>The European bison is an amazing and rare animal that is under protection and is listed in the Red Book of the Republic of Belarus. The bison is the king of European forests and the pride of Belovezhskaya Pushcha, it is the last representative of wild bulls in Europe.</p>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/puscha_0.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/puscha_0.jpg" alt="My kids feed the bison with oak branches. Belovezhskaya Pushcha. Summer 2020 Photo by A.Basak">
-                </picture>
-                <figcaption>My kids feed the bison with oak branches. Belovezhskaya Pushcha. Summer 2020 Photo by A.Basak</figcaption>
-            </figure>
-            <p>This mammal plays an important role in the symbolism of not only Belarus, it is equally revered in Poland, Lithuania, Russia, Ukraine, Romania, Hungary and the Caucasus.</p>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/about-img1.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/about-img1.jpg" alt="A cast-iron figure of a bison, installed in memory of the hunting of Emperor Alexander II. 1860 From the book 'The Royal Hunt in Belovezhskaya Pushcha. Pages of History'">
-                </picture>
-                <figcaption>A cast-iron figure of a bison, installed in memory of the hunting of Emperor Alexander II. 1860 From the book "The Royal Hunt in Belovezhskaya Pushcha. Pages of History"</figcaption>
-            </figure>
-            <p>Unfortunately, the bison was completely destroyed in the wild. As the largest animal in Europe, the European bison has always been a coveted hunting trophy. The smaller its number became in the world, the higher it was valued by hunters and poachers. In England, the bison disappeared in the 12th century, in France and Sweden in the 16th century, and in Hungary in 1729. In East Prussia, forest giants were exterminated in 1755. The last freeland bison was killed in Belovezhskaya Pushcha by forester Kazimir Shpakovsky in 1921, and in the Caucasus, the last three bison were killed in 1926 in the vicinity of Mount Alous.</p>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/about-img2.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/about-img2.jpg" alt="A killed bison surrounded by an official of the 15th Shlisselburg Infantry Regiment. 1903 From the book 'The Royal Hunt in Belovezhskaya Pushcha. Pages of History'">
-                </picture>
-                <figcaption>A killed bison surrounded by an official of the 15th Shlisselburg Infantry Regiment. 1903 From the book "The Royal Hunt in Belovezhskaya Pushcha. Pages of History"</figcaption>
-            </figure>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/about-img3.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/about-img3.jpg" alt="Weighing of the killed bison. 1903 From the book 'The Royal Hunt in Belovezhskaya Pushcha. Pages of History'">
-                </picture>
-                <figcaption>Weighing of the killed bison. 1903 From the book "The Royal Hunt in Belovezhskaya Pushcha. Pages of History"</figcaption>
-            </figure>
-            <p>On the initiative of the Polish zoologist Jan Stolzman, the International Society for the Conservation of Bison was established in Frankfurt am Main in 1923. Those populations that we see now have been restored thanks to animals preserved in captivity (zoos and nature reserves).</p>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/minsk-2016.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/minsk-2016.jpg" alt="A male bison at the Minsk Zoo. Autumn 2016 Photo by A.Basak">
-                </picture>
-                <figcaption>A male bison at the Minsk Zoo. Autumn 2016 Photo by A.Basak</figcaption>
-            </figure>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/grodno_2020.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/grodno_2020.jpg" alt="Bison in the Grodno Zoo. Summer 2020 Photo by A.Basak">
-                </picture>
-                <figcaption>Bison in the Grodno Zoo. Summer 2020 Photo by A.Basak</figcaption>
-            </figure>
-            <p>Thanks to the Society for the Protection of Bison in 1952, it became possible to re-settle the first free herds of bison in Belovezhskaya Pushcha. In 1954, <a href="./stamps_en.html#poland-1954">the first postage stamp with the image of a bison</a> was issued in Poland.</p>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/puscha_1950.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/puscha_1950.jpg" alt="Restoration of bison in Belovezhskaya Pushcha. Photo from the exposition of the Museum of Belovezhskaya Pushcha. 1950s">
-                </picture>
-                <figcaption>Restoration of bison in Belovezhskaya Pushcha. Photo from the exposition of the Museum of Belovezhskaya Pushcha. 1950s</figcaption>
-            </figure>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/belovezha-2016.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/belovezha-2016.jpg" alt="Bison in Belovezhskaya Pushcha. Winter 2016 Photo by A.Basak">
-                </picture>
-                <figcaption>Bison in Belovezhskaya Pushcha. Winter 2016 Photo by A.Basak</figcaption>
-            </figure>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/puscha_3.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/puscha_3.jpg" alt="Young bison butt. National Park Belovezhskaya Pushcha. Summer 2020 Photo by A.Basak">
-                </picture>
-                <figcaption>Young bison butt. National Park "Belovezhskaya Pushcha". Summer 2020 Photo by A.Basak</figcaption>
-            </figure>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/puscha_2.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/puscha_2.jpg" alt="The bison grazes. National Park Belovezhskaya Pushcha. Summer 2020 Photo by A.Basak">
-                </picture>
-                <figcaption>The bison grazes. National Park "Belovezhskaya Pushcha". Summer 2020 Photo by A.Basak</figcaption>
-            </figure>
-            <p>After Belovezhskaya Pushcha, bison gradually began to populate other zoological gardens and nature reserves in Belarus and neighboring countries.</p>
-            <p>The bison symbolizes at the same time both what humanity can irrevocably lose in the wild, and what it could save in time by uniting.</p>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/berezinski-2016.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/berezinski-2016.jpg" alt="Bison in the forest zoo of the Biosphere Reserve Berezinsky. Spring 2016 Photo by A.Basak">
-                </picture>
-                <figcaption>Bison in the forest zoo of the Biosphere Reserve Berezinsky. Spring 2016 Photo by A. Basak</figcaption>
-            </figure>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/bialostok-2017.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/bialostok-2017.jpg" alt="Bison at the Bialystok Zoo. Spring 2017 Photo by A.Basak">
-                </picture>
-                <figcaption>Bison at the Bialystok Zoo. Spring 2017 Photo by A.Basak</figcaption>
-            </figure>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/mogilev-2016.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/mogilev-2016.jpg" alt="A herd of bison in the Mogilev Zoo Garden. Summer 2016 Photo by A.Basak">
-                </picture>
-                <figcaption>A herd of bison in the Mogilev Zoo Garden. Summer 2016 Photo by A.Basak</figcaption>
-            </figure>
-            <p>The bison, as a phenomenon, can be an excellent topic for a philatelic collection. This site aims to digitize a private collection of postage stamps, postcards, envelopes, postcards and solid items dedicated to the bison theme. In case the reader has information that will add to or improve the site, please contact <a href="mailto:zubryby@gmail.com">zubryby@gmail.com</a></p>
-            <figure>
-                <picture>
-                    <source srcset="assets/pics/about/puscha_1.webp" type="image/webp">
-                    <img loading="lazy" decoding="async" src="assets/pics/about/puscha_1.jpg" alt="The famous bison Misha, who joined a herd of cows in Kobrin district. Belovezhskaya Pushcha. Summer Photo by A.Basak">
-                </picture>
-                <figcaption>The famous bison Misha, who <a href="https://news.tut.by/culture/513591.html" target="_blank" rel="noreferrer noopener external nofollow">joined a herd of cows in Kobrin district</a>. Belovezhskaya Pushcha. Summer Photo by A.Basak</figcaption>
-            </figure>
+            <h2>Исторические опусы на тему коллекции</h2>
+            <a href="./poland-1908.html">
+                <section>
+                    <time>03 Февраля, 2021</time>
+                    <figure>
+                        <picture>
+                            <source srcset="assets/pics/postcards/poland-1908.webp" type="image/webp">
+                            <img loading="lazy" decoding="async" src="assets/pics/postcards/poland-1908.jpg" alt="Чугунная фигура зубра, установленная в память охоты 1860 г. императора Александра II. Из книги 'Царские охоты в Беловежской пуще. Страницы истории'">
+                        </picture>
+                    </figure>
+                    <h3>Зубр на открытках Польского краеведческого общества</h3>
+                    <p>Сложно сказать, когда и где именно появилась первая открытка прошедшая почту с изображением зубра. Можно предположить, что это произошло в Германии, Польше или Российской Империи...</p>
+                    <strong>Читать дальше</strong>
+                </section>
+            </a>
+            <a href="./spala-1935.html">
+                <section>
+                    <time>25 Декабря, 2020</time>
+                    <figure>
+                        <picture>
+                            <source srcset="assets/pics/postcards/poland-1935.webp" type="image/webp">
+                            <img loading="lazy" decoding="async" src="assets/pics/postcards/poland-1935.jpg" alt="Чугунная фигура зубра, установленная в память охоты 1860 г. императора Александра II. Из книги 'Царские охоты в Беловежской пуще. Страницы истории'">
+                        </picture>
+                    </figure>
+                    <h3>Первая марка с изображением Зубра и Юбилейный слет скаутов в Польше</h3>
+                    <p>Впервые зубра изобразили на почтовой марке в Польше. 22 декабря 1954 года была выпущена серия почтовых коммеморативных марок "Охраняемые животные"...</p>
+                    <strong>Читать дальше</strong>
+                </section>
+            </a>
         </div>
     </div>
 </article>
-{{footer_en}}
+{{footer}}
 </body>
 </html>
