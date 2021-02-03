@@ -12,6 +12,7 @@ function registerHeader(helper) {
             isPostalCards: name === 'postal-cards',
             isStamps: name === 'stamps',
             isPostcards: name === 'postcards',
+            isArticles: name === 'articles',
             isAbout: name === 'about'
         };
 

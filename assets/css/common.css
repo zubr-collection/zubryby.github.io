@@ -298,6 +298,7 @@ header nav {
     color: var(--envelopes-color);
 }
 
+.menu > li .articles:hover,
 .menu > li .postal-cards:hover {
     color: var(--postal-cards-color);
 }
@@ -323,6 +324,7 @@ header nav {
 .menu > li .stamps:focus,
 .menu > li .envelopes:focus,
 .menu > li .postcards:focus,
+.menu > li .articles:focus,
 .menu > li .postal-cards:focus {
     color: white;
 }
@@ -569,6 +571,24 @@ footer > div {
     text-align: left;
 }
 
+@media all and (max-width: 1012px) {
+    .menu {
+        display: none;
+    }
+
+    .open-mobile-menu {
+        display: block;
+    }
+
+    .switch-lang-mobile {
+        display: block;
+    }
+
+    .skip-links {
+        display: none;
+    }
+}
+
 @media all and (max-width: 800px) {
     :root {
         --head-1-text: 3em;
@@ -588,24 +608,8 @@ footer > div {
         font-size: 1.25em;
     }
 
-    .menu {
-        display: none;
-    }
-
-    .switch-lang-mobile {
-        display: block;
-    }
-
-    .open-mobile-menu {
-        display: block;
-    }
-
     .menu > li a {
         font-size: 1rem;
-    }
-
-    .skip-links {
-        display: none;
     }
 
     footer {
