@@ -1050,6 +1050,23 @@ module.exports = {
                 { name: 'Publisher', value: '„RIFTOUR PRINT“' },
                 { name: 'Printing house', value: '„G&D“' }
             ]
+        },
+        {
+            image: 'belarus-2019-3',
+            year: '04.11.2019',
+            title: 'Banknotes of Belarus, series of years 1992-1999 ',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'Maximum card' },
+                { name: 'Picture', value: 'Image of a bison on the banknote of 100 rubles 1992' },
+                { name: 'Cost', value: '?' },
+                { name: 'Size (mm)', value: '104×147' },
+                { name: 'Designer', value: 'T. Kuznetsova' },
+                { name: 'Printing count', value: '3000' },
+                { name: 'Number', value: '2453' },
+                { name: 'Code', value: '1033-19' },
+                { name: 'Printing house', value: '„Integralpolygraph“' }
+            ]
         }
     ]
 };

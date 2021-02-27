@@ -906,6 +906,26 @@ module.exports = {
                 { name: 'Commemorative Cancellation', value: 'Minsk-1' },
                 { name: 'Manufacturing', value: 'RUE „Bobruisk enlarged printing house named after A. T. Nepogodina“' }
             ]
+        },
+        {
+            image: 'belarus-2019',
+            year: '04.11.2019',
+            title: 'History of banknotes of Belarus',
+            props: [
+                { name: 'Country', value: 'Belarus' },
+                { name: 'Type', value: 'First Day Cover (FDC)' },
+                { name: 'Picture', value: 'The building of the National Bank of the Republic of Belarus' },
+                { name: 'Stamp', value: 'stamp series „History of banknotes of Belarus“, bison on the banknote of 100 rubles 1992' },
+                { name: 'Color', value: 'multicolor' },
+                { name: 'Postmark', value: 'mastic color is red, picture of 1 ruble coin' },
+                { name: 'Commemorative Cancellation', value: 'Minsk-1' },
+                { name: 'Size (mm)', value: '114×161' },
+                { name: 'Designer', value: 'T. Kuznetsova' },
+                { name: 'Printing count', value: '1000' },
+                { name: 'Vendor Code', value: 'С 211' },
+                { name: 'Order number', value: '1635-19' },
+                { name: 'Manufacturing', value: 'Paper Mill of the State Sign, Borisov' }
+            ]
         }
     ]
 };
