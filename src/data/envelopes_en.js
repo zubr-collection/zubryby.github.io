@@ -136,7 +136,7 @@ module.exports = {
                 { name: 'Country', value: 'Romania' },
                 { name: 'Type', value: 'First Day Cover (FDC)' },
                 { name: 'Size (mm)', value: '118×161' },
-                { name: 'Stamp', value: '1.60 lei, Painting "Prince Dragos and the Bison" by Nicolae Grigorescu' },
+                { name: 'Stamp', value: '1.60 lei, Painting "Prince Dragosh and the Bison" by Nicolae Grigorescu' },
                 { name: 'Picture', value: 'congress emblem, deer head' },
                 { name: 'Color', value: 'yellow, brown, green, blue' },
                 { name: 'Commemorative Cancellation', value: 'Mamaia' }

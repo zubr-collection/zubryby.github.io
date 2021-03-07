@@ -208,7 +208,7 @@ module.exports = {
         {
             image: 'romania-1968-1',
             year: '17.05.1968',
-            title: 'Hunting Congress in Mamaia. Painting by Nicolae Grigorescu "Prince Dragos and the Bison"',
+            title: 'Hunting Congress in Mamaia. Painting by Nicolae Grigorescu "Prince Dragosh and the Bison"',
             props: [
                 { name: 'Issuer', value: 'Romanian Post' },
                 { name: 'Type', value: 'commemorative' },
@@ -216,7 +216,7 @@ module.exports = {
                 {
                     name: 'Description',
                     value:
-                        'Painting by Nicolae Grigorescu (1838-1907) "Prince Dragos and the Bison", the emblem of the congress and commemorative text'
+                        'Painting by Nicolae Grigorescu (1838-1907) "Prince Dragosh and the Bison", the emblem of the congress and commemorative text'
                 },
                 { name: 'Color', value: 'multicolor' },
                 { name: 'Paper', value: 'coated' },

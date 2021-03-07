@@ -57,6 +57,32 @@ module.exports = {
             ]
         },
         {
+            image: 'shaljapin',
+            year: '??.??.1920-1930',
+            title: 'Bison Shaliapin',
+            props: [
+                { name: 'Country', value: 'Netherlands' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Publisher', value: 'Royal Zoological Society „Natura Artis Magistra“' },
+                { name: 'Printing house', value: '„Weenenk & Snel“, Amsterdam' },
+                { name: 'Picture', value: 'Wisent-stier Shaliapin' },
+                { name: 'Size (mm)', value: '90×141' }
+            ]
+        },
+        {
+            image: 'munich',
+            year: '??.??.1930-1940',
+            title: 'House of German Art, Sculpture of a bison attacking a bear',
+            props: [
+                { name: 'Country', value: 'German Empire (German Reich)' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Publisher', value: 'Photo-Hoffmann, Friedrichstrasse 34 (Heinrich Hoffmann publishing house), Munich' },
+                { name: 'Picture', value: 'House of German Art, Munich, sculpture of a bison attacking a bear, Emil Manz' },
+                { name: 'Number', value: 'HDK 539' },
+                { name: 'Size (mm)', value: '103×147' }
+            ]
+        },
+        {
             image: 'ussr-1931',
             year: '??.??.1931',
             title: 'Zoological series. Bialowieza bison',
