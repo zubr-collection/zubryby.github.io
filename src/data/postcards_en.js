@@ -128,6 +128,18 @@ module.exports = {
             ]
         },
         {
+            image: 'poland-orange-1935',
+            year: '20.07.1935',
+            title: 'Spala 1935. Jubilee (25-years) Boy Scout Jamboree',
+            props: [
+                { name: 'Country', value: 'Poland' },
+                { name: 'Type', value: 'Commemorative card' },
+                { name: 'Commemorative Cancellation', value: 'Spala, Jubilee (25-years) Boy Scout Jamboree 11-25.07.1935' },
+                { name: 'Stamp', value: 'commemorative stamp for the Boy Scouts Jubilee, depicting a bronze statue of a bison in Spala, orange color' },
+                { name: 'Size (mm)', value: '93×139' }
+            ]
+        },
+        {
             image: 'ussr-1950th',
             year: '??.??.1950s',
             title: 'Bisons. Bialowieza National Park',
