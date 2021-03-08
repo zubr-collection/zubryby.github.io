@@ -58,7 +58,7 @@ module.exports = {
         },
         {
             image: 'shaljapin',
-            year: '??.??.1920-1930',
+            year: '1920-1930',
             title: 'Bison Shaliapin',
             props: [
                 { name: 'Country', value: 'Netherlands' },
@@ -71,7 +71,7 @@ module.exports = {
         },
         {
             image: 'munich',
-            year: '??.??.1930-1940',
+            year: '1930-1940',
             title: 'House of German Art, Sculpture of a bison attacking a bear',
             props: [
                 { name: 'Country', value: 'German Empire (German Reich)' },
@@ -80,6 +80,20 @@ module.exports = {
                 { name: 'Picture', value: 'House of German Art, Munich, sculpture of a bison attacking a bear, Emil Manz' },
                 { name: 'Number', value: 'HDK 539' },
                 { name: 'Size (mm)', value: '103×147' }
+            ]
+        },
+        {
+            image: 'berlin',
+            year: '1930-1940',
+            title: 'Bison (Wisent) at Berlin Zoo',
+            props: [
+                { name: 'Country', value: 'Germany' },
+                { name: 'Type', value: 'Postcard' },
+                { name: 'Publisher', value: 'Berlin Zoological Garden Association' },
+                { name: 'Printing house', value: 'New Photographic Society (Neue Photographische Gesellschaft m.b.H. (NPG))' },
+                { name: 'Picture', value: 'Bison (Wisent) at Berlin Zoo' },
+                { name: 'Description', value: 'the postcard has the emblem of the New Silver Bromide Convention  (Neue Bromsilber Convention (NBC))' },
+                { name: 'Size (mm)', value: '86×136' }
             ]
         },
         {
