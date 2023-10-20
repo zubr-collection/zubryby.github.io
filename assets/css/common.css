@@ -557,8 +557,6 @@ footer .social {
 }
 
 footer .social li img {
-    width: 3em;
-    height: 3em;
     filter: contrast(0.35);
     transition: transform 0.2s ease-in;
 }
